@@ -1,0 +1,52 @@
+name: Update coin data
+
+on:
+  schedule:
+    # Runs at minute 0 past every 12th hour (00:00 and 12:00 UTC)
+    - cron: '0 */12 * * *'
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Fetch latest data from CoinGecko
+        run: |
+          mkdir -p data
+          ids="bitcoin,ethereum,solana,ripple,binancecoin,tether"
+          curl -sf "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${ids}&order=market_cap_desc&price_change_percentage=24h" -o /tmp/markets.json
+
+          node -e "
+            const fs = require('fs');
+            const rows = JSON.parse(fs.readFileSync('/tmp/markets.json', 'utf8'));
+            const out = { generated_at: new Date().toISOString(), coins: {} };
+            for (const r of rows) {
+              out.coins[r.id] = {
+                symbol: r.symbol.toUpperCase(),
+                name: r.name,
+                price: r.current_price,
+                change_24h: r.price_change_percentage_24h,
+                market_cap: r.market_cap,
+                market_cap_rank: r.market_cap_rank,
+                high_24h: r.high_24h,
+                low_24h: r.low_24h,
+                circulating_supply: r.circulating_supply,
+                ath: r.ath
+              };
+            }
+            fs.writeFileSync('data/coins.json', JSON.stringify(out, null, 2) + '\n');
+          "
+
+      - name: Commit updated data (if it changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/coins.json
+          git diff --cached --quiet || git commit -m "Update coin data snapshot"
+          git push
