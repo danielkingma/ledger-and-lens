@@ -130,22 +130,34 @@
   }
 
   .coin{ position:relative; display:inline-block; }
-  .coin .tooltip{
+  .coin .flyout{
     position:absolute; bottom:calc(100% + 10px); left:50%;
     transform:translateX(-50%) translateY(6px);
-    width:200px; padding:12px 14px;
+    width:168px;
     background:var(--panel-2); border:1px solid var(--line);
-    color:var(--ivory); font-size:0.78rem; line-height:1.45;
-    text-align:left; z-index:6;
+    z-index:6;
     opacity:0; pointer-events:none;
     transition:opacity 0.18s ease, transform 0.18s ease;
   }
-  .coin .tooltip::after{
+  .coin .flyout::after{
     content:""; position:absolute; top:100%; left:50%; transform:translateX(-50%);
     border:6px solid transparent; border-top-color:var(--panel-2);
   }
-  .coin .tooltip .tip-cta{ display:block; margin-top:6px; color:var(--gold-bright); font-family:"IBM Plex Mono", monospace; font-size:0.72rem; }
-  .coin:hover .tooltip, .coin:focus-within .tooltip{
+  .coin .flyout-label{
+    padding:10px 14px 6px; font-size:0.72rem; color:var(--slate);
+    font-family:"Fraunces", serif; font-style:italic;
+  }
+  .coin .flyout button{
+    display:block; width:100%; text-align:left;
+    background:none; border:none; border-top:1px solid var(--line);
+    color:var(--ivory); font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.85rem; padding:10px 14px; cursor:pointer;
+    transition:background 0.15s ease, color 0.15s ease;
+  }
+  .coin .flyout button:hover, .coin .flyout button:focus-visible{
+    background:var(--panel); color:var(--gold-bright);
+  }
+  .coin:hover .flyout, .coin:focus-within .flyout{
     opacity:1; transform:translateX(-50%) translateY(0); pointer-events:auto;
   }
   .currency .coin{ display:block; }
@@ -178,6 +190,17 @@
   }
   .coin-close:hover, .coin-close:focus-visible{ color:var(--ivory); border-color:var(--gold); }
 
+  .coin-tabs{ display:flex; gap:2px; margin-top:24px; border-bottom:1px solid var(--line); }
+  .coin-tab{
+    background:none; border:none; cursor:pointer;
+    padding:10px 4px; margin-right:22px;
+    font-family:"IBM Plex Sans", sans-serif; font-size:0.88rem; color:var(--slate);
+    border-bottom:2px solid transparent;
+    transition:color 0.18s ease, border-color 0.18s ease;
+  }
+  .coin-tab:hover, .coin-tab:focus-visible{ color:var(--ivory); }
+  .coin-tab.active{ color:var(--gold-bright); border-color:var(--gold); }
+
   .coin-price{ margin-top:22px; }
   .coin-price .amount{ font-family:"IBM Plex Mono", monospace; font-size:2.1rem; color:var(--ivory); }
   .coin-price .change{ font-family:"IBM Plex Mono", monospace; font-size:0.95rem; margin-left:10px; }
@@ -195,6 +218,18 @@
   .coin-meta{ margin-top:18px; font-size:0.76rem; color:var(--slate); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
   .coin-meta a{ color:var(--gold-bright); text-decoration:none; }
   .coin-meta a:hover{ text-decoration:underline; }
+
+  .coin-about{ margin-top:22px; color:var(--ivory); font-size:0.94rem; line-height:1.65; }
+
+  .coin-news-list{ margin-top:22px; display:flex; flex-direction:column; gap:16px; }
+  .coin-news-item{ padding-bottom:16px; border-bottom:1px solid var(--line); }
+  .coin-news-item:last-child{ border-bottom:none; padding-bottom:0; }
+  .coin-news-item a{
+    color:var(--ivory); text-decoration:none; font-size:0.95rem; line-height:1.4;
+    display:block;
+  }
+  .coin-news-item a:hover{ color:var(--gold-bright); }
+  .coin-news-meta{ margin-top:6px; font-size:0.76rem; color:var(--slate); }
 
   .ledger{ border:1px solid var(--line); background:var(--panel); }
   .ledger-head{ padding:14px 20px; font-size:0.8rem; color:var(--slate); border-bottom:1px solid var(--line); }
@@ -319,16 +354,31 @@
     <div>
       <div class="coin-cluster">
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin" aria-label="Bitcoin — view live data">BTC</button>
-          <div class="tooltip">Bitcoin — the original store-of-value asset, launched 2009.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin" aria-label="Bitcoin — view options">BTC</button>
+          <div class="flyout">
+            <div class="flyout-label">Bitcoin</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin">News</button>
+          </div>
         </div>
         <div class="coin">
-          <button type="button" class="medallion tall" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum" aria-label="Ethereum — view live data">ETH</button>
-          <div class="tooltip">Ethereum — smart contracts and the base layer for most DeFi activity.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion tall" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum" aria-label="Ethereum — view options">ETH</button>
+          <div class="flyout">
+            <div class="flyout-label">Ethereum</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum">News</button>
+          </div>
         </div>
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana" aria-label="Solana — view live data">SOL</button>
-          <div class="tooltip">Solana — a high-throughput chain built for speed and low fees.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana" aria-label="Solana — view options">SOL</button>
+          <div class="flyout">
+            <div class="flyout-label">Solana</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana">News</button>
+          </div>
         </div>
       </div>
       <div class="ledger">
@@ -347,48 +397,78 @@
     <div class="section-head">
       <span class="label">held across most portfolios</span>
       <h2 style="margin-top:10px;">The currencies people ask about first</h2>
-      <p>A quick reference strip, not a recommendation — six of the names that come up most often before someone opens an account. Hover a coin for a one-line summary, or click one to see live data without leaving the page.</p>
+      <p>A quick reference strip, not a recommendation — six of the names that come up most often before someone opens an account. Hover a coin for price data, background, or news — all without leaving the page.</p>
     </div>
     <div class="currency-strip">
       <div class="currency">
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin" aria-label="Bitcoin — view live data">BTC</button>
-          <div class="tooltip">Bitcoin — the original store-of-value asset, launched 2009.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin" aria-label="Bitcoin — view options">BTC</button>
+          <div class="flyout">
+            <div class="flyout-label">Bitcoin</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="bitcoin" data-coin-symbol="BTC" data-coin-name="Bitcoin">News</button>
+          </div>
         </div>
         <h3>Bitcoin</h3><p>Store of value</p>
       </div>
       <div class="currency">
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum" aria-label="Ethereum — view live data">ETH</button>
-          <div class="tooltip">Ethereum — smart contracts and the base layer for most DeFi activity.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum" aria-label="Ethereum — view options">ETH</button>
+          <div class="flyout">
+            <div class="flyout-label">Ethereum</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="ethereum" data-coin-symbol="ETH" data-coin-name="Ethereum">News</button>
+          </div>
         </div>
         <h3>Ethereum</h3><p>Smart contracts</p>
       </div>
       <div class="currency">
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana" aria-label="Solana — view live data">SOL</button>
-          <div class="tooltip">Solana — a high-throughput chain built for speed and low fees.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana" aria-label="Solana — view options">SOL</button>
+          <div class="flyout">
+            <div class="flyout-label">Solana</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="solana" data-coin-symbol="SOL" data-coin-name="Solana">News</button>
+          </div>
         </div>
         <h3>Solana</h3><p>High throughput</p>
       </div>
       <div class="currency">
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="ripple" data-coin-symbol="XRP" data-coin-name="XRP" aria-label="XRP — view live data">XRP</button>
-          <div class="tooltip">XRP — built for fast, low-cost cross-border settlement.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="ripple" data-coin-symbol="XRP" data-coin-name="XRP" aria-label="XRP — view options">XRP</button>
+          <div class="flyout">
+            <div class="flyout-label">XRP</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="ripple" data-coin-symbol="XRP" data-coin-name="XRP">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="ripple" data-coin-symbol="XRP" data-coin-name="XRP">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="ripple" data-coin-symbol="XRP" data-coin-name="XRP">News</button>
+          </div>
         </div>
         <h3>XRP</h3><p>Cross-border payments</p>
       </div>
       <div class="currency">
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="binancecoin" data-coin-symbol="BNB" data-coin-name="BNB" aria-label="BNB — view live data">BNB</button>
-          <div class="tooltip">BNB — the native token of the Binance exchange ecosystem.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="binancecoin" data-coin-symbol="BNB" data-coin-name="BNB" aria-label="BNB — view options">BNB</button>
+          <div class="flyout">
+            <div class="flyout-label">BNB</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="binancecoin" data-coin-symbol="BNB" data-coin-name="BNB">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="binancecoin" data-coin-symbol="BNB" data-coin-name="BNB">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="binancecoin" data-coin-symbol="BNB" data-coin-name="BNB">News</button>
+          </div>
         </div>
         <h3>BNB</h3><p>Exchange token</p>
       </div>
       <div class="currency">
         <div class="coin">
-          <button type="button" class="medallion" data-coin-id="tether" data-coin-symbol="USDT" data-coin-name="Tether" aria-label="Tether — view live data">USDT</button>
-          <div class="tooltip">Tether (USDT) — the most widely used dollar-pegged stablecoin.<span class="tip-cta">Click for live data</span></div>
+          <button type="button" class="medallion" data-coin-id="tether" data-coin-symbol="USDT" data-coin-name="Tether" aria-label="Tether — view options">USDT</button>
+          <div class="flyout">
+            <div class="flyout-label">Tether</div>
+            <button type="button" class="flyout-btn" data-tab="price" data-coin-id="tether" data-coin-symbol="USDT" data-coin-name="Tether">Live price data</button>
+            <button type="button" class="flyout-btn" data-tab="about" data-coin-id="tether" data-coin-symbol="USDT" data-coin-name="Tether">About</button>
+            <button type="button" class="flyout-btn" data-tab="news" data-coin-id="tether" data-coin-symbol="USDT" data-coin-name="Tether">News</button>
+          </div>
         </div>
         <h3 style="font-size:0.92rem;">Tether</h3><p>Stablecoin</p>
       </div>
@@ -537,8 +617,14 @@
       <button type="button" class="coin-close" id="coinClose" aria-label="Close">&#10005;</button>
     </div>
 
+    <div class="coin-tabs">
+      <button type="button" class="coin-tab" data-tab="price">Live price data</button>
+      <button type="button" class="coin-tab" data-tab="about">About</button>
+      <button type="button" class="coin-tab" data-tab="news">News</button>
+    </div>
+
     <div id="coinPanelBody">
-      <div class="coin-status" id="coinStatus">Fetching live data…</div>
+      <div class="coin-status">Fetching data…</div>
     </div>
   </div>
 </div>
@@ -551,7 +637,9 @@
   var panelSymbol = document.getElementById('coinPanelSymbol');
   var panelBody = document.getElementById('coinPanelBody');
   var closeBtn = document.getElementById('coinClose');
+  var tabButtons = document.querySelectorAll('.coin-tab');
   var lastFocused = null;
+  var current = { id: null, symbol: null, name: null, tab: 'price' };
 
   function fmtUsd(n){
     if (n === null || n === undefined) return '—';
@@ -565,8 +653,30 @@
     if (n >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
     return '$' + n.toLocaleString();
   }
+  function fmtDate(unixSeconds){
+    var d = new Date(unixSeconds * 1000);
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
 
-  function renderCoin(symbol, norm, sourceLabel){
+  // ---------- About: short, original background text per coin ----------
+  var ABOUT = {
+    bitcoin: "Bitcoin was introduced in 2009 by the pseudonymous Satoshi Nakamoto as the first decentralized digital currency, secured by a public blockchain and proof-of-work mining. Its supply is capped at 21 million coins, which is central to its reputation as a long-term store of value. It remains the largest cryptocurrency by market capitalization and is widely treated as a benchmark for the broader market.",
+    ethereum: "Ethereum launched in 2015 and introduced smart contracts — self-executing code running on its blockchain — enabling decentralized applications, tokens, and financial protocols to be built on top of it. It moved from proof-of-work to proof-of-stake in 2022. Beyond acting as a currency, ETH pays for computation across the network, making it foundational infrastructure for much of the wider crypto ecosystem.",
+    solana: "Solana launched in 2020, built around high transaction throughput and low fees using proof-of-stake alongside a timestamping method called proof-of-history. It's often positioned as a faster alternative to Ethereum for applications needing cheap, quick transactions, and has become a hub for decentralized exchanges, NFTs, and consumer crypto apps. That speed comes with a smaller, more concentrated validator set than some competitors.",
+    ripple: "XRP is the native token of the XRP Ledger, a blockchain created in 2012 aimed primarily at fast, low-cost cross-border payments and currency exchange. Its consensus mechanism differs from Bitcoin and Ethereum, relying on a network of trusted validators rather than mining or staking. Ripple Labs, closely associated with the token, spent several years in litigation with the US SEC over whether XRP qualifies as a security.",
+    binancecoin: "BNB is the native token of the BNB Chain ecosystem, originally launched by the Binance exchange in 2017. It's used to pay reduced trading fees on Binance, as gas for transactions on BNB Chain, and across decentralized apps built on that chain. Its value and adoption are closely tied to the scale and health of the Binance exchange and its surrounding ecosystem.",
+    tether: "Tether (USDT) is a stablecoin designed to hold a 1:1 peg with the US dollar, backed by a reserve of cash and cash-equivalent assets managed by Tether Limited. It's one of the most widely used assets in crypto trading, often used to move value between exchanges or hold value without converting back to traditional currency. Its reserve composition and audits have drawn ongoing scrutiny from regulators and researchers."
+  };
+
+  function renderAbout(name, id){
+    var text = ABOUT[id] || "Background information for this coin isn't available yet.";
+    panelBody.innerHTML =
+      '<div class="coin-about">' + text + '</div>' +
+      '<div class="coin-meta"><span>General background, not financial advice</span><span></span></div>';
+  }
+
+  // ---------- Live price data ----------
+  function renderPrice(symbol, norm, sourceLabel){
     var changeClass = norm.change24h >= 0 ? 'up' : 'down';
     var changeSign = norm.change24h >= 0 ? '+' : '';
 
@@ -621,10 +731,10 @@
     return diffH + ' hours ago';
   }
 
-  // The site's own 12-hourly snapshot, written by the GitHub Actions
+  // The site's own scheduled snapshot, written by the GitHub Actions
   // workflow to data/coins.json. Fetched once per page load and reused
   // for every coin click so most visits never call CoinGecko directly.
-  var SNAPSHOT_MAX_AGE_MS = 13 * 60 * 60 * 1000; // 12h + a small buffer
+  var SNAPSHOT_MAX_AGE_MS = 13 * 60 * 60 * 1000; // a bit above the refresh interval, as a staleness buffer
   var snapshotPromise = null;
 
   function loadSnapshot(){
@@ -637,34 +747,24 @@
 
   var liveCache = {}; // in-memory only, per page load — used if the snapshot file is missing or stale
 
-  function liveFetch(id, symbol){
+  function liveFetchPrice(id, symbol){
     var cached = liveCache[id];
     if (cached && (Date.now() - cached.time) < SNAPSHOT_MAX_AGE_MS){
-      renderCoin(symbol, normalizeFromDetail(cached.data), 'Data via CoinGecko, fetched just now');
+      renderPrice(symbol, normalizeFromDetail(cached.data), 'Data via CoinGecko, fetched just now');
       return;
     }
     fetch('https://api.coingecko.com/api/v3/coins/' + id + '?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false')
       .then(function(res){ if (!res.ok) throw new Error('bad response'); return res.json(); })
       .then(function(data){
         liveCache[id] = { time: Date.now(), data: data };
-        renderCoin(symbol, normalizeFromDetail(data), 'Data via CoinGecko, fetched just now');
+        renderPrice(symbol, normalizeFromDetail(data), 'Data via CoinGecko, fetched just now');
       })
       .catch(function(){
         panelBody.innerHTML = '<div class="coin-status">Live data isn\'t reachable right now — this usually clears up if you try again in a moment.</div>';
       });
   }
 
-  function openCoin(id, symbol, name){
-    panelMedallion.textContent = symbol;
-    panelName.textContent = name;
-    panelSymbol.textContent = symbol + ' · snapshot';
-    panelBody.innerHTML = '<div class="coin-status">Fetching data…</div>';
-
-    backdrop.classList.add('open');
-    lastFocused = document.activeElement;
-    closeBtn.focus();
-    document.addEventListener('keydown', onKeydown);
-
+  function loadPrice(id, symbol){
     loadSnapshot().then(function(snapshot){
       var entry = snapshot && snapshot.coins && snapshot.coins[id];
       var isFresh = snapshot && snapshot.generated_at &&
@@ -672,11 +772,87 @@
 
       if (entry && isFresh){
         var label = 'Data via CoinGecko · updated ' + relativeTime(snapshot.generated_at);
-        renderCoin(symbol, normalizeFromSnapshot(entry), label);
+        renderPrice(symbol, normalizeFromSnapshot(entry), label);
       } else {
-        liveFetch(id, symbol);
+        liveFetchPrice(id, symbol);
       }
     });
+  }
+
+  // ---------- News ----------
+  var newsCache = {}; // in-memory only, per page load
+
+  function renderNews(items){
+    if (!items.length){
+      panelBody.innerHTML = '<div class="coin-status">No recent headlines found for this coin right now.</div>';
+      return;
+    }
+    var html = '<div class="coin-news-list">';
+    items.forEach(function(item){
+      html +=
+        '<div class="coin-news-item">' +
+          '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>' +
+          '<div class="coin-news-meta">' + item.source + ' · ' + item.date + '</div>' +
+        '</div>';
+    });
+    html += '</div><div class="coin-meta"><span>Headlines via CryptoCompare</span><span>Opens in a new tab</span></div>';
+    panelBody.innerHTML = html;
+  }
+
+  function loadNews(id, symbol){
+    var cached = newsCache[symbol];
+    if (cached && (Date.now() - cached.time) < 15 * 60 * 1000){
+      renderNews(cached.items);
+      return;
+    }
+    fetch('https://min-api.cryptocompare.com/data/v2/news/?lang=EN&categories=' + encodeURIComponent(symbol))
+      .then(function(res){ if (!res.ok) throw new Error('bad response'); return res.json(); })
+      .then(function(data){
+        var items = (data.Data || []).slice(0, 6).map(function(a){
+          return {
+            title: a.title,
+            url: a.url,
+            source: a.source_info && a.source_info.name ? a.source_info.name : a.source,
+            date: fmtDate(a.published_on)
+          };
+        });
+        newsCache[symbol] = { time: Date.now(), items: items };
+        renderNews(items);
+      })
+      .catch(function(){
+        panelBody.innerHTML = '<div class="coin-status">The news feed isn\'t reachable right now — this usually clears up if you try again in a moment.</div>';
+      });
+  }
+
+  // ---------- Panel open / tabs / close ----------
+  function setActiveTab(tab){
+    current.tab = tab;
+    tabButtons.forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.tab === tab);
+    });
+  }
+
+  function loadTab(tab){
+    panelBody.innerHTML = '<div class="coin-status">Fetching data…</div>';
+    if (tab === 'price') loadPrice(current.id, current.symbol);
+    else if (tab === 'about') renderAbout(current.name, current.id);
+    else if (tab === 'news') loadNews(current.id, current.symbol);
+  }
+
+  function openCoin(id, symbol, name, tab){
+    current.id = id; current.symbol = symbol; current.name = name;
+
+    panelMedallion.textContent = symbol;
+    panelName.textContent = name;
+    panelSymbol.textContent = symbol;
+
+    setActiveTab(tab || 'price');
+    loadTab(current.tab);
+
+    backdrop.classList.add('open');
+    lastFocused = document.activeElement;
+    closeBtn.focus();
+    document.addEventListener('keydown', onKeydown);
   }
 
   function closeCoin(){
@@ -689,9 +865,27 @@
     if (e.key === 'Escape') closeCoin();
   }
 
+  tabButtons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if (btn.dataset.tab === current.tab) return;
+      setActiveTab(btn.dataset.tab);
+      loadTab(current.tab);
+    });
+  });
+
+  // Clicking a medallion directly opens the panel on the Price tab —
+  // this is the fallback for touch devices, where hover menus don't apply.
   document.querySelectorAll('.medallion[data-coin-id]').forEach(function(btn){
     btn.addEventListener('click', function(){
-      openCoin(btn.dataset.coinId, btn.dataset.coinSymbol, btn.dataset.coinName);
+      openCoin(btn.dataset.coinId, btn.dataset.coinSymbol, btn.dataset.coinName, 'price');
+    });
+  });
+
+  // The hover flyout's three buttons open the panel directly on that tab.
+  document.querySelectorAll('.flyout-btn').forEach(function(btn){
+    btn.addEventListener('click', function(e){
+      e.stopPropagation();
+      openCoin(btn.dataset.coinId, btn.dataset.coinSymbol, btn.dataset.coinName, btn.dataset.tab);
     });
   });
 
