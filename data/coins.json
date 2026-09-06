@@ -1,4 +1,77 @@
 {
-  "generated_at": "2000-01-01T00:00:00.000Z",
-  "coins": {}
+  "generated_at": "2026-09-06T22:36:08.636Z",
+  "coins": {
+    "bitcoin": {
+      "symbol": "BTC",
+      "name": "Bitcoin",
+      "price": 79919,
+      "change_24h": 0.14152,
+      "market_cap": 1604601526355,
+      "market_cap_rank": 1,
+      "high_24h": 80103,
+      "low_24h": 79426,
+      "circulating_supply": 20080684,
+      "ath": 126080
+    },
+    "ethereum": {
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "price": 2503.58,
+      "change_24h": 0.84218,
+      "market_cap": 305435177373,
+      "market_cap_rank": 2,
+      "high_24h": 2521.39,
+      "low_24h": 2473.01,
+      "circulating_supply": 122023857.56610575,
+      "ath": 4946.05
+    },
+    "tether": {
+      "symbol": "USDT",
+      "name": "Tether",
+      "price": 0.999993,
+      "change_24h": -0.00368,
+      "market_cap": 183388090696,
+      "market_cap_rank": 3,
+      "high_24h": 1,
+      "low_24h": 0.999862,
+      "circulating_supply": 183392383062.09265,
+      "ath": 1.32
+    },
+    "binancecoin": {
+      "symbol": "BNB",
+      "name": "BNB",
+      "price": 750.02,
+      "change_24h": -2.57289,
+      "market_cap": 99849109713,
+      "market_cap_rank": 4,
+      "high_24h": 770.58,
+      "low_24h": 740.53,
+      "circulating_supply": 133161821.44,
+      "ath": 1369.99
+    },
+    "ripple": {
+      "symbol": "XRP",
+      "name": "XRP",
+      "price": 1.42,
+      "change_24h": 0.23776,
+      "market_cap": 89013390847,
+      "market_cap_rank": 5,
+      "high_24h": 1.43,
+      "low_24h": 1.4,
+      "circulating_supply": 62744504852,
+      "ath": 3.65
+    },
+    "solana": {
+      "symbol": "SOL",
+      "name": "Solana",
+      "price": 105.8,
+      "change_24h": 2.38945,
+      "market_cap": 61926474013,
+      "market_cap_rank": 7,
+      "high_24h": 107.22,
+      "low_24h": 103.09,
+      "circulating_supply": 585444810.0716323,
+      "ath": 293.31
+    }
+  }
 }
