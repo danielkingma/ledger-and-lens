@@ -1,0 +1,63 @@
+name: Update news data
+
+on:
+  schedule:
+    # Runs at the top of every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Fetch latest headlines from CryptoCompare
+        env:
+          CRYPTOCOMPARE_API_KEY: ${{ secrets.CRYPTOCOMPARE_API_KEY }}
+        run: |
+          mkdir -p data /tmp/news
+
+          for symbol in BTC ETH SOL XRP BNB USDT; do
+            curl -sf \
+              -H "Authorization: Apikey ${CRYPTOCOMPARE_API_KEY}" \
+              "https://min-api.cryptocompare.com/data/v2/news/?lang=EN&categories=${symbol}" \
+              -o "/tmp/news/${symbol}.json" || echo "{}" > "/tmp/news/${symbol}.json"
+          done
+
+          node -e "
+            const fs = require('fs');
+            const symbols = ['BTC','ETH','SOL','XRP','BNB','USDT'];
+            const out = { generated_at: new Date().toISOString(), coins: {} };
+
+            for (const symbol of symbols) {
+              let items = [];
+              try {
+                const raw = JSON.parse(fs.readFileSync('/tmp/news/' + symbol + '.json', 'utf8'));
+                const articles = (raw.Data || []).slice(0, 6);
+                items = articles.map(a => ({
+                  title: a.title,
+                  url: a.url,
+                  source: (a.source_info && a.source_info.name) ? a.source_info.name : a.source,
+                  published_on: a.published_on
+                }));
+              } catch (e) {
+                items = [];
+              }
+              out.coins[symbol] = items;
+            }
+
+            fs.writeFileSync('data/news.json', JSON.stringify(out, null, 2) + '\n');
+          "
+
+      - name: Commit updated data (if it changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git diff --cached --quiet || git commit -m "Update news snapshot"
+          git push
