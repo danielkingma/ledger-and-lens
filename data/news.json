@@ -1,45 +1,57 @@
 {
-  "generated_at": "2026-09-08T20:36:48.024Z",
+  "generated_at": "2026-09-08T23:07:37.932Z",
   "coins": {
     "BTC": [
       {
-        "title": "From 13,390 BTC to 518 BTC: Bhutan Continues Offloading Bitcoin",
-        "url": "https://zycrypto.com/from-13390-btc-to-518-btc-bhutan-continues-offloading-bitcoin/",
-        "source": "ZyCrypto",
-        "published_on": 1788899410
-      },
-      {
-        "title": "FOMC September 2026 Odds for a Rate Hike Surpass 50%",
-        "url": "https://cryptonews.com/news/cme-fedwatch-fomc-september-2026-odds-rate-hike-50/",
-        "source": "cryptonews",
-        "published_on": 1788898578
-      },
-      {
-        "title": "Castle Lets Personal Users Convert Strategy's 12% STRC Dividend Into Bitcoin (BTC)",
-        "url": "https://en.coinotag.com/castle-personal-accounts-convert-strc-dividend-bitcoin",
+        "title": "Metaplanet Freezes 319.5 Million Bitcoin (BTC) Insider Shares After Dilution Disclosure",
+        "url": "https://en.coinotag.com/metaplanet-freezes-319-5-million-bitcoin-insider-shares",
         "source": "CoinOtag",
-        "published_on": 1788898446
+        "published_on": 1788906043
       },
       {
-        "title": "Why Wall Street Investment Firm Bernstein Believes Bitcoin Could Reach $300,000; Here’s How",
-        "url": "https://zycrypto.com/why-wall-street-investment-firm-bernstein-believes-bitcoin-could-reach-300000-heres-how/",
-        "source": "ZyCrypto",
-        "published_on": 1788898168
-      },
-      {
-        "title": "Will Bitcoin Go Up or Down From Here? Technical Analysis Published",
-        "url": "https://en.bitcoinsistemi.com/will-bitcoin-go-up-or-down-from-here-technical-analysis-published/",
-        "source": "BitcoinSistemi",
-        "published_on": 1788897067
-      },
-      {
-        "title": "Strive Loads up on 1,375 Bitcoin as ASST Jumps 114% in 30 Days",
-        "url": "https://news.bitcoin.com/crypto-news/strive-loads-up-on-1375-bitcoin-as-asst-jumps-114-in-30-days/",
+        "title": "Bitcoin Gains Ground in MENA Region as Crypto Volume Triples to $350B",
+        "url": "https://news.bitcoin.com/opinion-and-analysis/bitcoin-gains-ground-in-mena-region-as-crypto-volume-triples-to-350b/",
         "source": "Bitcoin.com",
-        "published_on": 1788896473
+        "published_on": 1788905826
+      },
+      {
+        "title": "Bitcoin Calms Below $80K as Fed Hike Odds Climb: Bitfinex Alpha",
+        "url": "https://cryptopotato.com/bitcoin-calms-below-80k-as-fed-hike-odds-climb-bitfinex-alpha/",
+        "source": "Crypto Potato",
+        "published_on": 1788905384
+      },
+      {
+        "title": "Malone Lam pleads guilty in $245M theft that hacked people, not wallets",
+        "url": "https://www.cryptopolitan.com/malone-lam-pleads-guilty-in-245m-theft-that-hacked-people-not-wallets/",
+        "source": "Cryptopolitan",
+        "published_on": 1788904835
+      },
+      {
+        "title": "Bitcoin: Capital B overtakes Sweden’s H100 Group after 376 BTC buy",
+        "url": "https://ambcrypto.com/bitcoin-capital-b-overtakes-swedens-h100-group-after-376-btc-buy/",
+        "source": "AMB Crypto",
+        "published_on": 1788904800
+      },
+      {
+        "title": "Plattsburgh proposes 12 month land use moratorium for crypto mining and AI centers",
+        "url": "https://en.coin-turk.com/plattsburgh-proposes-12-month-land-use-moratorium-for-crypto-mining-and-ai-centers/?utm_source=rss&utm_medium=rss&utm_campaign=plattsburgh-proposes-12-month-land-use-moratorium-for-crypto-mining-and-ai-centers",
+        "source": "CoinTurk News",
+        "published_on": 1788904637
       }
     ],
     "ETH": [
+      {
+        "title": "Ethereum Foundation’s Trillion Dollar Security Initiative rolls out ERC-7730 clear signing on Trezor",
+        "url": "https://www.cryptopolitan.com/trezor-erc-7730-clear-signing-safe-wallets/",
+        "source": "Cryptopolitan",
+        "published_on": 1788907942
+      },
+      {
+        "title": "Ethereum (ETH) Developers Schedule EIP-8141 Frame Transactions for 2027 Hegotá Upgrade",
+        "url": "https://en.coinotag.com/ethereum-eip-8141-frame-transactions-hegota-2027-5",
+        "source": "CoinOtag",
+        "published_on": 1788902518
+      },
       {
         "title": "Bitmine Adds 28,086 ETH as Ethereum Treasury Hits $14.8B",
         "url": "https://news.bitcoin.com/altcoins/bitmine-adds-28086-eth-as-ethereum-treasury-hits-14-8b/",
@@ -63,21 +75,33 @@
         "url": "https://www.cryptopolitan.com/sandbox-opens-payouts-cronos-recovers/",
         "source": "Cryptopolitan",
         "published_on": 1788894331
-      },
-      {
-        "title": "Tom Lee Announced That He Had Purchased a Large Amount of Ethereum (ETH)",
-        "url": "https://en.bitcoinsistemi.com/tom-lee-announced-that-he-had-purchased-a-large-amount-of-ethereum-eth/",
-        "source": "BitcoinSistemi",
-        "published_on": 1788889447
-      },
-      {
-        "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 5.93 Million Tokens, and Total Crypto and Total Cash Holdings of $15.7 Billion",
-        "url": "https://bitcoinworld.co.in/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-5-93-million-tokens-and-total-crypto-and-total-cash-holdings-of-15-7-billion/",
-        "source": "Bitcoin World",
-        "published_on": 1788888237
       }
     ],
     "SOL": [
+      {
+        "title": "Solana maintains $103 support as MoneyGram CEO spotlights stablecoin payments",
+        "url": "https://en.coin-turk.com/solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments/?utm_source=rss&utm_medium=rss&utm_campaign=solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments",
+        "source": "CoinTurk News",
+        "published_on": 1788905961
+      },
+      {
+        "title": "Solana Price Prediction: Can SOL Break $124 ? While Apeing’s 10,000% ROI Story Takes Over the 100x Crypto Hunt",
+        "url": "https://en.bitcoinsistemi.com/solana-price-prediction-can-sol-break-124-while-apeings-10000-roi-story-takes-over-the-100x-crypto-hunt/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788902103
+      },
+      {
+        "title": "Best Meme Coin Platforms to Trade in 2026: Why MemeToro’s Open Source Agent Code Competes With Four Meme and PumpFun",
+        "url": "https://en.bitcoinsistemi.com/best-meme-coin-platforms-to-trade-in-2026-why-memetoros-open-source-agent-code-competes-with-four-meme-and-pumpfun/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788901217
+      },
+      {
+        "title": "Solana (SOL) Triples Transaction Capacity to 4,096 Bytes With September 9 Upgrade",
+        "url": "https://en.coinotag.com/solana-transaction-capacity-4096-bytes-september-9-upgrade",
+        "source": "CoinOtag",
+        "published_on": 1788898963
+      },
       {
         "title": "A List of the Altcoins with the Highest Number of Users in the Past Week Has Been Released",
         "url": "https://en.bitcoinsistemi.com/a-list-of-the-altcoins-with-the-highest-number-of-users-in-the-past-week-has-been-released/",
@@ -89,106 +113,82 @@
         "url": "https://en.bitcoinsistemi.com/best-5-altcoins-to-buy-2026-privacy-cryptos-zcash-and-monero-battle-as-memetoro-launches-open-source-agent-framework/",
         "source": "BitcoinSistemi",
         "published_on": 1788894015
-      },
-      {
-        "title": "Solana triples transaction size to 4,096 bytes with mainnet V1 launch",
-        "url": "https://www.cryptopolitan.com/solana-transaction-v1-4096-byte-limit/",
-        "source": "Cryptopolitan",
-        "published_on": 1788891618
-      },
-      {
-        "title": "SOL Price Eyes $150 as Whale Buys $28.82M",
-        "url": "https://coinpedia.org/news/sol-price-eyes-150-as-whale-buys-28-82m/",
-        "source": "coinpedia",
-        "published_on": 1788885267
-      },
-      {
-        "title": "Solana Front Wing Takeover: trade SOL to put your name on the Atlassian Williams F1 Team FW48",
-        "url": "https://blog.kraken.com/product/promotions/williams-fw48-front-wing-contest",
-        "source": "Kraken Blog",
-        "published_on": 1788877441
-      },
-      {
-        "title": "Solana tests $100 as whale traders bet on a rebound",
-        "url": "https://invezz.com/news/2026/09/08/solana-tests-100-as-whale-traders-bet-on-a-rebound/",
-        "source": "Invezz",
-        "published_on": 1788877170
       }
     ],
     "XRP": [
+      {
+        "title": "21Shares Says Ripple Runs Just One of 35 Validators on XRP (XRP) Ledger",
+        "url": "https://en.coinotag.com/21shares-ripple-one-of-35-validators-xrp-ledger",
+        "source": "CoinOtag",
+        "published_on": 1788902603
+      },
+      {
+        "title": "Solana Price Prediction: Can SOL Break $124 ? While Apeing’s 10,000% ROI Story Takes Over the 100x Crypto Hunt",
+        "url": "https://en.bitcoinsistemi.com/solana-price-prediction-can-sol-break-124-while-apeings-10000-roi-story-takes-over-the-100x-crypto-hunt/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788902103
+      },
+      {
+        "title": "21Shares defends Ripple, sets $2.45 XRP price target for 2026",
+        "url": "https://en.coin-turk.com/21shares-defends-ripple-sets-2-45-xrp-price-target-for-2026/?utm_source=rss&utm_medium=rss&utm_campaign=21shares-defends-ripple-sets-2-45-xrp-price-target-for-2026",
+        "source": "CoinTurk News",
+        "published_on": 1788900913
+      },
+      {
+        "title": "Analyst Says XRP Is Repeating 2024 Pattern Before Potential 650% Surge",
+        "url": "https://zycrypto.com/analyst-says-xrp-is-repeating-2024-pattern-before-potential-650-surge/",
+        "source": "ZyCrypto",
+        "published_on": 1788899963
+      },
+      {
+        "title": "XRP analyst targets $13.57, highlights key breakouts and new all time high path",
+        "url": "https://en.coin-turk.com/xrp-analyst-targets-13-57-highlights-key-breakouts-and-new-all-time-high-path/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-analyst-targets-13-57-highlights-key-breakouts-and-new-all-time-high-path",
+        "source": "CoinTurk News",
+        "published_on": 1788899054
+      },
       {
         "title": "Biggest XRP Myth Shattered by Top Crypto Asset Manager",
         "url": "https://u.today/biggest-xrp-myth-shattered-by-top-crypto-asset-manager",
         "source": "U.Today",
         "published_on": 1788898522
-      },
-      {
-        "title": "Top Trader: XRP Is Ready to Fly. $10 Is Definitely Not a Dream",
-        "url": "https://timestabloid.com/top-trader-xrp-is-ready-to-fly-10-is-definitely-not-a-dream/",
-        "source": "TimesTabloid",
-        "published_on": 1788897615
-      },
-      {
-        "title": "GOP Senators Warn XRP (XRP)-Defining CLARITY Act Faces Just 15% Passage Odds",
-        "url": "https://en.coinotag.com/gop-senators-warn-xrp-clarity-act-faces-15-passage-odds",
-        "source": "CoinOtag",
-        "published_on": 1788896281
-      },
-      {
-        "title": "BIS uses XRP Ledger for blockchain proof of concept, Ripple CEO comments",
-        "url": "https://en.coin-turk.com/bis-uses-xrp-ledger-for-blockchain-proof-of-concept-ripple-ceo-comments/?utm_source=rss&utm_medium=rss&utm_campaign=bis-uses-xrp-ledger-for-blockchain-proof-of-concept-ripple-ceo-comments",
-        "source": "CoinTurk News",
-        "published_on": 1788895814
-      },
-      {
-        "title": "Finance Coach to XRP Army: Something Big Is Happening Behind the Scenes",
-        "url": "https://timestabloid.com/finance-coach-to-xrp-army-something-big-is-happening-behind-the-scenes/",
-        "source": "TimesTabloid",
-        "published_on": 1788894031
-      },
-      {
-        "title": "XRP analyst warns of bearish MACD death cross, highlights $1.30 and $1.40 levels",
-        "url": "https://en.coin-turk.com/xrp-analyst-warns-of-bearish-macd-death-cross-highlights-1-30-and-1-40-levels/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-analyst-warns-of-bearish-macd-death-cross-highlights-1-30-and-1-40-levels",
-        "source": "CoinTurk News",
-        "published_on": 1788892452
       }
     ],
     "BNB": [
       {
-        "title": "HYPE price drops 2% to $83.65 as Hyperliquid burns $1.32 million HYPE",
-        "url": "https://en.coin-turk.com/hype-price-drops-2yuzde-to-83-65-as-hyperliquid-burns-1-32-million-hype/?utm_source=rss&utm_medium=rss&utm_campaign=hype-price-drops-2yuzde-to-83-65-as-hyperliquid-burns-1-32-million-hype",
+        "title": "Top BNB Chain Meme coins 2026: MemeToro’s Open Source Memecoin Launchpad Develops First Fair Launch Escrow",
+        "url": "https://en.bitcoinsistemi.com/top-bnb-chain-meme-coins-2026-memetoros-open-source-memecoin-launchpad-develops-first-fair-launch-escrow/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788908422
+      },
+      {
+        "title": "Ethereum Foundation’s Trillion Dollar Security Initiative rolls out ERC-7730 clear signing on Trezor",
+        "url": "https://www.cryptopolitan.com/trezor-erc-7730-clear-signing-safe-wallets/",
+        "source": "Cryptopolitan",
+        "published_on": 1788907942
+      },
+      {
+        "title": "Dogecoin targets $0.10 as cup and handle pattern sparks breakout hopes",
+        "url": "https://en.coin-turk.com/dogecoin-targets-0-10-as-cup-and-handle-pattern-sparks-breakout-hopes/?utm_source=rss&utm_medium=rss&utm_campaign=dogecoin-targets-0-10-as-cup-and-handle-pattern-sparks-breakout-hopes",
         "source": "CoinTurk News",
-        "published_on": 1788899534
+        "published_on": 1788906381
       },
       {
-        "title": "From 13,390 BTC to 518 BTC: Bhutan Continues Offloading Bitcoin",
-        "url": "https://zycrypto.com/from-13390-btc-to-518-btc-bhutan-continues-offloading-bitcoin/",
-        "source": "ZyCrypto",
-        "published_on": 1788899410
+        "title": "OpenAI's 10,000-Agent Math Proof Ignites Credit Dispute Around Altman's Worldcoin (WLD)",
+        "url": "https://en.coinotag.com/openai-10000-agent-math-proof-dispute-worldcoin-wld",
+        "source": "CoinOtag",
+        "published_on": 1788906178
       },
       {
-        "title": "Introducing kHYPE",
-        "url": "https://blog.kraken.com/product/new-features/introducing-khype",
-        "source": "Kraken Blog",
-        "published_on": 1788899356
+        "title": "Metaplanet Freezes 319.5 Million Bitcoin (BTC) Insider Shares After Dilution Disclosure",
+        "url": "https://en.coinotag.com/metaplanet-freezes-319-5-million-bitcoin-insider-shares",
+        "source": "CoinOtag",
+        "published_on": 1788906043
       },
       {
-        "title": "Block applies to establish non-deposit-taking national trust bank",
-        "url": "https://seekingalpha.com/news/4640959-block-applies-to-establish-non-deposit-taking-national-trust-bank?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
-        "source": "Seeking Alpha",
-        "published_on": 1788898919
-      },
-      {
-        "title": "Bitmine Adds 28,086 ETH as Ethereum Treasury Hits $14.8B",
-        "url": "https://news.bitcoin.com/altcoins/bitmine-adds-28086-eth-as-ethereum-treasury-hits-14-8b/",
-        "source": "Bitcoin.com",
-        "published_on": 1788898788
-      },
-      {
-        "title": "DBS and Citi Settle 24/7 Cross-Border Dollar Payment on SWIFT’s Ledger",
-        "url": "https://cryptopotato.com/dbs-and-citi-settle-24-7-cross-border-dollar-payment-on-swifts-ledger/",
-        "source": "Crypto Potato",
-        "published_on": 1788898682
+        "title": "Solana maintains $103 support as MoneyGram CEO spotlights stablecoin payments",
+        "url": "https://en.coin-turk.com/solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments/?utm_source=rss&utm_medium=rss&utm_campaign=solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments",
+        "source": "CoinTurk News",
+        "published_on": 1788905961
       }
     ],
     "USDT": []
