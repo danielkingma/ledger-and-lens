@@ -1,83 +1,101 @@
 {
-  "generated_at": "2026-09-08T17:01:29.182Z",
+  "generated_at": "2026-09-08T20:36:48.024Z",
   "coins": {
     "BTC": [
       {
-        "title": "Bitcoin falls below $78,000 as oil soars to $95 on Middle East tensions",
-        "url": "https://en.coin-turk.com/bitcoin-falls-below-78000-as-oil-soars-to-95-on-middle-east-tensions/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-falls-below-78000-as-oil-soars-to-95-on-middle-east-tensions",
-        "source": "CoinTurk News",
-        "published_on": 1788885311
+        "title": "From 13,390 BTC to 518 BTC: Bhutan Continues Offloading Bitcoin",
+        "url": "https://zycrypto.com/from-13390-btc-to-518-btc-bhutan-continues-offloading-bitcoin/",
+        "source": "ZyCrypto",
+        "published_on": 1788899410
       },
       {
-        "title": "US Senate Faces 60-Vote Hurdle on Sept. 15 CLARITY Act Vote for Bitcoin (BTC)",
-        "url": "https://en.coinotag.com/us-senate-60-vote-hurdle-clarity-act-bitcoin-sept-15",
-        "source": "CoinOtag",
-        "published_on": 1788884207
-      },
-      {
-        "title": "Mexico shuts down illegal crypto mining farm tapping federal hydroelectric grid",
-        "url": "https://en.coin-turk.com/mexico-shuts-down-illegal-crypto-mining-farm-tapping-federal-hydroelectric-grid/?utm_source=rss&utm_medium=rss&utm_campaign=mexico-shuts-down-illegal-crypto-mining-farm-tapping-federal-hydroelectric-grid",
-        "source": "CoinTurk News",
-        "published_on": 1788884111
-      },
-      {
-        "title": "Blockstream Hackers Turn Bitcoin Into a Wild Onchain Message Board",
-        "url": "https://news.bitcoin.com/crypto-news/blockstream-hackers-turn-bitcoin-into-a-wild-onchain-message-board/",
-        "source": "Bitcoin.com",
-        "published_on": 1788883534
-      },
-      {
-        "title": "BITI: A Way To Play Bitcoin Recovery Without A Wallet",
-        "url": "https://seekingalpha.com/article/4943904-biti-a-way-to-play-bitcoin-recovery-without-a-wallet?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
-        "source": "Seeking Alpha",
-        "published_on": 1788883389
-      },
-      {
-        "title": "XRP Price Prediction: Analyst Makes Crazy $60 Ripple Prediction",
-        "url": "https://cryptonews.com/news/xrp-price-prediction-60-target-2/",
+        "title": "FOMC September 2026 Odds for a Rate Hike Surpass 50%",
+        "url": "https://cryptonews.com/news/cme-fedwatch-fomc-september-2026-odds-rate-hike-50/",
         "source": "cryptonews",
-        "published_on": 1788883200
+        "published_on": 1788898578
+      },
+      {
+        "title": "Castle Lets Personal Users Convert Strategy's 12% STRC Dividend Into Bitcoin (BTC)",
+        "url": "https://en.coinotag.com/castle-personal-accounts-convert-strc-dividend-bitcoin",
+        "source": "CoinOtag",
+        "published_on": 1788898446
+      },
+      {
+        "title": "Why Wall Street Investment Firm Bernstein Believes Bitcoin Could Reach $300,000; Here’s How",
+        "url": "https://zycrypto.com/why-wall-street-investment-firm-bernstein-believes-bitcoin-could-reach-300000-heres-how/",
+        "source": "ZyCrypto",
+        "published_on": 1788898168
+      },
+      {
+        "title": "Will Bitcoin Go Up or Down From Here? Technical Analysis Published",
+        "url": "https://en.bitcoinsistemi.com/will-bitcoin-go-up-or-down-from-here-technical-analysis-published/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788897067
+      },
+      {
+        "title": "Strive Loads up on 1,375 Bitcoin as ASST Jumps 114% in 30 Days",
+        "url": "https://news.bitcoin.com/crypto-news/strive-loads-up-on-1375-bitcoin-as-asst-jumps-114-in-30-days/",
+        "source": "Bitcoin.com",
+        "published_on": 1788896473
       }
     ],
     "ETH": [
       {
-        "title": "RWA tokenization takes off as holders top 3.5M for the first time",
-        "url": "https://seekingalpha.com/news/4640867-rwa-tokenization-takes-off-as-holders-top-35m-for-the-first-time?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
-        "source": "Seeking Alpha",
-        "published_on": 1788883667
+        "title": "Bitmine Adds 28,086 ETH as Ethereum Treasury Hits $14.8B",
+        "url": "https://news.bitcoin.com/altcoins/bitmine-adds-28086-eth-as-ethereum-treasury-hits-14-8b/",
+        "source": "Bitcoin.com",
+        "published_on": 1788898788
       },
       {
-        "title": "Bitmine buys 28,086 ETH, closing in on 5% of total supply target",
-        "url": "https://en.coin-turk.com/bitmine-buys-28086-eth-closing-in-on-5yuzde-of-total-supply-target/?utm_source=rss&utm_medium=rss&utm_campaign=bitmine-buys-28086-eth-closing-in-on-5yuzde-of-total-supply-target",
+        "title": "Stellar Lumens forms bullish inverse head and shoulders, eyes $0.22 breakout",
+        "url": "https://en.coin-turk.com/stellar-lumens-forms-bullish-inverse-head-and-shoulders-eyes-0-22-breakout/?utm_source=rss&utm_medium=rss&utm_campaign=stellar-lumens-forms-bullish-inverse-head-and-shoulders-eyes-0-22-breakout",
         "source": "CoinTurk News",
-        "published_on": 1788880273
+        "published_on": 1788897134
       },
       {
-        "title": "YBTC: The Upside Cap Is Not A Downside Floor",
-        "url": "https://seekingalpha.com/article/4943871-ybtc-the-upside-cap-is-not-a-downside-floor?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
-        "source": "Seeking Alpha",
-        "published_on": 1788879900
+        "title": "Tom Lee backs tokenization and agentic AI to drive ETH gains as accumulation continues",
+        "url": "https://www.cryptopolitan.com/tom-lee-backs-tokenization-and-ai-bitmine/",
+        "source": "Cryptopolitan",
+        "published_on": 1788896119
       },
       {
-        "title": "Tom Lee's Bitmine Adds $70 Million in Ethereum, Holdings Reach 5.93 Million ETH",
-        "url": "https://decrypt.co/377672/tom-lee-bitmine-adds-70-million-ethereum",
-        "source": "Decrypt",
-        "published_on": 1788879884
+        "title": "The Sandbox, Cronos move on from hacks as researchers urged to report bug responsibly",
+        "url": "https://www.cryptopolitan.com/sandbox-opens-payouts-cronos-recovers/",
+        "source": "Cryptopolitan",
+        "published_on": 1788894331
       },
       {
-        "title": "Ethereum (ETH) Exchange Reserves Slide to 14.9M ETH From 21M 2025 Peak",
-        "url": "https://en.coinotag.com/ethereum-eth-exchange-reserves-14-9m",
-        "source": "CoinOtag",
-        "published_on": 1788879342
-      },
-      {
-        "title": "What Are Whales Doing as Bitcoin (BTC) Drops Below $80,000? Here Are the Altcoins They’re Trading…",
-        "url": "https://en.bitcoinsistemi.com/what-are-whales-doing-as-bitcoin-btc-drops-below-80-000-here-are-the-altcoins-they-re-trading/",
+        "title": "Tom Lee Announced That He Had Purchased a Large Amount of Ethereum (ETH)",
+        "url": "https://en.bitcoinsistemi.com/tom-lee-announced-that-he-had-purchased-a-large-amount-of-ethereum-eth/",
         "source": "BitcoinSistemi",
-        "published_on": 1788878769
+        "published_on": 1788889447
+      },
+      {
+        "title": "Bitmine Immersion Technologies (BMNR) Announces ETH Holdings Reach 5.93 Million Tokens, and Total Crypto and Total Cash Holdings of $15.7 Billion",
+        "url": "https://bitcoinworld.co.in/bitmine-immersion-technologies-bmnr-announces-eth-holdings-reach-5-93-million-tokens-and-total-crypto-and-total-cash-holdings-of-15-7-billion/",
+        "source": "Bitcoin World",
+        "published_on": 1788888237
       }
     ],
     "SOL": [
+      {
+        "title": "A List of the Altcoins with the Highest Number of Users in the Past Week Has Been Released",
+        "url": "https://en.bitcoinsistemi.com/a-list-of-the-altcoins-with-the-highest-number-of-users-in-the-past-week-has-been-released/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788895870
+      },
+      {
+        "title": "Best 5 Altcoins to Buy 2026: Privacy Cryptos ZCash and Monero Battle as MemeToro Launches Open-Source Agent Framework",
+        "url": "https://en.bitcoinsistemi.com/best-5-altcoins-to-buy-2026-privacy-cryptos-zcash-and-monero-battle-as-memetoro-launches-open-source-agent-framework/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788894015
+      },
+      {
+        "title": "Solana triples transaction size to 4,096 bytes with mainnet V1 launch",
+        "url": "https://www.cryptopolitan.com/solana-transaction-v1-4096-byte-limit/",
+        "source": "Cryptopolitan",
+        "published_on": 1788891618
+      },
       {
         "title": "SOL Price Eyes $150 as Whale Buys $28.82M",
         "url": "https://coinpedia.org/news/sol-price-eyes-150-as-whale-buys-28-82m/",
@@ -95,100 +113,82 @@
         "url": "https://invezz.com/news/2026/09/08/solana-tests-100-as-whale-traders-bet-on-a-rebound/",
         "source": "Invezz",
         "published_on": 1788877170
-      },
-      {
-        "title": "Solana trades above $105 as traders eye $115–$116 breakout, $248 target",
-        "url": "https://en.coin-turk.com/solana-trades-above-105-as-traders-eye-115-116-breakout-248-target/?utm_source=rss&utm_medium=rss&utm_campaign=solana-trades-above-105-as-traders-eye-115-116-breakout-248-target",
-        "source": "CoinTurk News",
-        "published_on": 1788872773
-      },
-      {
-        "title": "Solana to Raise Transaction Size Limit to 4,096 Bytes September 9",
-        "url": "https://coinpaprika.com/news/solana-raise-transaction-size-limit-4096",
-        "source": "Coinpaprika",
-        "published_on": 1788872400
-      },
-      {
-        "title": "Solana Price Prediction: Can SOL Turn This Rebound Into a Rally?",
-        "url": "https://coinpaper.com/35469/solana-price-prediction-can-sol-turn-this-rebound-into-a-rally",
-        "source": "Coinpaper",
-        "published_on": 1788870381
       }
     ],
     "XRP": [
       {
-        "title": "Finance Expert to XRP Holders: It’s Not Over Yet. Here’s why",
-        "url": "https://timestabloid.com/finance-expert-to-xrp-holders-its-not-over-yet-heres-why/",
+        "title": "Biggest XRP Myth Shattered by Top Crypto Asset Manager",
+        "url": "https://u.today/biggest-xrp-myth-shattered-by-top-crypto-asset-manager",
+        "source": "U.Today",
+        "published_on": 1788898522
+      },
+      {
+        "title": "Top Trader: XRP Is Ready to Fly. $10 Is Definitely Not a Dream",
+        "url": "https://timestabloid.com/top-trader-xrp-is-ready-to-fly-10-is-definitely-not-a-dream/",
         "source": "TimesTabloid",
-        "published_on": 1788886833
+        "published_on": 1788897615
       },
       {
-        "title": "RWA tokenization takes off as holders top 3.5M for the first time",
-        "url": "https://seekingalpha.com/news/4640867-rwa-tokenization-takes-off-as-holders-top-35m-for-the-first-time?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
-        "source": "Seeking Alpha",
-        "published_on": 1788883667
+        "title": "GOP Senators Warn XRP (XRP)-Defining CLARITY Act Faces Just 15% Passage Odds",
+        "url": "https://en.coinotag.com/gop-senators-warn-xrp-clarity-act-faces-15-passage-odds",
+        "source": "CoinOtag",
+        "published_on": 1788896281
       },
       {
-        "title": "Ripple CEO highlights central banks as key XRP customers",
-        "url": "https://en.coin-turk.com/ripple-ceo-highlights-central-banks-as-key-xrp-customers/?utm_source=rss&utm_medium=rss&utm_campaign=ripple-ceo-highlights-central-banks-as-key-xrp-customers",
+        "title": "BIS uses XRP Ledger for blockchain proof of concept, Ripple CEO comments",
+        "url": "https://en.coin-turk.com/bis-uses-xrp-ledger-for-blockchain-proof-of-concept-ripple-ceo-comments/?utm_source=rss&utm_medium=rss&utm_campaign=bis-uses-xrp-ledger-for-blockchain-proof-of-concept-ripple-ceo-comments",
         "source": "CoinTurk News",
-        "published_on": 1788883271
+        "published_on": 1788895814
       },
       {
-        "title": "XRP Weekly Supertrend Just Flipped Green. Here’s What Is Next",
-        "url": "https://timestabloid.com/xrp-weekly-supertrend-just-flipped-green-heres-what-is-next/",
+        "title": "Finance Coach to XRP Army: Something Big Is Happening Behind the Scenes",
+        "url": "https://timestabloid.com/finance-coach-to-xrp-army-something-big-is-happening-behind-the-scenes/",
         "source": "TimesTabloid",
-        "published_on": 1788883231
+        "published_on": 1788894031
       },
       {
-        "title": "XRP Price Prediction: Analyst Makes Crazy $60 Ripple Prediction",
-        "url": "https://cryptonews.com/news/xrp-price-prediction-60-target-2/",
-        "source": "cryptonews",
-        "published_on": 1788883200
-      },
-      {
-        "title": "Bitcoin Price Holds Near $80K as XRP Eyes $1.50 Ahead of Sept. 11 Test",
-        "url": "https://news.bitcoin.com/market-updates/bitcoin-price-holds-near-80k-as-xrp-eyes-1-50-ahead-of-sept-11-test/",
-        "source": "Bitcoin.com",
-        "published_on": 1788881422
+        "title": "XRP analyst warns of bearish MACD death cross, highlights $1.30 and $1.40 levels",
+        "url": "https://en.coin-turk.com/xrp-analyst-warns-of-bearish-macd-death-cross-highlights-1-30-and-1-40-levels/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-analyst-warns-of-bearish-macd-death-cross-highlights-1-30-and-1-40-levels",
+        "source": "CoinTurk News",
+        "published_on": 1788892452
       }
     ],
     "BNB": [
       {
-        "title": "Finance Expert to XRP Holders: It’s Not Over Yet. Here’s why",
-        "url": "https://timestabloid.com/finance-expert-to-xrp-holders-its-not-over-yet-heres-why/",
-        "source": "TimesTabloid",
-        "published_on": 1788886833
-      },
-      {
-        "title": "Shiba Inu burn rate jumps 1,307% as 46.25 million SHIB removed in 24 hours",
-        "url": "https://en.coin-turk.com/shiba-inu-burn-rate-jumps-1307yuzde-as-46-25-million-shib-removed-in-24-hours/?utm_source=rss&utm_medium=rss&utm_campaign=shiba-inu-burn-rate-jumps-1307yuzde-as-46-25-million-shib-removed-in-24-hours",
+        "title": "HYPE price drops 2% to $83.65 as Hyperliquid burns $1.32 million HYPE",
+        "url": "https://en.coin-turk.com/hype-price-drops-2yuzde-to-83-65-as-hyperliquid-burns-1-32-million-hype/?utm_source=rss&utm_medium=rss&utm_campaign=hype-price-drops-2yuzde-to-83-65-as-hyperliquid-burns-1-32-million-hype",
         "source": "CoinTurk News",
-        "published_on": 1788885971
+        "published_on": 1788899534
       },
       {
-        "title": "Bitcoin falls below $78,000 as oil soars to $95 on Middle East tensions",
-        "url": "https://en.coin-turk.com/bitcoin-falls-below-78000-as-oil-soars-to-95-on-middle-east-tensions/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-falls-below-78000-as-oil-soars-to-95-on-middle-east-tensions",
-        "source": "CoinTurk News",
-        "published_on": 1788885311
+        "title": "From 13,390 BTC to 518 BTC: Bhutan Continues Offloading Bitcoin",
+        "url": "https://zycrypto.com/from-13390-btc-to-518-btc-bhutan-continues-offloading-bitcoin/",
+        "source": "ZyCrypto",
+        "published_on": 1788899410
       },
       {
-        "title": "SOL Price Eyes $150 as Whale Buys $28.82M",
-        "url": "https://coinpedia.org/news/sol-price-eyes-150-as-whale-buys-28-82m/",
-        "source": "coinpedia",
-        "published_on": 1788885267
+        "title": "Introducing kHYPE",
+        "url": "https://blog.kraken.com/product/new-features/introducing-khype",
+        "source": "Kraken Blog",
+        "published_on": 1788899356
       },
       {
-        "title": "Visa triples stablecoin card programs, partners with Credit Coop for onchain lending",
-        "url": "https://en.coin-turk.com/visa-triples-stablecoin-card-programs-partners-with-credit-coop-for-onchain-lending/?utm_source=rss&utm_medium=rss&utm_campaign=visa-triples-stablecoin-card-programs-partners-with-credit-coop-for-onchain-lending",
-        "source": "CoinTurk News",
-        "published_on": 1788884831
+        "title": "Block applies to establish non-deposit-taking national trust bank",
+        "url": "https://seekingalpha.com/news/4640959-block-applies-to-establish-non-deposit-taking-national-trust-bank?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+        "source": "Seeking Alpha",
+        "published_on": 1788898919
       },
       {
-        "title": "Why Qualcomm is outperforming the rest of the market today?",
-        "url": "https://www.cryptopolitan.com/why-is-qualcomm-the-best-performing-stock/",
-        "source": "Cryptopolitan",
-        "published_on": 1788884271
+        "title": "Bitmine Adds 28,086 ETH as Ethereum Treasury Hits $14.8B",
+        "url": "https://news.bitcoin.com/altcoins/bitmine-adds-28086-eth-as-ethereum-treasury-hits-14-8b/",
+        "source": "Bitcoin.com",
+        "published_on": 1788898788
+      },
+      {
+        "title": "DBS and Citi Settle 24/7 Cross-Border Dollar Payment on SWIFT’s Ledger",
+        "url": "https://cryptopotato.com/dbs-and-citi-settle-24-7-cross-border-dollar-payment-on-swifts-ledger/",
+        "source": "Crypto Potato",
+        "published_on": 1788898682
       }
     ],
     "USDT": []
