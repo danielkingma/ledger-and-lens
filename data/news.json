@@ -1,196 +1,233 @@
 {
-  "generated_at": "2026-09-08T07:44:58.958Z",
+  "generated_at": "2026-09-08T12:33:54.611Z",
   "coins": {
     "BTC": [
       {
-        "title": "Liquid Gets 3,400 BTC Back – but What About the 598 Bitcoin Still Missing?",
-        "url": "https://cryptopotato.com/liquid-gets-3400-btc-back-but-what-about-the-598-bitcoin-still-missing/",
+        "title": "Bitcoin falls as Fed rate hike bets rise, but on track for three-week win streak",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rallies-past-81k-as-rate-hike-fears-cool-regulatory-hopes-grow-4888849",
+        "source": "Investing.com Crypto News",
+        "published_on": 1788870641
+      },
+      {
+        "title": "Strive Adds More Bitcoin as Total Holdings Rise Above 24,500 BTC",
+        "url": "https://cryptopotato.com/strive-adds-more-bitcoin-as-total-holdings-rise-above-24500-btc/",
         "source": "Crypto Potato",
-        "published_on": 1788852835
+        "published_on": 1788870268
       },
       {
-        "title": "Bitcoin’s Price Action Has Three Dates Left to Escape the $80,000 Ceiling",
-        "url": "https://news.bitcoin.com/crypto-news/bitcoin-price-80k-fomc-cpi-jobless-claims-september-2026/",
-        "source": "Bitcoin.com",
-        "published_on": 1788852623
+        "title": "Bitcoin Price Prediction: Is a Move Back Above $90,000 Coming Next?",
+        "url": "https://coinpaper.com/35465/bitcoin-price-prediction-is-a-move-back-above-90000-coming-next",
+        "source": "Coinpaper",
+        "published_on": 1788870060
       },
       {
-        "title": "Japan's San-in Godo Bank Targets Fiscal 2026 Digital Bond in Bitcoin (BTC) Tokenization Push",
-        "url": "https://en.coinotag.com/san-in-godo-bank-digital-bond-fiscal-2026-securitize",
-        "source": "CoinOtag",
-        "published_on": 1788852020
+        "title": "No Bitcoin for Strategy This Week as Focus Remains on STRC Buybacks",
+        "url": "https://cryptopotato.com/no-bitcoin-for-strategy-this-week-as-focus-remains-on-strc-buybacks/",
+        "source": "Crypto Potato",
+        "published_on": 1788869842
       },
       {
-        "title": "Bitcoin hovers above $77,500 support as bears press: Live levels",
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-775k822k-range-live-levels-93CH-4890481",
-        "source": "Investing.com Crypto News",
-        "published_on": 1788851802
+        "title": "Zcash (ZEC) Rockets 2,200% as Privacy Coins Become Crypto’s Biggest Outlier",
+        "url": "https://cryptopotato.com/zcash-zec-rockets-2200-as-privacy-coins-become-cryptos-biggest-outlier/",
+        "source": "Crypto Potato",
+        "published_on": 1788869128
       },
       {
-        "title": "Bitcoin slips below $80k as Fed hike bets, oil surge weigh",
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-slips-below-80k-as-fed-hike-bets-oil-surge-weigh-4890363",
-        "source": "Investing.com Crypto News",
-        "published_on": 1788851474
-      },
-      {
-        "title": "Bitcoin consolidates near $79,955 with overbought signals: Live levels",
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-consolidates-at-76200-support-live-levels-93CH-4882214",
-        "source": "Investing.com Crypto News",
-        "published_on": 1788851321
+        "title": "Liquid Network gets 3,400 Bitcoin back: Attackers keep 15% as unofficial bounty",
+        "url": "https://ambcrypto.com/liquid-network-gets-3400-bitcoin-back-attackers-keep-15-as-unofficial-bounty/",
+        "source": "AMB Crypto",
+        "published_on": 1788868803
       }
     ],
     "ETH": [
       {
-        "title": "Tron Founder Justin Sun Withdraws Thousands of ETH from Ethereum Staking Platform Lido! Here Are the Details",
-        "url": "https://en.bitcoinsistemi.com/tron-founder-justin-sun-withdraws-thousands-of-eth-from-ethereum-staking-platform-lido-here-are-the/",
+        "title": "Best Meme Coin to Buy? Apeing Goes LIVE With Stage 1 “Banana Drop” as Baby Doge Coin and Official Trump Make Headlines",
+        "url": "https://en.bitcoinsistemi.com/best-meme-coin-to-buy-apeing-goes-live-with-stage-1-banana-drop-as-baby-doge-coin-and-official-trump-make-headlines/",
         "source": "BitcoinSistemi",
-        "published_on": 1788852131
+        "published_on": 1788869719
       },
       {
-        "title": "Ethereum Foundation Targets Quantum-Resistant L1 for 2029",
-        "url": "https://u.today/ethereum-foundation-targets-quantum-resistant-l1-for-2029",
+        "title": "$700 Million in Ethereum (ETH) Bridged to Robinhood Chain as Activity Jumps 150%",
+        "url": "https://u.today/700-million-in-ethereum-eth-bridged-to-robinhood-chain-as-activity-jumps-150",
         "source": "U.Today",
-        "published_on": 1788851925
+        "published_on": 1788869671
       },
       {
-        "title": "Harmony Plans to Shut Down Layer 1 and Move ONE to Ethereum",
-        "url": "https://cryptodaily.co.uk/2026/09/harmony-layer-1-shutdown-one-ethereum-migration",
-        "source": "Crypto Daily",
-        "published_on": 1788850870
+        "title": "XRP Healthcare disables XRPH Wallet after $452,000 security breach hits 4,011 users",
+        "url": "https://en.coin-turk.com/xrp-healthcare-disables-xrph-wallet-after-452000-security-breach-hits-4011-users/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-healthcare-disables-xrph-wallet-after-452000-security-breach-hits-4011-users",
+        "source": "CoinTurk News",
+        "published_on": 1788869411
       },
       {
-        "title": "Ethereum Aims for Quantum-Safe L1 by 2029 as Hegotá Upgrade Takes Form",
-        "url": "https://cryptopotato.com/ethereum-aims-for-quantum-safe-l1-by-2029-as-hegota-upgrade-takes-form/",
-        "source": "Crypto Potato",
-        "published_on": 1788849319
+        "title": "Ethereum News: Frame Transactions Join Ethereum’s 2027 Upgrade Roadmap",
+        "url": "https://cryptonews.com/news/ethereum-news-eip-8141-frame-transactions/",
+        "source": "cryptonews",
+        "published_on": 1788869374
       },
       {
-        "title": "Ethereum Commits to Gas Payments Without ETH Through Hegotá Frame Transactions",
-        "url": "https://bitzo.com/2026/09/ethereum-hegota-frame-transactions-eth-free-gas-payments",
+        "title": "Harmony Proposes Shutting Down Its Layer 1 and Moving ONE to Ethereum",
+        "url": "https://bitzo.com/2026/09/harmony-layer-1-shutdown-one-ethereum-migration",
         "source": "Bitzo",
-        "published_on": 1788848815
+        "published_on": 1788866394
       },
       {
-        "title": "Why is Ethereum stuck below $2,500 even as ETF inflows stay strong?",
-        "url": "https://invezz.com/news/2026/09/08/why-is-ethereum-stuck-below-2500-even-as-etf-inflows-stay-strong/",
-        "source": "Invezz",
-        "published_on": 1788846873
+        "title": "Ethereum exchange reserves fall to a fresh multi-year low – is an ETH price explosion next?",
+        "url": "https://finbold.com/ethereum-exchange-reserves-fall-to-a-fresh-multi-year-low-is-eth-price-explosion-next/",
+        "source": "Finbold",
+        "published_on": 1788866359
       }
     ],
     "SOL": [
       {
-        "title": "Jupiter Mobile Adds Physical Pokémon Card Ripping Feature",
-        "url": "https://news.bitcoin.com/defi/jupiter-mobile-adds-physical-pokemon-card-ripping-feature/",
-        "source": "Bitcoin.com",
-        "published_on": 1788846608
+        "title": "Solana Price Prediction: Can SOL Turn This Rebound Into a Rally?",
+        "url": "https://coinpaper.com/35469/solana-price-prediction-can-sol-turn-this-rebound-into-a-rally",
+        "source": "Coinpaper",
+        "published_on": 1788870381
       },
       {
-        "title": "Best Crypto to Explode? SOL Price Prediction Points to $120 as Apeing’s Upcoming Crypto Presale Launch Is Just 1 Day Away",
-        "url": "https://timestabloid.com/best-crypto-to-explode-sol-price-prediction-points-to-120/",
-        "source": "TimesTabloid",
-        "published_on": 1788841818
+        "title": "Solana to expand max transaction size by 3.3x with September 9 upgrade",
+        "url": "https://en.coin-turk.com/solana-to-expand-max-transaction-size-by-3-3x-with-september-9-upgrade/?utm_source=rss&utm_medium=rss&utm_campaign=solana-to-expand-max-transaction-size-by-3-3x-with-september-9-upgrade",
+        "source": "CoinTurk News",
+        "published_on": 1788867491
       },
       {
-        "title": "Sunrise Brings Dogecoin to Solana (SOL) via Wormhole NTT With Canonical Mint",
-        "url": "https://en.coinotag.com/sunrise-brings-dogecoin-to-solana-canonical-ntt",
+        "title": "Machi Big Brother Promotes S3 Meme Coin Claiming Hyperliquid (HYPE) Dividend Payouts",
+        "url": "https://en.coinotag.com/machi-big-brother-s3-meme-coin-hyperliquid-hype-dividends",
         "source": "CoinOtag",
-        "published_on": 1788839822
+        "published_on": 1788866042
       },
       {
-        "title": "Solana Pulls In $348M In 30-Day RWA Inflows",
-        "url": "https://bitcoinist.com/solana-pulls-in-348m-in-30-day-rwa-inflows/",
-        "source": "Bitcoinist",
-        "published_on": 1788830100
+        "title": "Solana (SOL) to Triple Transaction Size as Major Upgrade Goes Live",
+        "url": "https://u.today/solana-sol-to-triple-transaction-size-as-major-upgrade-goes-live",
+        "source": "U.Today",
+        "published_on": 1788863100
       },
       {
-        "title": "Looking for Top 12 Coins? Traders Hunt the Next Big Crypto as Apeing’s September 8 Presale Approaches",
-        "url": "https://timestabloid.com/looking-for-top-12-coins-traders-hunt-the-next-big-crypto/",
-        "source": "TimesTabloid",
-        "published_on": 1788819344
+        "title": "Solana records $348 million in RWA inflows, total tokenized assets reach $720 million",
+        "url": "https://en.coin-turk.com/solana-records-348-million-in-rwa-inflows-total-tokenized-assets-reach-720-million/?utm_source=rss&utm_medium=rss&utm_campaign=solana-records-348-million-in-rwa-inflows-total-tokenized-assets-reach-720-million",
+        "source": "CoinTurk News",
+        "published_on": 1788861431
       },
       {
-        "title": "ChatGPT Sees Solana (SOL) at $165 by January 2027 if ETF Flows Rebound",
-        "url": "https://en.coinotag.com/chatgpt-solana-price-prediction-165-january-2027",
-        "source": "CoinOtag",
-        "published_on": 1788818239
+        "title": "Solana to Triple Transaction Size to 4,096 Bytes With Transaction v1",
+        "url": "https://cryptodaily.co.uk/2026/09/solana-transaction-v1-4096-byte-limit",
+        "source": "Crypto Daily",
+        "published_on": 1788855175
       }
     ],
     "XRP": [
       {
-        "title": "500 Million XRP Vanish From Binance as Investors Double Down on Price Surge",
-        "url": "https://zycrypto.com/500-million-xrp-vanish-from-binance-as-investors-double-down-on-price-surge/",
-        "source": "ZyCrypto",
-        "published_on": 1788852297
+        "title": "XRP wallets holding 1 million or more classified as ‘Whale Territory’ in updated rankings",
+        "url": "https://en.coin-turk.com/xrp-wallets-holding-1-million-or-more-classified-as-whale-territory-in-updated-rankings/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-wallets-holding-1-million-or-more-classified-as-whale-territory-in-updated-rankings",
+        "source": "CoinTurk News",
+        "published_on": 1788870071
       },
       {
-        "title": "XRP Holders Put on Notice as Media Personality Warns of Potential US Seizure: Details",
-        "url": "https://zycrypto.com/xrp-holders-put-on-notice-as-media-personality-warns-of-potential-us-seizure-details/",
-        "source": "ZyCrypto",
-        "published_on": 1788851740
+        "title": "Ripple's Veteran Schwartz Discloses Private XRP Ledger Hub Health After Network-Wide Attack",
+        "url": "https://u.today/ripples-veteran-schwartz-discloses-private-xrp-ledger-hub-health-after-network-wide-attack",
+        "source": "U.Today",
+        "published_on": 1788869445
       },
       {
-        "title": "Ethereum Classic (ETC) Price Prediction 2026, 2027-2030: Forecast, Targets & Future Outlook",
-        "url": "https://coinpedia.org/price-prediction/etc-ethereum-classic-price-prediction/",
-        "source": "coinpedia",
-        "published_on": 1788851004
+        "title": "XRP Healthcare disables XRPH Wallet after $452,000 security breach hits 4,011 users",
+        "url": "https://en.coin-turk.com/xrp-healthcare-disables-xrph-wallet-after-452000-security-breach-hits-4011-users/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-healthcare-disables-xrph-wallet-after-452000-security-breach-hits-4011-users",
+        "source": "CoinTurk News",
+        "published_on": 1788869411
       },
       {
-        "title": "XRP on the Field of a Football Game In Florida. Here’s What Happened",
-        "url": "https://timestabloid.com/xrp-on-the-field-of-a-football-game-in-florida-heres-what-happened/",
+        "title": "XRP Wealth Rankings Update. See Where You Stand",
+        "url": "https://timestabloid.com/xrp-wealth-rankings-update-see-where-you-stand/",
         "source": "TimesTabloid",
-        "published_on": 1788850840
+        "published_on": 1788868813
       },
       {
-        "title": "XRP trades near $1.40 as analysts watch $1.39 support and $2.30 target",
-        "url": "https://en.coin-turk.com/xrp-trades-near-1-40-as-analysts-watch-1-39-support-and-2-30-target/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-trades-near-1-40-as-analysts-watch-1-39-support-and-2-30-target",
+        "title": "XRP Avengers claims holding 10,000 XRP could yield $1 million, community reacts",
+        "url": "https://en.coin-turk.com/xrp-avengers-claims-holding-10000-xrp-could-yield-1-million-community-reacts/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-avengers-claims-holding-10000-xrp-could-yield-1-million-community-reacts",
         "source": "CoinTurk News",
-        "published_on": 1788850814
+        "published_on": 1788868151
       },
       {
-        "title": "XRP analyst projects next macro expansion could reach $14.77 target",
-        "url": "https://en.coin-turk.com/xrp-analyst-projects-next-macro-expansion-could-reach-14-77-target/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-analyst-projects-next-macro-expansion-could-reach-14-77-target",
-        "source": "CoinTurk News",
-        "published_on": 1788848954
+        "title": "ChatGPT AI Sets $2.50 Base Case for XRP (XRP) by End of 2026",
+        "url": "https://en.coinotag.com/chatgpt-ai-xrp-price-prediction-2-50-base-case-2026",
+        "source": "CoinOtag",
+        "published_on": 1788867829
       }
     ],
     "BNB": [
       {
-        "title": "Liquid Gets 3,400 BTC Back – but What About the 598 Bitcoin Still Missing?",
-        "url": "https://cryptopotato.com/liquid-gets-3400-btc-back-but-what-about-the-598-bitcoin-still-missing/",
+        "title": "Bitcoin falls as Fed rate hike bets rise, but on track for three-week win streak",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rallies-past-81k-as-rate-hike-fears-cool-regulatory-hopes-grow-4888849",
+        "source": "Investing.com Crypto News",
+        "published_on": 1788870641
+      },
+      {
+        "title": "Strategy doubles digital credit securities repurchase program to $2B",
+        "url": "https://www.investing.com/news/cryptocurrency-news/strategy-doubles-digital-credit-securities-repurchase-program-to-2b-432SI-4891577",
+        "source": "Investing.com Crypto News",
+        "published_on": 1788870478
+      },
+      {
+        "title": "Tungstenum accelerates the development of its fintech infrastructure and evaluates a seed round",
+        "url": "https://timestabloid.com/tungstenum-accelerates-the-development-of-its-fintech-infrastructure/",
+        "source": "TimesTabloid",
+        "published_on": 1788870423
+      },
+      {
+        "title": "Bullish August trading volume rises 38% M/M as crypto volatility eases",
+        "url": "https://seekingalpha.com/news/4640680-bullish-august-trading-volume-rises-38-mm-as-crypto-volatility-eases?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+        "source": "Seeking Alpha",
+        "published_on": 1788870372
+      },
+      {
+        "title": "Strive Adds More Bitcoin as Total Holdings Rise Above 24,500 BTC",
+        "url": "https://cryptopotato.com/strive-adds-more-bitcoin-as-total-holdings-rise-above-24500-btc/",
         "source": "Crypto Potato",
-        "published_on": 1788852835
+        "published_on": 1788870268
       },
       {
-        "title": "Arthur Hayes' FLOP Token Spec Details 2.48B Genesis Supply With 75% Miner Rewards",
-        "url": "https://en.coinotag.com/arthur-hayes-flop-token-spec-2-48b-supply-miner-rewards",
-        "source": "CoinOtag",
-        "published_on": 1788852681
-      },
-      {
-        "title": "Bitcoin’s Price Action Has Three Dates Left to Escape the $80,000 Ceiling",
-        "url": "https://news.bitcoin.com/crypto-news/bitcoin-price-80k-fomc-cpi-jobless-claims-september-2026/",
-        "source": "Bitcoin.com",
-        "published_on": 1788852623
-      },
-      {
-        "title": "CZ bets on-chain IPOs could disrupt Wall Street",
-        "url": "https://www.cryptopolitan.com/cz-says-ipos-will-move-on-chain/",
-        "source": "Cryptopolitan",
-        "published_on": 1788852500
-      },
-      {
-        "title": "500 Million XRP Vanish From Binance as Investors Double Down on Price Surge",
-        "url": "https://zycrypto.com/500-million-xrp-vanish-from-binance-as-investors-double-down-on-price-surge/",
-        "source": "ZyCrypto",
-        "published_on": 1788852297
-      },
-      {
-        "title": "Tron Founder Justin Sun Withdraws Thousands of ETH from Ethereum Staking Platform Lido! Here Are the Details",
-        "url": "https://en.bitcoinsistemi.com/tron-founder-justin-sun-withdraws-thousands-of-eth-from-ethereum-staking-platform-lido-here-are-the/",
-        "source": "BitcoinSistemi",
-        "published_on": 1788852131
+        "title": "Why Is Oracle Stock Surging Ahead of Thursday’s Earnings?",
+        "url": "https://coinpaper.com/35467/why-is-oracle-stock-surging-ahead-of-thursdays-earnings",
+        "source": "Coinpaper",
+        "published_on": 1788870124
       }
     ],
-    "USDT": []
+    "USDT": [
+      {
+        "title": "HTX Releases August Performance Report: 13th Anniversary Celebration Ignites Global User Engagement",
+        "url": "https://square.htx.com/htx-releases-august-performance-report-13th-anniversary-celebration-ignites-global-user-engagement/",
+        "source": "Huobi blog",
+        "published_on": 1788869268
+      },
+      {
+        "title": "Upbit Lists CP, HEMI and USELESS Across KRW, BTC and USDT Markets",
+        "url": "https://coinpedia.org/news/upbit-lists-cp-hemi-and-useless-across-krw-btc-and-usdt-markets/",
+        "source": "coinpedia",
+        "published_on": 1788867499
+      },
+      {
+        "title": "Indians Use Crypto to Buy Groceries, Fuel and Gold via Overseas Gift Cards",
+        "url": "https://coinpedia.org/crypto-live-news/indians-use-crypto-to-buy-groceries-fuel-and-gold-via-overseas-gift-cards/",
+        "source": "coinpedia",
+        "published_on": 1788862169
+      },
+      {
+        "title": "Tether CEO Paolo Ardoino Reveals the Company Continues to Accumulate Bitcoin (BTC) and Gold! Here’s Why",
+        "url": "https://en.bitcoinsistemi.com/tether-ceo-paolo-ardoino-reveals-the-company-continues-to-accumulate-bitcoin-btc-and-gold-here-s-why/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788856927
+      },
+      {
+        "title": "Tether Wins a Rating Upgrade, but $91 Billion Sits Behind Two Keys",
+        "url": "https://coinpaprika.com/news/tether-rating-upgrade-91-billion-two-keys",
+        "source": "Coinpaprika",
+        "published_on": 1788850800
+      },
+      {
+        "title": "XLM (XLM) Holds Below $0.20 as USDT0 Goes Live on Stellar",
+        "url": "https://en.coinotag.com/xlm-holds-below-020-as-usdt0-goes-live-on-stellar",
+        "source": "CoinOtag",
+        "published_on": 1788832761
+      }
+    ]
   }
 }
