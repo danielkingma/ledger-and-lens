@@ -1,45 +1,69 @@
 {
-  "generated_at": "2026-09-07T23:15:12.862Z",
+  "generated_at": "2026-09-08T02:44:36.799Z",
   "coins": {
     "BTC": [
       {
-        "title": "Liquid recovers 3,400 BTC, but its peg-out gap exposes bridge accounting risk",
-        "url": "https://www.cryptopolitan.com/liquid-recovers-3400-btc-exposes-bridge-risk/",
-        "source": "Cryptopolitan",
-        "published_on": 1788822420
-      },
-      {
-        "title": "Capital B Buys 376 Bitcoin for $29.4M as Treasury Grows to 3,521 BTC",
-        "url": "https://news.bitcoin.com/finance/capital-b-buys-376-bitcoin-for-29-4m-as-treasury-grows-to-3521-btc/",
+        "title": "Man Reclaims $4.4M in Bitcoin 12 Years After Exchange Collapse",
+        "url": "https://news.bitcoin.com/crypto-news/man-reclaims-4-4m-in-bitcoin-12-years-after-exchange-collapse/",
         "source": "Bitcoin.com",
-        "published_on": 1788822312
+        "published_on": 1788834655
       },
       {
-        "title": "Liquid Network recovers 3,400 BTC, white hats retain $48 million fee",
-        "url": "https://en.coin-turk.com/liquid-network-recovers-3400-btc-white-hats-retain-48-million-fee/?utm_source=rss&utm_medium=rss&utm_campaign=liquid-network-recovers-3400-btc-white-hats-retain-48-million-fee",
-        "source": "CoinTurk News",
-        "published_on": 1788820214
-      },
-      {
-        "title": "Cathie Wood Sees Bitcoin Price Breakthrough as Gold Link Strengthens",
-        "url": "https://news.bitcoin.com/opinion-and-analysis/cathie-wood-sees-bitcoin-price-breakthrough-as-gold-link-strengthens/",
+        "title": "Year-End Bitcoin Price Predictions Grow Cautious as Bettors Eye $81K",
+        "url": "https://news.bitcoin.com/price-predictions/year-end-bitcoin-price-predictions-grow-cautious-as-bettors-eye-81k/",
         "source": "Bitcoin.com",
-        "published_on": 1788818741
+        "published_on": 1788832210
       },
       {
-        "title": "XRPPower launches its global automated trading system, offering XRP and BTC holders plans targeting up to $3,000 daily",
-        "url": "https://timestabloid.com/xrppower-launches-its-global-automated-trading-system/",
-        "source": "TimesTabloid",
-        "published_on": 1788818431
-      },
-      {
-        "title": "Bitcoin (BTC) Passes Japan's ¥27.1 Trillion Yen-Defense Stress Test",
-        "url": "https://en.coinotag.com/bitcoin-japan-yen-defense-stress-test",
+        "title": "South Korea's FSC Boosts Bitcoin (BTC) Tracing Budget by 1.93 Billion Won",
+        "url": "https://en.coinotag.com/south-korea-fsc-bitcoin-tracing-budget-1-93-billion-won",
         "source": "CoinOtag",
-        "published_on": 1788817918
+        "published_on": 1788832182
+      },
+      {
+        "title": "Willy Woo Flags Bitcoin (BTC)'s Biggest Stock Divergence in Nearly a Decade",
+        "url": "https://en.coinotag.com/willy-woo-bitcoin-btc-stock-divergence-2015-echo",
+        "source": "CoinOtag",
+        "published_on": 1788831685
+      },
+      {
+        "title": "Bitcoin holds above $78,000, ETF inflows top $880 million in 7 days",
+        "url": "https://en.coin-turk.com/bitcoin-holds-above-78000-etf-inflows-top-880-million-in-7-days/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-holds-above-78000-etf-inflows-top-880-million-in-7-days",
+        "source": "CoinTurk News",
+        "published_on": 1788831071
+      },
+      {
+        "title": "Brazil's banks sell crypto to clients while keeping it off their books",
+        "url": "https://www.cryptopolitan.com/brazil-banks-sell-crypto-keeping-off-books/",
+        "source": "Cryptopolitan",
+        "published_on": 1788830134
       }
     ],
     "ETH": [
+      {
+        "title": "Bitcoin faces resistance at $81,000, while UNI and Ethereum show continued strength",
+        "url": "https://en.coin-turk.com/bitcoin-faces-resistance-at-81000-while-uni-and-ethereum-show-continued-strength/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-faces-resistance-at-81000-while-uni-and-ethereum-show-continued-strength",
+        "source": "CoinTurk News",
+        "published_on": 1788828671
+      },
+      {
+        "title": "Ethereum Foundation Targets Quantum-Resistant Ethereum (ETH) Layer-1 by December 2029",
+        "url": "https://en.coinotag.com/ethereum-foundation-quantum-resistant-layer-1-december-2029",
+        "source": "CoinOtag",
+        "published_on": 1788827533
+      },
+      {
+        "title": "Bitcoin, Uniswap (UNI), XRP and Ethereum (ETH) Price Analysis For September 8: Pivotal Level for the Market",
+        "url": "https://u.today/price-analysis/bitcoin-uniswap-uni-xrp-and-ethereum-eth-price-analysis-for-september-8-pivotal-level-for-the",
+        "source": "U.Today",
+        "published_on": 1788825660
+      },
+      {
+        "title": "Ethereum Foundation Locks Two Must-Ship EIPs Into Ethereum (ETH) Hegotá",
+        "url": "https://en.coinotag.com/ethereum-foundation-two-must-ship-eips-hegota-upgrade",
+        "source": "CoinOtag",
+        "published_on": 1788823280
+      },
       {
         "title": "Harmony proposes sunsetting its layer-1 blockchain and reissuing ONE token on Ethereum",
         "url": "https://www.cryptopolitan.com/harmony-to-abandon-its-blockchain-citing-the-security-cost-of-standing-alone/",
@@ -47,37 +71,19 @@
         "published_on": 1788818505
       },
       {
-        "title": "Ethereum trapped in a range: Flipping $2,530 will clear the path to $3,000",
-        "url": "https://ambcrypto.com/ethereum-trapped-in-a-range-flipping-2530-will-clear-the-path-to-3000/",
-        "source": "AMB Crypto",
-        "published_on": 1788814805
-      },
-      {
-        "title": "Ethereum Foundation targets censorship resistance in Hegotá upgrade with 2 key EIPs",
-        "url": "https://en.coin-turk.com/ethereum-foundation-targets-censorship-resistance-in-hegota-upgrade-with-2-key-eips/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-foundation-targets-censorship-resistance-in-hegota-upgrade-with-2-key-eips",
-        "source": "CoinTurk News",
-        "published_on": 1788814512
-      },
-      {
-        "title": "Ethereum Foundation outlines Hegotá priorities with grades for all 62 EIP proposals",
-        "url": "https://www.cryptopolitan.com/ethereum-foundation-grades-hegota-eips/",
-        "source": "Cryptopolitan",
-        "published_on": 1788814206
-      },
-      {
-        "title": "Ethereum Foundation Flags EIP-7805 and EIP-8141 as Must-Ship for Ethereum (ETH) Hegotá",
-        "url": "https://en.coinotag.com/ethereum-foundation-must-ship-eips-hegota",
-        "source": "CoinOtag",
-        "published_on": 1788813920
-      },
-      {
-        "title": "Ethereum Foundation names 2 ‘must ship’ EIPs for Hegotá upgrade",
-        "url": "https://cointelegraph.com/news/ethereum-foundation-names-2-must-ship-eips-for-hegot-upgrade?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1788812491
+        "title": "Ethereum’s 2027 Upgrade Could Let Users Pay Gas Fees With Stablecoins",
+        "url": "https://coinedition.com/crypto-live-news/ethereums-2027-upgrade-could-let-users-pay-gas-fees-with-stablecoins/",
+        "source": "Coin Edition",
+        "published_on": 1788815680
       }
     ],
     "SOL": [
+      {
+        "title": "Solana Pulls In $348M In 30-Day RWA Inflows",
+        "url": "https://bitcoinist.com/solana-pulls-in-348m-in-30-day-rwa-inflows/",
+        "source": "Bitcoinist",
+        "published_on": 1788830100
+      },
       {
         "title": "Looking for Top 12 Coins? Traders Hunt the Next Big Crypto as Apeing’s September 8 Presale Approaches",
         "url": "https://timestabloid.com/looking-for-top-12-coins-traders-hunt-the-next-big-crypto/",
@@ -107,12 +113,6 @@
         "url": "https://www.forbes.com/sites/boazsobrado/2026/09/07/kraken-shock-cuts-solana-staking-yields-to-225-as-sol-holds-102/",
         "source": "Forbes Digital Assets",
         "published_on": 1788813032
-      },
-      {
-        "title": "Bitcoin trades at $79,105 as ETFs see $987 million inflow in three days",
-        "url": "https://en.coin-turk.com/bitcoin-trades-at-79105-as-etfs-see-987-million-inflow-in-three-days/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-trades-at-79105-as-etfs-see-987-million-inflow-in-three-days",
-        "source": "CoinTurk News",
-        "published_on": 1788807972
       }
     ],
     "XRP": [
@@ -155,79 +155,42 @@
     ],
     "BNB": [
       {
-        "title": "Liquid recovers 3,400 BTC, but its peg-out gap exposes bridge accounting risk",
-        "url": "https://www.cryptopolitan.com/liquid-recovers-3400-btc-exposes-bridge-risk/",
-        "source": "Cryptopolitan",
-        "published_on": 1788822420
-      },
-      {
-        "title": "Capital B Buys 376 Bitcoin for $29.4M as Treasury Grows to 3,521 BTC",
-        "url": "https://news.bitcoin.com/finance/capital-b-buys-376-bitcoin-for-29-4m-as-treasury-grows-to-3521-btc/",
+        "title": "Man Reclaims $4.4M in Bitcoin 12 Years After Exchange Collapse",
+        "url": "https://news.bitcoin.com/crypto-news/man-reclaims-4-4m-in-bitcoin-12-years-after-exchange-collapse/",
         "source": "Bitcoin.com",
-        "published_on": 1788822312
+        "published_on": 1788834655
       },
       {
-        "title": "Metaplanet CEO breaks silence but shareholders say the hard questions remain unanswered",
-        "url": "https://www.coindesk.com/markets/2026/09/08/metaplanet-ceo-breaks-silence-but-shareholders-say-the-hard-questions-remain-unanswered",
-        "source": "CoinDesk",
-        "published_on": 1788822060
+        "title": "WhatsApp lets five outside AI agents into chats, each unencrypted by design",
+        "url": "https://www.cryptopolitan.com/whatsapp-third-party-ai-agents/",
+        "source": "Cryptopolitan",
+        "published_on": 1788834501
       },
       {
-        "title": "Arbitrum gets 10% of Robinhood Chain revenue – Can it fuel ARB’s rally?",
-        "url": "https://ambcrypto.com/arbitrum-gets-10-of-robinhood-chain-revenue-can-it-fuel-arbs-rally/",
+        "title": "Could $100 Become $10,100? Apeing’s Presale Is Just 1 Day Away as Traders Race to Find the Meme Coins That Will Explode",
+        "url": "https://timestabloid.com/could-100-become-10100-apeings-presale-is-just-1-day/",
+        "source": "TimesTabloid",
+        "published_on": 1788833723
+      },
+      {
+        "title": "Worldcoin up 13% as AI coins awaken – Can WLD stay above $0.45?",
+        "url": "https://ambcrypto.com/worldcoin-up-13-as-ai-coins-awaken-can-wld-stay-above-0-45/",
         "source": "AMB Crypto",
-        "published_on": 1788822039
+        "published_on": 1788832824
       },
       {
-        "title": "Router Protocol To Shut Down And Burn 303M ROUTE Tokens",
-        "url": "https://bitcoinist.com/router-protocol-to-shut-down-and-burn-303m-route-tokens/",
-        "source": "Bitcoinist",
-        "published_on": 1788822000
-      },
-      {
-        "title": "Nvidia (NVDA) CEO Jensen Huang Says GPT-6 Astra Has Reached Human-Level AGI",
-        "url": "https://en.coinotag.com/nvidia-nvda-ceo-jensen-huang-gpt-6-astra-agi",
+        "title": "XLM (XLM) Holds Below $0.20 as USDT0 Goes Live on Stellar",
+        "url": "https://en.coinotag.com/xlm-holds-below-020-as-usdt0-goes-live-on-stellar",
         "source": "CoinOtag",
-        "published_on": 1788821015
+        "published_on": 1788832761
+      },
+      {
+        "title": "Year-End Bitcoin Price Predictions Grow Cautious as Bettors Eye $81K",
+        "url": "https://news.bitcoin.com/price-predictions/year-end-bitcoin-price-predictions-grow-cautious-as-bettors-eye-81k/",
+        "source": "Bitcoin.com",
+        "published_on": 1788832210
       }
     ],
-    "USDT": [
-      {
-        "title": "Tether Alloy Gold-Backed Reserves Cross $210M",
-        "url": "https://www.newsbtc.com/news/tether-alloy-gold-backed-reserves-cross-210m/",
-        "source": "NewsBTC",
-        "published_on": 1788813900
-      },
-      {
-        "title": "KuCoin launches KCUSD with yields up to 4%",
-        "url": "https://invezz.com/news/2026/09/07/kucoin-launches-kcusd-with-yields-up-to-4/",
-        "source": "Invezz",
-        "published_on": 1788787648
-      },
-      {
-        "title": "Here’s what happened in crypto today",
-        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1788785654
-      },
-      {
-        "title": "USDT Against BTC for Funding a Crypto Casino Balance",
-        "url": "https://bitzo.com/2026/09/usdt-against-btc-for-funding-a-crypto-casino-balance",
-        "source": "Bitzo",
-        "published_on": 1788783101
-      },
-      {
-        "title": "A two-key breach could hand control of $91 billion in USDT to hackers, report finds",
-        "url": "https://www.coindesk.com/tech/2026/09/04/tether-receives-bluechip-rating-upgrade-but-hacken-finds-major-key-security-gaps",
-        "source": "CoinDesk",
-        "published_on": 1788777323
-      },
-      {
-        "title": "Bank of Korea Research Links Tether (USDT) Demand to Local Currency Depreciation",
-        "url": "https://en.coinotag.com/bank-of-korea-research-links-tether-usdt-demand-to-currency-depreciation",
-        "source": "CoinOtag",
-        "published_on": 1788770073
-      }
-    ]
+    "USDT": []
   }
 }
