@@ -780,10 +780,23 @@
   }
 
   // ---------- News ----------
-  var newsCache = {}; // in-memory only, per page load
+  // Fetched server-side by the hourly GitHub Actions job into data/news.json.
+  // CryptoCompare's API doesn't allow browser requests directly (no CORS
+  // support) and now requires a private key, so this has to be read from
+  // our own snapshot rather than called live from the page.
+  var newsSnapshotPromise = null;
+  var NEWS_MAX_AGE_MS = 2 * 60 * 60 * 1000; // a bit above the hourly refresh, as a staleness buffer
+
+  function loadNewsSnapshot(){
+    if (newsSnapshotPromise) return newsSnapshotPromise;
+    newsSnapshotPromise = fetch('./data/news.json', { cache: 'no-store' })
+      .then(function(res){ if (!res.ok) throw new Error('no snapshot'); return res.json(); })
+      .catch(function(){ return null; });
+    return newsSnapshotPromise;
+  }
 
   function renderNews(items){
-    if (!items.length){
+    if (!items || !items.length){
       panelBody.innerHTML = '<div class="coin-status">No recent headlines found for this coin right now.</div>';
       return;
     }
@@ -792,36 +805,22 @@
       html +=
         '<div class="coin-news-item">' +
           '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>' +
-          '<div class="coin-news-meta">' + item.source + ' · ' + item.date + '</div>' +
+          '<div class="coin-news-meta">' + item.source + ' · ' + fmtDate(item.published_on) + '</div>' +
         '</div>';
     });
-    html += '</div><div class="coin-meta"><span>Headlines via CryptoCompare</span><span>Opens in a new tab</span></div>';
+    html += '</div><div class="coin-meta"><span>Headlines via CryptoCompare · updated hourly</span><span>Opens in a new tab</span></div>';
     panelBody.innerHTML = html;
   }
 
   function loadNews(id, symbol){
-    var cached = newsCache[symbol];
-    if (cached && (Date.now() - cached.time) < 15 * 60 * 1000){
-      renderNews(cached.items);
-      return;
-    }
-    fetch('https://min-api.cryptocompare.com/data/v2/news/?lang=EN&categories=' + encodeURIComponent(symbol))
-      .then(function(res){ if (!res.ok) throw new Error('bad response'); return res.json(); })
-      .then(function(data){
-        var items = (data.Data || []).slice(0, 6).map(function(a){
-          return {
-            title: a.title,
-            url: a.url,
-            source: a.source_info && a.source_info.name ? a.source_info.name : a.source,
-            date: fmtDate(a.published_on)
-          };
-        });
-        newsCache[symbol] = { time: Date.now(), items: items };
-        renderNews(items);
-      })
-      .catch(function(){
-        panelBody.innerHTML = '<div class="coin-status">The news feed isn\'t reachable right now — this usually clears up if you try again in a moment.</div>';
-      });
+    loadNewsSnapshot().then(function(snapshot){
+      if (!snapshot){
+        panelBody.innerHTML = '<div class="coin-status">The news feed isn\'t available right now — please try again shortly.</div>';
+        return;
+      }
+      var items = snapshot.coins && snapshot.coins[symbol];
+      renderNews(items);
+    });
   }
 
   // ---------- Panel open / tabs / close ----------
