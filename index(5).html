@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledger & Lens — Exchange picks and crypto explainers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --espresso:#1C130B;
+    --panel:#241809;
+    --panel-2:#2E1F0D;
+    --ivory:#F0E8D8;
+    --gold:#B8912F;
+    --gold-bright:#E8C766;
+    --bottle:#26382B;
+    --bottle-text:#B9CDB9;
+    --slate:#A6937D;
+    --line:rgba(240,232,216,0.14);
+    --maxw:1120px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation:none !important; transition:none !important;}
+  }
+
+  body{
+    margin:0;
+    background:
+      radial-gradient(ellipse at 15% 0%, rgba(184,145,47,0.07), transparent 55%),
+      var(--espresso);
+    color:var(--ivory);
+    font-family:"IBM Plex Sans", sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3{
+    font-family:"Fraunces", serif;
+    font-weight:500;
+    margin:0;
+    color:var(--ivory);
+    letter-spacing:-0.01em;
+  }
+
+  a{color:inherit;}
+  .num{font-family:"IBM Plex Mono", monospace;}
+  .label{
+    font-family:"Fraunces", serif;
+    font-style:italic;
+    font-weight:400;
+    color:var(--gold-bright);
+    font-size:0.95rem;
+  }
+
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 28px; }
+
+  /* ---------- nav ---------- */
+  nav{
+    position:sticky; top:0; z-index:30;
+    background:rgba(28,19,11,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  nav .wrap{ display:flex; align-items:center; justify-content:space-between; height:68px; }
+  .brand{ font-family:"Fraunces", serif; font-size:1.2rem; }
+  .brand span{ color:var(--gold-bright); }
+  .navlinks{ display:flex; gap:30px; font-size:0.92rem; }
+  .navlinks a{
+    text-decoration:none; color:var(--slate);
+    border-bottom:1px solid transparent; padding-bottom:2px;
+    transition:color 0.2s ease, border-color 0.2s ease;
+  }
+  .navlinks a:hover, .navlinks a:focus-visible{ color:var(--ivory); border-color:var(--gold); }
+  @media (max-width:680px){ .navlinks{ display:none; } }
+
+  /* ---------- hero ---------- */
+  .hero{ padding:100px 0 70px; border-bottom:1px solid var(--line); }
+  .hero .wrap{
+    display:grid; grid-template-columns:1.25fr 1fr; gap:60px; align-items:start;
+  }
+  .hero h1{
+    font-size:clamp(2.2rem, 4vw, 3.4rem); line-height:1.1; max-width:15ch;
+    opacity:0; transform:translateY(14px); animation:rise 0.7s ease forwards;
+  }
+  .hero p.lede{
+    margin-top:22px; max-width:46ch; color:var(--slate); font-size:1.05rem;
+    opacity:0; transform:translateY(14px); animation:rise 0.7s ease 0.12s forwards;
+  }
+  .hero .ctas{
+    margin-top:32px; display:flex; gap:16px; flex-wrap:wrap;
+    opacity:0; transform:translateY(14px); animation:rise 0.7s ease 0.22s forwards;
+  }
+  @keyframes rise{ to{ opacity:1; transform:translateY(0); } }
+
+  .btn{
+    display:inline-block; padding:13px 22px; border-radius:2px;
+    font-size:0.95rem; font-weight:500; text-decoration:none; cursor:pointer;
+    border:1px solid transparent;
+    transition:background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  .btn-primary{ background:var(--gold); color:#1B1404; }
+  .btn-primary:hover, .btn-primary:focus-visible{ background:var(--gold-bright); }
+  .btn-ghost{ background:transparent; color:var(--ivory); border-color:var(--line); }
+  .btn-ghost:hover, .btn-ghost:focus-visible{ border-color:var(--gold); color:var(--gold-bright); }
+
+  /* ---------- coin medallions ---------- */
+  .coin-cluster{ display:flex; align-items:flex-end; margin-bottom:22px; }
+  .medallion{
+    width:74px; height:74px; border-radius:50%;
+    background:radial-gradient(circle at 32% 28%, #F3D98A, #C99A34 45%, #8A6A22 100%);
+    border:1px solid rgba(0,0,0,0.35);
+    box-shadow: inset 0 0 0 3px rgba(28,19,11,0.55), inset 0 0 0 4px rgba(232,199,102,0.35), 0 6px 14px rgba(0,0,0,0.35);
+    display:flex; align-items:center; justify-content:center;
+    font-family:"Fraunces", serif; font-weight:600; font-size:0.78rem;
+    color:#3A2A0C;
+    margin-left:-20px;
+  }
+  .medallion:first-child{ margin-left:0; }
+  .medallion.tall{ width:88px; height:88px; font-size:0.9rem; z-index:2; }
+  a.medallion{ text-decoration:none; transition:transform 0.18s ease, box-shadow 0.18s ease; }
+  a.medallion:hover, a.medallion:focus-visible{
+    transform:translateY(-3px);
+    box-shadow: inset 0 0 0 3px rgba(28,19,11,0.55), inset 0 0 0 4px rgba(232,199,102,0.35), 0 10px 20px rgba(0,0,0,0.45);
+  }
+
+  .coin{ position:relative; display:inline-block; }
+  .coin .flyout{
+    position:absolute; bottom:calc(100% + 10px); left:50%;
+    transform:translateX(-50%) translateY(6px);
+    width:168px;
+    background:var(--panel-2); border:1px solid var(--line);
+    z-index:6;
+    opacity:0; pointer-events:none;
+    transition:opacity 0.18s ease, transform 0.18s ease;
+  }
+  .coin .flyout::after{
+    content:""; position:absolute; top:100%; left:50%; transform:translateX(-50%);
+    border:6px solid transparent; border-top-color:var(--panel-2);
+  }
+  .coin .flyout-label{
+    padding:10px 14px 6px; font-size:0.72rem; color:var(--slate);
+    font-family:"Fraunces", serif; font-style:italic;
+  }
+  .coin .flyout button{
+    display:block; width:100%; text-align:left;
+    background:none; border:none; border-top:1px solid var(--line);
+    color:var(--ivory); font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.85rem; padding:10px 14px; cursor:pointer;
+    transition:background 0.15s ease, color 0.15s ease;
+  }
+  .coin .flyout button:hover, .coin .flyout button:focus-visible{
+    background:var(--panel); color:var(--gold-bright);
+  }
+  .coin:hover .flyout, .coin:focus-within .flyout{
+    opacity:1; transform:translateX(-50%) translateY(0); pointer-events:auto;
+  }
+  .currency .coin{ display:block; }
+  button.medallion{ font:inherit; cursor:pointer; }
+
+  /* ---------- coin detail panel ---------- */
+  .coin-backdrop{
+    position:fixed; inset:0; background:rgba(15,10,5,0.72);
+    display:flex; align-items:center; justify-content:center;
+    padding:24px; z-index:100;
+    opacity:0; pointer-events:none; transition:opacity 0.2s ease;
+  }
+  .coin-backdrop.open{ opacity:1; pointer-events:auto; }
+  .coin-panel{
+    width:100%; max-width:480px; max-height:86vh; overflow-y:auto;
+    background:var(--panel-2); border:1px solid var(--gold); 
+    padding:32px 32px 28px;
+    transform:translateY(12px); transition:transform 0.2s ease;
+  }
+  .coin-backdrop.open .coin-panel{ transform:translateY(0); }
+  .coin-panel-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
+  .coin-panel-title{ display:flex; align-items:center; gap:14px; }
+  .coin-panel-title .medallion{ width:52px; height:52px; font-size:0.68rem; margin-left:0; }
+  .coin-panel-title h3{ font-size:1.4rem; }
+  .coin-panel-title span{ display:block; color:var(--slate); font-size:0.82rem; margin-top:2px; }
+  .coin-close{
+    background:none; border:1px solid var(--line); color:var(--slate);
+    width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:1rem; line-height:1;
+    transition:color 0.2s ease, border-color 0.2s ease;
+  }
+  .coin-close:hover, .coin-close:focus-visible{ color:var(--ivory); border-color:var(--gold); }
+
+  .coin-tabs{ display:flex; gap:2px; margin-top:24px; border-bottom:1px solid var(--line); }
+  .coin-tab{
+    background:none; border:none; cursor:pointer;
+    padding:10px 4px; margin-right:22px;
+    font-family:"IBM Plex Sans", sans-serif; font-size:0.88rem; color:var(--slate);
+    border-bottom:2px solid transparent;
+    transition:color 0.18s ease, border-color 0.18s ease;
+  }
+  .coin-tab:hover, .coin-tab:focus-visible{ color:var(--ivory); }
+  .coin-tab.active{ color:var(--gold-bright); border-color:var(--gold); }
+
+  .coin-price{ margin-top:22px; }
+  .coin-price .amount{ font-family:"IBM Plex Mono", monospace; font-size:2.1rem; color:var(--ivory); }
+  .coin-price .change{ font-family:"IBM Plex Mono", monospace; font-size:0.95rem; margin-left:10px; }
+  .coin-price .change.up{ color:#8FBF8A; }
+  .coin-price .change.down{ color:#D08A7A; }
+
+  .coin-stats{ margin-top:22px; border-top:1px solid var(--line); }
+  .coin-stat-row{
+    display:flex; justify-content:space-between; padding:12px 0;
+    border-bottom:1px solid var(--line); font-size:0.9rem;
+  }
+  .coin-stat-row span:last-child{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); }
+
+  .coin-status{ margin-top:22px; color:var(--slate); font-size:0.9rem; }
+  .coin-meta{ margin-top:18px; font-size:0.76rem; color:var(--slate); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+  .coin-meta a{ color:var(--gold-bright); text-decoration:none; }
+  .coin-meta a:hover{ text-decoration:underline; }
+
+  .coin-about{ margin-top:22px; color:var(--ivory); font-size:0.94rem; line-height:1.65; }
+
+  .coin-news-list{ margin-top:22px; display:flex; flex-direction:column; gap:16px; }
+  .coin-news-item{ padding-bottom:16px; border-bottom:1px solid var(--line); }
+  .coin-news-item:last-child{ border-bottom:none; padding-bottom:0; }
+  .coin-news-item a{
+    color:var(--ivory); text-decoration:none; font-size:0.95rem; line-height:1.4;
+    display:block;
+  }
+  .coin-news-item a:hover{ color:var(--gold-bright); }
+  .coin-news-meta{ margin-top:6px; font-size:0.76rem; color:var(--slate); }
+
+  .ledger{ border:1px solid var(--line); background:var(--panel); }
+  .ledger-head{ padding:14px 20px; font-size:0.8rem; color:var(--slate); border-bottom:1px solid var(--line); }
+  .ledger-row{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:16px 20px; border-bottom:1px solid var(--line); font-size:0.92rem;
+  }
+  .ledger-row:last-child{ border-bottom:none; }
+  .ledger-row .pct{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); }
+
+  /* ---------- section shell ---------- */
+  section{ padding:80px 0; border-bottom:1px solid var(--line); }
+  .section-head{ max-width:60ch; margin-bottom:44px; }
+  .section-head h2{ font-size:clamp(1.6rem, 3vw, 2.2rem); }
+  .section-head p{ color:var(--slate); margin-top:14px; }
+
+  /* ---------- currency strip ---------- */
+  .currency-strip{
+    display:flex; gap:0; flex-wrap:wrap; justify-content:space-between;
+    border:1px solid var(--line); background:var(--panel);
+  }
+  .currency{
+    flex:1 1 150px; padding:26px 20px; text-align:center;
+    border-right:1px solid var(--line);
+  }
+  .currency:last-child{ border-right:none; }
+  .currency .medallion{ margin:0 auto 14px; }
+  .currency h3{ font-size:1rem; }
+  .currency p{ margin:4px 0 0; color:var(--slate); font-size:0.82rem; }
+  @media (max-width:760px){
+    .currency{ flex:1 1 45%; border-right:none; border-bottom:1px solid var(--line); }
+  }
+
+  /* ---------- top 100 grid ---------- */
+  .coin-search{
+    width:100%; margin-bottom:20px; padding:13px 16px;
+    background:var(--panel); border:1px solid var(--line); color:var(--ivory);
+    font-family:"IBM Plex Sans", sans-serif; font-size:0.95rem;
+  }
+  .coin-search::placeholder{ color:var(--slate); }
+  .coin-search:focus-visible{ outline:2px solid var(--gold-bright); outline-offset:-2px; }
+
+  .coin-grid{
+    display:grid; grid-template-columns:repeat(auto-fill, minmax(108px, 1fr));
+    gap:24px 16px;
+    max-height:700px; overflow-y:auto;
+    border:1px solid var(--line); background:var(--panel);
+    padding:24px;
+  }
+  .coin-grid-item{ text-align:center; }
+  .coin-grid-item .coin{ display:block; }
+  .coin-grid-item .medallion{ width:60px; height:60px; font-size:0.62rem; margin:0 auto; }
+  .coin-grid-item .grid-name{
+    margin-top:10px; color:var(--ivory); font-size:0.82rem;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .coin-grid-item .grid-rank{
+    margin-top:2px; color:var(--slate); font-size:0.72rem;
+    font-family:"IBM Plex Mono", monospace;
+  }
+  .coin-grid-item .grid-price{
+    margin-top:2px; font-size:0.76rem; font-family:"IBM Plex Mono", monospace; color:var(--gold-bright);
+  }
+  .change-col.down{ color:#D08A7A; }
+
+  /* ---------- exchange cards ---------- */
+  .exchanges{ display:grid; grid-template-columns:repeat(2, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  @media (max-width:720px){ .exchanges{ grid-template-columns:1fr; } }
+  .exchange{ background:var(--panel); padding:28px; display:flex; flex-direction:column; gap:14px; }
+  .exchange-top{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; }
+  .exchange h3{ font-size:1.25rem; }
+  .exchange .discount{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); font-size:0.95rem; white-space:nowrap; }
+  .exchange p{ color:var(--slate); font-size:0.94rem; margin:0; flex-grow:1; }
+  .exchange .btn{ align-self:flex-start; margin-top:4px; }
+
+  .fine{ margin-top:24px; font-size:0.82rem; color:var(--slate); max-width:70ch; }
+
+  /* ---------- narratives ---------- */
+  .narratives{ display:grid; grid-template-columns:repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  @media (max-width:760px){ .narratives{ grid-template-columns:1fr; } }
+  .narrative{ background:var(--panel); padding:28px; display:flex; flex-direction:column; gap:14px; }
+  .narrative .icon{
+    width:38px; height:38px; color:var(--gold-bright);
+  }
+  .narrative h3{ font-size:1.1rem; }
+  .narrative p{ color:var(--slate); font-size:0.9rem; margin:0; }
+  .tag{
+    display:inline-block; margin-top:2px; padding:4px 10px;
+    background:var(--bottle); color:var(--bottle-text);
+    font-size:0.75rem; border-radius:2px; align-self:flex-start;
+  }
+
+  /* ---------- steps ---------- */
+  .steps{ display:grid; grid-template-columns:repeat(3, 1fr); gap:32px; }
+  @media (max-width:760px){ .steps{ grid-template-columns:1fr; } }
+  .step .num{ color:var(--gold); font-size:0.95rem; }
+  .step h3{ font-size:1.15rem; margin-top:10px; }
+  .step p{ color:var(--slate); margin-top:8px; font-size:0.94rem; }
+
+  /* ---------- youtube ---------- */
+  .yt-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  @media (max-width:760px){ .yt-grid{ grid-template-columns:1fr; } }
+  .yt-slot{
+    aspect-ratio:16/9; border:1px dashed var(--line); background:var(--panel);
+    display:flex; align-items:center; justify-content:center; position:relative;
+  }
+  .yt-slot .play{
+    width:46px; height:46px; border-radius:50%; border:1px solid var(--slate);
+    display:flex; align-items:center; justify-content:center; color:var(--slate);
+  }
+  .yt-slot .label{ position:absolute; bottom:12px; left:14px; font-size:0.78rem; color:var(--slate); }
+  .yt-cta{ margin-top:32px; display:flex; align-items:center; gap:20px; flex-wrap:wrap; }
+  .yt-cta p{ color:var(--slate); font-size:0.92rem; margin:0; max-width:44ch; }
+
+  /* ---------- disclaimer / footer ---------- */
+  footer{ padding:52px 0 64px; }
+  .disclaimer{
+    border-left:2px solid var(--gold);
+    padding:16px 20px; background:var(--panel); color:var(--slate);
+    font-size:0.86rem; max-width:72ch;
+  }
+  .disclaimer strong{ color:var(--ivory); }
+  .footer-row{
+    margin-top:36px; display:flex; justify-content:space-between; align-items:center;
+    flex-wrap:wrap; gap:12px; font-size:0.85rem; color:var(--slate);
+  }
+
+  :focus-visible{ outline:2px solid var(--gold-bright); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">Ledger<span>&</span>Lens</div>
+    <div class="navlinks">
+      <a href="#exchanges">Exchanges</a>
+      <a href="#narratives">Narratives</a>
+      <a href="#videos">Videos</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <h1>Portfolio decisions, made with the fees and the fundamentals in view.</h1>
+      <p class="lede">A curated shortlist of exchanges, the perks attached to each, and the narratives currently moving capital through the market — with plain-English videos on the way for anyone building a position for the first time.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="#exchanges">Compare exchanges</a>
+        <a class="btn btn-ghost" href="#narratives">See the narratives</a>
+      </div>
+    </div>
+    <div>
+      <div class="coin-cluster" id="heroCluster">
+        <div class="coin-status" style="margin:0;">Loading…</div>
+      </div>
+      <div class="ledger">
+        <div class="ledger-head">Sign-up perks, at a glance</div>
+        <div class="ledger-row"><span>Binance</span><span class="pct">up to 20% fee rebate</span></div>
+        <div class="ledger-row"><span>Bybit</span><span class="pct">welcome bonus pool</span></div>
+        <div class="ledger-row"><span>OKX</span><span class="pct">trading fee discount</span></div>
+        <div class="ledger-row"><span>KuCoin</span><span class="pct">reduced spot fees</span></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<section id="currencies">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">the full board</span>
+      <h2 style="margin-top:10px;">Top 100 coins by market cap</h2>
+      <p>Ranked automatically every 10 minutes. Browse by icon and name, hover for quick options, or click through for live price data, background, and news — all without leaving the page.</p>
+    </div>
+    <input type="text" class="coin-search" id="coinSearch" placeholder="Search by name or ticker…" aria-label="Search coins">
+    <div class="coin-grid" id="top100Grid">
+      <div class="coin-status">Loading the top 100…</div>
+    </div>
+    <p class="fine">Background write-ups only exist for a handful of well-established coins — the rest will show live price and news where available, with a plain note where background detail isn't available yet.</p>
+  </div>
+</section>
+
+<section id="exchanges">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">where the account actually opens</span>
+      <h2 style="margin-top:10px;">Exchanges worth a look</h2>
+      <p>These are placeholders — swap in the exchanges and referral links you actually want to promote. Each card holds a name, a reason, the perk, and a link.</p>
+    </div>
+
+    <div class="exchanges">
+      <div class="exchange">
+        <div class="exchange-top"><h3>Binance</h3><span class="discount">fee rebate</span></div>
+        <p>The largest exchange by volume, with the deepest liquidity for most major pairs — a reasonable first stop for beginners.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-binance-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Bybit</h3><span class="discount">welcome bonus</span></div>
+        <p>Clean mobile app and a lighter verification process, popular with people who want to start small and learn as they go.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-bybit-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>OKX</h3><span class="discount">fee discount</span></div>
+        <p>Strong for anyone who wants more advanced order types later, without outgrowing the platform.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-okx-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>KuCoin</h3><span class="discount">reduced fees</span></div>
+        <p>A wide selection of smaller-cap coins, for people who've moved past the basics and want more choice.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-kucoin-link">Open an account</a>
+      </div>
+    </div>
+
+    <p class="fine">Editing note: each button above has a placeholder <span class="num">href="#"</span> and a <span class="num">data-referral</span> attribute showing which link to swap in. Replace the href with your real referral URL — the styling won't need to change.</p>
+  </div>
+</section>
+
+<section id="narratives">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">what capital is chasing right now</span>
+      <h2 style="margin-top:10px;">Narratives worth watching</h2>
+      <p>The themes that tend to come up in every market cycle, framed as background context — not signals to trade on.</p>
+    </div>
+    <div class="narratives">
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="7" width="18" height="12" rx="1"/><path d="M3 11h18"/><circle cx="12" cy="15" r="1.6"/></svg>
+        <h3>Real-world assets</h3>
+        <p>Bonds, property, and credit issued as on-chain tokens — a bridge between traditional finance and crypto rails.</p>
+        <span class="tag">Tokenization</span>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="6" r="2.2"/><circle cx="18" cy="6" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M7.7 7.4 10.5 16M16.3 7.4 13.5 16M8.2 6h7.6"/></svg>
+        <h3>AI &amp; crypto</h3>
+        <p>Networks paying for compute, data, and agents in on-chain tokens rather than traditional invoicing.</p>
+        <span class="tag">Infrastructure</span>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="4" width="16" height="4.5" rx="0.6"/><rect x="4" y="10.2" width="16" height="4.5" rx="0.6"/><rect x="4" y="16.4" width="16" height="4.5" rx="0.6"/></svg>
+        <h3>Layer 2 scaling</h3>
+        <p>Faster, cheaper networks built on top of established chains, aimed at everyday transaction volume.</p>
+        <span class="tag">Scaling</span>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="12" r="5.2"/><circle cx="15" cy="12" r="5.2"/></svg>
+        <h3>Restaking</h3>
+        <p>Putting already-staked assets to work securing additional networks, for an added layer of yield.</p>
+        <span class="tag">Yield</span>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 16c1.5-6 4-9 8-9s6.5 3 8 9"/><circle cx="9" cy="12.5" r="0.9" fill="currentColor" stroke="none"/><circle cx="15" cy="12.5" r="0.9" fill="currentColor" stroke="none"/><path d="M9.5 16c1 1 4 1 5 0"/></svg>
+        <h3>Community &amp; meme tokens</h3>
+        <p>Attention-driven assets with little fundamental backing — high volatility either direction, worth naming plainly.</p>
+        <span class="tag">High risk</span>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+        <h3>Regulation &amp; ETFs</h3>
+        <p>Clearer rules and regulated products that shape which coins institutions are willing to hold.</p>
+        <span class="tag">Policy</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="start">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Getting started takes three steps</h2>
+      <p>The same path applies no matter which exchange someone picks from the list above.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><h3>Pick an exchange</h3><p>Match it to what matters most — lowest fees, simplest app, or the widest coin selection.</p></div>
+      <div class="step"><div class="num">02</div><h3>Sign up through the link</h3><p>Using the referral link above unlocks the listed perk and costs nothing extra to use.</p></div>
+      <div class="step"><div class="num">03</div><h3>Verify and fund the account</h3><p>Standard ID check, then a small first deposit to get comfortable with the platform.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">in production</span>
+      <h2 style="margin-top:10px;">Short videos, coming soon</h2>
+      <p>This is where the YouTube channel will live once the first videos are up — quick, plain-English explainers on the basics of crypto and trading.</p>
+    </div>
+    <div class="yt-grid">
+      <div class="yt-slot"><div class="play">&#9658;</div><div class="label">Video slot 01</div></div>
+      <div class="yt-slot"><div class="play">&#9658;</div><div class="label">Video slot 02</div></div>
+      <div class="yt-slot"><div class="play">&#9658;</div><div class="label">Video slot 03</div></div>
+    </div>
+    <div class="yt-cta">
+      <a class="btn btn-primary" href="#" data-referral="replace-with-your-youtube-channel-url">Visit the channel</a>
+      <p>Editing note: once videos are live, swap each slot for a real YouTube embed (<span class="num">&lt;iframe&gt;</span>) or thumbnail + link, and point the button above at your channel URL.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="disclaimer">
+      <strong>Before you sign up:</strong> cryptocurrency is highly volatile and carries real risk of loss — nothing on this page is financial advice, just a starting point for your own research. Some links on this page are referral links, meaning I may earn a commission if you sign up through them, at no extra cost to you.
+    </div>
+    <div class="footer-row">
+      <span>Ledger &amp; Lens</span>
+      <span>Built for future updates — add your links, then your videos.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="coin-backdrop" id="coinBackdrop">
+  <div class="coin-panel" role="dialog" aria-modal="true" aria-labelledby="coinPanelName">
+    <div class="coin-panel-head">
+      <div class="coin-panel-title">
+        <div class="medallion" id="coinPanelMedallion"></div>
+        <div>
+          <h3 id="coinPanelName">—</h3>
+          <span id="coinPanelSymbol">—</span>
+        </div>
+      </div>
+      <button type="button" class="coin-close" id="coinClose" aria-label="Close">&#10005;</button>
+    </div>
+
+    <div class="coin-tabs">
+      <button type="button" class="coin-tab" data-tab="price">Live price data</button>
+      <button type="button" class="coin-tab" data-tab="about">About</button>
+      <button type="button" class="coin-tab" data-tab="news">News</button>
+    </div>
+
+    <div id="coinPanelBody">
+      <div class="coin-status">Fetching data…</div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var backdrop = document.getElementById('coinBackdrop');
+  var panelMedallion = document.getElementById('coinPanelMedallion');
+  var panelName = document.getElementById('coinPanelName');
+  var panelSymbol = document.getElementById('coinPanelSymbol');
+  var panelBody = document.getElementById('coinPanelBody');
+  var closeBtn = document.getElementById('coinClose');
+  var tabButtons = document.querySelectorAll('.coin-tab');
+  var lastFocused = null;
+  var current = { id: null, symbol: null, name: null, tab: 'price' };
+
+  function fmtUsd(n){
+    if (n === null || n === undefined) return '—';
+    if (n >= 1) return '$' + n.toLocaleString(undefined, {maximumFractionDigits:2});
+    return '$' + n.toPrecision(4);
+  }
+  function fmtBig(n){
+    if (n === null || n === undefined) return '—';
+    if (n >= 1e12) return '$' + (n/1e12).toFixed(2) + 'T';
+    if (n >= 1e9) return '$' + (n/1e9).toFixed(2) + 'B';
+    if (n >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
+    return '$' + n.toLocaleString();
+  }
+  function fmtDate(unixSeconds){
+    var d = new Date(unixSeconds * 1000);
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
+
+  // ---------- About: short, original background text per coin ----------
+  var ABOUT = {
+    bitcoin: "Bitcoin was introduced in 2009 by the pseudonymous Satoshi Nakamoto as the first decentralized digital currency, secured by a public blockchain and proof-of-work mining. Its supply is capped at 21 million coins, which is central to its reputation as a long-term store of value. It remains the largest cryptocurrency by market capitalization and is widely treated as a benchmark for the broader market.",
+    ethereum: "Ethereum launched in 2015 and introduced smart contracts — self-executing code running on its blockchain — enabling decentralized applications, tokens, and financial protocols to be built on top of it. It moved from proof-of-work to proof-of-stake in 2022. Beyond acting as a currency, ETH pays for computation across the network, making it foundational infrastructure for much of the wider crypto ecosystem.",
+    solana: "Solana launched in 2020, built around high transaction throughput and low fees using proof-of-stake alongside a timestamping method called proof-of-history. It's often positioned as a faster alternative to Ethereum for applications needing cheap, quick transactions, and has become a hub for decentralized exchanges, NFTs, and consumer crypto apps. That speed comes with a smaller, more concentrated validator set than some competitors.",
+    ripple: "XRP is the native token of the XRP Ledger, a blockchain created in 2012 aimed primarily at fast, low-cost cross-border payments and currency exchange. Its consensus mechanism differs from Bitcoin and Ethereum, relying on a network of trusted validators rather than mining or staking. Ripple Labs, closely associated with the token, spent several years in litigation with the US SEC over whether XRP qualifies as a security.",
+    binancecoin: "BNB is the native token of the BNB Chain ecosystem, originally launched by the Binance exchange in 2017. It's used to pay reduced trading fees on Binance, as gas for transactions on BNB Chain, and across decentralized apps built on that chain. Its value and adoption are closely tied to the scale and health of the Binance exchange and its surrounding ecosystem.",
+    tether: "Tether (USDT) is a stablecoin designed to hold a 1:1 peg with the US dollar, backed by a reserve of cash and cash-equivalent assets managed by Tether Limited. It's one of the most widely used assets in crypto trading, often used to move value between exchanges or hold value without converting back to traditional currency. Its reserve composition and audits have drawn ongoing scrutiny from regulators and researchers."
+  };
+
+  function renderAbout(name, id){
+    var text = ABOUT[id] || "Background information for this coin isn't available yet.";
+    panelBody.innerHTML =
+      '<div class="coin-about">' + text + '</div>' +
+      '<div class="coin-meta"><span>General background, not financial advice</span><span></span></div>';
+  }
+
+  // ---------- Live price data ----------
+  function renderPrice(symbol, norm, sourceLabel){
+    var changeClass = norm.change24h >= 0 ? 'up' : 'down';
+    var changeSign = norm.change24h >= 0 ? '+' : '';
+
+    panelBody.innerHTML =
+      '<div class="coin-price">' +
+        '<span class="amount">' + fmtUsd(norm.price) + '</span>' +
+        '<span class="change ' + changeClass + '">' + changeSign + norm.change24h.toFixed(2) + '%</span>' +
+      '</div>' +
+      '<div class="coin-stats">' +
+        '<div class="coin-stat-row"><span>Market cap rank</span><span>#' + (norm.rank || '—') + '</span></div>' +
+        '<div class="coin-stat-row"><span>Market cap</span><span>' + fmtBig(norm.marketCap) + '</span></div>' +
+        '<div class="coin-stat-row"><span>24h high</span><span>' + fmtUsd(norm.high24h) + '</span></div>' +
+        '<div class="coin-stat-row"><span>24h low</span><span>' + fmtUsd(norm.low24h) + '</span></div>' +
+        '<div class="coin-stat-row"><span>Circulating supply</span><span>' + Math.round(norm.circulatingSupply).toLocaleString() + ' ' + symbol + '</span></div>' +
+        '<div class="coin-stat-row"><span>All-time high</span><span>' + fmtUsd(norm.ath) + '</span></div>' +
+      '</div>' +
+      '<div class="coin-meta"><span>' + sourceLabel + '</span><span>Not financial advice</span></div>';
+  }
+
+  function normalizeFromDetail(data){
+    var md = data.market_data;
+    return {
+      price: md.current_price.usd,
+      change24h: md.price_change_percentage_24h,
+      marketCap: md.market_cap.usd,
+      rank: md.market_cap_rank,
+      high24h: md.high_24h.usd,
+      low24h: md.low_24h.usd,
+      circulatingSupply: md.circulating_supply,
+      ath: md.ath.usd
+    };
+  }
+
+  function normalizeFromSnapshot(entry){
+    return {
+      price: entry.price,
+      change24h: entry.change_24h,
+      marketCap: entry.market_cap,
+      rank: entry.market_cap_rank,
+      high24h: entry.high_24h,
+      low24h: entry.low_24h,
+      circulatingSupply: entry.circulating_supply,
+      ath: entry.ath
+    };
+  }
+
+  function relativeTime(iso){
+    var diffMs = Date.now() - new Date(iso).getTime();
+    var diffH = Math.round(diffMs / 3600000);
+    if (diffH < 1) return 'less than an hour ago';
+    if (diffH === 1) return '1 hour ago';
+    return diffH + ' hours ago';
+  }
+
+  // The site's own scheduled snapshot, written by the GitHub Actions
+  // workflow to data/coins.json. Fetched once per page load and reused
+  // for every coin click so most visits never call CoinGecko directly.
+  var SNAPSHOT_MAX_AGE_MS = 13 * 60 * 60 * 1000; // a bit above the refresh interval, as a staleness buffer
+  var snapshotPromise = null;
+
+  function loadSnapshot(){
+    if (snapshotPromise) return snapshotPromise;
+    snapshotPromise = fetch('./data/coins.json', { cache: 'no-store' })
+      .then(function(res){ if (!res.ok) throw new Error('no snapshot'); return res.json(); })
+      .catch(function(){ return null; });
+    return snapshotPromise;
+  }
+
+  var liveCache = {}; // in-memory only, per page load — used if the snapshot file is missing or stale
+
+  function liveFetchPrice(id, symbol){
+    var cached = liveCache[id];
+    if (cached && (Date.now() - cached.time) < SNAPSHOT_MAX_AGE_MS){
+      renderPrice(symbol, normalizeFromDetail(cached.data), 'Data via CoinGecko, fetched just now');
+      return;
+    }
+    fetch('https://api.coingecko.com/api/v3/coins/' + id + '?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false')
+      .then(function(res){ if (!res.ok) throw new Error('bad response'); return res.json(); })
+      .then(function(data){
+        liveCache[id] = { time: Date.now(), data: data };
+        renderPrice(symbol, normalizeFromDetail(data), 'Data via CoinGecko, fetched just now');
+      })
+      .catch(function(){
+        panelBody.innerHTML = '<div class="coin-status">Live data isn\'t reachable right now — this usually clears up if you try again in a moment.</div>';
+      });
+  }
+
+  function loadPrice(id, symbol){
+    loadSnapshot().then(function(snapshot){
+      var entry = snapshot && snapshot.coins && snapshot.coins[id];
+      var isFresh = snapshot && snapshot.generated_at &&
+        (Date.now() - new Date(snapshot.generated_at).getTime()) < SNAPSHOT_MAX_AGE_MS;
+
+      if (entry && isFresh){
+        var label = 'Data via CoinGecko · updated ' + relativeTime(snapshot.generated_at);
+        renderPrice(symbol, normalizeFromSnapshot(entry), label);
+      } else {
+        liveFetchPrice(id, symbol);
+      }
+    });
+  }
+
+  // ---------- News ----------
+  // Fetched server-side by the hourly GitHub Actions job into data/news.json.
+  // CryptoCompare's API doesn't allow browser requests directly (no CORS
+  // support) and now requires a private key, so this has to be read from
+  // our own snapshot rather than called live from the page.
+  var newsSnapshotPromise = null;
+  var NEWS_MAX_AGE_MS = 2 * 60 * 60 * 1000; // a bit above the hourly refresh, as a staleness buffer
+
+  function loadNewsSnapshot(){
+    if (newsSnapshotPromise) return newsSnapshotPromise;
+    newsSnapshotPromise = fetch('./data/news.json', { cache: 'no-store' })
+      .then(function(res){ if (!res.ok) throw new Error('no snapshot'); return res.json(); })
+      .catch(function(){ return null; });
+    return newsSnapshotPromise;
+  }
+
+  function renderNews(items){
+    if (!items || !items.length){
+      panelBody.innerHTML = '<div class="coin-status">No recent headlines found for this coin right now.</div>';
+      return;
+    }
+    var html = '<div class="coin-news-list">';
+    items.forEach(function(item){
+      html +=
+        '<div class="coin-news-item">' +
+          '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>' +
+          '<div class="coin-news-meta">' + item.source + ' · ' + fmtDate(item.published_on) + '</div>' +
+        '</div>';
+    });
+    html += '</div><div class="coin-meta"><span>Headlines via CryptoCompare · updated hourly</span><span>Opens in a new tab</span></div>';
+    panelBody.innerHTML = html;
+  }
+
+  function loadNews(id, symbol){
+    loadNewsSnapshot().then(function(snapshot){
+      if (!snapshot){
+        panelBody.innerHTML = '<div class="coin-status">The news feed isn\'t available right now — please try again shortly.</div>';
+        return;
+      }
+      var items = snapshot.coins && snapshot.coins[symbol];
+      renderNews(items);
+    });
+  }
+
+  // ---------- Panel open / tabs / close ----------
+  function setActiveTab(tab){
+    current.tab = tab;
+    tabButtons.forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.tab === tab);
+    });
+  }
+
+  function loadTab(tab){
+    panelBody.innerHTML = '<div class="coin-status">Fetching data…</div>';
+    if (tab === 'price') loadPrice(current.id, current.symbol);
+    else if (tab === 'about') renderAbout(current.name, current.id);
+    else if (tab === 'news') loadNews(current.id, current.symbol);
+  }
+
+  function openCoin(id, symbol, name, tab){
+    current.id = id; current.symbol = symbol; current.name = name;
+
+    panelMedallion.textContent = symbol;
+    panelName.textContent = name;
+    panelSymbol.textContent = symbol;
+
+    setActiveTab(tab || 'price');
+    loadTab(current.tab);
+
+    backdrop.classList.add('open');
+    lastFocused = document.activeElement;
+    closeBtn.focus();
+    document.addEventListener('keydown', onKeydown);
+  }
+
+  function closeCoin(){
+    backdrop.classList.remove('open');
+    document.removeEventListener('keydown', onKeydown);
+    if (lastFocused) lastFocused.focus();
+  }
+
+  function onKeydown(e){
+    if (e.key === 'Escape') closeCoin();
+  }
+
+  tabButtons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if (btn.dataset.tab === current.tab) return;
+      setActiveTab(btn.dataset.tab);
+      loadTab(current.tab);
+    });
+  });
+
+  // Delegated click handling — works for the hero cluster and grid items
+  // alike, even though both are rendered dynamically after the fact.
+  document.addEventListener('click', function(e){
+    var flyoutBtn = e.target.closest('.flyout-btn');
+    if (flyoutBtn){
+      e.stopPropagation();
+      openCoin(flyoutBtn.dataset.coinId, flyoutBtn.dataset.coinSymbol, flyoutBtn.dataset.coinName, flyoutBtn.dataset.tab);
+      return;
+    }
+    var medallionBtn = e.target.closest('.medallion[data-coin-id]');
+    if (medallionBtn){
+      openCoin(medallionBtn.dataset.coinId, medallionBtn.dataset.coinSymbol, medallionBtn.dataset.coinName, 'price');
+      return;
+    }
+  });
+
+  closeBtn.addEventListener('click', closeCoin);
+  backdrop.addEventListener('click', function(e){
+    if (e.target === backdrop) closeCoin();
+  });
+
+  // ---------- Hero cluster (top 3) and the full top-100 table ----------
+  function medallionHtml(entry, extraClass){
+    var cls = extraClass ? 'medallion ' + extraClass : 'medallion';
+    return (
+      '<div class="coin">' +
+        '<button type="button" class="' + cls + '" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '" aria-label="' + entry.name + ' — view options">' + entry.symbol + '</button>' +
+        '<div class="flyout">' +
+          '<div class="flyout-label">' + entry.name + '</div>' +
+          '<button type="button" class="flyout-btn" data-tab="price" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">Live price data</button>' +
+          '<button type="button" class="flyout-btn" data-tab="about" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">About</button>' +
+          '<button type="button" class="flyout-btn" data-tab="news" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">News</button>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderHeroCluster(sorted){
+    var heroEl = document.getElementById('heroCluster');
+    if (!heroEl) return;
+    var top3 = sorted.slice(0, 3);
+    if (!top3.length){
+      heroEl.innerHTML = '<div class="coin-status" style="margin:0;">No data yet</div>';
+      return;
+    }
+    heroEl.innerHTML =
+      medallionHtml(top3[0]) +
+      medallionHtml(top3[1], 'tall') +
+      medallionHtml(top3[2]);
+  }
+
+  var allCoinsSorted = [];
+
+  function gridItemHtml(entry){
+    return (
+      '<div class="coin-grid-item">' +
+        medallionHtml(entry) +
+        '<div class="grid-name">' + entry.name + '</div>' +
+        '<div class="grid-price">' + fmtUsd(entry.price) + '</div>' +
+        '<div class="grid-rank">#' + (entry.market_cap_rank || '—') + '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderGrid(list){
+    var grid = document.getElementById('top100Grid');
+    if (!grid) return;
+    if (!list.length){
+      grid.innerHTML = '<div class="coin-status">No coins match that search.</div>';
+      return;
+    }
+    grid.innerHTML = list.map(gridItemHtml).join('');
+  }
+
+  function initTop100(){
+    loadSnapshot().then(function(snapshot){
+      var heroEl = document.getElementById('heroCluster');
+      var grid = document.getElementById('top100Grid');
+      if (!snapshot || !snapshot.coins){
+        if (heroEl) heroEl.innerHTML = '<div class="coin-status" style="margin:0;">Data isn\'t available right now.</div>';
+        if (grid) grid.innerHTML = '<div class="coin-status">Data isn\'t available right now — please try again shortly.</div>';
+        return;
+      }
+
+      allCoinsSorted = Object.keys(snapshot.coins).map(function(id){
+        var entry = snapshot.coins[id];
+        entry.id = id;
+        return entry;
+      }).sort(function(a, b){
+        return (a.market_cap_rank || 9999) - (b.market_cap_rank || 9999);
+      });
+
+      renderHeroCluster(allCoinsSorted);
+      renderGrid(allCoinsSorted);
+    });
+  }
+
+  var searchInput = document.getElementById('coinSearch');
+  if (searchInput){
+    searchInput.addEventListener('input', function(){
+      var q = searchInput.value.trim().toLowerCase();
+      if (!q){
+        renderGrid(allCoinsSorted);
+        return;
+      }
+      var filtered = allCoinsSorted.filter(function(entry){
+        return entry.name.toLowerCase().indexOf(q) !== -1 || entry.symbol.toLowerCase().indexOf(q) !== -1;
+      });
+      renderGrid(filtered);
+    });
+  }
+
+  initTop100();
+})();
+</script>
+
+</body>
+</html>
