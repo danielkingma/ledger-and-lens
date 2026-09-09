@@ -1,83 +1,89 @@
 {
-  "generated_at": "2026-09-08T23:07:37.932Z",
+  "generated_at": "2026-09-09T02:44:21.847Z",
   "coins": {
     "BTC": [
       {
-        "title": "Metaplanet Freezes 319.5 Million Bitcoin (BTC) Insider Shares After Dilution Disclosure",
-        "url": "https://en.coinotag.com/metaplanet-freezes-319-5-million-bitcoin-insider-shares",
-        "source": "CoinOtag",
-        "published_on": 1788906043
-      },
-      {
-        "title": "Bitcoin Gains Ground in MENA Region as Crypto Volume Triples to $350B",
-        "url": "https://news.bitcoin.com/opinion-and-analysis/bitcoin-gains-ground-in-mena-region-as-crypto-volume-triples-to-350b/",
+        "title": "Minority Chain Meltdown: XBT Ticker Grab and Mining Revolt Grip BTCB2",
+        "url": "https://news.bitcoin.com/featured/minority-chain-meltdown-xbt-ticker-grab-and-mining-revolt-grip-btcb2/",
         "source": "Bitcoin.com",
-        "published_on": 1788905826
+        "published_on": 1788921031
       },
       {
-        "title": "Bitcoin Calms Below $80K as Fed Hike Odds Climb: Bitfinex Alpha",
-        "url": "https://cryptopotato.com/bitcoin-calms-below-80k-as-fed-hike-odds-climb-bitfinex-alpha/",
-        "source": "Crypto Potato",
-        "published_on": 1788905384
+        "title": "Bitcoin (BTC) Hovers Near $79K Ahead of PPI and CPI Inflation Data",
+        "url": "https://en.coinotag.com/bitcoin-near-79k-ppi-cpi-inflation-risks",
+        "source": "CoinOtag",
+        "published_on": 1788918913
       },
       {
-        "title": "Malone Lam pleads guilty in $245M theft that hacked people, not wallets",
-        "url": "https://www.cryptopolitan.com/malone-lam-pleads-guilty-in-245m-theft-that-hacked-people-not-wallets/",
-        "source": "Cryptopolitan",
-        "published_on": 1788904835
+        "title": "Glassnode: Zcash (ZEC) Leads Privacy Sector 213% Above Last October's High",
+        "url": "https://en.coinotag.com/glassnode-zcash-privacy-sector-213-percent-above-october-high",
+        "source": "CoinOtag",
+        "published_on": 1788918661
       },
       {
-        "title": "Bitcoin: Capital B overtakes Sweden’s H100 Group after 376 BTC buy",
-        "url": "https://ambcrypto.com/bitcoin-capital-b-overtakes-swedens-h100-group-after-376-btc-buy/",
-        "source": "AMB Crypto",
-        "published_on": 1788904800
+        "title": "Strive Adds 1,375 Bitcoin (BTC) in $109M Treasury Buy While Strategy Pauses",
+        "url": "https://en.coinotag.com/strive-adds-1375-bitcoin-btc-109m-treasury-buy-strategy-pauses",
+        "source": "CoinOtag",
+        "published_on": 1788918200
       },
       {
-        "title": "Plattsburgh proposes 12 month land use moratorium for crypto mining and AI centers",
-        "url": "https://en.coin-turk.com/plattsburgh-proposes-12-month-land-use-moratorium-for-crypto-mining-and-ai-centers/?utm_source=rss&utm_medium=rss&utm_campaign=plattsburgh-proposes-12-month-land-use-moratorium-for-crypto-mining-and-ai-centers",
-        "source": "CoinTurk News",
-        "published_on": 1788904637
+        "title": "Bitcoin Volatility at Historic Low as Long-Term Holders Dominate",
+        "url": "https://news.bitcoin.com/market-updates/bitcoin-volatility-at-historic-low-as-long-term-holders-dominate/",
+        "source": "Bitcoin.com",
+        "published_on": 1788917449
+      },
+      {
+        "title": "Liquid Network Loses 4,000 Bitcoin (BTC) to Elements Verification Exploit",
+        "url": "https://en.coinotag.com/liquid-network-loses-4000-bitcoin-btc-elements-exploit",
+        "source": "CoinOtag",
+        "published_on": 1788915490
       }
     ],
     "ETH": [
       {
-        "title": "Ethereum Foundation’s Trillion Dollar Security Initiative rolls out ERC-7730 clear signing on Trezor",
-        "url": "https://www.cryptopolitan.com/trezor-erc-7730-clear-signing-safe-wallets/",
-        "source": "Cryptopolitan",
-        "published_on": 1788907942
-      },
-      {
-        "title": "Ethereum (ETH) Developers Schedule EIP-8141 Frame Transactions for 2027 Hegotá Upgrade",
-        "url": "https://en.coinotag.com/ethereum-eip-8141-frame-transactions-hegota-2027-5",
-        "source": "CoinOtag",
-        "published_on": 1788902518
-      },
-      {
-        "title": "Bitmine Adds 28,086 ETH as Ethereum Treasury Hits $14.8B",
-        "url": "https://news.bitcoin.com/altcoins/bitmine-adds-28086-eth-as-ethereum-treasury-hits-14-8b/",
-        "source": "Bitcoin.com",
-        "published_on": 1788898788
-      },
-      {
-        "title": "Stellar Lumens forms bullish inverse head and shoulders, eyes $0.22 breakout",
-        "url": "https://en.coin-turk.com/stellar-lumens-forms-bullish-inverse-head-and-shoulders-eyes-0-22-breakout/?utm_source=rss&utm_medium=rss&utm_campaign=stellar-lumens-forms-bullish-inverse-head-and-shoulders-eyes-0-22-breakout",
+        "title": "Ethereum holds above $2,480 as traders await breakout from key price range",
+        "url": "https://en.coin-turk.com/ethereum-holds-above-2480-as-traders-await-breakout-from-key-price-range/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-holds-above-2480-as-traders-await-breakout-from-key-price-range",
         "source": "CoinTurk News",
-        "published_on": 1788897134
+        "published_on": 1788918613
       },
       {
-        "title": "Tom Lee backs tokenization and agentic AI to drive ETH gains as accumulation continues",
-        "url": "https://www.cryptopolitan.com/tom-lee-backs-tokenization-and-ai-bitmine/",
-        "source": "Cryptopolitan",
-        "published_on": 1788896119
+        "title": "Hyperliquid holds bullish trend, Zcash risks correction, ETH and SHIB struggle at key levels",
+        "url": "https://en.coin-turk.com/hyperliquid-holds-bullish-trend-zcash-risks-correction-eth-and-shib-struggle-at-key-levels/?utm_source=rss&utm_medium=rss&utm_campaign=hyperliquid-holds-bullish-trend-zcash-risks-correction-eth-and-shib-struggle-at-key-levels",
+        "source": "CoinTurk News",
+        "published_on": 1788914053
       },
       {
-        "title": "The Sandbox, Cronos move on from hacks as researchers urged to report bug responsibly",
-        "url": "https://www.cryptopolitan.com/sandbox-opens-payouts-cronos-recovers/",
-        "source": "Cryptopolitan",
-        "published_on": 1788894331
+        "title": "Hyperliquid (HYPE), Zcash (ZEC), Ethereum (ETH) and Shiba Inu (SHIB) Price Analysis for September 9: Volatility Implosion Introduces New Implications",
+        "url": "https://u.today/price-analysis/hyperliquid-hype-zcash-zec-ethereum-eth-and-shiba-inu-shib-price-analysis-for-september-9",
+        "source": "U.Today",
+        "published_on": 1788912060
+      },
+      {
+        "title": "Assessing how Ethereum’s 2027 upgrade could redefine ETH’s utility",
+        "url": "https://ambcrypto.com/assessing-how-ethereums-2027-upgrade-could-redefine-eths-utility/",
+        "source": "AMB Crypto",
+        "published_on": 1788912042
+      },
+      {
+        "title": "Trezor adopts ERC-7730 clear signing for enhanced crypto transaction security",
+        "url": "https://en.coin-turk.com/trezor-adopts-erc-7730-clear-signing-for-enhanced-crypto-transaction-security/?utm_source=rss&utm_medium=rss&utm_campaign=trezor-adopts-erc-7730-clear-signing-for-enhanced-crypto-transaction-security",
+        "source": "CoinTurk News",
+        "published_on": 1788909790
+      },
+      {
+        "title": "Harmony to Migrate to Ethereum (ETH) After Exploit Minted 3 Trillion ONE",
+        "url": "https://en.coinotag.com/harmony-migrates-to-ethereum-eth-after-3-trillion-one-exploit",
+        "source": "CoinOtag",
+        "published_on": 1788909098
       }
     ],
     "SOL": [
+      {
+        "title": "Dogecoin goes live on Solana as volume hits $19M  – Will demand last?",
+        "url": "https://ambcrypto.com/dogecoin-goes-live-on-solana-as-volume-hits-19m-will-demand-last/",
+        "source": "AMB Crypto",
+        "published_on": 1788919228
+      },
       {
         "title": "Solana maintains $103 support as MoneyGram CEO spotlights stablecoin payments",
         "url": "https://en.coin-turk.com/solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments/?utm_source=rss&utm_medium=rss&utm_campaign=solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments",
@@ -107,15 +113,15 @@
         "url": "https://en.bitcoinsistemi.com/a-list-of-the-altcoins-with-the-highest-number-of-users-in-the-past-week-has-been-released/",
         "source": "BitcoinSistemi",
         "published_on": 1788895870
-      },
-      {
-        "title": "Best 5 Altcoins to Buy 2026: Privacy Cryptos ZCash and Monero Battle as MemeToro Launches Open-Source Agent Framework",
-        "url": "https://en.bitcoinsistemi.com/best-5-altcoins-to-buy-2026-privacy-cryptos-zcash-and-monero-battle-as-memetoro-launches-open-source-agent-framework/",
-        "source": "BitcoinSistemi",
-        "published_on": 1788894015
       }
     ],
     "XRP": [
+      {
+        "title": "Analyst Ali Martinez Maps $60 Target for XRP (XRP) on $3.66 Monthly Close",
+        "url": "https://en.coinotag.com/ali-martinez-60-xrp-target-366-monthly-close",
+        "source": "CoinOtag",
+        "published_on": 1788909383
+      },
       {
         "title": "21Shares Says Ripple Runs Just One of 35 Validators on XRP (XRP) Ledger",
         "url": "https://en.coinotag.com/21shares-ripple-one-of-35-validators-xrp-ledger",
@@ -145,50 +151,44 @@
         "url": "https://en.coin-turk.com/xrp-analyst-targets-13-57-highlights-key-breakouts-and-new-all-time-high-path/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-analyst-targets-13-57-highlights-key-breakouts-and-new-all-time-high-path",
         "source": "CoinTurk News",
         "published_on": 1788899054
-      },
-      {
-        "title": "Biggest XRP Myth Shattered by Top Crypto Asset Manager",
-        "url": "https://u.today/biggest-xrp-myth-shattered-by-top-crypto-asset-manager",
-        "source": "U.Today",
-        "published_on": 1788898522
       }
     ],
     "BNB": [
       {
-        "title": "Top BNB Chain Meme coins 2026: MemeToro’s Open Source Memecoin Launchpad Develops First Fair Launch Escrow",
-        "url": "https://en.bitcoinsistemi.com/top-bnb-chain-meme-coins-2026-memetoros-open-source-memecoin-launchpad-develops-first-fair-launch-escrow/",
-        "source": "BitcoinSistemi",
-        "published_on": 1788908422
+        "title": "Minority Chain Meltdown: XBT Ticker Grab and Mining Revolt Grip BTCB2",
+        "url": "https://news.bitcoin.com/featured/minority-chain-meltdown-xbt-ticker-grab-and-mining-revolt-grip-btcb2/",
+        "source": "Bitcoin.com",
+        "published_on": 1788921031
       },
       {
-        "title": "Ethereum Foundation’s Trillion Dollar Security Initiative rolls out ERC-7730 clear signing on Trezor",
-        "url": "https://www.cryptopolitan.com/trezor-erc-7730-clear-signing-safe-wallets/",
+        "title": "Chainlink price prediction 2026-2032: A strong buy sentiment for LINK?",
+        "url": "https://www.cryptopolitan.com/chainlink-price-prediction/",
         "source": "Cryptopolitan",
-        "published_on": 1788907942
+        "published_on": 1788920648
       },
       {
-        "title": "Dogecoin targets $0.10 as cup and handle pattern sparks breakout hopes",
-        "url": "https://en.coin-turk.com/dogecoin-targets-0-10-as-cup-and-handle-pattern-sparks-breakout-hopes/?utm_source=rss&utm_medium=rss&utm_campaign=dogecoin-targets-0-10-as-cup-and-handle-pattern-sparks-breakout-hopes",
-        "source": "CoinTurk News",
-        "published_on": 1788906381
+        "title": "Chainlink Price Prediction: LINK Eyes $50, But Could Apeing’s $0.0001 Stage 1 Be the Next 100x Crypto?",
+        "url": "https://timestabloid.com/chainlink-price-prediction-link-eyes-50-but-could-apeings/",
+        "source": "TimesTabloid",
+        "published_on": 1788920140
       },
       {
-        "title": "OpenAI's 10,000-Agent Math Proof Ignites Credit Dispute Around Altman's Worldcoin (WLD)",
-        "url": "https://en.coinotag.com/openai-10000-agent-math-proof-dispute-worldcoin-wld",
+        "title": "Dogecoin goes live on Solana as volume hits $19M  – Will demand last?",
+        "url": "https://ambcrypto.com/dogecoin-goes-live-on-solana-as-volume-hits-19m-will-demand-last/",
+        "source": "AMB Crypto",
+        "published_on": 1788919228
+      },
+      {
+        "title": "Bitcoin (BTC) Hovers Near $79K Ahead of PPI and CPI Inflation Data",
+        "url": "https://en.coinotag.com/bitcoin-near-79k-ppi-cpi-inflation-risks",
         "source": "CoinOtag",
-        "published_on": 1788906178
+        "published_on": 1788918913
       },
       {
-        "title": "Metaplanet Freezes 319.5 Million Bitcoin (BTC) Insider Shares After Dilution Disclosure",
-        "url": "https://en.coinotag.com/metaplanet-freezes-319-5-million-bitcoin-insider-shares",
-        "source": "CoinOtag",
-        "published_on": 1788906043
-      },
-      {
-        "title": "Solana maintains $103 support as MoneyGram CEO spotlights stablecoin payments",
-        "url": "https://en.coin-turk.com/solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments/?utm_source=rss&utm_medium=rss&utm_campaign=solana-maintains-103-support-as-moneygram-ceo-spotlights-stablecoin-payments",
-        "source": "CoinTurk News",
-        "published_on": 1788905961
+        "title": "ARK seeks SEC approval for tokenized share class in its venture fund",
+        "url": "https://www.cryptopolitan.com/ark-bids-to-become-one-of-the-first-us-funds-with-sec-cleared-tokenized-shares/",
+        "source": "Cryptopolitan",
+        "published_on": 1788918747
       }
     ],
     "USDT": []
