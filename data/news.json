@@ -1,196 +1,233 @@
 {
-  "generated_at": "2026-09-09T07:47:41.581Z",
+  "generated_at": "2026-09-09T12:39:48.337Z",
   "coins": {
     "BTC": [
       {
-        "title": "Ripple’s XRP Rebounds Swiftly, Bitcoin (BTC) Reclaims $79K: Market Watch",
-        "url": "https://cryptopotato.com/ripples-xrp-rebounds-swiftly-bitcoin-btc-reclaims-79k-market-watch/",
-        "source": "Crypto Potato",
-        "published_on": 1788939872
-      },
-      {
-        "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
-        "url": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1788939381
-      },
-      {
-        "title": "Bitcoin (BTC) Exchange Bithumb Places HEMI on Delisting Watch List After Contract Exploit",
-        "url": "https://en.coinotag.com/bithumb-hemi-delist-watch-list-contract-exploit",
-        "source": "CoinOtag",
-        "published_on": 1788939025
-      },
-      {
-        "title": "Bitcoin price prediction 2026-2032: Will BTC hit $150k soon?",
-        "url": "https://www.cryptopolitan.com/bitcoin-price-prediction/",
-        "source": "Cryptopolitan",
-        "published_on": 1788938806
-      },
-      {
-        "title": "Bitcoin rebounds $1,500 from $77,600 low as spot buying emerges",
-        "url": "https://en.coin-turk.com/bitcoin-rebounds-1500-from-77600-low-as-spot-buying-emerges/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-rebounds-1500-from-77600-low-as-spot-buying-emerges",
+        "title": "Mexico seizes 300 crypto rigs in crackdown on illegal mining using hydroelectric power",
+        "url": "https://en.coin-turk.com/mexico-seizes-300-crypto-rigs-in-crackdown-on-illegal-mining-using-hydroelectric-power/?utm_source=rss&utm_medium=rss&utm_campaign=mexico-seizes-300-crypto-rigs-in-crackdown-on-illegal-mining-using-hydroelectric-power",
         "source": "CoinTurk News",
-        "published_on": 1788938712
+        "published_on": 1788956949
       },
       {
-        "title": "Live updates: XRP funds stand out among U.S. ETFs as bitcoin, ether, solana funds see outflows",
-        "url": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
+        "title": "XRP Beats Bitcoin, Ethereum and Solana in Latest ETF Performance",
+        "url": "https://u.today/xrp-beats-bitcoin-ethereum-and-solana-in-latest-etf-performance",
+        "source": "U.Today",
+        "published_on": 1788956517
+      },
+      {
+        "title": "UK National Crime Agency seizes $32.6 million in crypto, arrests 128 in Russian sanctions probe",
+        "url": "https://en.coin-turk.com/uk-national-crime-agency-seizes-32-6-million-in-crypto-arrests-128-in-russian-sanctions-probe/?utm_source=rss&utm_medium=rss&utm_campaign=uk-national-crime-agency-seizes-32-6-million-in-crypto-arrests-128-in-russian-sanctions-probe",
+        "source": "CoinTurk News",
+        "published_on": 1788956469
+      },
+      {
+        "title": "Major Bullish Signal for Bitcoin: Analyst Explains Why BTC Could Explode Soon",
+        "url": "https://cryptopotato.com/major-bullish-signal-for-bitcoin-analyst-explains-why-btc-could-explode-soon/",
+        "source": "Crypto Potato",
+        "published_on": 1788956402
+      },
+      {
+        "title": "Germany's Finance Ministry Drafts 25% Tax on Bitcoin (BTC) Gains From 2027",
+        "url": "https://en.coinotag.com/germany-finance-ministry-drafts-25-percent-bitcoin-btc-gains-tax-2027",
+        "source": "CoinOtag",
+        "published_on": 1788956213
+      },
+      {
+        "title": "Germany moves to tax bitcoin like stocks as new draft bill targets tax-free gains",
+        "url": "https://www.coindesk.com/business/2026/09/09/germany-moves-to-tax-bitcoin-like-stocks-as-new-draft-bill-targets-tax-free-gains",
         "source": "CoinDesk",
-        "published_on": 1788938451
+        "published_on": 1788956039
       }
     ],
     "ETH": [
       {
-        "title": "Ethereum exchange reserves hit multi-year low, Bitmine adds $69 million in ETH",
-        "url": "https://en.coin-turk.com/ethereum-exchange-reserves-hit-multi-year-low-bitmine-adds-69-million-in-eth/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-exchange-reserves-hit-multi-year-low-bitmine-adds-69-million-in-eth",
+        "title": "XRP Beats Bitcoin, Ethereum and Solana in Latest ETF Performance",
+        "url": "https://u.today/xrp-beats-bitcoin-ethereum-and-solana-in-latest-etf-performance",
+        "source": "U.Today",
+        "published_on": 1788956517
+      },
+      {
+        "title": "Moonbeam (GLMR) Price Prediction 2026, 2027-2030: Is GLMR Undervalued Right Now?",
+        "url": "https://coinpedia.org/price-prediction/moonbeam-glmr-price-prediction/",
+        "source": "coinpedia",
+        "published_on": 1788955903
+      },
+      {
+        "title": "Ethereum Sets a 2029 Deadline for Quantum Resistance",
+        "url": "https://bitzo.com/2026/09/ethereum-quantum-resistance-2029-deadline",
+        "source": "Bitzo",
+        "published_on": 1788955207
+      },
+      {
+        "title": "XRP could hit $5 in 6–12 months, analyst Carolina predicts",
+        "url": "https://en.coin-turk.com/xrp-could-hit-5-in-6-12-months-analyst-carolina-predicts/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-could-hit-5-in-6-12-months-analyst-carolina-predicts",
         "source": "CoinTurk News",
-        "published_on": 1788939670
+        "published_on": 1788953110
       },
       {
-        "title": "Euro Stablecoins Add $156 Million YTD as Dollar Supply Stays Flat",
-        "url": "https://www.cryptopolitan.com/euro-stablecoins-supply-growth-dollar-market-flat/",
-        "source": "Cryptopolitan",
-        "published_on": 1788939555
+        "title": "Ethereum (ETH) Foundation Drops EIP-8363 Reward-Burn Proposal From Hegotá Priorities",
+        "url": "https://en.coinotag.com/ethereum-foundation-drops-eip-8363-reward-burn-hegota",
+        "source": "CoinOtag",
+        "published_on": 1788953091
       },
       {
-        "title": "Frameless Gallery Launches Ethereum NFT Display Platform for TokenFrame and Browser-Capable Screen",
-        "url": "https://www.investing.com/news/cryptocurrency-news/frameless-gallery-launches-ethereum-nft-display-platform-for-tokenframe-and-browsercapable-screen-4891630",
-        "source": "Investing.com Crypto News",
-        "published_on": 1788938505
-      },
-      {
-        "title": "BNB Price Prediction: BNB Rallies Toward $850 as Investors Eye Apeing’s $0.0001 Presale as the Next Crypto to Explode in 2026",
-        "url": "https://en.bitcoinsistemi.com/bnb-price-prediction-bnb-rallies-toward-850-as-investors-eye-apeings-0-0001-presale-as-the-next-crypto-to-explode-in-2026/",
-        "source": "BitcoinSistemi",
-        "published_on": 1788938102
-      },
-      {
-        "title": "Abraxas Capital hedges $353M ETH short with $32M buy – Here’s why",
-        "url": "https://ambcrypto.com/abraxas-capital-hedges-353m-eth-short-with-32m-buy-heres-why/",
-        "source": "AMB Crypto",
-        "published_on": 1788926447
-      },
-      {
-        "title": "Ethereum holds above $2,480 as traders await breakout from key price range",
-        "url": "https://en.coin-turk.com/ethereum-holds-above-2480-as-traders-await-breakout-from-key-price-range/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-holds-above-2480-as-traders-await-breakout-from-key-price-range",
-        "source": "CoinTurk News",
-        "published_on": 1788918613
+        "title": "AIOZ Network (AIOZ) Price Prediction 2026, 2027-2030: Long-Term Investment Guide",
+        "url": "https://coinpedia.org/price-prediction/aioz-network-aioz-price-prediction/",
+        "source": "coinpedia",
+        "published_on": 1788952068
       }
     ],
     "SOL": [
       {
-        "title": "Live updates: XRP funds stand out among U.S. ETFs as bitcoin, ether, solana funds see outflows",
-        "url": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
-        "source": "CoinDesk",
-        "published_on": 1788938451
+        "title": "XRP Beats Bitcoin, Ethereum and Solana in Latest ETF Performance",
+        "url": "https://u.today/xrp-beats-bitcoin-ethereum-and-solana-in-latest-etf-performance",
+        "source": "U.Today",
+        "published_on": 1788956517
       },
       {
-        "title": "DeFi Development Closes $11M CHAD Preferred Raise to Buy More Solana (SOL)",
-        "url": "https://en.coinotag.com/defi-development-11m-chad-preferred-raise-solana-treasury",
-        "source": "CoinOtag",
-        "published_on": 1788937428
+        "title": "Solana Now Does 2x of Robinhood Chain Revenue in 24 Hours",
+        "url": "https://u.today/solana-now-does-2x-of-robinhood-chain-revenue-in-24-hours",
+        "source": "U.Today",
+        "published_on": 1788956100
       },
       {
-        "title": "Solana (SOL) Memecoin Frenzy: Route 2 FI Says Just 0.25% of Traders Cleared $500 in 60 Days",
-        "url": "https://en.coinotag.com/solana-memecoin-frenzy-025-percent-traders-profit-route-2-fi",
-        "source": "CoinOtag",
-        "published_on": 1788930824
+        "title": "A Whale Sold 16,976 SOL to Buy STONK’s 33% Dip; Then Came It’s All-Time High",
+        "url": "https://news.bitcoin.com/crypto-news/stonk-whale-dip-buy-record-high-stonkfun-solana/",
+        "source": "Bitcoin.com",
+        "published_on": 1788955802
       },
       {
-        "title": "Solana’s price finally turns green after 10 months — What next?",
-        "url": "https://ambcrypto.com/solanas-price-finally-turns-green-after-10-months-what-next/",
-        "source": "AMB Crypto",
-        "published_on": 1788928216
+        "title": "Solana Price Prediction: Can Buyers Push SOL Back Toward Recent Highs?",
+        "url": "https://coinpaper.com/35519/solana-price-prediction-can-buyers-push-sol-back-toward-recent-highs",
+        "source": "Coinpaper",
+        "published_on": 1788955516
       },
       {
-        "title": "Backpack's NIKE Stock Token NKE Goes Live on Solana (SOL) for 24/7 Trading",
-        "url": "https://en.coinotag.com/backpacks-nike-stock-token-nke-goes-live-on-solana-for-24-7-trading",
-        "source": "CoinOtag",
-        "published_on": 1788926491
+        "title": "TURBO Price Prediction 2026, 2027-2030: Will TURBO Cross $0.10?",
+        "url": "https://coinpedia.org/price-prediction/turbo-price-prediction/",
+        "source": "coinpedia",
+        "published_on": 1788953825
       },
       {
-        "title": "Dogecoin goes live on Solana as volume hits $19M  – Will demand last?",
-        "url": "https://ambcrypto.com/dogecoin-goes-live-on-solana-as-volume-hits-19m-will-demand-last/",
-        "source": "AMB Crypto",
-        "published_on": 1788919228
+        "title": "XRP could hit $5 in 6–12 months, analyst Carolina predicts",
+        "url": "https://en.coin-turk.com/xrp-could-hit-5-in-6-12-months-analyst-carolina-predicts/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-could-hit-5-in-6-12-months-analyst-carolina-predicts",
+        "source": "CoinTurk News",
+        "published_on": 1788953110
       }
     ],
     "XRP": [
       {
-        "title": "Ripple’s XRP Rebounds Swiftly, Bitcoin (BTC) Reclaims $79K: Market Watch",
-        "url": "https://cryptopotato.com/ripples-xrp-rebounds-swiftly-bitcoin-btc-reclaims-79k-market-watch/",
-        "source": "Crypto Potato",
-        "published_on": 1788939872
+        "title": "XRP Beats Bitcoin, Ethereum and Solana in Latest ETF Performance",
+        "url": "https://u.today/xrp-beats-bitcoin-ethereum-and-solana-in-latest-etf-performance",
+        "source": "U.Today",
+        "published_on": 1788956517
       },
       {
-        "title": "Live updates: XRP funds stand out among U.S. ETFs as bitcoin, ether, solana funds see outflows",
-        "url": "https://www.coindesk.com/business/2026/09/09/live-updates-xrp-funds-stand-out-among-u-s-etfs-as-bitcoin-ether-solana-funds-see-outflows",
-        "source": "CoinDesk",
-        "published_on": 1788938451
-      },
-      {
-        "title": "$11B Asset Manager Sets the Record Straight on XRP Biggest Misconceptions",
-        "url": "https://thecryptobasic.com/2026/09/09/11b-asset-manager-sets-the-record-straight-on-xrp-biggest-misconceptions/",
-        "source": "The Crypto Basic",
-        "published_on": 1788937284
-      },
-      {
-        "title": "Expert: This Huge XRP Liquidity Wall Says Something Big Is Coming",
-        "url": "https://timestabloid.com/expert-this-huge-xrp-liquidity-wall-says-something-big-is-coming/",
+        "title": "David Schwartz Drops Fresh XRP Price Bombshell That Stuns XRP Army",
+        "url": "https://timestabloid.com/david-schwartz-drops-fresh-xrp-price-bombshell-that-stuns-xrp-army/",
         "source": "TimesTabloid",
-        "published_on": 1788937235
+        "published_on": 1788955258
       },
       {
-        "title": "Charles Schwab fund reports $4.8 million in XRP ETF collateral, XRP trades 60% below all time high",
-        "url": "https://en.coin-turk.com/charles-schwab-fund-reports-4-8-million-in-xrp-etf-collateral-xrp-trades-60yuzde-below-all-time-high/?utm_source=rss&utm_medium=rss&utm_campaign=charles-schwab-fund-reports-4-8-million-in-xrp-etf-collateral-xrp-trades-60yuzde-below-all-time-high",
+        "title": "XRP could hit $5 in 6–12 months, analyst Carolina predicts",
+        "url": "https://en.coin-turk.com/xrp-could-hit-5-in-6-12-months-analyst-carolina-predicts/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-could-hit-5-in-6-12-months-analyst-carolina-predicts",
         "source": "CoinTurk News",
-        "published_on": 1788937152
+        "published_on": 1788953110
       },
       {
-        "title": "XRP trading volume hits lowest level since 2017 despite high price",
-        "url": "https://en.coin-turk.com/xrp-trading-volume-hits-lowest-level-since-2017-despite-high-price/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-trading-volume-hits-lowest-level-since-2017-despite-high-price",
-        "source": "CoinTurk News",
-        "published_on": 1788935414
+        "title": "Analyst Says XRP Will Change Your Life In Next 6 to12 Months. Here’s the Target",
+        "url": "https://timestabloid.com/analyst-says-xrp-will-change-your-life-in-next-6-to12-months-heres-the-target/",
+        "source": "TimesTabloid",
+        "published_on": 1788951648
+      },
+      {
+        "title": "SEC Filing Confirms Charles Schwab Holds $1 Million in XRP ETF",
+        "url": "https://thecryptobasic.com/2026/09/09/sec-filing-confirms-charles-schwab-holds-1-million-in-xrp-etf/",
+        "source": "The Crypto Basic",
+        "published_on": 1788950395
+      },
+      {
+        "title": "Fantastic Proof? Ripple CTO Emeritus Says XRP Ledger Consensus Is Found",
+        "url": "https://u.today/fantastic-proof-ripple-cto-emeritus-says-xrp-ledger-consensus-is-found",
+        "source": "U.Today",
+        "published_on": 1788950105
       }
     ],
     "BNB": [
       {
-        "title": "Ripple’s XRP Rebounds Swiftly, Bitcoin (BTC) Reclaims $79K: Market Watch",
-        "url": "https://cryptopotato.com/ripples-xrp-rebounds-swiftly-bitcoin-btc-reclaims-79k-market-watch/",
-        "source": "Crypto Potato",
-        "published_on": 1788939872
+        "title": "Former Ripple Vice President Yoshikawa Reacts to Viral Manifesto From Claude AI Developer",
+        "url": "https://u.today/former-ripple-vice-president-yoshikawa-reacts-to-viral-manifesto-from-claude-ai-developer",
+        "source": "U.Today",
+        "published_on": 1788957270
       },
       {
-        "title": "Ethereum exchange reserves hit multi-year low, Bitmine adds $69 million in ETH",
-        "url": "https://en.coin-turk.com/ethereum-exchange-reserves-hit-multi-year-low-bitmine-adds-69-million-in-eth/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-exchange-reserves-hit-multi-year-low-bitmine-adds-69-million-in-eth",
+        "title": "Mexico seizes 300 crypto rigs in crackdown on illegal mining using hydroelectric power",
+        "url": "https://en.coin-turk.com/mexico-seizes-300-crypto-rigs-in-crackdown-on-illegal-mining-using-hydroelectric-power/?utm_source=rss&utm_medium=rss&utm_campaign=mexico-seizes-300-crypto-rigs-in-crackdown-on-illegal-mining-using-hydroelectric-power",
         "source": "CoinTurk News",
-        "published_on": 1788939670
+        "published_on": 1788956949
       },
       {
-        "title": "Euro Stablecoins Add $156 Million YTD as Dollar Supply Stays Flat",
-        "url": "https://www.cryptopolitan.com/euro-stablecoins-supply-growth-dollar-market-flat/",
-        "source": "Cryptopolitan",
-        "published_on": 1788939555
+        "title": "XRP Beats Bitcoin, Ethereum and Solana in Latest ETF Performance",
+        "url": "https://u.today/xrp-beats-bitcoin-ethereum-and-solana-in-latest-etf-performance",
+        "source": "U.Today",
+        "published_on": 1788956517
       },
       {
-        "title": "Jack Dorsey’s Block seeks US trust bank charter for Bitcoin, stablecoin",
-        "url": "https://cointelegraph.com/news/block-us-trust-bank-charter-bitcoin-stablecoin-custody?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "UK National Crime Agency seizes $32.6 million in crypto, arrests 128 in Russian sanctions probe",
+        "url": "https://en.coin-turk.com/uk-national-crime-agency-seizes-32-6-million-in-crypto-arrests-128-in-russian-sanctions-probe/?utm_source=rss&utm_medium=rss&utm_campaign=uk-national-crime-agency-seizes-32-6-million-in-crypto-arrests-128-in-russian-sanctions-probe",
+        "source": "CoinTurk News",
+        "published_on": 1788956469
+      },
+      {
+        "title": "Italy’s central bank orders sanctions screening for crypto transfers",
+        "url": "https://cointelegraph.com/news/italys-central-bank-orders-sanctions-screening-for-crypto-transfers?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "Cointelegraph",
-        "published_on": 1788939381
+        "published_on": 1788956433
       },
       {
-        "title": "Bybit AI Is Live: One Intelligent Conversational Layer to Redefine Financial Experience",
-        "url": "https://cryptodaily.co.uk/2026/09/bybit-ai-is-live-one-intelligent-conversational-layer-to-redefine-financial-experience",
-        "source": "Crypto Daily",
-        "published_on": 1788939273
-      },
-      {
-        "title": "Bybit AI Is Live: One Intelligent Conversational Layer to Redefine Financial Experience",
-        "url": "https://bitzo.com/2026/09/bybit-ai-is-live-one-intelligent-conversational-layer-to-redefine-financial-experience",
-        "source": "Bitzo",
-        "published_on": 1788939205
+        "title": "Major Bullish Signal for Bitcoin: Analyst Explains Why BTC Could Explode Soon",
+        "url": "https://cryptopotato.com/major-bullish-signal-for-bitcoin-analyst-explains-why-btc-could-explode-soon/",
+        "source": "Crypto Potato",
+        "published_on": 1788956402
       }
     ],
-    "USDT": []
+    "USDT": [
+      {
+        "title": "Iran Turns to USDT and Bitcoin as Sanctions Disrupt Cross-Border Trade",
+        "url": "https://www.cryptonewsz.com/iran-turns-to-crypto-amid-us-sanctions/",
+        "source": "CryptoNewsZ",
+        "published_on": 1788953015
+      },
+      {
+        "title": "Iran Central Bank Opens Bitcoin, USDT Channel for $100B in Undeclared Earnings",
+        "url": "https://en.coinotag.com/iran-central-bank-bitcoin-usdt-export-earnings",
+        "source": "CoinOtag",
+        "published_on": 1788950586
+      },
+      {
+        "title": "Iran Eases Currency Rules as Bitcoin, USDT Gain Role in Cross-Border Trade: Report",
+        "url": "https://thecryptobasic.com/2026/09/09/iran-eases-currency-rules-as-bitcoin-usdt-gain-role-in-cross-border-trade-report/",
+        "source": "The Crypto Basic",
+        "published_on": 1788946990
+      },
+      {
+        "title": "Tether freezes $39 million in USDT tied to Xinbi Guarantee on TRON",
+        "url": "https://en.coin-turk.com/tether-freezes-39-million-in-usdt-tied-to-xinbi-guarantee-on-tron/?utm_source=rss&utm_medium=rss&utm_campaign=tether-freezes-39-million-in-usdt-tied-to-xinbi-guarantee-on-tron",
+        "source": "CoinTurk News",
+        "published_on": 1788946090
+      },
+      {
+        "title": "Iran’s Cryptocurrency Move Facilitates the Use of USDT and Bitcoin in Cross-Border Trade! Here Are the Details",
+        "url": "https://en.bitcoinsistemi.com/iran-s-cryptocurrency-move-facilitates-the-use-of-usdt-and-bitcoin-in-cross-border-trade-here-are-th/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788941886
+      },
+      {
+        "title": "Iran approves Bitcoin and USDT for trade, US seizes $344 million in April",
+        "url": "https://en.coin-turk.com/iran-approves-bitcoin-and-usdt-for-trade-us-seizes-344-million-in-april/?utm_source=rss&utm_medium=rss&utm_campaign=iran-approves-bitcoin-and-usdt-for-trade-us-seizes-344-million-in-april",
+        "source": "CoinTurk News",
+        "published_on": 1788940510
+      }
+    ]
   }
 }
