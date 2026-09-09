@@ -263,7 +263,7 @@
     .currency{ flex:1 1 45%; border-right:none; border-bottom:1px solid var(--line); }
   }
 
-  /* ---------- top 100 table ---------- */
+  /* ---------- top 100 grid ---------- */
   .coin-search{
     width:100%; margin-bottom:20px; padding:13px 16px;
     background:var(--panel); border:1px solid var(--line); color:var(--ivory);
@@ -272,37 +272,27 @@
   .coin-search::placeholder{ color:var(--slate); }
   .coin-search:focus-visible{ outline:2px solid var(--gold-bright); outline-offset:-2px; }
 
-  .top100-wrap{
-    border:1px solid var(--line); max-height:640px; overflow-y:auto;
+  .coin-grid{
+    display:grid; grid-template-columns:repeat(auto-fill, minmax(108px, 1fr));
+    gap:24px 16px;
+    max-height:700px; overflow-y:auto;
+    border:1px solid var(--line); background:var(--panel);
+    padding:24px;
   }
-  .top100-table{ width:100%; border-collapse:collapse; }
-  .top100-table thead th{
-    position:sticky; top:0; z-index:1;
-    background:var(--panel-2); text-align:left; font-weight:500;
-    font-size:0.78rem; color:var(--slate); padding:12px 16px;
-    border-bottom:1px solid var(--line);
+  .coin-grid-item{ text-align:center; }
+  .coin-grid-item .coin{ display:block; }
+  .coin-grid-item .medallion{ width:60px; height:60px; font-size:0.62rem; margin:0 auto; }
+  .coin-grid-item .grid-name{
+    margin-top:10px; color:var(--ivory); font-size:0.82rem;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
   }
-  .top100-table th.num-col, .top100-table td.num-col{ text-align:right; }
-  .top100-row{ cursor:pointer; transition:background 0.15s ease; }
-  .top100-row:hover, .top100-row:focus-visible{ background:var(--panel); }
-  .top100-table td{
-    padding:12px 16px; border-bottom:1px solid var(--line);
-    font-size:0.9rem; background:var(--panel);
+  .coin-grid-item .grid-rank{
+    margin-top:2px; color:var(--slate); font-size:0.72rem;
+    font-family:"IBM Plex Mono", monospace;
   }
-  .top100-row:hover td{ background:var(--panel-2); }
-  .coin-cell{ display:flex; align-items:center; gap:12px; }
-  .mini-medallion{
-    width:32px; height:32px; border-radius:50%; flex-shrink:0;
-    background:radial-gradient(circle at 32% 28%, #F3D98A, #C99A34 45%, #8A6A22 100%);
-    display:flex; align-items:center; justify-content:center;
-    font-family:"Fraunces", serif; font-weight:600; font-size:0.55rem; color:#3A2A0C;
+  .coin-grid-item .grid-price{
+    margin-top:2px; font-size:0.76rem; font-family:"IBM Plex Mono", monospace; color:var(--gold-bright);
   }
-  .coin-cell .coin-name{ color:var(--ivory); }
-  .coin-cell .coin-sym{ color:var(--slate); font-size:0.8rem; margin-left:6px; }
-  .top100-table .rank-col{ color:var(--slate); font-family:"IBM Plex Mono", monospace; width:44px; }
-  .top100-table .price-col{ font-family:"IBM Plex Mono", monospace; }
-  .top100-table .change-col{ font-family:"IBM Plex Mono", monospace; }
-  .change-col.up{ color:#8FBF8A; }
   .change-col.down{ color:#D08A7A; }
 
   /* ---------- exchange cards ---------- */
@@ -413,23 +403,11 @@
     <div class="section-head">
       <span class="label">the full board</span>
       <h2 style="margin-top:10px;">Top 100 coins by market cap</h2>
-      <p>Ranked automatically every 10 minutes, straight from the same snapshot the price panel uses. Click any row for live price data, background, and news — without leaving the page.</p>
+      <p>Ranked automatically every 10 minutes. Browse by icon and name, hover for quick options, or click through for live price data, background, and news — all without leaving the page.</p>
     </div>
     <input type="text" class="coin-search" id="coinSearch" placeholder="Search by name or ticker…" aria-label="Search coins">
-    <div class="top100-wrap">
-      <table class="top100-table">
-        <thead>
-          <tr>
-            <th class="num-col">#</th>
-            <th>Coin</th>
-            <th class="num-col">Price</th>
-            <th class="num-col">24h</th>
-          </tr>
-        </thead>
-        <tbody id="top100Body">
-          <tr><td colspan="4" class="coin-status">Loading the top 100…</td></tr>
-        </tbody>
-      </table>
+    <div class="coin-grid" id="top100Grid">
+      <div class="coin-status">Loading the top 100…</div>
     </div>
     <p class="fine">Background write-ups only exist for a handful of well-established coins — the rest will show live price and news where available, with a plain note where background detail isn't available yet.</p>
   </div>
@@ -831,7 +809,7 @@
     });
   });
 
-  // Delegated click handling — works for the hero cluster and table rows
+  // Delegated click handling — works for the hero cluster and grid items
   // alike, even though both are rendered dynamically after the fact.
   document.addEventListener('click', function(e){
     var flyoutBtn = e.target.closest('.flyout-btn');
@@ -843,11 +821,6 @@
     var medallionBtn = e.target.closest('.medallion[data-coin-id]');
     if (medallionBtn){
       openCoin(medallionBtn.dataset.coinId, medallionBtn.dataset.coinSymbol, medallionBtn.dataset.coinName, 'price');
-      return;
-    }
-    var row = e.target.closest('.top100-row');
-    if (row){
-      openCoin(row.dataset.coinId, row.dataset.coinSymbol, row.dataset.coinName, 'price');
       return;
     }
   });
@@ -889,37 +862,34 @@
 
   var allCoinsSorted = [];
 
-  function tableRowHtml(entry){
-    var changeClass = entry.change_24h >= 0 ? 'up' : 'down';
-    var changeSign = entry.change_24h >= 0 ? '+' : '';
+  function gridItemHtml(entry){
     return (
-      '<tr class="top100-row" tabindex="0" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">' +
-        '<td class="rank-col">' + (entry.market_cap_rank || '—') + '</td>' +
-        '<td><div class="coin-cell"><div class="mini-medallion">' + entry.symbol + '</div>' +
-          '<span class="coin-name">' + entry.name + '</span><span class="coin-sym">' + entry.symbol + '</span></div></td>' +
-        '<td class="price-col num-col">' + fmtUsd(entry.price) + '</td>' +
-        '<td class="change-col num-col ' + changeClass + '">' + changeSign + entry.change_24h.toFixed(2) + '%</td>' +
-      '</tr>'
+      '<div class="coin-grid-item">' +
+        medallionHtml(entry) +
+        '<div class="grid-name">' + entry.name + '</div>' +
+        '<div class="grid-price">' + fmtUsd(entry.price) + '</div>' +
+        '<div class="grid-rank">#' + (entry.market_cap_rank || '—') + '</div>' +
+      '</div>'
     );
   }
 
-  function renderTable(list){
-    var body = document.getElementById('top100Body');
-    if (!body) return;
+  function renderGrid(list){
+    var grid = document.getElementById('top100Grid');
+    if (!grid) return;
     if (!list.length){
-      body.innerHTML = '<tr><td colspan="4" class="coin-status">No coins match that search.</td></tr>';
+      grid.innerHTML = '<div class="coin-status">No coins match that search.</div>';
       return;
     }
-    body.innerHTML = list.map(tableRowHtml).join('');
+    grid.innerHTML = list.map(gridItemHtml).join('');
   }
 
   function initTop100(){
     loadSnapshot().then(function(snapshot){
       var heroEl = document.getElementById('heroCluster');
-      var body = document.getElementById('top100Body');
+      var grid = document.getElementById('top100Grid');
       if (!snapshot || !snapshot.coins){
         if (heroEl) heroEl.innerHTML = '<div class="coin-status" style="margin:0;">Data isn\'t available right now.</div>';
-        if (body) body.innerHTML = '<tr><td colspan="4" class="coin-status">Data isn\'t available right now — please try again shortly.</td></tr>';
+        if (grid) grid.innerHTML = '<div class="coin-status">Data isn\'t available right now — please try again shortly.</div>';
         return;
       }
 
@@ -932,7 +902,7 @@
       });
 
       renderHeroCluster(allCoinsSorted);
-      renderTable(allCoinsSorted);
+      renderGrid(allCoinsSorted);
     });
   }
 
@@ -941,13 +911,13 @@
     searchInput.addEventListener('input', function(){
       var q = searchInput.value.trim().toLowerCase();
       if (!q){
-        renderTable(allCoinsSorted);
+        renderGrid(allCoinsSorted);
         return;
       }
       var filtered = allCoinsSorted.filter(function(entry){
         return entry.name.toLowerCase().indexOf(q) !== -1 || entry.symbol.toLowerCase().indexOf(q) !== -1;
       });
-      renderTable(filtered);
+      renderGrid(filtered);
     });
   }
 
