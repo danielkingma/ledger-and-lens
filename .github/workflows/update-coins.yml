@@ -29,6 +29,7 @@ jobs:
               out.coins[r.id] = {
                 symbol: r.symbol.toUpperCase(),
                 name: r.name,
+                image: r.image,
                 price: r.current_price,
                 change_24h: r.price_change_percentage_24h,
                 market_cap: r.market_cap,
