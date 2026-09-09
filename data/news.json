@@ -1,83 +1,101 @@
 {
-  "generated_at": "2026-09-09T16:59:22.939Z",
+  "generated_at": "2026-09-09T19:39:15.828Z",
   "coins": {
     "BTC": [
       {
-        "title": "Bitcoin Only Goes Up: What the 200W and 50W MAs Say About the Cycle Transition",
-        "url": "https://www.investing.com/analysis/bitcoin-only-goes-up-what-the-200w-and-50w-mas-say-about-the-cycle-transition-200687272",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788973138
+        "title": "Grayscale Drives $47M Bitcoin Outflows as XRP Funds Gain $1.55M",
+        "url": "https://news.bitcoin.com/bitcoin-etf/grayscale-drives-47m-bitcoin-outflows-as-xrp-funds-gain-1-55m/",
+        "source": "Bitcoin.com",
+        "published_on": 1788982296
       },
       {
-        "title": "While Bitcoin Devs Debate Next Moves, IonQ Unveils Superion 256 Quantum Computer",
-        "url": "https://decrypt.co/377737/bitcoin-debate-ionq-quantum-computer",
-        "source": "Decrypt",
-        "published_on": 1788972365
+        "title": "Bitcoin hugs support below key MAs as bears take control: Live",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-775k822k-range-live-levels-93CH-4890481",
+        "source": "Investing.com Crypto News",
+        "published_on": 1788982282
       },
       {
-        "title": "Bitcoin Reclaims $82K: 6 Reasons the Fed Won’t Stand in Its Way",
-        "url": "https://www.investing.com/analysis/bitcoin-reclaims-82k-6-reasons-the-fed-wont-stand-in-its-way-200687140",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788972057
+        "title": "Gold Cross Alert for Bitcoin: Analyst Issues Warning! “Bullish at First, But Then…”",
+        "url": "https://en.bitcoinsistemi.com/gold-cross-alert-for-bitcoin-analyst-issues-warning-bullish-at-first-but-then/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788981486
       },
       {
-        "title": "Bitcoin’s Autumn Test: The Big Money Has Yet to Arrive",
-        "url": "https://www.investing.com/analysis/bitcoins-autumn-test-the-big-money-has-yet-to-arrive-200687092",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788971784
+        "title": "Bitcoin’s AI Security Breakthrough Has Crypto Watching – Could Apeing Be the Next Big Crypto With 2,400% ROI in Sight?",
+        "url": "https://timestabloid.com/bitcoins-ai-security-breakthrough-has-crypto-watching/",
+        "source": "TimesTabloid",
+        "published_on": 1788981346
       },
       {
-        "title": "Whales Defended Bitcoin’s $58K-$63K Zone, Says Jamie Coutts",
-        "url": "https://coinpedia.org/crypto-live-news/whales-defended-bitcoins-58k-63k-zone-says-jamie-coutts/",
-        "source": "coinpedia",
-        "published_on": 1788971318
+        "title": "LayerZero and Coinbase push crypto closer to quantum resistance",
+        "url": "https://www.cryptopolitan.com/layerzero-coinbase-advance-quantum-2029/",
+        "source": "Cryptopolitan",
+        "published_on": 1788981308
       },
       {
-        "title": "Bitcoin fails to reclaim $80K as Bessent fuels yen strength around 153 per dollar",
-        "url": "https://cointelegraph.com/markets/bitcoin-fails-to-reclaim-80k-as-bessent-fuels-yen-strength-around-153-per-dollar?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1788971299
+        "title": "Steak ‘n Shake sees 19% same-store sales jump after Bitcoin payments rollout",
+        "url": "https://en.coin-turk.com/steak-n-shake-sees-19yuzde-same-store-sales-jump-after-bitcoin-payments-rollout/?utm_source=rss&utm_medium=rss&utm_campaign=steak-n-shake-sees-19yuzde-same-store-sales-jump-after-bitcoin-payments-rollout",
+        "source": "CoinTurk News",
+        "published_on": 1788980954
       }
     ],
     "ETH": [
       {
-        "title": "ETH Consolidates Ahead of Treasury Announcement as Golden Cross Signals Upside",
-        "url": "https://www.investing.com/analysis/eth-consolidates-ahead-of-treasury-announcement-as-golden-cross-signals-upside-200687372",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788971444
+        "title": "LayerZero and Coinbase push crypto closer to quantum resistance",
+        "url": "https://www.cryptopolitan.com/layerzero-coinbase-advance-quantum-2029/",
+        "source": "Cryptopolitan",
+        "published_on": 1788981308
       },
       {
-        "title": "XRP ETFs Become Only Crypto Funds Attracting Inflows as BTC, ETH and SOL Bleed",
-        "url": "https://thecryptobasic.com/2026/09/09/xrp-etfs-become-only-crypto-funds-attracting-inflows-as-btc-eth-and-sol-bleed/",
-        "source": "The Crypto Basic",
-        "published_on": 1788970180
+        "title": "Consensys to split into MetaMask and institutional blockchain company",
+        "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "Cointelegraph",
+        "published_on": 1788979652
       },
       {
-        "title": "ONE is available for trading!",
-        "url": "https://blog.kraken.com/product/asset-listings/one-is-available-for-trading",
-        "source": "Kraken Blog",
-        "published_on": 1788969416
+        "title": "BitMine now holds 5.93M ETH — What does it mean for BMNR stock?",
+        "url": "https://ambcrypto.com/bitmine-now-holds-5-93m-eth-what-does-it-mean-for-bmnr-stock/",
+        "source": "AMB Crypto",
+        "published_on": 1788978654
       },
       {
-        "title": "Bitcoin and Ethereum race quantum clock as U.S. backs $300 million hardware push",
-        "url": "https://www.coindesk.com/tech/2026/09/09/bitcoin-and-ethereum-race-quantum-clock-as-u-s-backs-usd300-million-hardware-push",
-        "source": "CoinDesk",
-        "published_on": 1788967800
-      },
-      {
-        "title": "Consensys to split MetaMask into its own firm while staying silent on IPO",
-        "url": "https://www.coindesk.com/business/2026/09/09/consensys-to-split-metamask-into-its-own-firm-while-staying-silent-on-ipo",
-        "source": "CoinDesk",
-        "published_on": 1788967441
-      },
-      {
-        "title": "Attention Bitcoin and Ethereum Investors! Germany is Changing its System! Here are the Details",
-        "url": "https://en.bitcoinsistemi.com/attention-bitcoin-and-ethereum-investors-germany-is-changing-its-system-here-are-the-details/",
+        "title": "Vitalik Buterin Announced the Big News About the New Ethereum Update",
+        "url": "https://en.bitcoinsistemi.com/vitalik-buterin-announced-the-big-news-about-the-new-ethereum-update/",
         "source": "BitcoinSistemi",
-        "published_on": 1788967328
+        "published_on": 1788977828
+      },
+      {
+        "title": "MetaMask Goes Independent From Consensys With 100M Ethereum (ETH) Wallet Users",
+        "url": "https://en.coinotag.com/metamask-independent-from-consensys-ethereum-wallet",
+        "source": "CoinOtag",
+        "published_on": 1788973797
+      },
+      {
+        "title": "The 22% Sales Boost Hiding in Your Crypto Checkout",
+        "url": "https://www.cryptopolitan.com/the-22-sales-boost-hiding-in-your-crypto-checkout/",
+        "source": "Cryptopolitan",
+        "published_on": 1788973252
       }
     ],
     "SOL": [
+      {
+        "title": "Grayscale Drives $47M Bitcoin Outflows as XRP Funds Gain $1.55M",
+        "url": "https://news.bitcoin.com/bitcoin-etf/grayscale-drives-47m-bitcoin-outflows-as-xrp-funds-gain-1-55m/",
+        "source": "Bitcoin.com",
+        "published_on": 1788982296
+      },
+      {
+        "title": "Solana Widens Memecoin Volume Lead Over Robinhood‬",
+        "url": "https://zycrypto.com/solana-widens-memecoin-volume-lead-over-robinhood/",
+        "source": "ZyCrypto",
+        "published_on": 1788979902
+      },
+      {
+        "title": "SOL Price Faces $50 Risk as SkyAI Board Fight Escalates",
+        "url": "https://coinpedia.org/price-analysis/sol-price-faces-50-risk-as-skyai-board-fight-escalates/",
+        "source": "coinpedia",
+        "published_on": 1788973462
+      },
       {
         "title": "Solana’s Revenue Discount Tests Whether Activity Can Finally Reprice SOL",
         "url": "https://www.investing.com/analysis/solanas-revenue-discount-tests-whether-activity-can-finally-reprice-sol-200687174",
@@ -95,102 +113,121 @@
         "url": "https://coinpaper.com/35540/xrp-outperforms-bitcoin-ethereum-and-solana-in-latest-us-etf-flows",
         "source": "Coinpaper",
         "published_on": 1788963139
-      },
-      {
-        "title": "Solana whale buys $28M in SOL – Is a bigger accumulation phase starting?",
-        "url": "https://ambcrypto.com/solana-whale-buys-28m-in-sol-is-a-bigger-accumulation-phase-starting/",
-        "source": "AMB Crypto",
-        "published_on": 1788962456
-      },
-      {
-        "title": "Solana app revenue hits $6.56 million in 24 hours, doubles Robinhood Chain",
-        "url": "https://en.coin-turk.com/solana-app-revenue-hits-6-56-million-in-24-hours-doubles-robinhood-chain/?utm_source=rss&utm_medium=rss&utm_campaign=solana-app-revenue-hits-6-56-million-in-24-hours-doubles-robinhood-chain",
-        "source": "CoinTurk News",
-        "published_on": 1788962174
-      },
-      {
-        "title": "Solana hovers at $103 as traders watch $100 support and $106 resistance",
-        "url": "https://en.coin-turk.com/solana-hovers-at-103-as-traders-watch-100-support-and-106-resistance/?utm_source=rss&utm_medium=rss&utm_campaign=solana-hovers-at-103-as-traders-watch-100-support-and-106-resistance",
-        "source": "CoinTurk News",
-        "published_on": 1788959534
       }
     ],
     "XRP": [
       {
-        "title": "XRP Has Entered Rare Zone Seen Just 7 Times in 13 Years, Analyst Says",
-        "url": "https://thecryptobasic.com/2026/09/09/xrp-has-entered-rare-zone-seen-just-7-times-in-13-years-analyst-says/",
-        "source": "The Crypto Basic",
-        "published_on": 1788971237
+        "title": "Grayscale Drives $47M Bitcoin Outflows as XRP Funds Gain $1.55M",
+        "url": "https://news.bitcoin.com/bitcoin-etf/grayscale-drives-47m-bitcoin-outflows-as-xrp-funds-gain-1-55m/",
+        "source": "Bitcoin.com",
+        "published_on": 1788982296
       },
       {
-        "title": "XRP approaches key $1.40 breakout level as analyst targets $1.46",
-        "url": "https://en.coin-turk.com/xrp-approaches-key-1-40-breakout-level-as-analyst-targets-1-46/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-approaches-key-1-40-breakout-level-as-analyst-targets-1-46",
+        "title": "XRP faces key $1.52 resistance as Supertrend turns bullish, analyst warns of possible pullback",
+        "url": "https://en.coin-turk.com/xrp-faces-key-1-52-resistance-as-supertrend-turns-bullish-analyst-warns-of-possible-pullback/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-faces-key-1-52-resistance-as-supertrend-turns-bullish-analyst-warns-of-possible-pullback",
         "source": "CoinTurk News",
-        "published_on": 1788970274
+        "published_on": 1788981850
       },
       {
-        "title": "XRP ETFs Become Only Crypto Funds Attracting Inflows as BTC, ETH and SOL Bleed",
-        "url": "https://thecryptobasic.com/2026/09/09/xrp-etfs-become-only-crypto-funds-attracting-inflows-as-btc-eth-and-sol-bleed/",
-        "source": "The Crypto Basic",
-        "published_on": 1788970180
-      },
-      {
-        "title": "Analyst Has XRP Price Advice for Holders: A Pretty Obvious Setup",
-        "url": "https://timestabloid.com/analyst-has-xrp-price-advice-for-holders-a-pretty-obvious-setup/",
+        "title": "XRP Supertrend Flips Bullish But This Analyst Expects Something Different",
+        "url": "https://timestabloid.com/xrp-supertrend-flips-bullish-but-this-analyst-expects-something-different/",
         "source": "TimesTabloid",
-        "published_on": 1788969627
+        "published_on": 1788980428
       },
       {
-        "title": "Ripple News Brad Garlinghouse Slams $11B Gold Transfer as XRP Price Eyes $2",
-        "url": "https://cryptonews.com/news/ripple-news-xrp-price-prediction-gold-transfer/",
-        "source": "cryptonews",
-        "published_on": 1788969180
+        "title": "Ripple's David Schwartz Says XRP (XRP) Could Flip Bitcoin's $1.58 Trillion Cap",
+        "url": "https://en.coinotag.com/david-schwartz-xrp-flip-bitcoin-158-trillion-cap",
+        "source": "CoinOtag",
+        "published_on": 1788979646
       },
       {
-        "title": "Ripple News: SEC Filing Allegedly Names XRP Among Eligible Commodities For New ETF Standards",
-        "url": "https://coinpedia.org/news/ripple-news-sec-filing-allegedly-names-xrp-among-eligible-commodities-for-new-etf-standards/",
-        "source": "coinpedia",
-        "published_on": 1788968710
+        "title": "$11B Asset Manager Debunks the Biggest Misconception Surrounding Ripple-Linked XRP",
+        "url": "https://zycrypto.com/11b-asset-manager-debunks-the-biggest-misconception-surrounding-ripple-linked-xrp/",
+        "source": "ZyCrypto",
+        "published_on": 1788979254
+      },
+      {
+        "title": "Analyst warns $XRP may see explosive breakout followed by 95% crash",
+        "url": "https://en.coin-turk.com/analyst-warns-xrp-may-see-explosive-breakout-followed-by-95yuzde-crash/?utm_source=rss&utm_medium=rss&utm_campaign=analyst-warns-xrp-may-see-explosive-breakout-followed-by-95yuzde-crash",
+        "source": "CoinTurk News",
+        "published_on": 1788978612
       }
     ],
     "BNB": [
       {
-        "title": "Crypto Regulation Is Maturing — but Global Rules Still Don’t Work Together",
-        "url": "https://www.investing.com/analysis/crypto-regulation-is-maturing--but-global-rules-still-dont-work-together-200687164",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788972927
+        "title": "Grayscale Drives $47M Bitcoin Outflows as XRP Funds Gain $1.55M",
+        "url": "https://news.bitcoin.com/bitcoin-etf/grayscale-drives-47m-bitcoin-outflows-as-xrp-funds-gain-1-55m/",
+        "source": "Bitcoin.com",
+        "published_on": 1788982296
       },
       {
-        "title": "The Crypto Market Is Testing May’s Highs",
-        "url": "https://www.investing.com/analysis/the-crypto-market-is-testing-mays-highs-200687125",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788972583
+        "title": "Bitcoin hugs support below key MAs as bears take control: Live",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-trapped-in-775k822k-range-live-levels-93CH-4890481",
+        "source": "Investing.com Crypto News",
+        "published_on": 1788982282
       },
       {
-        "title": "Coinbase Is Building Financial Account for AI, CEO Brian Armstrong Teases",
-        "url": "https://u.today/coinbase-is-building-financial-account-for-ai-ceo-brian-armstrong-teases",
-        "source": "U.Today",
-        "published_on": 1788972545
-      },
-      {
-        "title": "Solana’s Revenue Discount Tests Whether Activity Can Finally Reprice SOL",
-        "url": "https://www.investing.com/analysis/solanas-revenue-discount-tests-whether-activity-can-finally-reprice-sol-200687174",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788972390
-      },
-      {
-        "title": "While Bitcoin Devs Debate Next Moves, IonQ Unveils Superion 256 Quantum Computer",
-        "url": "https://decrypt.co/377737/bitcoin-debate-ionq-quantum-computer",
-        "source": "Decrypt",
-        "published_on": 1788972365
-      },
-      {
-        "title": "Zcash surges as whales buy $11.2 million, ETF trading volume tops $500 million",
-        "url": "https://en.coin-turk.com/zcash-surges-as-whales-buy-11-2-million-etf-trading-volume-tops-500-million/?utm_source=rss&utm_medium=rss&utm_campaign=zcash-surges-as-whales-buy-11-2-million-etf-trading-volume-tops-500-million",
+        "title": "XRP faces key $1.52 resistance as Supertrend turns bullish, analyst warns of possible pullback",
+        "url": "https://en.coin-turk.com/xrp-faces-key-1-52-resistance-as-supertrend-turns-bullish-analyst-warns-of-possible-pullback/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-faces-key-1-52-resistance-as-supertrend-turns-bullish-analyst-warns-of-possible-pullback",
         "source": "CoinTurk News",
-        "published_on": 1788972194
+        "published_on": 1788981850
+      },
+      {
+        "title": "Gold Cross Alert for Bitcoin: Analyst Issues Warning! “Bullish at First, But Then…”",
+        "url": "https://en.bitcoinsistemi.com/gold-cross-alert-for-bitcoin-analyst-issues-warning-bullish-at-first-but-then/",
+        "source": "BitcoinSistemi",
+        "published_on": 1788981486
+      },
+      {
+        "title": "Bitcoin’s AI Security Breakthrough Has Crypto Watching – Could Apeing Be the Next Big Crypto With 2,400% ROI in Sight?",
+        "url": "https://timestabloid.com/bitcoins-ai-security-breakthrough-has-crypto-watching/",
+        "source": "TimesTabloid",
+        "published_on": 1788981346
+      },
+      {
+        "title": "LayerZero and Coinbase push crypto closer to quantum resistance",
+        "url": "https://www.cryptopolitan.com/layerzero-coinbase-advance-quantum-2029/",
+        "source": "Cryptopolitan",
+        "published_on": 1788981308
       }
     ],
-    "USDT": []
+    "USDT": [
+      {
+        "title": "US Secret Service freezes $52.8 million in USDT from Xinbi marketplace",
+        "url": "https://en.coin-turk.com/us-secret-service-freezes-52-8-million-in-usdt-from-xinbi-marketplace/?utm_source=rss&utm_medium=rss&utm_campaign=us-secret-service-freezes-52-8-million-in-usdt-from-xinbi-marketplace",
+        "source": "CoinTurk News",
+        "published_on": 1788977414
+      },
+      {
+        "title": "Iran accepts USDT and Bitcoin for exports amid US sanctions",
+        "url": "https://en.coin-turk.com/iran-accepts-usdt-and-bitcoin-for-exports-amid-us-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=iran-accepts-usdt-and-bitcoin-for-exports-amid-us-sanctions",
+        "source": "CoinTurk News",
+        "published_on": 1788970994
+      },
+      {
+        "title": "Tether launches private credit fund in effort to boost stablecoin use",
+        "url": "https://www.ft.com/content/b9e0b9b5-3b6e-420e-83da-381b75534635?syn-25a6b1a6=1",
+        "source": "Financial Times (Crypto)",
+        "published_on": 1788970149
+      },
+      {
+        "title": "Tether pushes into private credit with $400 million fund with Fasanara",
+        "url": "https://www.coindesk.com/business/2026/09/09/tether-pushes-into-private-credit-with-usd400-million-fund-with-fasanara",
+        "source": "CoinDesk",
+        "published_on": 1788969085
+      },
+      {
+        "title": "US DOJ Seizes $52M in Tether (USDT) and Crypto From Xinbi Guarantee Network",
+        "url": "https://en.coinotag.com/us-doj-seizes-52m-crypto-xinbi-guarantee-tether-usdt",
+        "source": "CoinOtag",
+        "published_on": 1788967378
+      },
+      {
+        "title": "Tether, Fasanara launch $400M private credit fund targeting $3B",
+        "url": "https://cointelegraph.com/news/tether-fasanara-launch-400m-private-credit-fund-targeting-3b?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "Cointelegraph",
+        "published_on": 1788967304
+      }
+    ]
   }
 }
