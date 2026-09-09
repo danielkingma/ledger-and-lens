@@ -1,0 +1,70 @@
+name: Update narrative tokens
+
+on:
+  schedule:
+    # Runs at the top of every hour
+    - cron: '0 * * * *'
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Fetch top tokens per narrative category from CoinGecko
+        run: |
+          mkdir -p data /tmp/narratives
+
+          # CoinGecko category slugs, verified against coingecko.com/en/categories/<slug>
+          declare -A CATS=(
+            [tokenization]="real-world-assets-rwa"
+            [infrastructure]="artificial-intelligence"
+            [scaling]="layer-2"
+            [yield]="restaking"
+            [high-risk]="meme-token"
+          )
+
+          for key in "${!CATS[@]}"; do
+            slug="${CATS[$key]}"
+            curl -sf "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&category=${slug}&order=market_cap_desc&per_page=5&page=1" \
+              -o "/tmp/narratives/${key}.json" || echo "[]" > "/tmp/narratives/${key}.json"
+          done
+
+          node -e "
+            const fs = require('fs');
+            const keys = ['tokenization','infrastructure','scaling','yield','high-risk'];
+            const out = { generated_at: new Date().toISOString(), categories: {} };
+
+            for (const key of keys) {
+              let items = [];
+              try {
+                const rows = JSON.parse(fs.readFileSync('/tmp/narratives/' + key + '.json', 'utf8'));
+                items = rows.slice(0, 5).map(r => ({
+                  id: r.id,
+                  symbol: r.symbol.toUpperCase(),
+                  name: r.name,
+                  image: r.image,
+                  price: r.current_price,
+                  market_cap_rank: r.market_cap_rank
+                }));
+              } catch (e) {
+                items = [];
+              }
+              out.categories[key] = items;
+            }
+
+            fs.writeFileSync('data/narratives.json', JSON.stringify(out, null, 2) + '\n');
+          "
+
+      - name: Commit updated data (if it changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/narratives.json
+          git diff --cached --quiet || git commit -m "Update narrative token snapshot"
+          git push
