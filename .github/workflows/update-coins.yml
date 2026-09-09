@@ -2,7 +2,7 @@ name: Update coin data
 
 on:
   schedule:
-    # Runs at minute 0 past every 12th hour (00:00 and 12:00 UTC)
+    # Runs every 10 minutes
     - cron: '*/10 * * * *'
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
 
@@ -19,8 +19,7 @@ jobs:
       - name: Fetch latest data from CoinGecko
         run: |
           mkdir -p data
-          ids="bitcoin,ethereum,solana,ripple,binancecoin,tether"
-          curl -sf "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=${ids}&order=market_cap_desc&price_change_percentage=24h" -o /tmp/markets.json
+          curl -sf "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1&price_change_percentage=24h" -o /tmp/markets.json
 
           node -e "
             const fs = require('fs');
