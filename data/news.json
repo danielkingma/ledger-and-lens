@@ -1,196 +1,233 @@
 {
-  "generated_at": "2026-09-10T10:27:25.250Z",
+  "generated_at": "2026-09-10T14:44:28.090Z",
   "coins": {
     "BTC": [
       {
-        "title": "Bitcoin trades near $78,000 as memecoins, small caps lead a broad crypto retreat",
-        "url": "https://www.coindesk.com/markets/2026/09/10/bitcoin-trades-near-usd78-000-as-memecoins-small-caps-lead-a-broad-crypto-retreat",
-        "source": "CoinDesk",
-        "published_on": 1789035854
+        "title": "Wells Fargo: Bitcoin beats inflation over time — but Isn’t a reliable hedge",
+        "url": "https://seekingalpha.com/news/4641675-wells-fargo-bitcoin-beats-inflation-over-time-but-isn-t-a-reliable-hedge?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+        "source": "Seeking Alpha",
+        "published_on": 1789051242
       },
       {
-        "title": "Ethereum News: ETH Price Could Surge to $11,800 by 2030, Analysts Say",
-        "url": "https://cryptonews.com/news/ethereum-news-price-prediction-2030/",
-        "source": "cryptonews",
-        "published_on": 1789035569
+        "title": "Has the Quantum Threat Reached Bitcoin’s (BTC) Doorstep? US Giant Company Announces Latest Data!",
+        "url": "https://en.bitcoinsistemi.com/has-the-quantum-threat-reached-bitcoin-s-btc-doorstep-us-giant-company-announces-latest-data/",
+        "source": "BitcoinSistemi",
+        "published_on": 1789050967
       },
       {
-        "title": "Important Ripple News and XRP Price Update: September 10",
-        "url": "https://cryptopotato.com/important-ripple-news-and-xrp-price-update-september-10/",
-        "source": "Crypto Potato",
-        "published_on": 1789035531
-      },
-      {
-        "title": "Bitcoin ETFs shed $167M after strongest three-week inflow run of 2026",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-shed-167m-after-strongest-three-week-inflow-run-of-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1789034372
-      },
-      {
-        "title": "Bitcoin holds near $78,200 as ETF inflows continue, profit-taking risk rises",
-        "url": "https://en.coin-turk.com/bitcoin-holds-near-78200-as-etf-inflows-continue-profit-taking-risk-rises/?utm_source=rss&utm_medium=rss&utm_campaign=bitcoin-holds-near-78200-as-etf-inflows-continue-profit-taking-risk-rises",
+        "title": "BlackRock’s IBIT spot Bitcoin ETF offers new access, but differs from direct BTC ownership",
+        "url": "https://en.coin-turk.com/blackrocks-ibit-spot-bitcoin-etf-offers-new-access-but-differs-from-direct-btc-ownership/?utm_source=rss&utm_medium=rss&utm_campaign=blackrocks-ibit-spot-bitcoin-etf-offers-new-access-but-differs-from-direct-btc-ownership",
         "source": "CoinTurk News",
-        "published_on": 1789034291
+        "published_on": 1789050371
       },
       {
-        "title": "Bitcoin Edges Lower for a 4th Day, Capped by the 50-Week Ma",
-        "url": "https://www.investing.com/analysis/bitcoin-edges-lower-for-a-4th-day-capped-by-the-50week-ma-200687443",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1789034033
+        "title": "Bitcoin (BTC) ETFs Shed $120.24 Million in Second Day of Redemptions",
+        "url": "https://en.coinotag.com/bitcoin-btc-etf-redemptions-120m-second-day-arkb",
+        "source": "CoinOtag",
+        "published_on": 1789049480
+      },
+      {
+        "title": "Liquid Network Resumes Block Production After 4,000 BTC Exploit",
+        "url": "https://news.bitcoin.com/crypto-news/liquid-network-resumes-block-production-after-4000-btc-exploit/",
+        "source": "Bitcoin.com",
+        "published_on": 1789049310
+      },
+      {
+        "title": "Dogecoin Price Prediction: Can DOGE Hit a New ATH by the End of 2026?",
+        "url": "https://coinpaper.com/35588/dogecoin-price-prediction-can-doge-hit-a-new-ath-by-the-end-of-2026",
+        "source": "Coinpaper",
+        "published_on": 1789049166
       }
     ],
     "ETH": [
       {
-        "title": "Ethereum News: ETH Price Could Surge to $11,800 by 2030, Analysts Say",
-        "url": "https://cryptonews.com/news/ethereum-news-price-prediction-2030/",
-        "source": "cryptonews",
-        "published_on": 1789035569
+        "title": "Bitcoin (BTC) ETFs Shed $120.24 Million in Second Day of Redemptions",
+        "url": "https://en.coinotag.com/bitcoin-btc-etf-redemptions-120m-second-day-arkb",
+        "source": "CoinOtag",
+        "published_on": 1789049480
       },
       {
-        "title": "Vitalik Buterin Pushes Ethereum Plan to Slash Quantum-Safe Privacy Costs",
-        "url": "https://decrypt.co/377857/vitalik-buterin-pushes-ethereum-plan-to-slash-quantum-safe-privacy-costs",
-        "source": "Decrypt",
-        "published_on": 1789035112
+        "title": "Quip Network finds a new use for quantum computers on blockchain",
+        "url": "https://finbold.com/quip-network-finds-a-new-use-for-quantum-computers-on-blockchain/",
+        "source": "Finbold",
+        "published_on": 1789048800
       },
       {
-        "title": "ETH Consolidates Ahead of Treasury Announcement as Golden Cross Signals Upside",
-        "url": "https://www.investing.com/analysis/eth-consolidates-ahead-of-treasury-announcement-as-golden-cross-signals-upside-200687372",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1789034174
+        "title": "Undervalued Ethereum Proxy: SharpLink Trades At 0.85x mNAV Near Cycle Bottom With No Debt",
+        "url": "https://seekingalpha.com/article/4945012-undervalued-ethereum-proxy-sharplink-trades-at-0-85x-mnav-near-cycle-bottom-with-no-debt?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=article",
+        "source": "Seeking Alpha",
+        "published_on": 1789048727
       },
       {
-        "title": "XRP Ledger targets full quantum resistance by 2028, outpaces Ethereum roadmap",
-        "url": "https://en.coin-turk.com/xrp-ledger-targets-full-quantum-resistance-by-2028-outpaces-ethereum-roadmap/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-ledger-targets-full-quantum-resistance-by-2028-outpaces-ethereum-roadmap",
-        "source": "CoinTurk News",
-        "published_on": 1789033091
+        "title": "Ethereum Price Analysis: Consolidation at $2.5K Tests Momentum as On-Chain Activity Surges",
+        "url": "https://cryptopotato.com/ethereum-price-analysis-consolidation-at-2-5k-tests-momentum-as-on-chain-activity-surges/",
+        "source": "Crypto Potato",
+        "published_on": 1789048076
       },
       {
-        "title": "Ethereum trades below $2,500 as futures data points to weak conviction",
-        "url": "https://en.coin-turk.com/ethereum-trades-below-2500-as-futures-data-points-to-weak-conviction/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-trades-below-2500-as-futures-data-points-to-weak-conviction",
-        "source": "CoinTurk News",
-        "published_on": 1789031234
+        "title": "Mexican Billionaire Ricardo Salinas Predicts Bitcoin Could Reach $1.86 Million — Here’s Why",
+        "url": "https://zycrypto.com/mexican-billionaire-ricardo-salinas-predicts-bitcoin-could-reach-1-86-million-heres-why/",
+        "source": "ZyCrypto",
+        "published_on": 1789047023
       },
       {
-        "title": "XRP Ledger Targets 2028 Quantum Readiness, Outpaces Ethereum",
-        "url": "https://u.today/xrp-ledger-targets-2028-quantum-readiness-outpaces-ethereum",
-        "source": "U.Today",
-        "published_on": 1789031010
+        "title": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "Cointelegraph",
+        "published_on": 1789046426
       }
     ],
     "SOL": [
       {
-        "title": "Bitcoin ETFs shed $167M after strongest three-week inflow run of 2026",
-        "url": "https://cointelegraph.com/markets/bitcoin-etfs-shed-167m-after-strongest-three-week-inflow-run-of-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "title": "Bitcoin (BTC) ETFs Shed $120.24 Million in Second Day of Redemptions",
+        "url": "https://en.coinotag.com/bitcoin-btc-etf-redemptions-120m-second-day-arkb",
+        "source": "CoinOtag",
+        "published_on": 1789049480
+      },
+      {
+        "title": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
         "source": "Cointelegraph",
-        "published_on": 1789034372
+        "published_on": 1789046426
       },
       {
-        "title": "Solana holds $102 as open interest drops to $6.6 billion, eyes October London event",
-        "url": "https://en.coin-turk.com/solana-holds-102-as-open-interest-drops-to-6-6-billion-eyes-october-london-event/?utm_source=rss&utm_medium=rss&utm_campaign=solana-holds-102-as-open-interest-drops-to-6-6-billion-eyes-october-london-event",
+        "title": "Bitwise’s Solana holdings approach $1 billion after major SOL purchase",
+        "url": "https://en.coin-turk.com/bitwises-solana-holdings-approach-1-billion-after-major-sol-purchase/?utm_source=rss&utm_medium=rss&utm_campaign=bitwises-solana-holdings-approach-1-billion-after-major-sol-purchase",
         "source": "CoinTurk News",
-        "published_on": 1789033751
+        "published_on": 1789045211
       },
       {
-        "title": "No token fatigue: Solana marks all-time record with 263K tokens launched in a day",
-        "url": "https://www.cryptopolitan.com/no-token-fatigue-solana-marks-all-time-record-with-263k-tokens-launched-in-a-day/",
-        "source": "Cryptopolitan",
-        "published_on": 1789032976
+        "title": "Solana sees record 263K tokens issued in a single day",
+        "url": "https://cointelegraph.com/news/solana-record-263k-tokens-issued?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "Cointelegraph",
+        "published_on": 1789045200
       },
       {
-        "title": "Solana price at risk of falling below $100 as bearish momentum builds",
-        "url": "https://invezz.com/news/2026/09/10/solana-price-at-risk-of-falling-below-100-as-bearish-momentum-builds/",
-        "source": "Invezz",
-        "published_on": 1789029323
+        "title": "Solana surpasses 400,000 RWA holders, SOL nears key $109 resistance",
+        "url": "https://en.coin-turk.com/solana-surpasses-400000-rwa-holders-sol-nears-key-109-resistance/?utm_source=rss&utm_medium=rss&utm_campaign=solana-surpasses-400000-rwa-holders-sol-nears-key-109-resistance",
+        "source": "CoinTurk News",
+        "published_on": 1789042811
       },
       {
-        "title": "First Solana Came For Meme Coins: Now Solana is Coming For Polymarket and Kalshi",
-        "url": "https://cryptonews.com/news/solana-news-price-alpenglow-upgrade/",
-        "source": "cryptonews",
-        "published_on": 1789029209
-      },
-      {
-        "title": "Live updates: Treasury yields climb further as Brent crude tops $102 and tech futures slip",
-        "url": "https://www.coindesk.com/business/2026/09/10/live-updates-bitcoin-etfs-post-a-second-straight-outflow-while-every-other-fund-turns-green",
-        "source": "CoinDesk",
-        "published_on": 1789026346
+        "title": "XRP ETF Options Cross the U.S. Border as Canada Files New SEC Update",
+        "url": "https://coinpaper.com/35565/xrp-etf-options-cross-the-us-border-as-canada-files-new-sec-update",
+        "source": "Coinpaper",
+        "published_on": 1789041638
       }
     ],
     "XRP": [
       {
-        "title": "Important Ripple News and XRP Price Update: September 10",
-        "url": "https://cryptopotato.com/important-ripple-news-and-xrp-price-update-september-10/",
-        "source": "Crypto Potato",
-        "published_on": 1789035531
-      },
-      {
-        "title": "Update for XRP Holders: Clarity Act ‘Dead on Arrival’? White House Responds",
-        "url": "https://timestabloid.com/update-for-xrp-holders-clarity-act-dead-on-arrival-white-house-responds/",
+        "title": "XRP Holders Look Beyond Price Moves as AI Automation Gains Attention",
+        "url": "https://timestabloid.com/xrp-holders-look-beyond-price-moves-as-ai-automation/",
         "source": "TimesTabloid",
-        "published_on": 1789034421
+        "published_on": 1789051277
       },
       {
-        "title": "XRP Ledger targets full quantum resistance by 2028, outpaces Ethereum roadmap",
-        "url": "https://en.coin-turk.com/xrp-ledger-targets-full-quantum-resistance-by-2028-outpaces-ethereum-roadmap/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-ledger-targets-full-quantum-resistance-by-2028-outpaces-ethereum-roadmap",
+        "title": "Bitcoin (BTC) ETFs Shed $120.24 Million in Second Day of Redemptions",
+        "url": "https://en.coinotag.com/bitcoin-btc-etf-redemptions-120m-second-day-arkb",
+        "source": "CoinOtag",
+        "published_on": 1789049480
+      },
+      {
+        "title": "Analyst to XRP Holders: Save This Price Rally Roadmap",
+        "url": "https://timestabloid.com/analyst-to-xrp-holders-save-this-price-rally-roadmap/",
+        "source": "TimesTabloid",
+        "published_on": 1789048817
+      },
+      {
+        "title": "Charles Schwab Reveals $4.8M XRP ETF Exposure, Yet Price Drops 5%",
+        "url": "https://coinpedia.org/news/charles-schwab-reveals-4-8m-xrp-etf-exposure-yet-price-drops-5/",
+        "source": "coinpedia",
+        "published_on": 1789048722
+      },
+      {
+        "title": "Canada opens US options trading for XRP ETFs after regulatory approval",
+        "url": "https://en.coin-turk.com/canada-opens-us-options-trading-for-xrp-etfs-after-regulatory-approval/?utm_source=rss&utm_medium=rss&utm_campaign=canada-opens-us-options-trading-for-xrp-etfs-after-regulatory-approval",
         "source": "CoinTurk News",
-        "published_on": 1789033091
+        "published_on": 1789048691
       },
       {
-        "title": "XRP price prediction 2026-2032: Will XRP reach $5?",
-        "url": "https://www.cryptopolitan.com/xrp-price-prediction/",
-        "source": "Cryptopolitan",
-        "published_on": 1789031423
-      },
-      {
-        "title": "XRP Ledger Targets 2028 Quantum Readiness, Outpaces Ethereum",
-        "url": "https://u.today/xrp-ledger-targets-2028-quantum-readiness-outpaces-ethereum",
-        "source": "U.Today",
-        "published_on": 1789031010
-      },
-      {
-        "title": "XRP Next Leg & CLARITY Act Final Push: A Must Watch for XRP Holders",
-        "url": "https://timestabloid.com/xrp-next-leg-clarity-act-final-push-a-must-watch-for-xrp-holders/",
-        "source": "TimesTabloid",
-        "published_on": 1789030826
+        "title": "Ripple Former CTO Says XRP Could Flip Bitcoin Through an 18x Surge",
+        "url": "https://cryptonews.com/news/ripple-xrp-flip-bitcoin-18x-surge/",
+        "source": "cryptonews",
+        "published_on": 1789048440
       }
     ],
     "BNB": [
       {
-        "title": "Bitcoin trades near $78,000 as memecoins, small caps lead a broad crypto retreat",
-        "url": "https://www.coindesk.com/markets/2026/09/10/bitcoin-trades-near-usd78-000-as-memecoins-small-caps-lead-a-broad-crypto-retreat",
-        "source": "CoinDesk",
-        "published_on": 1789035854
+        "title": "XRP Holders Look Beyond Price Moves as AI Automation Gains Attention",
+        "url": "https://timestabloid.com/xrp-holders-look-beyond-price-moves-as-ai-automation/",
+        "source": "TimesTabloid",
+        "published_on": 1789051277
       },
       {
-        "title": "Near Protocol (NEAR) Golden Cross is Coming: But Will Spinnig Top Limit It?",
-        "url": "https://u.today/near-protocol-near-golden-cross-is-coming-but-will-spinnig-top-limit-it",
-        "source": "U.Today",
-        "published_on": 1789035840
+        "title": "Wells Fargo: Bitcoin beats inflation over time — but Isn’t a reliable hedge",
+        "url": "https://seekingalpha.com/news/4641675-wells-fargo-bitcoin-beats-inflation-over-time-but-isn-t-a-reliable-hedge?utm_source=cryptocompare.com&utm_medium=referral&feed_item_type=news",
+        "source": "Seeking Alpha",
+        "published_on": 1789051242
       },
       {
-        "title": "Treasury Secretary Bessent urges CLARITY Act passage after Senate returns",
-        "url": "https://cointelegraph.com/news/treasury-secretary-bessent-urges-clarity-act-passage-senate-returns?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1789035600
+        "title": "Cardano slides 3% as futures volume declines to $652M",
+        "url": "https://invezz.com/news/2026/09/10/cardano-slides-3-as-futures-volume-declines-to-652m/",
+        "source": "Invezz",
+        "published_on": 1789051219
       },
       {
-        "title": "Important Ripple News and XRP Price Update: September 10",
-        "url": "https://cryptopotato.com/important-ripple-news-and-xrp-price-update-september-10/",
-        "source": "Crypto Potato",
-        "published_on": 1789035531
+        "title": "Coinbase partners with Moov to bring stablecoin services to 1,000 US banks",
+        "url": "https://en.coin-turk.com/coinbase-partners-with-moov-to-bring-stablecoin-services-to-1000-us-banks/?utm_source=rss&utm_medium=rss&utm_campaign=coinbase-partners-with-moov-to-bring-stablecoin-services-to-1000-us-banks",
+        "source": "CoinTurk News",
+        "published_on": 1789051151
       },
       {
-        "title": "Vitalik Buterin Pushes Ethereum Plan to Slash Quantum-Safe Privacy Costs",
-        "url": "https://decrypt.co/377857/vitalik-buterin-pushes-ethereum-plan-to-slash-quantum-safe-privacy-costs",
-        "source": "Decrypt",
-        "published_on": 1789035112
+        "title": "BTCC Exchange Launches $1M \"Trade to Win\" Competition Ahead of TOKEN2049, with Tesla Cybertruck as Top Prize",
+        "url": "https://www.investing.com/news/cryptocurrency-news/btcc-exchange-launches-1m-trade-to-win-competition-ahead-of-token2049-with-tesla-cybertruck-as-top-prize-4896310",
+        "source": "Investing.com Crypto News",
+        "published_on": 1789051084
       },
       {
-        "title": "Hunter Biden denies profiting from memecoin after his LAPTOP crashes",
-        "url": "https://cointelegraph.com/news/hunter-biden-denies-profiting-memecoin-laptop-crash?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1789034926
+        "title": "Has the Quantum Threat Reached Bitcoin’s (BTC) Doorstep? US Giant Company Announces Latest Data!",
+        "url": "https://en.bitcoinsistemi.com/has-the-quantum-threat-reached-bitcoin-s-btc-doorstep-us-giant-company-announces-latest-data/",
+        "source": "BitcoinSistemi",
+        "published_on": 1789050967
       }
     ],
-    "USDT": []
+    "USDT": [
+      {
+        "title": "Here’s what happened in crypto today",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "Cointelegraph",
+        "published_on": 1789046426
+      },
+      {
+        "title": "Tether Bets $400 Million on Stablecoins Powering Private Credit",
+        "url": "https://coinpaprika.com/news/tether-bets-400-million-stablecoins-powering",
+        "source": "Coinpaprika",
+        "published_on": 1789045200
+      },
+      {
+        "title": "US Treasury Sanctions $24B Xinbi Guarantee Marketplace That Fled Tether (USDT)",
+        "url": "https://en.coinotag.com/us-treasury-sanctions-xinbi-guarantee-marketplace-tether-usdt",
+        "source": "CoinOtag",
+        "published_on": 1789034230
+      },
+      {
+        "title": "Tether and Fasanara Put $400M Behind Stablecoin-Powered Private Credit",
+        "url": "https://bitzo.com/2026/09/tether-fasanara-stablefund-400m-private-credit",
+        "source": "Bitzo",
+        "published_on": 1789033606
+      },
+      {
+        "title": "Tether and Fasanara Launch $400M StableFund Targeting $3B in Institutional Capital",
+        "url": "https://cryptodaily.co.uk/2026/09/tether-fasanara-stablefund-400m-private-credit",
+        "source": "Crypto Daily",
+        "published_on": 1789033286
+      },
+      {
+        "title": "Zoomex Launches ZWTC 2026 Multi-Asset Trading Championship With a Record Prize Pool of Up to 5 Million USDT",
+        "url": "https://www.newsbtc.com/news/zoomex-launches-zwtc-2026-multi-asset-trading-championship-with-a-record-prize-pool-of-up-to-5-million-usdt/",
+        "source": "NewsBTC",
+        "published_on": 1789025824
+      }
+    ]
   }
 }
