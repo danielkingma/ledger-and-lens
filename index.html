@@ -330,6 +330,15 @@
 
   .fine{ margin-top:24px; font-size:0.82rem; color:var(--slate); max-width:70ch; }
 
+  /* ---------- exchange checklist ---------- */
+  .checklist-grid{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+    gap:34px 28px;
+  }
+  .checklist-item .num{ color:var(--gold); font-size:0.95rem; }
+  .checklist-item h3{ font-size:1.05rem; margin-top:8px; }
+  .checklist-item p{ color:var(--slate); font-size:0.88rem; margin-top:8px; line-height:1.6; }
+
   /* ---------- narratives ---------- */
   .narratives{ display:grid; grid-template-columns:repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
   @media (max-width:760px){ .narratives{ grid-template-columns:1fr; } }
@@ -407,6 +416,7 @@
     <div class="brand">Ledger<span>&</span>Lens</div>
     <div class="navlinks">
       <a href="#exchanges">Exchanges</a>
+      <a href="#checklist">Checklist</a>
       <a href="#narratives">Narratives</a>
       <a href="#videos">Videos</a>
     </div>
@@ -485,6 +495,59 @@
     </div>
 
     <p class="fine">Editing note: each button above has a placeholder <span class="num">href="#"</span> and a <span class="num">data-referral</span> attribute showing which link to swap in. Replace the href with your real referral URL — the styling won't need to change.</p>
+  </div>
+</section>
+
+<section id="checklist">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">before you commit to one</span>
+      <h2 style="margin-top:10px;">What actually separates a good exchange from a risky one</h2>
+      <p>The same eight questions apply no matter which platform you're weighing up — the ones above or anywhere else. None of this is a ranking of the exchanges on this page; it's the checklist worth running through yourself before you open an account anywhere.</p>
+    </div>
+    <div class="checklist-grid">
+      <div class="checklist-item">
+        <div class="num">01</div>
+        <h3>Ease of use</h3>
+        <p>A clean, simple buy-and-sell flow matters more than advanced trading tools for most people starting out. Look for a free built-in wallet, clear beginner guides, and features like recurring buys rather than a screen full of options you don't need yet.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">02</div>
+        <h3>Security</h3>
+        <p>Two-factor authentication on withdrawals, most customer funds held offline in cold storage, a proper HTTPS connection, and identity verification are the baseline. For any serious holding, moving funds to your own hardware wallet is worth the extra step.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">03</div>
+        <h3>Company transparency</h3>
+        <p>A trustworthy exchange is upfront about who runs it, where it's based, and how to reach a real person when something goes wrong. Responsive support is easy to overlook until the moment you actually need it.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">04</div>
+        <h3>Fees, including hidden ones</h3>
+        <p>Advertised trading fees don't always tell the whole story — some platforms make up the difference through wider spreads or less favourable conversion rates. It's worth comparing a couple of platforms side by side rather than trusting one "low fees" claim.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">05</div>
+        <h3>Range of coins</h3>
+        <p>Every exchange lists Bitcoin and Ethereum. What varies is access to everything past the top few names — worth checking if you expect to want smaller-cap coins later, even if you're only buying majors today.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">06</div>
+        <h3>Where it operates</h3>
+        <p>An exchange licensed or based in your own country generally means smoother tax reporting, more relevant support, and clearer recourse if something goes wrong. International exchanges aren't off-limits, just worth using with that trade-off in mind.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">07</div>
+        <h3>Spreads & liquidity</h3>
+        <p>The spread — the gap between the buy and sell price — is a real cost that's easy to miss because it isn't itemized like a fee. Higher trading volume generally means tighter spreads and smoother execution, which matters more as trade size grows.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">08</div>
+        <h3>Verification & payment methods</h3>
+        <p>Faster identity verification gets you trading sooner, and the deposit options on offer — bank transfer, card, other cryptocurrencies — affect both convenience and whether a hidden currency-conversion fee shows up along the way.</p>
+      </div>
+    </div>
+    <p class="fine">This list draws on the kind of checklist consumer finance sites publish for comparing exchanges — <a href="https://www.canstar.com.au/investor-hub/choosing-cryptocurrency-exchange/" target="_blank" rel="noopener">Canstar's guide</a> is a solid one to read in full alongside this.</p>
   </div>
 </section>
 
