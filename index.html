@@ -126,6 +126,10 @@
 
   /* ---------- coin medallions ---------- */
   .coin-cluster{ display:flex; align-items:flex-end; margin-bottom:22px; }
+  .hero-caption{
+    color:var(--slate); font-size:0.78rem; font-family:"IBM Plex Mono", monospace;
+    letter-spacing:0.02em; padding-left:2px;
+  }
   .medallion{
     width:74px; height:74px; border-radius:50%;
     background:radial-gradient(circle at 32% 28%, #F3D98A, #C99A34 45%, #8A6A22 100%);
@@ -454,7 +458,7 @@
   <div class="wrap">
     <div>
       <h1>Portfolio decisions, made with the fees and the fundamentals in view.</h1>
-      <p class="lede">A curated shortlist of exchanges, the perks attached to each, and the narratives currently moving capital through the market — with plain-English videos on the way for anyone building a position for the first time.</p>
+      <p class="lede">Whether you're weighing Bitcoin's staying power against faster-moving names like Ethereum, or wondering whether a stablecoin even belongs in a long-term portfolio, the exchange you trade through matters just as much as the coin you pick. Below: the full top 100 by market cap, eighteen centralized exchanges and six DeFi platforms side by side, and a plain checklist for telling a trustworthy exchange from a risky one.</p>
       <div class="ctas">
         <a class="btn btn-primary" href="#exchanges">Compare exchanges</a>
         <a class="btn btn-ghost" href="#narratives">See the narratives</a>
@@ -464,13 +468,7 @@
       <div class="coin-cluster" id="heroCluster">
         <div class="coin-status" style="margin:0;">Loading…</div>
       </div>
-      <div class="ledger">
-        <div class="ledger-head">Sign-up perks, at a glance</div>
-        <div class="ledger-row"><span>Binance</span><span class="pct">up to 20% fee rebate</span></div>
-        <div class="ledger-row"><span>Bybit</span><span class="pct">welcome bonus pool</span></div>
-        <div class="ledger-row"><span>OKX</span><span class="pct">trading fee discount</span></div>
-        <div class="ledger-row"><span>KuCoin</span><span class="pct">reduced spot fees</span></div>
-      </div>
+      <div class="hero-caption">Live top 3 by market cap</div>
     </div>
   </div>
 </header>
