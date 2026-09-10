@@ -318,8 +318,30 @@
   }
   .change-col.down{ color:#D08A7A; }
 
+  /* ---------- exchange comparison ---------- */
+  .exchange-compare{ margin-bottom:56px; }
+  .exchange-compare > p{ color:var(--slate); max-width:78ch; margin-bottom:32px; }
+  .compare-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:1px;
+    background:var(--line); border:1px solid var(--line);
+  }
+  @media (max-width:760px){ .compare-grid{ grid-template-columns:1fr; } }
+  .compare-col{ background:var(--panel); padding:28px; }
+  .compare-col h3{ font-size:1.15rem; }
+  .compare-col h4{
+    margin:20px 0 10px; font-family:"Fraunces", serif; font-weight:500;
+    color:var(--gold-bright); font-size:0.92rem;
+  }
+  .compare-col h4:first-of-type{ margin-top:18px; }
+  .compare-col ul{ margin:0; padding-left:20px; color:var(--slate); font-size:0.88rem; }
+  .compare-col li{ margin-bottom:9px; line-height:1.5; }
+
+  .subsection-title{
+    font-size:1.3rem; margin:0 0 24px; padding-top:8px;
+  }
+
   /* ---------- exchange cards ---------- */
-  .exchanges{ display:grid; grid-template-columns:repeat(2, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  .exchanges{ display:grid; grid-template-columns:repeat(2, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); margin-bottom:48px; }
   @media (max-width:720px){ .exchanges{ grid-template-columns:1fr; } }
   .exchange{ background:var(--panel); padding:28px; display:flex; flex-direction:column; gap:14px; }
   .exchange-top{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; }
@@ -471,11 +493,62 @@
       <p>These are placeholders — swap in the exchanges and referral links you actually want to promote. Each card holds a name, a reason, the perk, and a link.</p>
     </div>
 
+    <div class="exchange-compare">
+      <p>Every platform below falls into one of two fundamentally different categories. Centralized exchanges are companies — Binance, Coinbase, and similar — that hold your funds in their own accounts on your behalf, the way a bank holds a deposit. DeFi exchanges are software: a set of smart contracts that let you trade directly from your own wallet, with no company ever taking custody of anything. That one difference — who's actually holding the asset while you trade — is where most of the practical trade-offs below come from.</p>
+      <div class="compare-grid">
+        <div class="compare-col">
+          <h3>Centralized exchanges</h3>
+          <h4>Advantages</h4>
+          <ul>
+            <li>Familiar account-based experience, with support to contact if something goes wrong</li>
+            <li>Built-in bank transfer and card on-ramps for converting real-world currency</li>
+            <li>Typically faster execution and deeper liquidity on major pairs</li>
+            <li>Regulatory oversight in reputable jurisdictions adds a layer of accountability</li>
+          </ul>
+          <h4>Disadvantages</h4>
+          <ul>
+            <li>You don't hold the underlying keys — if the exchange is hacked, freezes withdrawals, or becomes insolvent, your funds are at risk</li>
+            <li>Identity verification trades away a degree of privacy</li>
+            <li>Access can be restricted or frozen based on geography or regulation</li>
+            <li>Coin selection and features are limited to whatever the company chooses to support</li>
+          </ul>
+        </div>
+        <div class="compare-col">
+          <h3>DeFi exchanges</h3>
+          <h4>Advantages</h4>
+          <ul>
+            <li>Non-custodial — trades settle directly from a wallet you control</li>
+            <li>Permissionless: generally no sign-up, KYC, or geographic gatekeeping</li>
+            <li>Fully on-chain and auditable — trading and liquidity data is publicly verifiable</li>
+            <li>New or smaller tokens are often available here long before any centralized exchange lists them</li>
+          </ul>
+          <h4>Disadvantages</h4>
+          <ul>
+            <li>No support line — a wrong address or an approved malicious contract can mean an irreversible loss</li>
+            <li>Smart contract risk: even audited protocols have been exploited before</li>
+            <li>No built-in fiat on-ramp — you generally need crypto already, often bought via a centralized exchange first</li>
+            <li>Network ("gas") fees are unpredictable and can spike during congestion</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subsection-title">Centralized exchanges</h3>
     <div class="exchanges">
       <div class="exchange">
         <div class="exchange-top"><h3>Binance</h3><span class="discount">fee rebate</span></div>
         <p>The largest exchange by volume, with the deepest liquidity for most major pairs — a reasonable first stop for beginners.</p>
         <a class="btn btn-ghost" href="#" data-referral="replace-with-your-binance-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Coinbase</h3><span class="discount">beginner friendly</span></div>
+        <p>One of the most heavily regulated exchanges globally, with a simple app that's often the easiest on-ramp from a bank account.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-coinbase-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Crypto.com</h3><span class="discount">card rewards</span></div>
+        <p>Wide coin range paired with a well-known card and app ecosystem, popular for combining spending and holding in one place.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-cryptocom-link">Open an account</a>
       </div>
       <div class="exchange">
         <div class="exchange-top"><h3>Bybit</h3><span class="discount">welcome bonus</span></div>
@@ -492,9 +565,83 @@
         <p>A wide selection of smaller-cap coins, for people who've moved past the basics and want more choice.</p>
         <a class="btn btn-ghost" href="#" data-referral="replace-with-your-kucoin-link">Open an account</a>
       </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Kraken</h3><span class="discount">fee discount</span></div>
+        <p>One of the longest-running exchanges still operating, known for a strong security track record and solid fiat support.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-kraken-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Bitstamp</h3><span class="discount">fee discount</span></div>
+        <p>Among the oldest regulated exchanges in the industry, favoured by people who value a long operating history over flashy features.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-bitstamp-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Gemini</h3><span class="discount">referral bonus</span></div>
+        <p>US-regulated exchange with an emphasis on compliance and security audits, aimed at a more risk-conscious user.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-gemini-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Bitfinex</h3><span class="discount">fee discount</span></div>
+        <p>A longstanding exchange geared toward more experienced traders, with deep liquidity on major pairs.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-bitfinex-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Gate.io</h3><span class="discount">trading bonus</span></div>
+        <p>One of the widest coin selections of any major exchange, popular with people hunting smaller, newer listings early.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-gateio-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>MEXC</h3><span class="discount">zero fee pairs</span></div>
+        <p>Known for listing new tokens faster than most competitors, with zero-fee spot trading on selected pairs.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-mexc-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Bitget</h3><span class="discount">welcome bonus</span></div>
+        <p>Built a name around copy trading, letting newer users mirror the trades of more experienced ones.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-bitget-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Bitpanda</h3><span class="discount">fee discount</span></div>
+        <p>A European-focused exchange with a straightforward interface and support for fractional stocks alongside crypto.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-bitpanda-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>HTX</h3><span class="discount">fee rebate</span></div>
+        <p>Formerly Huobi, one of the older exchanges with a large existing user base across Asia.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-htx-link">Open an account</a>
+      </div>
     </div>
 
-    <p class="fine">Editing note: each button above has a placeholder <span class="num">href="#"</span> and a <span class="num">data-referral</span> attribute showing which link to swap in. Replace the href with your real referral URL — the styling won't need to change.</p>
+    <h3 class="subsection-title">DeFi exchanges</h3>
+    <div class="exchanges">
+      <div class="exchange">
+        <div class="exchange-top"><h3>Uniswap</h3><span class="discount">non-custodial</span></div>
+        <p>The largest decentralized exchange by volume, running on Ethereum and several other networks, with no sign-up beyond connecting a wallet.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-uniswap-link">Visit the app</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>PancakeSwap</h3><span class="discount">low gas fees</span></div>
+        <p>The dominant DEX on BNB Chain, popular for lower network fees compared with Ethereum-based alternatives.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-pancakeswap-link">Visit the app</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Curve Finance</h3><span class="discount">stablecoin liquidity</span></div>
+        <p>Purpose-built for swapping stablecoins and similarly priced assets with minimal slippage — less useful for volatile pairs.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-curve-link">Visit the app</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>dYdX</h3><span class="discount">on-chain derivatives</span></div>
+        <p>A decentralized platform for leveraged and perpetual futures trading, for anyone who wants derivatives without a centralized counterparty.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-dydx-link">Visit the app</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>GMX</h3><span class="discount">on-chain derivatives</span></div>
+        <p>Decentralized perpetuals trading built around a shared liquidity pool that traders effectively trade against.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-gmx-link">Visit the app</a>
+      </div>
+    </div>
+
+    <p class="fine">Editing note: each button above has a placeholder <span class="num">href="#"</span> and a <span class="num">data-referral</span> attribute showing which link to swap in. Replace the href with your real referral URL — the styling won't need to change. Worth knowing: most DeFi protocols don't run traditional referral-commission programs the way centralized exchanges do, so those buttons more realistically link straight to the app rather than a paid referral.</p>
   </div>
 </section>
 
