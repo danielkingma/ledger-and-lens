@@ -79,6 +79,21 @@
   .navlinks a:hover, .navlinks a:focus-visible{ color:var(--ivory); border-color:var(--gold); }
   @media (max-width:680px){ .navlinks{ display:none; } }
 
+  @media (max-width:600px){
+    .hero{ padding:64px 0 48px; }
+    .hero .wrap{ grid-template-columns:1fr; gap:36px; }
+    .hero h1{ max-width:none; }
+    .coin-cluster .medallion{ width:58px; height:58px; font-size:0.6rem; margin-left:-14px; }
+    .coin-cluster .medallion.tall{ width:70px; height:70px; font-size:0.68rem; }
+    .coin-cluster .medallion:first-child{ margin-left:0; }
+    .coin-backdrop{ padding:12px; }
+    .coin-panel{ padding:24px 20px 20px; max-height:90vh; }
+    .coin-panel-title .medallion{ width:44px; height:44px; }
+    .coin-price .amount{ font-size:1.7rem; }
+    section{ padding:56px 0; }
+    .coin-grid{ padding:16px; gap:20px 12px; }
+  }
+
   /* ---------- hero ---------- */
   .hero{ padding:100px 0 70px; border-bottom:1px solid var(--line); }
   .hero .wrap{
@@ -321,7 +336,24 @@
     display:inline-block; margin-top:2px; padding:4px 10px;
     background:var(--bottle); color:var(--bottle-text);
     font-size:0.75rem; border-radius:2px; align-self:flex-start;
+    border:none; cursor:pointer; font-family:"IBM Plex Sans", sans-serif;
+    transition:background 0.18s ease, color 0.18s ease;
   }
+  .tag:hover, .tag:focus-visible{ background:#31462F; color:var(--ivory); }
+
+  .narrative-token-list{ margin-top:22px; display:flex; flex-direction:column; gap:2px; }
+  .narrative-token{
+    display:flex; align-items:center; gap:14px; padding:12px 4px;
+    border-bottom:1px solid var(--line); cursor:pointer; background:none; border-left:none; border-right:none; border-top:none;
+    width:100%; text-align:left; font-family:"IBM Plex Sans", sans-serif;
+    transition:background 0.15s ease;
+  }
+  .narrative-token:last-child{ border-bottom:none; }
+  .narrative-token:hover, .narrative-token:focus-visible{ background:var(--panel); }
+  .narrative-token .medallion{ width:36px; height:36px; font-size:0.55rem; margin-left:0; flex-shrink:0; }
+  .narrative-token .nt-name{ color:var(--ivory); font-size:0.92rem; flex-grow:1; }
+  .narrative-token .nt-sym{ color:var(--slate); font-size:0.78rem; margin-left:6px; }
+  .narrative-token .nt-price{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); font-size:0.88rem; }
 
   /* ---------- steps ---------- */
   .steps{ display:grid; grid-template-columns:repeat(3, 1fr); gap:32px; }
@@ -461,37 +493,37 @@
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="7" width="18" height="12" rx="1"/><path d="M3 11h18"/><circle cx="12" cy="15" r="1.6"/></svg>
         <h3>Real-world assets</h3>
         <p>Bonds, property, and credit issued as on-chain tokens — a bridge between traditional finance and crypto rails.</p>
-        <span class="tag">Tokenization</span>
+        <button type="button" class="tag" data-narrative="tokenization">Tokenization</button>
       </div>
       <div class="narrative">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="6" r="2.2"/><circle cx="18" cy="6" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M7.7 7.4 10.5 16M16.3 7.4 13.5 16M8.2 6h7.6"/></svg>
         <h3>AI &amp; crypto</h3>
         <p>Networks paying for compute, data, and agents in on-chain tokens rather than traditional invoicing.</p>
-        <span class="tag">Infrastructure</span>
+        <button type="button" class="tag" data-narrative="infrastructure">Infrastructure</button>
       </div>
       <div class="narrative">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="4" width="16" height="4.5" rx="0.6"/><rect x="4" y="10.2" width="16" height="4.5" rx="0.6"/><rect x="4" y="16.4" width="16" height="4.5" rx="0.6"/></svg>
         <h3>Layer 2 scaling</h3>
         <p>Faster, cheaper networks built on top of established chains, aimed at everyday transaction volume.</p>
-        <span class="tag">Scaling</span>
+        <button type="button" class="tag" data-narrative="scaling">Scaling</button>
       </div>
       <div class="narrative">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="12" r="5.2"/><circle cx="15" cy="12" r="5.2"/></svg>
         <h3>Restaking</h3>
         <p>Putting already-staked assets to work securing additional networks, for an added layer of yield.</p>
-        <span class="tag">Yield</span>
+        <button type="button" class="tag" data-narrative="yield">Yield</button>
       </div>
       <div class="narrative">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 16c1.5-6 4-9 8-9s6.5 3 8 9"/><circle cx="9" cy="12.5" r="0.9" fill="currentColor" stroke="none"/><circle cx="15" cy="12.5" r="0.9" fill="currentColor" stroke="none"/><path d="M9.5 16c1 1 4 1 5 0"/></svg>
         <h3>Community &amp; meme tokens</h3>
         <p>Attention-driven assets with little fundamental backing — high volatility either direction, worth naming plainly.</p>
-        <span class="tag">High risk</span>
+        <button type="button" class="tag" data-narrative="high-risk">High risk</button>
       </div>
       <div class="narrative">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
         <h3>Regulation &amp; ETFs</h3>
         <p>Clearer rules and regulated products that shape which coins institutions are willing to hold.</p>
-        <span class="tag">Policy</span>
+        <button type="button" class="tag" data-narrative="policy">Policy</button>
       </div>
     </div>
   </div>
@@ -563,6 +595,18 @@
 
     <div id="coinPanelBody">
       <div class="coin-status">Fetching data…</div>
+    </div>
+  </div>
+</div>
+
+<div class="coin-backdrop" id="narrativeBackdrop">
+  <div class="coin-panel" role="dialog" aria-modal="true" aria-labelledby="narrativePanelTitle">
+    <div class="coin-panel-head">
+      <h3 id="narrativePanelTitle" style="font-size:1.4rem;">—</h3>
+      <button type="button" class="coin-close" id="narrativeClose" aria-label="Close">&#10005;</button>
+    </div>
+    <div id="narrativePanelBody">
+      <div class="coin-status">Loading…</div>
     </div>
   </div>
 </div>
@@ -830,6 +874,126 @@
   closeBtn.addEventListener('click', closeCoin);
   backdrop.addEventListener('click', function(e){
     if (e.target === backdrop) closeCoin();
+  });
+
+  // ---------- Narratives: expanded background + live token lists ----------
+  var NARRATIVE_INFO = {
+    tokenization: {
+      title: "Real-world assets",
+      body: "Tokenization means taking something that already exists off-chain — a bond, a slice of property, a portfolio of private credit — and issuing a blockchain-based token that represents ownership or exposure to it. The pitch is faster settlement, fractional ownership, and round-the-clock trading for assets that traditionally settle in days and trade only during market hours. The catch is that a token is only as trustworthy as the legal structure and issuer standing behind it — the blockchain doesn't verify that the underlying bond or property actually exists or is properly custodied."
+    },
+    infrastructure: {
+      title: "AI & crypto",
+      body: "This narrative covers networks where AI models, agents, or compute marketplaces pay and get paid in on-chain tokens instead of traditional invoicing — things like decentralized GPU rental, data marketplaces, or autonomous trading agents holding their own wallets. The appeal is permissionless, programmatic payment rails that don't need a bank account on either end. It's also one of the more speculative corners of the market: many of these tokens are priced on the promise of future AI integration rather than current usage."
+    },
+    scaling: {
+      title: "Layer 2 scaling",
+      body: "Layer 2 networks sit on top of an established blockchain (usually Ethereum) and batch transactions together before settling back to it, aiming for the security of the base chain with far lower fees and faster confirmation. Rollups are the dominant approach today. The sector has consolidated significantly — a handful of networks now handle the large majority of L2 activity, after a wave of newer chains launched mainly to capture short-term incentive programs saw usage fall off once those incentives ended."
+    },
+    yield: {
+      title: "Restaking",
+      body: "Restaking lets assets that are already staked to secure one network (like staked ETH) be reused to help secure additional networks or services at the same time, in exchange for extra yield on top of the base staking reward. It's an efficient use of idle security budget, but it also means the same collateral is now backing multiple obligations at once — if something goes wrong with one of the services being secured, it can affect the restaked asset too."
+    },
+    "high-risk": {
+      title: "Community & meme tokens",
+      body: "Meme tokens are built around cultural attention rather than a specific technical product — value comes largely from community size, social momentum, and speculation rather than cash flow, usage, or a roadmap. That makes them capable of extreme moves in either direction, often within hours. Some evolve into broader projects over time; most don't. This is the corner of the market where the case for caution is least about market structure and most about the token simply having little to fall back on if attention moves elsewhere."
+    },
+    policy: {
+      title: "Regulation & ETFs",
+      body: "This theme isn't a single token category so much as a backdrop that affects all the others — clearer rules on custody, disclosure, and market structure, plus the arrival of regulated products like exchange-traded funds, shape which coins traditional institutions are willing to hold and which exchanges are willing to list. Regulatory news tends to move the broader market more than any individual project's own announcements, which is part of why it's worth tracking as its own narrative rather than folding into a specific coin."
+    }
+  };
+
+  var narrativeBackdrop = document.getElementById('narrativeBackdrop');
+  var narrativePanelTitle = document.getElementById('narrativePanelTitle');
+  var narrativePanelBody = document.getElementById('narrativePanelBody');
+  var narrativeClose = document.getElementById('narrativeClose');
+  var narrativeLastFocused = null;
+  var narrativesSnapshotPromise = null;
+
+  function loadNarrativesSnapshot(){
+    if (narrativesSnapshotPromise) return narrativesSnapshotPromise;
+    narrativesSnapshotPromise = fetch('./data/narratives.json', { cache: 'no-store' })
+      .then(function(res){ if (!res.ok) throw new Error('no snapshot'); return res.json(); })
+      .catch(function(){ return null; });
+    return narrativesSnapshotPromise;
+  }
+
+  function narrativeTokenHtml(entry){
+    return (
+      '<button type="button" class="narrative-token" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">' +
+        medallionInnerHtmlSafe(entry) +
+        '<span class="nt-name">' + entry.name + '<span class="nt-sym">' + entry.symbol + '</span></span>' +
+        '<span class="nt-price">' + fmtUsd(entry.price) + '</span>' +
+      '</button>'
+    );
+  }
+
+  // medallionHtml/medallionInnerHtml expect a plain button target; here we
+  // just need the inner image-or-text, wrapped in a tiny span for sizing.
+  function medallionInnerHtmlSafe(entry){
+    return '<span class="medallion">' + medallionInnerHtml(entry) + '</span>';
+  }
+
+  function openNarrative(slug){
+    var info = NARRATIVE_INFO[slug];
+    if (!info) return;
+
+    narrativePanelTitle.textContent = info.title;
+    narrativePanelBody.innerHTML = '<div class="coin-about">' + info.body + '</div><div class="coin-status" style="margin-top:22px;">Loading tokens in this space…</div>';
+
+    narrativeBackdrop.classList.add('open');
+    narrativeLastFocused = document.activeElement;
+    narrativeClose.focus();
+    document.addEventListener('keydown', onNarrativeKeydown);
+
+    if (slug === 'policy'){
+      // No clean single token category maps to broad regulatory themes.
+      var extra = narrativePanelBody.querySelector('.coin-status');
+      if (extra) extra.textContent = "This theme doesn't map to a specific token list — it's a backdrop that touches most coins rather than a category of its own.";
+      return;
+    }
+
+    loadNarrativesSnapshot().then(function(snapshot){
+      var tokens = snapshot && snapshot.categories && snapshot.categories[slug];
+      var statusEl = narrativePanelBody.querySelector('.coin-status');
+      if (!tokens || !tokens.length){
+        if (statusEl) statusEl.textContent = 'No token data available for this category right now.';
+        return;
+      }
+      var listHtml = '<div class="narrative-token-list">' + tokens.map(narrativeTokenHtml).join('') + '</div>' +
+        '<div class="coin-meta"><span>Top tokens via CoinGecko · updated hourly</span><span>Not financial advice</span></div>';
+      if (statusEl) statusEl.outerHTML = listHtml;
+    });
+  }
+
+  function closeNarrative(){
+    narrativeBackdrop.classList.remove('open');
+    document.removeEventListener('keydown', onNarrativeKeydown);
+    if (narrativeLastFocused) narrativeLastFocused.focus();
+  }
+
+  function onNarrativeKeydown(e){
+    if (e.key === 'Escape') closeNarrative();
+  }
+
+  document.addEventListener('click', function(e){
+    var tagBtn = e.target.closest('.tag[data-narrative]');
+    if (tagBtn){
+      openNarrative(tagBtn.dataset.narrative);
+      return;
+    }
+    var tokenBtn = e.target.closest('.narrative-token');
+    if (tokenBtn){
+      closeNarrative();
+      openCoin(tokenBtn.dataset.coinId, tokenBtn.dataset.coinSymbol, tokenBtn.dataset.coinName, 'price');
+      return;
+    }
+  });
+
+  narrativeClose.addEventListener('click', closeNarrative);
+  narrativeBackdrop.addEventListener('click', function(e){
+    if (e.target === narrativeBackdrop) closeNarrative();
   });
 
   // ---------- Hero cluster (top 3) and the full top-100 table ----------
