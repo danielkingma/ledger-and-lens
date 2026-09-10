@@ -364,6 +364,11 @@
   /* ---------- narratives ---------- */
   .narratives{ display:grid; grid-template-columns:repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
   @media (max-width:760px){ .narratives{ grid-template-columns:1fr; } }
+  .etf-note{
+    margin-top:28px; color:var(--slate); font-size:0.92rem; line-height:1.6;
+    max-width:74ch;
+  }
+  .etf-note .tag{ margin-left:4px; vertical-align:baseline; }
   .narrative{ background:var(--panel); padding:28px; display:flex; flex-direction:column; gap:14px; }
   .narrative .icon{
     width:38px; height:38px; color:var(--gold-bright);
@@ -610,6 +615,21 @@
         <p>Formerly Huobi, one of the older exchanges with a large existing user base across Asia.</p>
         <a class="btn btn-ghost" href="#" data-referral="replace-with-your-htx-link">Open an account</a>
       </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Blofin</h3><span class="discount">trading bonus</span></div>
+        <p>A derivatives-focused exchange built around perpetual futures, with copy-trading tools for following other traders' positions.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-blofin-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Swyftx</h3><span class="discount">local deposits</span></div>
+        <p>An Australian exchange with fast local-currency deposits and a simple interface, popular with first-time local buyers.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-swyftx-link">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Independent Reserve</h3><span class="discount">fee discount</span></div>
+        <p>One of the longest-running exchanges in Australia, with a reputation for reliability among local retail and institutional users alike.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-independent-reserve-link">Open an account</a>
+      </div>
     </div>
 
     <h3 class="subsection-title">DeFi exchanges</h3>
@@ -638,6 +658,11 @@
         <div class="exchange-top"><h3>GMX</h3><span class="discount">on-chain derivatives</span></div>
         <p>Decentralized perpetuals trading built around a shared liquidity pool that traders effectively trade against.</p>
         <a class="btn btn-ghost" href="#" data-referral="replace-with-your-gmx-link">Visit the app</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>1inch</h3><span class="discount">best price routing</span></div>
+        <p>A DEX aggregator that searches many decentralized exchanges at once to find the best available price, rather than being a single trading venue itself.</p>
+        <a class="btn btn-ghost" href="#" data-referral="replace-with-your-1inch-link">Visit the app</a>
       </div>
     </div>
 
@@ -742,13 +767,9 @@
         <p>Clearer rules on custody, disclosure, and market structure that shape which coins and platforms institutions are willing to touch.</p>
         <button type="button" class="tag" data-narrative="policy">Policy</button>
       </div>
-      <div class="narrative">
-        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="5" width="16" height="14" rx="1"/><path d="M8 15l3-4 2 2 3-5"/></svg>
-        <h3>Spot ETFs</h3>
-        <p>Regulated funds that track a coin's price without handing you the coin itself — a different trade-off than holding it directly.</p>
-        <button type="button" class="tag" data-narrative="etfs">Product</button>
-      </div>
     </div>
+
+    <p class="etf-note">Spot ETFs sit outside the list above on purpose — they're regulated funds that track a coin's price without holding the coin itself, which makes them a different kind of asset from the tokens shown here rather than another narrative within crypto. <button type="button" class="tag" data-narrative="etfs">See how it compares</button></p>
   </div>
 </section>
 
