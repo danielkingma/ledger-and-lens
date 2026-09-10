@@ -2,8 +2,10 @@ name: Update news data
 
 on:
   schedule:
-    # Runs at the top of every hour
-    - cron: '0 * * * *'
+    # Runs every 3 hours — covering 100 coins costs far more API calls than
+    # the original 6, so this trades a little freshness for staying well
+    # within CryptoCompare's rate limits.
+    - cron: '0 */3 * * *'
   workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
 
 permissions:
@@ -16,22 +18,43 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Fetch latest headlines from CryptoCompare
+      - name: Fetch latest headlines from CryptoCompare for every tracked coin
         env:
           CRYPTOCOMPARE_API_KEY: ${{ secrets.CRYPTOCOMPARE_API_KEY }}
         run: |
           mkdir -p data /tmp/news
 
-          for symbol in BTC ETH SOL XRP BNB USDT; do
+          # Pull the current symbol list straight from the price snapshot,
+          # so this automatically follows whichever 100 coins are ranked
+          # right now rather than a fixed, manually maintained list.
+          node -e "
+            const fs = require('fs');
+            try {
+              const coins = JSON.parse(fs.readFileSync('data/coins.json', 'utf8')).coins || {};
+              const syms = [...new Set(Object.values(coins).map(c => c.symbol))];
+              fs.writeFileSync('/tmp/symbols.txt', syms.join('\n'));
+            } catch (e) {
+              fs.writeFileSync('/tmp/symbols.txt', '');
+            }
+          "
+
+          if [ ! -s /tmp/symbols.txt ]; then
+            echo "No coins.json data yet — skipping this run."
+            exit 0
+          fi
+
+          while IFS= read -r symbol; do
+            [ -z "$symbol" ] && continue
             curl -sf \
               -H "Authorization: Apikey ${CRYPTOCOMPARE_API_KEY}" \
               "https://min-api.cryptocompare.com/data/v2/news/?lang=EN&categories=${symbol}" \
               -o "/tmp/news/${symbol}.json" || echo "{}" > "/tmp/news/${symbol}.json"
-          done
+            sleep 0.3
+          done < /tmp/symbols.txt
 
           node -e "
             const fs = require('fs');
-            const symbols = ['BTC','ETH','SOL','XRP','BNB','USDT'];
+            const symbols = fs.readFileSync('/tmp/symbols.txt', 'utf8').split('\n').filter(Boolean);
             const out = { generated_at: new Date().toISOString(), coins: {} };
 
             for (const symbol of symbols) {
