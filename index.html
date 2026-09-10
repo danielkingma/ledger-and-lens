@@ -236,6 +236,13 @@
   .coin-meta a:hover{ text-decoration:underline; }
 
   .coin-about{ margin-top:22px; color:var(--ivory); font-size:0.94rem; line-height:1.65; }
+  .coin-about h4{
+    margin:20px 0 8px; font-family:"Fraunces", serif; font-weight:500;
+    color:var(--gold-bright); font-size:0.95rem;
+  }
+  .coin-about ul{ margin:0; padding-left:20px; }
+  .coin-about li{ margin-bottom:9px; }
+  .coin-about p{ margin:0 0 4px; }
 
   .coin-news-list{ margin-top:22px; display:flex; flex-direction:column; gap:16px; }
   .coin-news-item{ padding-bottom:16px; border-bottom:1px solid var(--line); }
@@ -521,9 +528,15 @@
       </div>
       <div class="narrative">
         <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
-        <h3>Regulation &amp; ETFs</h3>
-        <p>Clearer rules and regulated products that shape which coins institutions are willing to hold.</p>
+        <h3>Regulation</h3>
+        <p>Clearer rules on custody, disclosure, and market structure that shape which coins and platforms institutions are willing to touch.</p>
         <button type="button" class="tag" data-narrative="policy">Policy</button>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="5" width="16" height="14" rx="1"/><path d="M8 15l3-4 2 2 3-5"/></svg>
+        <h3>Spot ETFs</h3>
+        <p>Regulated funds that track a coin's price without handing you the coin itself — a different trade-off than holding it directly.</p>
+        <button type="button" class="tag" data-narrative="etfs">Product</button>
       </div>
     </div>
   </div>
@@ -899,8 +912,28 @@
       body: "Meme tokens are built around cultural attention rather than a specific technical product — value comes largely from community size, social momentum, and speculation rather than cash flow, usage, or a roadmap. That makes them capable of extreme moves in either direction, often within hours. Some evolve into broader projects over time; most don't. This is the corner of the market where the case for caution is least about market structure and most about the token simply having little to fall back on if attention moves elsewhere."
     },
     policy: {
-      title: "Regulation & ETFs",
-      body: "This theme isn't a single token category so much as a backdrop that affects all the others — clearer rules on custody, disclosure, and market structure, plus the arrival of regulated products like exchange-traded funds, shape which coins traditional institutions are willing to hold and which exchanges are willing to list. Regulatory news tends to move the broader market more than any individual project's own announcements, which is part of why it's worth tracking as its own narrative rather than folding into a specific coin."
+      title: "Regulation",
+      body: "This theme isn't a single token category so much as a backdrop that affects all the others — clearer rules on custody, disclosure, and market structure shape which coins traditional institutions are willing to hold and which exchanges are willing to list. Regulatory news tends to move the broader market more than any individual project's own announcements, which is part of why it's worth tracking as its own narrative rather than folding into a specific coin."
+    },
+    etfs: {
+      title: "Spot ETFs",
+      body: "<p>A crypto ETF (exchange-traded fund) is a fund that trades on an ordinary stock exchange and is built to track the price of an underlying coin, most commonly Bitcoin or Ethereum. Buying a share buys exposure to that price movement — it does not hand you the coin itself. The fund's custodian holds the actual crypto (or, for a futures-based ETF, holds futures contracts instead), and your shares represent a claim on that fund rather than direct ownership of the asset.</p>" +
+        "<h4>Advantages over holding the coin directly</h4>" +
+        "<ul>" +
+          "<li>Bought and sold through an ordinary brokerage or retirement account — no exchange sign-up, wallet, or private key to manage.</li>" +
+          "<li>Removes the risk of losing access to your own coins through a lost key, a scam, or a personal wallet or exchange hack.</li>" +
+          "<li>Fits into standard portfolio tools, statements, and tax paperwork the same way a stock or index fund does.</li>" +
+          "<li>Backed by a regulated issuer and custodian, with disclosure requirements that unregulated venues don't always have.</li>" +
+        "</ul>" +
+        "<h4>Disadvantages compared with holding the coin directly</h4>" +
+        "<ul>" +
+          "<li>You don't actually own the underlying asset — no ability to spend it, move it on-chain, stake it, or use it in a wallet or app. It's a financial claim, not the coin.</li>" +
+          "<li>Ongoing management fees are charged for as long as the fund is held, unlike holding the coin yourself, which carries no recurring fee.</li>" +
+          "<li>Only trades during regular stock market hours, while the underlying crypto market trades continuously — price gaps can open up over a weekend or holiday that the ETF can't react to until markets reopen.</li>" +
+          "<li>Introduces a layer of counterparty and custodian trust: you're relying on the fund provider and its custodian rather than controlling the asset yourself.</li>" +
+          "<li>The share price can occasionally drift slightly above or below the fund's actual net asset value, particularly in stressed markets.</li>" +
+        "</ul>" +
+        "<p>Neither approach is inherently the better one — it depends on whether direct custody, on-chain use, and round-the-clock access matter to you, or whether the simplicity of a regulated brokerage product outweighs that. This is background information, not a recommendation.</p>"
     }
   };
 
@@ -947,10 +980,15 @@
     narrativeClose.focus();
     document.addEventListener('keydown', onNarrativeKeydown);
 
-    if (slug === 'policy'){
-      // No clean single token category maps to broad regulatory themes.
+    if (slug === 'policy' || slug === 'etfs'){
+      // Neither maps to a CoinGecko token category — regulation is a
+      // backdrop, and spot ETFs are traditional securities, not coins.
       var extra = narrativePanelBody.querySelector('.coin-status');
-      if (extra) extra.textContent = "This theme doesn't map to a specific token list — it's a backdrop that touches most coins rather than a category of its own.";
+      if (extra){
+        extra.textContent = slug === 'etfs'
+          ? "Spot ETFs are traditional securities, not on-chain tokens, so there's no token list here — the comparison above covers the actual trade-off."
+          : "This theme doesn't map to a specific token list — it's a backdrop that touches most coins rather than a category of its own.";
+      }
       return;
     }
 
