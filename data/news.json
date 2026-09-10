@@ -1,45 +1,69 @@
 {
-  "generated_at": "2026-09-10T00:46:24.827Z",
+  "generated_at": "2026-09-10T05:30:48.876Z",
   "coins": {
     "BTC": [
       {
-        "title": "Bitcoin Wallet Maker Trezor Says Hackers Breached Its Email Provider",
-        "url": "https://decrypt.co/377831/bitcoin-wallet-trezor-hackers-breach-email",
-        "source": "Decrypt",
-        "published_on": 1788994943
-      },
-      {
-        "title": "Bitcoin miners miss the rally as exchanges and stablecoin firms pull ahead",
-        "url": "https://www.cryptopolitan.com/bitcoin-miners-miss-rally-firms-pull-ahea/",
-        "source": "Cryptopolitan",
-        "published_on": 1788994673
-      },
-      {
-        "title": "Steak ‘n Shake’s Bitcoin bet posts double-digit sales growth",
-        "url": "https://www.cryptopolitan.com/steak-n-shakes-bitcoin-bet-posts-double-digit-sales-growth/",
-        "source": "Cryptopolitan",
-        "published_on": 1788992420
-      },
-      {
-        "title": "Cut off From Global Finance, Iran Turns to Bitcoin and Tether",
-        "url": "https://news.bitcoin.com/featured/cut-off-from-global-finance-iran-turns-to-bitcoin-and-tether/",
-        "source": "Bitcoin.com",
-        "published_on": 1788990441
-      },
-      {
-        "title": "Bitcoin marginally lower to $78.3k as Brent tops $100 and U.S. bonds slide",
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-rebounds-above-79k-on-zcash-etf-inflows-fed-oil-pressures-limit-rise-4892730",
+        "title": "Bitcoin consolidates near $79,955 with overbought signals: Live levels",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-consolidates-at-76200-support-live-levels-93CH-4882214",
         "source": "Investing.com Crypto News",
-        "published_on": 1788988084
+        "published_on": 1789018210
       },
       {
-        "title": "Strategy Says 91% of Its Balance Sheet Rests on Unreclaimable Bitcoin (BTC) in JPMorgan Comparison",
-        "url": "https://en.coinotag.com/strategy-91-percent-balance-sheet-unreclaimable-bitcoin-jpmorgan-comparison",
-        "source": "CoinOtag",
-        "published_on": 1788986774
+        "title": "Bitcoin down to $78.3k on Iran jitters, higher yields",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-down-to-783k-on-iran-jitters-higher-yields-4894954",
+        "source": "Investing.com Crypto News",
+        "published_on": 1789018059
+      },
+      {
+        "title": "Trezor warns users after hackers breach email provider to send phishing alerts",
+        "url": "https://www.cryptopolitan.com/trezor-phishing-shows-attackers-can-skip-the-device/",
+        "source": "Cryptopolitan",
+        "published_on": 1789015261
+      },
+      {
+        "title": "Germany to introduce 25% crypto capital income tax on purchases from 2027",
+        "url": "https://en.coin-turk.com/germany-to-introduce-25yuzde-crypto-capital-income-tax-on-purchases-from-2027/?utm_source=rss&utm_medium=rss&utm_campaign=germany-to-introduce-25yuzde-crypto-capital-income-tax-on-purchases-from-2027",
+        "source": "CoinTurk News",
+        "published_on": 1789014373
+      },
+      {
+        "title": "Block seeks OCC approval to launch Builders Bank for Bitcoin and stablecoin custody",
+        "url": "https://en.coin-turk.com/block-seeks-occ-approval-to-launch-builders-bank-for-bitcoin-and-stablecoin-custody/?utm_source=rss&utm_medium=rss&utm_campaign=block-seeks-occ-approval-to-launch-builders-bank-for-bitcoin-and-stablecoin-custody",
+        "source": "CoinTurk News",
+        "published_on": 1789009871
+      },
+      {
+        "title": "Bitcoin, Ethereum and XRP Price Predictions Today: Why Is Crypto Falling?",
+        "url": "https://coinpedia.org/news/bitcoin-ethereum-and-xrp-price-predictions-today-why-is-crypto-falling/",
+        "source": "coinpedia",
+        "published_on": 1789009137
       }
     ],
     "ETH": [
+      {
+        "title": "Consensys and MetaMask to Separate Into Two Independent Companies by End of 2026",
+        "url": "https://cryptopotato.com/consensys-and-metamask-to-separate-into-two-independent-companies-by-end-of-2026/",
+        "source": "Crypto Potato",
+        "published_on": 1789015997
+      },
+      {
+        "title": "Bitcoin, Ethereum and XRP Price Predictions Today: Why Is Crypto Falling?",
+        "url": "https://coinpedia.org/news/bitcoin-ethereum-and-xrp-price-predictions-today-why-is-crypto-falling/",
+        "source": "coinpedia",
+        "published_on": 1789009137
+      },
+      {
+        "title": "Vitalik Buterin pushes EIP-8288 to cut Ethereum post-quantum costs, targets 2029",
+        "url": "https://en.coin-turk.com/vitalik-buterin-pushes-eip-8288-to-cut-ethereum-post-quantum-costs-targets-2029/?utm_source=rss&utm_medium=rss&utm_campaign=vitalik-buterin-pushes-eip-8288-to-cut-ethereum-post-quantum-costs-targets-2029",
+        "source": "CoinTurk News",
+        "published_on": 1789003628
+      },
+      {
+        "title": "Unlock a brand-new yield strategy for Ripple (XRP)—XRP users can earn $1,000 in daily income",
+        "url": "https://timestabloid.com/unlock-a-brand-new-yield-strategy-for-ripple-xrp-xrp-users/",
+        "source": "TimesTabloid",
+        "published_on": 1788995855
+      },
       {
         "title": "Turn $10K into $250K with This New Crypto Presale as Turbo and Bonk Draw Market Attention",
         "url": "https://timestabloid.com/turn-10k-into-250k-with-this-new-crypto-presale-as-turbo/",
@@ -51,33 +75,15 @@
         "url": "https://en.coin-turk.com/ethereum-targets-3000-as-analysts-eye-key-resistance-between-2500-and-2700/?utm_source=rss&utm_medium=rss&utm_campaign=ethereum-targets-3000-as-analysts-eye-key-resistance-between-2500-and-2700",
         "source": "CoinTurk News",
         "published_on": 1788987497
-      },
-      {
-        "title": "ETH Consolidates Ahead of Treasury Announcement as Golden Cross Signals Upside",
-        "url": "https://www.investing.com/analysis/eth-consolidates-ahead-of-treasury-announcement-as-golden-cross-signals-upside-200687372",
-        "source": "Investing.Com Crypto Opinion and Analysis",
-        "published_on": 1788986225
-      },
-      {
-        "title": "Bitmine Nears 5% Ethereum (ETH) Supply Goal With 5.93M Coin Holdings",
-        "url": "https://en.coinotag.com/bitmine-nears-5-ethereum-eth-supply-goal-593m-holdings",
-        "source": "CoinOtag",
-        "published_on": 1788983064
-      },
-      {
-        "title": "LayerZero and Coinbase push crypto closer to quantum resistance",
-        "url": "https://www.cryptopolitan.com/layerzero-coinbase-advance-quantum-2029/",
-        "source": "Cryptopolitan",
-        "published_on": 1788981308
-      },
-      {
-        "title": "Consensys to split into MetaMask and institutional blockchain company",
-        "url": "https://cointelegraph.com/news/consensys-to-split-into-metamask-and-institutional-blockchain-company?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "Cointelegraph",
-        "published_on": 1788979652
       }
     ],
     "SOL": [
+      {
+        "title": "Top 11 Trending Meme Coins Today: Apeing Meme Coin Presale Takes the Lead After 380M+ Tokens Were Sold in Hours",
+        "url": "https://timestabloid.com/top-11-trending-meme-coins-today-apeing-meme-coin/",
+        "source": "TimesTabloid",
+        "published_on": 1789017328
+      },
       {
         "title": "Solana reclaims key moving averages, targets $116 as ETF inflows rise",
         "url": "https://en.coin-turk.com/solana-reclaims-key-moving-averages-targets-116-as-etf-inflows-rise/?utm_source=rss&utm_medium=rss&utm_campaign=solana-reclaims-key-moving-averages-targets-116-as-etf-inflows-rise",
@@ -107,15 +113,15 @@
         "url": "https://zycrypto.com/solana-widens-memecoin-volume-lead-over-robinhood/",
         "source": "ZyCrypto",
         "published_on": 1788979902
-      },
-      {
-        "title": "SOL Price Faces $50 Risk as SkyAI Board Fight Escalates",
-        "url": "https://coinpedia.org/price-analysis/sol-price-faces-50-risk-as-skyai-board-fight-escalates/",
-        "source": "coinpedia",
-        "published_on": 1788973462
       }
     ],
     "XRP": [
+      {
+        "title": "Bitcoin, Ethereum and XRP Price Predictions Today: Why Is Crypto Falling?",
+        "url": "https://coinpedia.org/news/bitcoin-ethereum-and-xrp-price-predictions-today-why-is-crypto-falling/",
+        "source": "coinpedia",
+        "published_on": 1789009137
+      },
       {
         "title": "XRP holds $1.33–$1.36 support, NEAR jumps 60% from August low",
         "url": "https://en.coin-turk.com/xrp-holds-1-33-1-36-support-near-jumps-60yuzde-from-august-low/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-holds-1-33-1-36-support-near-jumps-60yuzde-from-august-low",
@@ -127,6 +133,12 @@
         "url": "https://u.today/price-analysis/xrp-stellar-xlm-dogecoin-doge-and-near-protocol-near-price-analysis-for-september-10-will-market",
         "source": "U.Today",
         "published_on": 1788998460
+      },
+      {
+        "title": "Unlock a brand-new yield strategy for Ripple (XRP)—XRP users can earn $1,000 in daily income",
+        "url": "https://timestabloid.com/unlock-a-brand-new-yield-strategy-for-ripple-xrp-xrp-users/",
+        "source": "TimesTabloid",
+        "published_on": 1788995855
       },
       {
         "title": "XRP holds at $1.38 despite regulatory wins, investor calls $7 fair price",
@@ -139,58 +151,83 @@
         "url": "https://coinpaper.com/35550/david-schwartz-says-xrp-could-flip-bitcoin-but-the-math-points-to-25-xrp",
         "source": "Coinpaper",
         "published_on": 1788984900
-      },
-      {
-        "title": "Top Investor Says Realistically, $7 XRP Price Seems More Appropriate. Here’s why",
-        "url": "https://timestabloid.com/top-investor-realistically-7-xrp-price-seems-more-appropriate/",
-        "source": "TimesTabloid",
-        "published_on": 1788984005
-      },
-      {
-        "title": "Grayscale Drives $47M Bitcoin Outflows as XRP Funds Gain $1.55M",
-        "url": "https://news.bitcoin.com/bitcoin-etf/grayscale-drives-47m-bitcoin-outflows-as-xrp-funds-gain-1-55m/",
-        "source": "Bitcoin.com",
-        "published_on": 1788982296
       }
     ],
     "BNB": [
       {
-        "title": "XRP holds $1.33–$1.36 support, NEAR jumps 60% from August low",
-        "url": "https://en.coin-turk.com/xrp-holds-1-33-1-36-support-near-jumps-60yuzde-from-august-low/?utm_source=rss&utm_medium=rss&utm_campaign=xrp-holds-1-33-1-36-support-near-jumps-60yuzde-from-august-low",
-        "source": "CoinTurk News",
-        "published_on": 1789000695
+        "title": "Bitcoin consolidates near $79,955 with overbought signals: Live levels",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-consolidates-at-76200-support-live-levels-93CH-4882214",
+        "source": "Investing.com Crypto News",
+        "published_on": 1789018210
       },
       {
-        "title": "Illinois Crypto Tax Faces New Court Bid Before It Hits Residents",
-        "url": "https://news.bitcoin.com/regulation-and-legal/illinois-crypto-tax-faces-new-court-bid-before-it-hits-residents/",
-        "source": "Bitcoin.com",
-        "published_on": 1788999027
+        "title": "Bitcoin down to $78.3k on Iran jitters, higher yields",
+        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-down-to-783k-on-iran-jitters-higher-yields-4894954",
+        "source": "Investing.com Crypto News",
+        "published_on": 1789018059
       },
       {
-        "title": "XRP, Stellar (XLM), Dogecoin (DOGE) and Near Protocol (NEAR) Price Analysis for September 10: Will Market Reclaim Momentum?",
-        "url": "https://u.today/price-analysis/xrp-stellar-xlm-dogecoin-doge-and-near-protocol-near-price-analysis-for-september-10-will-market",
-        "source": "U.Today",
-        "published_on": 1788998460
-      },
-      {
-        "title": "macOS 27's release notes hide usage limits on Siri AI and Image Playground",
-        "url": "https://www.cryptopolitan.com/apple-siri-ai-image-playground-usage-caps/",
-        "source": "Cryptopolitan",
-        "published_on": 1788997963
-      },
-      {
-        "title": "Turn $10K into $250K with This New Crypto Presale as Turbo and Bonk Draw Market Attention",
-        "url": "https://timestabloid.com/turn-10k-into-250k-with-this-new-crypto-presale-as-turbo/",
+        "title": "Top 11 Trending Meme Coins Today: Apeing Meme Coin Presale Takes the Lead After 380M+ Tokens Were Sold in Hours",
+        "url": "https://timestabloid.com/top-11-trending-meme-coins-today-apeing-meme-coin/",
         "source": "TimesTabloid",
-        "published_on": 1788995748
+        "published_on": 1789017328
       },
       {
-        "title": "Visa Stablecoin Settlement Tops $20 Billion as Card Volume Surges",
-        "url": "https://news.bitcoin.com/stablecoins/visa-stablecoin-settlement-tops-20-billion-as-card-volume-surges/",
-        "source": "Bitcoin.com",
-        "published_on": 1788995044
+        "title": "Crypto wins regardless of Clarity Act vote, Coinbase's Armstrong says",
+        "url": "https://www.coindesk.com/markets/2026/09/10/crypto-wins-regardless-of-clarity-act-vote-coinbase-s-armstrong-says",
+        "source": "CoinDesk",
+        "published_on": 1789016741
+      },
+      {
+        "title": "Dubai’s Zamanat brings GCC private credit on-chain with $100M tokenized fund targeting underserved SMEs",
+        "url": "https://finbold.com/dubais-zamanat-brings-gcc-private-credit-on-chain-with-100m-tokenized-fund-targeting-underserved-smes/",
+        "source": "Finbold",
+        "published_on": 1789016400
+      },
+      {
+        "title": "PYUSDx stablecoin platform crosses $100 million in scale",
+        "url": "https://cryptodaily.co.uk/2026/09/pyusdx-stablecoin-platform-crosses-100-million-in-scale",
+        "source": "Crypto Daily",
+        "published_on": 1789016362
       }
     ],
-    "USDT": []
+    "USDT": [
+      {
+        "title": "Cut off From Global Finance, Iran Turns to Bitcoin and Tether",
+        "url": "https://news.bitcoin.com/featured/cut-off-from-global-finance-iran-turns-to-bitcoin-and-tether/",
+        "source": "Bitcoin.com",
+        "published_on": 1788990441
+      },
+      {
+        "title": "Tether Launches $400M StableFund With Fasanara to Bring USDT Into Private Credit",
+        "url": "https://en.coinotag.com/tether-fasanara-400m-stablefund-usdt-private-credit",
+        "source": "CoinOtag",
+        "published_on": 1788983782
+      },
+      {
+        "title": "Visa launches blockchain-based working capital for stablecoin fintech cards",
+        "url": "https://en.coin-turk.com/visa-launches-blockchain-based-working-capital-for-stablecoin-fintech-cards/?utm_source=rss&utm_medium=rss&utm_campaign=visa-launches-blockchain-based-working-capital-for-stablecoin-fintech-cards",
+        "source": "CoinTurk News",
+        "published_on": 1788983348
+      },
+      {
+        "title": "US Secret Service freezes $52.8 million in USDT from Xinbi marketplace",
+        "url": "https://en.coin-turk.com/us-secret-service-freezes-52-8-million-in-usdt-from-xinbi-marketplace/?utm_source=rss&utm_medium=rss&utm_campaign=us-secret-service-freezes-52-8-million-in-usdt-from-xinbi-marketplace",
+        "source": "CoinTurk News",
+        "published_on": 1788977414
+      },
+      {
+        "title": "Tether Backs $400M Fund to Push USDT Into Global Credit Markets",
+        "url": "https://coinedition.com/tether-backs-400m-fund-to-push-usdt-into-global-credit/",
+        "source": "Coin Edition",
+        "published_on": 1788976998
+      },
+      {
+        "title": "Iran accepts USDT and Bitcoin for exports amid US sanctions",
+        "url": "https://en.coin-turk.com/iran-accepts-usdt-and-bitcoin-for-exports-amid-us-sanctions/?utm_source=rss&utm_medium=rss&utm_campaign=iran-accepts-usdt-and-bitcoin-for-exports-amid-us-sanctions",
+        "source": "CoinTurk News",
+        "published_on": 1788970994
+      }
+    ]
   }
 }
