@@ -256,6 +256,7 @@
     display:block;
   }
   .coin-news-item a:hover{ color:var(--gold-bright); }
+  .coin-news-brief{ margin-top:6px; font-size:0.85rem; color:var(--ivory); opacity:0.85; line-height:1.5; }
   .coin-news-meta{ margin-top:6px; font-size:0.76rem; color:var(--slate); }
 
   .ledger{ border:1px solid var(--line); background:var(--panel); }
@@ -897,8 +898,16 @@
       return;
     }
     panelBody.innerHTML =
-      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a handful of well-established coins so far, to avoid guessing at details on less familiar projects. For a fuller write-up in the meantime, CoinGecko's own coin page covers " + name + ' in depth.</div>' +
-      '<div class="coin-meta"><span><a href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">Read more on CoinGecko</a></span><span></span></div>';
+      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a handful of well-established coins so far, to avoid guessing at details on less familiar projects.</div>" +
+      '<button type="button" class="btn btn-ghost" id="aboutToNewsBtn" style="margin-top:20px;">See recent news for ' + name + ' instead</button>';
+
+    var switchBtn = document.getElementById('aboutToNewsBtn');
+    if (switchBtn){
+      switchBtn.addEventListener('click', function(){
+        setActiveTab('news');
+        loadTab('news');
+      });
+    }
   }
 
   // ---------- Live price data ----------
@@ -1031,6 +1040,7 @@
       html +=
         '<div class="coin-news-item">' +
           '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>' +
+          (item.brief ? '<div class="coin-news-brief">' + item.brief + '</div>' : '') +
           '<div class="coin-news-meta">' + item.source + ' · ' + fmtDate(item.published_on) + '</div>' +
         '</div>';
     });
