@@ -889,10 +889,16 @@
   };
 
   function renderAbout(name, id){
-    var text = ABOUT[id] || "Background information for this coin isn't available yet.";
+    var curated = ABOUT[id];
+    if (curated){
+      panelBody.innerHTML =
+        '<div class="coin-about">' + curated + '</div>' +
+        '<div class="coin-meta"><span>General background, not financial advice</span><span></span></div>';
+      return;
+    }
     panelBody.innerHTML =
-      '<div class="coin-about">' + text + '</div>' +
-      '<div class="coin-meta"><span>General background, not financial advice</span><span></span></div>';
+      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a handful of well-established coins so far, to avoid guessing at details on less familiar projects. For a fuller write-up in the meantime, CoinGecko's own coin page covers " + name + ' in depth.</div>' +
+      '<div class="coin-meta"><span><a href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">Read more on CoinGecko</a></span><span></span></div>';
   }
 
   // ---------- Live price data ----------
