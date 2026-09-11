@@ -1,82 +1,8 @@
 {
-  "generated_at": "2026-09-10T22:56:55.706Z",
+  "generated_at": "2026-09-11T02:42:23.101Z",
   "coins": {
-    "BTC": [
-      {
-        "title": "Senator Lummis Unveils 630-Page Revised CLARITY Act Text to Set Bitcoin (BTC) Market Rules",
-        "url": "https://en.coinotag.com/lummis-630-page-revised-clarity-act-bitcoin-market-rules",
-        "source": "CoinOtag",
-        "published_on": 1789079108
-      },
-      {
-        "title": "ESMA Warns Bitcoin (BTC) Ties to Traditional Finance Could Spread Shocks Across EU Markets",
-        "url": "https://en.coinotag.com/esma-warns-bitcoin-traditional-finance-ties-eu-shock-risk",
-        "source": "CoinOtag",
-        "published_on": 1789078754
-      },
-      {
-        "title": "Blockstream’s Liquid Network resumes after $320 million BTC hack, peg-outs still paused",
-        "url": "https://en.coin-turk.com/blockstreams-liquid-network-resumes-after-320-million-btc-hack-peg-outs-still-paused/?utm_source=rss&utm_medium=rss&utm_campaign=blockstreams-liquid-network-resumes-after-320-million-btc-hack-peg-outs-still-paused",
-        "source": "CoinTurk News",
-        "published_on": 1789078635
-      },
-      {
-        "title": "Tim Draper Tells Families: Stockpile Bitcoin Before a Run on US Dollar",
-        "url": "https://news.bitcoin.com/crypto-news/tim-draper-tells-families-stockpile-bitcoin-before-a-run-on-us-dollar/",
-        "source": "Bitcoin.com",
-        "published_on": 1789078442
-      },
-      {
-        "title": "Bitcoin dips to $77.1k as PPI data boosts Fed rate hike bets, oil prices jump",
-        "url": "https://www.investing.com/news/cryptocurrency-news/bitcoin-down-to-783k-on-iran-jitters-higher-yields-4894954",
-        "source": "Investing.com Crypto News",
-        "published_on": 1789077809
-      },
-      {
-        "title": "Liquid Hackers Call Blockstream ‘Delusional, Greedy, and Arrogant,’ Demand 10% Bounty",
-        "url": "https://cryptopotato.com/liquid-hackers-call-blockstream-delusional-greedy-and-arrogant-demand-10-bounty/",
-        "source": "Crypto Potato",
-        "published_on": 1789077339
-      }
-    ],
-    "ETH": [
-      {
-        "title": "Senate sets vote on CLARITY Act, key crypto bill faces uncertainty from Democrats",
-        "url": "https://en.coin-turk.com/senate-sets-vote-on-clarity-act-key-crypto-bill-faces-uncertainty-from-democrats/?utm_source=rss&utm_medium=rss&utm_campaign=senate-sets-vote-on-clarity-act-key-crypto-bill-faces-uncertainty-from-democrats",
-        "source": "CoinTurk News",
-        "published_on": 1789076114
-      },
-      {
-        "title": "BTC, XRP, ETH: Republicans Introduce New Version of Key Crypto Bill",
-        "url": "https://u.today/btc-xrp-eth-republicans-introduce-new-version-of-key-crypto-bill",
-        "source": "U.Today",
-        "published_on": 1789074027
-      },
-      {
-        "title": "SEC Proposal Would Make Blockchain the Official Ledger for Ethereum (ETH) Tokenized Stocks",
-        "url": "https://en.coinotag.com/sec-transfer-agent-proposal-blockchain-ledgers-tokenized-securities",
-        "source": "CoinOtag",
-        "published_on": 1789072104
-      },
-      {
-        "title": "3 Reasons Why Zcash (ZEC) Can Plunge Following Its 150% Monthly Explosion",
-        "url": "https://cryptopotato.com/3-reasons-why-zcash-zec-can-plunge-following-its-150-monthly-explosion/",
-        "source": "Crypto Potato",
-        "published_on": 1789071543
-      },
-      {
-        "title": "Canada approves XRP ETF options, major banks disclose new holdings",
-        "url": "https://en.coin-turk.com/canada-approves-xrp-etf-options-major-banks-disclose-new-holdings/?utm_source=rss&utm_medium=rss&utm_campaign=canada-approves-xrp-etf-options-major-banks-disclose-new-holdings",
-        "source": "CoinTurk News",
-        "published_on": 1789068611
-      },
-      {
-        "title": "Lummis Uses $42M Tether Lawsuit to Push Senate Toward CLARITY Act",
-        "url": "https://coinedition.com/lummis-uses-42m-tether-lawsuit-to-push-senate-toward/",
-        "source": "Coin Edition",
-        "published_on": 1789065684
-      }
-    ],
+    "BTC": [],
+    "ETH": [],
     "USDT": [],
     "BNB": [],
     "XRP": [],
@@ -103,8 +29,8 @@
     "CC": [],
     "GRAM": [],
     "UNI": [],
-    "HBAR": [],
     "USDG": [],
+    "HBAR": [],
     "NEAR": [],
     "AVAX": [],
     "SUI": [],
@@ -113,32 +39,32 @@
     "BUIDL": [],
     "CRO": [],
     "XAUT": [],
-    "M": [],
     "USYC": [],
+    "M": [],
     "RLUSD": [],
     "OKB": [],
     "TAO": [],
     "USDY": [],
-    "ASTER": [],
-    "MNT": [],
-    "AAVE": [],
     "DOT": [],
+    "ASTER": [],
+    "AAVE": [],
+    "MNT": [],
     "PAXG": [],
     "WLFI": [],
     "ONDO": [],
-    "PUMP": [],
     "MORPHO": [],
     "ICP": [],
+    "PUMP": [],
     "HTX": [],
     "USDD": [],
     "ENA": [],
     "WLD": [],
     "SKY": [],
-    "PEPE": [],
     "USDGO": [],
+    "PEPE": [],
     "BGB": [],
-    "USDF": [],
     "BTW": [],
+    "USDF": [],
     "EURSAFO": [],
     "BFUSD": [],
     "U": [],
@@ -146,34 +72,34 @@
     "VVV": [],
     "LIT": [],
     "PI": [],
-    "KAS": [],
-    "GT": [],
     "POL": [],
-    "ARB": [],
+    "GT": [],
+    "KAS": [],
     "BCAP": [],
+    "ARB": [],
     "ATOM": [],
-    "QNT": [],
     "KCS": [],
+    "QNT": [],
     "EUTBL": [],
     "JST": [],
-    "ALGO": [],
     "NEXO": [],
+    "ALGO": [],
     "USTB": [],
     "STABLE": [],
     "JUP": [],
     "JTRSY": [],
     "RENDER": [],
-    "DASH": [],
     "JAAA": [],
+    "DASH": [],
     "GHO": [],
     "CAKE": [],
-    "VET": [],
     "FIL": [],
     "ETHFI": [],
+    "VET": [],
     "BDX": [],
     "INJ": [],
-    "XDC": [],
     "APT": [],
-    "AERO": []
+    "XDC": [],
+    "USD0": []
   }
 }
