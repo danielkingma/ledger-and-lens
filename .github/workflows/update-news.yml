@@ -62,12 +62,17 @@ jobs:
               try {
                 const raw = JSON.parse(fs.readFileSync('/tmp/news/' + symbol + '.json', 'utf8'));
                 const articles = (raw.Data || []).slice(0, 6);
-                items = articles.map(a => ({
-                  title: a.title,
-                  url: a.url,
-                  source: (a.source_info && a.source_info.name) ? a.source_info.name : a.source,
-                  published_on: a.published_on
-                }));
+                items = articles.map(a => {
+                  var raw = (a.body || '').replace(/\s+/g, ' ').trim();
+                  var brief = raw.length > 140 ? raw.slice(0, 140).trim() + '…' : raw;
+                  return {
+                    title: a.title,
+                    brief: brief,
+                    url: a.url,
+                    source: (a.source_info && a.source_info.name) ? a.source_info.name : a.source,
+                    published_on: a.published_on
+                  };
+                });
               } catch (e) {
                 items = [];
               }
