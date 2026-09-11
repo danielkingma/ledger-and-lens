@@ -926,8 +926,11 @@
       return;
     }
     panelBody.innerHTML =
-      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a set of well-established coins so far, to avoid guessing at details on less familiar projects. CoinGecko's own coin page covers " + name + ' in more depth, opening in a new tab so this page stays put.</div>' +
-      '<div class="coin-meta"><span><a href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">Read more on CoinGecko ↗</a></span><span></span></div>';
+      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a set of well-established coins so far, to avoid guessing at details on less familiar projects.</div>" +
+      '<div class="coin-news-external">' +
+        '<a class="btn btn-ghost" href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">Read on CoinGecko ↗</a>' +
+        '<a class="btn btn-ghost" href="https://coinmarketcap.com/currencies/' + cmcSlug(name) + '/" target="_blank" rel="noopener">Read on CoinMarketCap ↗</a>' +
+      '</div>';
   }
 
   // ---------- Live price data ----------
@@ -1061,8 +1064,8 @@
     var cmc = cmcSlug(name);
     return (
       '<div class="coin-news-external">' +
-        '<a class="btn btn-ghost" href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">More on CoinGecko ↗</a>' +
-        '<a class="btn btn-ghost" href="https://coinmarketcap.com/currencies/' + cmc + '/" target="_blank" rel="noopener">More on CoinMarketCap ↗</a>' +
+        '<a class="btn btn-ghost" href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">News at CoinGecko ↗</a>' +
+        '<a class="btn btn-ghost" href="https://coinmarketcap.com/currencies/' + cmc + '/" target="_blank" rel="noopener">News at CoinMarketCap ↗</a>' +
       '</div>'
     );
   }
@@ -1070,7 +1073,7 @@
   function renderNews(items, id, name){
     var links = externalNewsLinksHtml(id, name);
     if (!items || !items.length){
-      panelBody.innerHTML = '<div class="coin-status">No recent headlines found for this coin right now.</div>' + links;
+      panelBody.innerHTML = links;
       return;
     }
     var html = '<div class="coin-news-list">';
