@@ -258,6 +258,8 @@
   .coin-news-item a:hover{ color:var(--gold-bright); }
   .coin-news-brief{ margin-top:6px; font-size:0.85rem; color:var(--ivory); opacity:0.85; line-height:1.5; }
   .coin-news-meta{ margin-top:6px; font-size:0.76rem; color:var(--slate); }
+  .coin-news-external{ margin-top:22px; display:flex; gap:12px; flex-wrap:wrap; }
+  .coin-news-external .btn{ padding:10px 16px; font-size:0.85rem; }
 
   .ledger{ border:1px solid var(--line); background:var(--panel); }
   .ledger-head{ padding:14px 20px; font-size:0.8rem; color:var(--slate); border-bottom:1px solid var(--line); }
@@ -886,7 +888,33 @@
     solana: "Solana launched in 2020, built around high transaction throughput and low fees using proof-of-stake alongside a timestamping method called proof-of-history. It's often positioned as a faster alternative to Ethereum for applications needing cheap, quick transactions, and has become a hub for decentralized exchanges, NFTs, and consumer crypto apps. That speed comes with a smaller, more concentrated validator set than some competitors.",
     ripple: "XRP is the native token of the XRP Ledger, a blockchain created in 2012 aimed primarily at fast, low-cost cross-border payments and currency exchange. Its consensus mechanism differs from Bitcoin and Ethereum, relying on a network of trusted validators rather than mining or staking. Ripple Labs, closely associated with the token, spent several years in litigation with the US SEC over whether XRP qualifies as a security.",
     binancecoin: "BNB is the native token of the BNB Chain ecosystem, originally launched by the Binance exchange in 2017. It's used to pay reduced trading fees on Binance, as gas for transactions on BNB Chain, and across decentralized apps built on that chain. Its value and adoption are closely tied to the scale and health of the Binance exchange and its surrounding ecosystem.",
-    tether: "Tether (USDT) is a stablecoin designed to hold a 1:1 peg with the US dollar, backed by a reserve of cash and cash-equivalent assets managed by Tether Limited. It's one of the most widely used assets in crypto trading, often used to move value between exchanges or hold value without converting back to traditional currency. Its reserve composition and audits have drawn ongoing scrutiny from regulators and researchers."
+    tether: "Tether (USDT) is a stablecoin designed to hold a 1:1 peg with the US dollar, backed by a reserve of cash and cash-equivalent assets managed by Tether Limited. It's one of the most widely used assets in crypto trading, often used to move value between exchanges or hold value without converting back to traditional currency. Its reserve composition and audits have drawn ongoing scrutiny from regulators and researchers.",
+    dogecoin: "Dogecoin started in 2013 as a joke based on the 'Doge' internet meme, forked from Litecoin's codebase. It has an uncapped supply with a fixed annual issuance, deliberately different from Bitcoin's scarcity model. Despite its origins, it has built a loyal community and is used for small tips and payments, helped by high-profile public attention over the years.",
+    cardano: "Cardano launched in 2017, built by a team including Ethereum co-founder Charles Hoskinson, with an emphasis on peer-reviewed academic research before shipping features. It uses a proof-of-stake consensus mechanism called Ouroboros and splits transaction settlement from smart contract logic into separate layers. Development has generally moved more deliberately than competitors, which supporters see as rigor and critics see as slow.",
+    "avalanche-2": "Avalanche launched in 2020, built around a consensus mechanism aiming for fast finality and high throughput while remaining energy efficient. Its architecture supports custom, purpose-built blockchains ('subnets') that can set their own rules while still connecting back to the main network. It's positioned as a platform for both DeFi and enterprise blockchain deployments.",
+    polkadot: "Polkadot launched in 2020, designed by Ethereum co-founder Gavin Wood around multiple specialized blockchains ('parachains') connecting to and sharing security with a central relay chain. The goal is interoperability — letting chains built for different purposes communicate rather than operating in isolation. Parachain slots were historically auctioned off to projects wanting to connect to the network.",
+    chainlink: "Chainlink is a decentralized oracle network — its core job is feeding real-world data, like prices or event outcomes, onto blockchains that otherwise can't access information outside their own network. It's become foundational infrastructure for DeFi, since lending and derivatives protocols rely on accurate external price feeds to function safely. LINK, the native token, pays node operators providing that data.",
+    litecoin: "Litecoin launched in 2011 as one of the earliest Bitcoin forks, created by former Google engineer Charlie Lee with faster block times and a different mining algorithm intended to keep mining more accessible. It's often described as digital silver to Bitcoin's digital gold — a similar but lower-priority store of value with a much longer track record than most alternatives.",
+    "shiba-inu": "Shiba Inu launched in 2020 as a meme token explicitly inspired by Dogecoin, built on Ethereum rather than its own blockchain. Its ecosystem has since expanded to include a decentralized exchange and its own Layer 2 network. Like other meme-driven tokens, its value has historically been driven far more by community attention and speculation than by underlying utility.",
+    "the-open-network": "Toncoin runs on The Open Network, a blockchain originally designed by Telegram before development was handed to an independent open-source community. Its closest integration is with the Telegram messaging app, which has hundreds of millions of users, giving it a distribution channel most other blockchains don't have. It's built for high transaction throughput and low fees.",
+    stellar: "Stellar launched in 2014, created by Jed McCaleb (a co-founder of Ripple) with a focus on fast, low-cost cross-border payments and connecting different currencies and payment networks. It uses its own consensus protocol rather than mining or traditional staking, and has leaned into partnerships with financial institutions aiming to move money across borders more cheaply than traditional rails.",
+    sui: "Sui launched in 2023, built by former Meta employees who previously worked on that company's abandoned Diem blockchain project. It uses an object-based data model rather than the account-based model most blockchains use, which its designers argue allows faster parallel transaction processing. It's positioned as infrastructure for gaming and consumer applications needing high throughput.",
+    "hedera-hashgraph": "Hedera uses a technology called hashgraph rather than a traditional blockchain, which its creators argue offers faster consensus and higher throughput. It's governed by a council of large, mostly corporate members rather than a fully open validator set — a notably different governance model from most major networks.",
+    "bitcoin-cash": "Bitcoin Cash split off from Bitcoin in 2017 in a contentious hard fork, driven by disagreement over how to scale the network. Its supporters wanted larger blocks to allow more transactions per block, prioritizing use as everyday electronic cash over Bitcoin's evolving focus on being a store of value first.",
+    uniswap: "UNI is the governance token of Uniswap, the decentralized exchange protocol also listed separately in the DeFi exchanges section of this site. Holding UNI gives a say in protocol governance — fee structures, treasury spending, upgrades — rather than functioning as a payment token or automatically granting a share of trading fees.",
+    monero: "Monero launched in 2014 with privacy as its central design goal, using cryptography to obscure sender, receiver, and transaction amount by default — unlike Bitcoin, where transaction details are fully public on-chain. That privacy focus has made it popular for people prioritizing financial confidentiality, and has also led to delistings from a number of major exchanges responding to regulatory pressure.",
+    near: "NEAR launched in 2020 with a sharding design intended to let the network scale by splitting transaction processing across multiple parallel chains rather than handling everything on one chain. It emphasizes developer accessibility with human-readable account names instead of long wallet addresses, and has increasingly positioned itself around AI-related infrastructure.",
+    aptos: "Aptos launched in 2022, also built by former Meta employees from the same abandoned Diem project as Sui, and shares some underlying technical DNA with it. It uses the Move programming language, originally designed for that Meta project, built with an emphasis on asset safety at the language level.",
+    "internet-computer": "Internet Computer, built by the Dfinity Foundation, aims to let entire applications and websites run directly on-chain rather than relying on traditional cloud servers for anything beyond the blockchain logic itself — a more ambitious scope than most blockchains, which typically handle a narrower set of financial or state-tracking functions.",
+    vechain: "VeChain focuses on supply chain tracking and verification, using blockchain records to help companies verify the authenticity and journey of physical products — food safety, luxury goods, and logistics have been common use cases. It uses a two-token model, separating the tradable token from the token used to pay for network operations.",
+    filecoin: "Filecoin is built around decentralized data storage — instead of relying on centralized cloud providers, users pay FIL to rent unused storage space from participants across the network, who are paid for reliably storing and retrieving that data. It's one of the more established projects specifically focused on storage rather than computation or payments.",
+    cosmos: "Cosmos is built around many independent, purpose-built blockchains ('zones') connecting through a shared communication protocol rather than everything running on one shared chain. Its philosophy is often summarized as 'the internet of blockchains' — interoperability between independent chains rather than a single dominant network.",
+    algorand: "Algorand launched in 2019, created by MIT professor and Turing Award winner Silvio Micali, using a proof-of-stake method designed to avoid the network splits ('forks') that can occur on other blockchains. It has focused partly on institutional use cases, including partnerships around tokenized assets and payment systems in some countries.",
+    "the-graph": "The Graph indexes blockchain data so applications can query it efficiently, similar in spirit to how a search engine indexes the web rather than requiring each request to scan everything from scratch. It's infrastructure many DeFi apps rely on indirectly, since app interfaces often query data through it behind the scenes.",
+    aave: "Aave is a decentralized lending protocol where users can supply crypto to earn interest or borrow against deposited collateral, all managed through smart contracts rather than a company approving loans. It was one of the earliest and remains one of the largest lending platforms in DeFi, with its native token used for governance and as a backstop in the protocol's insurance mechanism.",
+    arbitrum: "Arbitrum is a Layer 2 network built on Ethereum using optimistic rollup technology — batching transactions together off the main chain and settling back to Ethereum periodically, lowering fees while inheriting Ethereum's underlying security. It's one of the largest Ethereum L2s by activity and total value locked.",
+    optimism: "Optimism is another major Ethereum Layer 2 network built on optimistic rollup technology, similar in approach to Arbitrum but with its own separate ecosystem. It has positioned itself around a shared technical standard other networks can adopt to build their own compatible chains within a broader multi-chain vision.",
+    cronos: "Cronos is the blockchain associated with the Crypto.com exchange, also listed in the centralized exchanges section of this site, built to be compatible with Ethereum's tooling so developers can deploy familiar smart contracts on it. Its adoption has generally tracked closely with Crypto.com's own ecosystem and products."
   };
 
   function renderAbout(name, id){
@@ -898,16 +926,8 @@
       return;
     }
     panelBody.innerHTML =
-      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a handful of well-established coins so far, to avoid guessing at details on less familiar projects.</div>" +
-      '<button type="button" class="btn btn-ghost" id="aboutToNewsBtn" style="margin-top:20px;">See recent news for ' + name + ' instead</button>';
-
-    var switchBtn = document.getElementById('aboutToNewsBtn');
-    if (switchBtn){
-      switchBtn.addEventListener('click', function(){
-        setActiveTab('news');
-        loadTab('news');
-      });
-    }
+      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a set of well-established coins so far, to avoid guessing at details on less familiar projects. CoinGecko's own coin page covers " + name + ' in more depth, opening in a new tab so this page stays put.</div>' +
+      '<div class="coin-meta"><span><a href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">Read more on CoinGecko ↗</a></span><span></span></div>';
   }
 
   // ---------- Live price data ----------
@@ -1030,9 +1050,27 @@
     return newsSnapshotPromise;
   }
 
-  function renderNews(items){
+  function cmcSlug(name){
+    // Best-effort guess at CoinMarketCap's URL slug convention (lowercase,
+    // hyphenated name). Usually correct for well-known coins; if it's ever
+    // wrong for an edge case, CoinMarketCap's own search picks up the slack.
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function externalNewsLinksHtml(id, name){
+    var cmc = cmcSlug(name);
+    return (
+      '<div class="coin-news-external">' +
+        '<a class="btn btn-ghost" href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">More on CoinGecko ↗</a>' +
+        '<a class="btn btn-ghost" href="https://coinmarketcap.com/currencies/' + cmc + '/" target="_blank" rel="noopener">More on CoinMarketCap ↗</a>' +
+      '</div>'
+    );
+  }
+
+  function renderNews(items, id, name){
+    var links = externalNewsLinksHtml(id, name);
     if (!items || !items.length){
-      panelBody.innerHTML = '<div class="coin-status">No recent headlines found for this coin right now.</div>';
+      panelBody.innerHTML = '<div class="coin-status">No recent headlines found for this coin right now.</div>' + links;
       return;
     }
     var html = '<div class="coin-news-list">';
@@ -1044,18 +1082,18 @@
           '<div class="coin-news-meta">' + item.source + ' · ' + fmtDate(item.published_on) + '</div>' +
         '</div>';
     });
-    html += '</div><div class="coin-meta"><span>Headlines via CryptoCompare · updated every few hours</span><span>Opens in a new tab</span></div>';
+    html += '</div><div class="coin-meta"><span>Headlines via CryptoCompare · updated every few hours</span><span>Opens in a new tab</span></div>' + links;
     panelBody.innerHTML = html;
   }
 
-  function loadNews(id, symbol){
+  function loadNews(id, symbol, name){
     loadNewsSnapshot().then(function(snapshot){
       if (!snapshot){
-        panelBody.innerHTML = '<div class="coin-status">The news feed isn\'t available right now — please try again shortly.</div>';
+        panelBody.innerHTML = '<div class="coin-status">The news feed isn\'t available right now — please try again shortly.</div>' + externalNewsLinksHtml(id, name);
         return;
       }
       var items = snapshot.coins && snapshot.coins[symbol];
-      renderNews(items);
+      renderNews(items, id, name);
     });
   }
 
@@ -1071,7 +1109,7 @@
     panelBody.innerHTML = '<div class="coin-status">Fetching data…</div>';
     if (tab === 'price') loadPrice(current.id, current.symbol);
     else if (tab === 'about') renderAbout(current.name, current.id);
-    else if (tab === 'news') loadNews(current.id, current.symbol);
+    else if (tab === 'news') loadNews(current.id, current.symbol, current.name);
   }
 
   function openCoin(id, symbol, name, tab){
