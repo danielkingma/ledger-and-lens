@@ -18,64 +18,100 @@ jobs:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Fetch latest headlines from CryptoCompare for every tracked coin
+      - name: Fetch latest headlines for every tracked coin
         env:
           CRYPTOCOMPARE_API_KEY: ${{ secrets.CRYPTOCOMPARE_API_KEY }}
         run: |
-          mkdir -p data /tmp/news
+          mkdir -p data /tmp/news /tmp/fallback
 
-          # Pull the current symbol list straight from the price snapshot,
-          # so this automatically follows whichever 100 coins are ranked
+          # Pull symbol + name pairs straight from the price snapshot, so
+          # this automatically follows whichever 100 coins are ranked
           # right now rather than a fixed, manually maintained list.
           node -e "
             const fs = require('fs');
             try {
               const coins = JSON.parse(fs.readFileSync('data/coins.json', 'utf8')).coins || {};
-              const syms = [...new Set(Object.values(coins).map(c => c.symbol))];
-              fs.writeFileSync('/tmp/symbols.txt', syms.join('\n'));
+              const seen = new Set();
+              const lines = [];
+              for (const c of Object.values(coins)) {
+                if (seen.has(c.symbol)) continue;
+                seen.add(c.symbol);
+                lines.push(c.symbol + '\t' + c.name);
+              }
+              fs.writeFileSync('/tmp/coin_list.txt', lines.join('\n'));
             } catch (e) {
-              fs.writeFileSync('/tmp/symbols.txt', '');
+              fs.writeFileSync('/tmp/coin_list.txt', '');
             }
           "
 
-          if [ ! -s /tmp/symbols.txt ]; then
+          if [ ! -s /tmp/coin_list.txt ]; then
             echo "No coins.json data yet — skipping this run."
             exit 0
           fi
 
-          while IFS= read -r symbol; do
+          while IFS=$'\t' read -r symbol name; do
             [ -z "$symbol" ] && continue
+
+            # Primary source: CryptoCompare, categorized by ticker.
             curl -sf \
               -H "Authorization: Apikey ${CRYPTOCOMPARE_API_KEY}" \
               "https://min-api.cryptocompare.com/data/v2/news/?lang=EN&categories=${symbol}" \
               -o "/tmp/news/${symbol}.json" || echo "{}" > "/tmp/news/${symbol}.json"
-            sleep 0.3
-          done < /tmp/symbols.txt
+            sleep 0.2
+
+            # Fallback source: cryptocurrency.cv, an open-source, keyless
+            # aggregator — searched by coin name for better long-tail
+            # coverage on coins CryptoCompare's categories don't cover.
+            encoded_name=$(node -e "console.log(encodeURIComponent(process.argv[1]))" "$name")
+            curl -sf "https://cryptocurrency.cv/api/search?q=${encoded_name}&limit=6" \
+              -o "/tmp/fallback/${symbol}.json" || echo "{}" > "/tmp/fallback/${symbol}.json"
+            sleep 0.2
+          done < /tmp/coin_list.txt
 
           node -e "
             const fs = require('fs');
-            const symbols = fs.readFileSync('/tmp/symbols.txt', 'utf8').split('\n').filter(Boolean);
+            const lines = fs.readFileSync('/tmp/coin_list.txt', 'utf8').split('\n').filter(Boolean);
             const out = { generated_at: new Date().toISOString(), coins: {} };
 
-            for (const symbol of symbols) {
+            function briefFrom(raw) {
+              const t = (raw || '').replace(/\s+/g, ' ').trim();
+              return t.length > 140 ? t.slice(0, 140).trim() + '…' : t;
+            }
+
+            for (const line of lines) {
+              const symbol = line.split('\t')[0];
               let items = [];
+
               try {
                 const raw = JSON.parse(fs.readFileSync('/tmp/news/' + symbol + '.json', 'utf8'));
                 const articles = (raw.Data || []).slice(0, 6);
-                items = articles.map(a => {
-                  var raw = (a.body || '').replace(/\s+/g, ' ').trim();
-                  var brief = raw.length > 140 ? raw.slice(0, 140).trim() + '…' : raw;
-                  return {
-                    title: a.title,
-                    brief: brief,
-                    url: a.url,
-                    source: (a.source_info && a.source_info.name) ? a.source_info.name : a.source,
-                    published_on: a.published_on
-                  };
-                });
+                items = articles.map(a => ({
+                  title: a.title,
+                  brief: briefFrom(a.body),
+                  url: a.url,
+                  source: (a.source_info && a.source_info.name) ? a.source_info.name : a.source,
+                  published_on: a.published_on
+                }));
               } catch (e) {
                 items = [];
               }
+
+              if (!items.length) {
+                try {
+                  const fb = JSON.parse(fs.readFileSync('/tmp/fallback/' + symbol + '.json', 'utf8'));
+                  const articles = (fb.articles || []).slice(0, 6);
+                  items = articles.map(a => ({
+                    title: a.title,
+                    brief: briefFrom(a.description),
+                    url: a.link,
+                    source: a.source,
+                    published_on: a.pubDate ? Math.floor(new Date(a.pubDate).getTime() / 1000) : Math.floor(Date.now() / 1000)
+                  }));
+                } catch (e) {
+                  items = [];
+                }
+              }
+
               out.coins[symbol] = items;
             }
 
