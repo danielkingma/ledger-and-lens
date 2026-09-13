@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://danielkingma.github.io/ledger-and-lens/sitemap.xml
