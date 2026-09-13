@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-13T00:44:31.081Z",
+  "generated_at": "2026-09-13T05:50:55.711Z",
   "categories": {
     "tokenization": [
       {
@@ -15,16 +15,16 @@
         "symbol": "LINK",
         "name": "Chainlink",
         "image": "https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405",
-        "price": 11.5,
-        "market_cap_rank": 17
+        "price": 11.55,
+        "market_cap_rank": 16
       },
       {
         "id": "stellar",
         "symbol": "XLM",
         "name": "Stellar",
         "image": "https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg?1735231350",
-        "price": 0.180088,
-        "market_cap_rank": 20
+        "price": 0.180782,
+        "market_cap_rank": 19
       },
       {
         "id": "blackrock-usd-institutional-digital-liquidity-fund",
@@ -32,15 +32,15 @@
         "name": "BlackRock USD Institutional Digital Liquidity Fund",
         "image": "https://coin-images.coingecko.com/coins/images/36291/large/blackrock.png?1711013223",
         "price": 1,
-        "market_cap_rank": 37
+        "market_cap_rank": 36
       },
       {
         "id": "tether-gold",
         "symbol": "XAUT",
         "name": "Tether Gold",
         "image": "https://coin-images.coingecko.com/coins/images/10481/large/logo.png?1774627372",
-        "price": 4350,
-        "market_cap_rank": 39
+        "price": 4349.94,
+        "market_cap_rank": 38
       }
     ],
     "infrastructure": [
@@ -49,23 +49,23 @@
         "symbol": "NEAR",
         "name": "NEAR Protocol",
         "image": "https://coin-images.coingecko.com/coins/images/10365/large/near.jpg?1696510367",
-        "price": 2.37,
-        "market_cap_rank": 33
+        "price": 2.35,
+        "market_cap_rank": 32
       },
       {
         "id": "bittensor",
         "symbol": "TAO",
         "name": "Bittensor",
         "image": "https://coin-images.coingecko.com/coins/images/28452/large/ARUsPeNQ_400x400.jpeg?1696527447",
-        "price": 232.3,
-        "market_cap_rank": 43
+        "price": 237.41,
+        "market_cap_rank": 42
       },
       {
         "id": "staked-tao-root",
         "symbol": "SN0",
         "name": "Staked TAO (Root)",
         "image": "https://coin-images.coingecko.com/coins/images/66305/large/bittensor.jpg?1749177388",
-        "price": 236.4,
+        "price": 235.71,
         "market_cap_rank": null
       },
       {
@@ -73,7 +73,7 @@
         "symbol": "ICP",
         "name": "Internet Computer",
         "image": "https://coin-images.coingecko.com/coins/images/14495/large/Internet_Computer_logo.png?1696514180",
-        "price": 2.73,
+        "price": 2.72,
         "market_cap_rank": 55
       },
       {
@@ -81,8 +81,8 @@
         "symbol": "VVV",
         "name": "Venice Token",
         "image": "https://coin-images.coingecko.com/coins/images/54023/large/VVV_Token_Transparent.png?1741856877",
-        "price": 24.16,
-        "market_cap_rank": 69
+        "price": 24.2,
+        "market_cap_rank": 68
       }
     ],
     "scaling": [
@@ -91,40 +91,40 @@
         "symbol": "OKB",
         "name": "OKB",
         "image": "https://coin-images.coingecko.com/coins/images/4463/large/WeChat_Image_20220118095654.png?1696505053",
-        "price": 113.64,
-        "market_cap_rank": 42
+        "price": 114.3,
+        "market_cap_rank": 41
       },
       {
         "id": "mantle",
         "symbol": "MNT",
         "name": "Mantle",
         "image": "https://coin-images.coingecko.com/coins/images/30980/large/MNT_Token_Logo.png?1765516974",
-        "price": 0.552609,
-        "market_cap_rank": 48
+        "price": 0.55378,
+        "market_cap_rank": 47
       },
       {
         "id": "polygon-ecosystem-token",
         "symbol": "POL",
         "name": "POL (ex-MATIC)",
         "image": "https://coin-images.coingecko.com/coins/images/32440/large/pol.png?1759114181",
-        "price": 0.096752,
-        "market_cap_rank": 72
+        "price": 0.096283,
+        "market_cap_rank": 71
       },
       {
         "id": "arbitrum",
         "symbol": "ARB",
         "name": "Arbitrum",
         "image": "https://coin-images.coingecko.com/coins/images/16547/large/arb.jpg?1721358242",
-        "price": 0.140142,
-        "market_cap_rank": 77
+        "price": 0.143034,
+        "market_cap_rank": 75
       },
       {
         "id": "blockstack",
         "symbol": "STX",
         "name": "Stacks",
         "image": "https://coin-images.coingecko.com/coins/images/2069/large/Stacks_Logo_png.png?1709979332",
-        "price": 0.267786,
-        "market_cap_rank": 106
+        "price": 0.27837,
+        "market_cap_rank": 104
       }
     ],
     "yield": [
@@ -133,7 +133,7 @@
         "symbol": "WEETH",
         "name": "Wrapped eETH",
         "image": "https://coin-images.coingecko.com/coins/images/33033/large/weETH.png?1701438396",
-        "price": 2784.16,
+        "price": 2784.04,
         "market_cap_rank": null
       },
       {
@@ -141,7 +141,7 @@
         "symbol": "RSETH",
         "name": "Kelp DAO Restaked ETH",
         "image": "https://coin-images.coingecko.com/coins/images/33800/large/Icon___Dark.png?1702991855",
-        "price": 2708.93,
+        "price": 2699.17,
         "market_cap_rank": null
       },
       {
@@ -149,7 +149,7 @@
         "symbol": "LBTC",
         "name": "Lombard BTC",
         "image": "https://coin-images.coingecko.com/coins/images/39969/large/lbtc-token-circle-200.png?1786635984",
-        "price": 77433,
+        "price": 77573,
         "market_cap_rank": null
       },
       {
@@ -157,16 +157,16 @@
         "symbol": "ETHFI",
         "name": "Ether.fi",
         "image": "https://coin-images.coingecko.com/coins/images/35958/large/etherfi.jpeg?1710254562",
-        "price": 0.706771,
-        "market_cap_rank": 93
+        "price": 0.690946,
+        "market_cap_rank": 94
       },
       {
         "id": "pendle",
         "symbol": "PENDLE",
         "name": "Pendle",
         "image": "https://coin-images.coingecko.com/coins/images/15069/large/Pendle_Logo_Normal-03.png?1696514728",
-        "price": 2.2,
-        "market_cap_rank": 121
+        "price": 2.16,
+        "market_cap_rank": 120
       }
     ],
     "high-risk": [
@@ -175,16 +175,16 @@
         "symbol": "DOGE",
         "name": "Dogecoin",
         "image": "https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409",
-        "price": 0.084713,
-        "market_cap_rank": 12
+        "price": 0.084893,
+        "market_cap_rank": 11
       },
       {
         "id": "shiba-inu",
         "symbol": "SHIB",
         "name": "Shiba Inu",
         "image": "https://coin-images.coingecko.com/coins/images/11939/large/shiba.png?1696511800",
-        "price": 0.00000531,
-        "market_cap_rank": 32
+        "price": 0.00000526,
+        "market_cap_rank": 31
       },
       {
         "id": "memecore",
@@ -192,23 +192,23 @@
         "name": "MemeCore",
         "image": "https://coin-images.coingecko.com/coins/images/53247/large/square-bg-transparent.png?1752637478",
         "price": 1.18,
-        "market_cap_rank": 38
+        "market_cap_rank": 37
       },
       {
         "id": "pump-fun",
         "symbol": "PUMP",
         "name": "Pump.fun",
         "image": "https://coin-images.coingecko.com/coins/images/67164/large/pump.jpg?1751949376",
-        "price": 0.00377894,
-        "market_cap_rank": 52
+        "price": 0.0038351,
+        "market_cap_rank": 51
       },
       {
         "id": "pepe",
         "symbol": "PEPE",
         "name": "Pepe",
         "image": "https://coin-images.coingecko.com/coins/images/29850/large/pepe-token.jpeg?1696528776",
-        "price": 0.00000343,
-        "market_cap_rank": 60
+        "price": 0.00000346,
+        "market_cap_rank": 58
       }
     ]
   }
