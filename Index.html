@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ledger & Lens — Exchange picks and crypto explainers</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --espresso:#1C130B;
+    --panel:#241809;
+    --panel-2:#2E1F0D;
+    --ivory:#F0E8D8;
+    --gold:#B8912F;
+    --gold-bright:#E8C766;
+    --bottle:#26382B;
+    --bottle-text:#B9CDB9;
+    --slate:#A6937D;
+    --line:rgba(240,232,216,0.14);
+    --maxw:1120px;
+  }
+
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation:none !important; transition:none !important;}
+  }
+
+  body{
+    margin:0;
+    background:
+      radial-gradient(ellipse at 15% 0%, rgba(184,145,47,0.07), transparent 55%),
+      var(--espresso);
+    color:var(--ivory);
+    font-family:"IBM Plex Sans", sans-serif;
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  h1,h2,h3{
+    font-family:"Fraunces", serif;
+    font-weight:500;
+    margin:0;
+    color:var(--ivory);
+    letter-spacing:-0.01em;
+  }
+
+  a{color:inherit;}
+  .num{font-family:"IBM Plex Mono", monospace;}
+  .label{
+    font-family:"Fraunces", serif;
+    font-style:italic;
+    font-weight:400;
+    color:var(--gold-bright);
+    font-size:0.95rem;
+  }
+
+  .wrap{ max-width:var(--maxw); margin:0 auto; padding:0 28px; }
+
+  /* ---------- nav ---------- */
+  nav{
+    position:sticky; top:0; z-index:30;
+    background:rgba(28,19,11,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+  nav .wrap{ display:flex; align-items:center; justify-content:space-between; height:68px; }
+  .brand{ font-family:"Fraunces", serif; font-size:1.2rem; }
+  .brand span{ color:var(--gold-bright); }
+  .navlinks{ display:flex; gap:30px; font-size:0.92rem; }
+  .navlinks a{
+    text-decoration:none; color:var(--slate);
+    border-bottom:1px solid transparent; padding-bottom:2px;
+    transition:color 0.2s ease, border-color 0.2s ease;
+  }
+  .navlinks a:hover, .navlinks a:focus-visible{ color:var(--ivory); border-color:var(--gold); }
+  @media (max-width:680px){ .navlinks{ display:none; } }
+
+  @media (max-width:600px){
+    .hero{ padding:64px 0 48px; }
+    .hero h1{ max-width:none; }
+    .coin-cluster .medallion{ width:58px; height:58px; font-size:0.6rem; margin-left:-14px; }
+    .coin-cluster .medallion.tall{ width:70px; height:70px; font-size:0.68rem; }
+    .coin-cluster .medallion:first-child{ margin-left:0; }
+    .coin-backdrop{ padding:12px; }
+    .coin-panel{ padding:24px 20px 20px; max-height:90vh; }
+    .coin-panel-title .medallion{ width:44px; height:44px; }
+    .coin-price .amount{ font-size:1.7rem; }
+    section{ padding:56px 0; }
+    .coin-grid{ padding:16px; gap:20px 12px; }
+  }
+
+  /* ---------- hero ---------- */
+  .hero{ padding:100px 0 70px; border-bottom:1px solid var(--line); }
+  .hero h1{
+    font-size:clamp(2.2rem, 4vw, 3.4rem); line-height:1.1; max-width:22ch;
+    opacity:0; transform:translateY(14px); animation:rise 0.7s ease forwards;
+  }
+  .hero .coin-cluster.hero-inline{ margin-top:20px; margin-bottom:6px; }
+  .hero .coin-cluster.hero-inline .medallion{ width:46px; height:46px; font-size:0.5rem; margin-left:-12px; }
+  .hero .coin-cluster.hero-inline .medallion.tall{ width:54px; height:54px; font-size:0.56rem; }
+  .hero .coin-cluster.hero-inline .medallion:first-child{ margin-left:0; }
+  .hero p.lede{
+    margin-top:18px; max-width:56ch; color:var(--slate); font-size:1.05rem;
+    opacity:0; transform:translateY(14px); animation:rise 0.7s ease 0.12s forwards;
+  }
+  .hero .ctas{
+    margin-top:32px; display:flex; gap:16px; flex-wrap:wrap;
+    opacity:0; transform:translateY(14px); animation:rise 0.7s ease 0.22s forwards;
+  }
+  @keyframes rise{ to{ opacity:1; transform:translateY(0); } }
+
+  .btn{
+    display:inline-block; padding:13px 22px; border-radius:2px;
+    font-size:0.95rem; font-weight:500; text-decoration:none; cursor:pointer;
+    border:1px solid transparent;
+    transition:background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+  }
+  .btn-primary{ background:var(--gold); color:#1B1404; }
+  .btn-primary:hover, .btn-primary:focus-visible{ background:var(--gold-bright); }
+  .btn-ghost{ background:transparent; color:var(--ivory); border-color:var(--line); }
+  .btn-ghost:hover, .btn-ghost:focus-visible{ border-color:var(--gold); color:var(--gold-bright); }
+  .btn-maintenance{
+    background:transparent; color:#D08A7A; border-color:rgba(208,138,122,0.4);
+    cursor:default;
+  }
+  .btn-maintenance:hover, .btn-maintenance:focus-visible{ border-color:#D08A7A; color:#D08A7A; }
+
+  /* ---------- coin medallions ---------- */
+  .coin-cluster{ display:flex; align-items:flex-end; margin-bottom:22px; }
+  .hero-caption{
+    color:var(--slate); font-size:0.78rem; font-family:"IBM Plex Mono", monospace;
+    letter-spacing:0.02em; padding-left:2px; margin-bottom:8px;
+  }
+  .medallion{
+    width:74px; height:74px; border-radius:50%;
+    background:radial-gradient(circle at 32% 28%, #F3D98A, #C99A34 45%, #8A6A22 100%);
+    border:1px solid rgba(0,0,0,0.35);
+    box-shadow: inset 0 0 0 3px rgba(28,19,11,0.55), inset 0 0 0 4px rgba(232,199,102,0.35), 0 6px 14px rgba(0,0,0,0.35);
+    display:flex; align-items:center; justify-content:center;
+    font-family:"Fraunces", serif; font-weight:600; font-size:0.78rem;
+    color:#3A2A0C;
+    margin-left:-20px;
+  }
+  .medallion:first-child{ margin-left:0; }
+  .medallion.tall{ width:88px; height:88px; font-size:0.9rem; z-index:2; }
+  .medallion img{ width:100%; height:100%; border-radius:50%; object-fit:cover; display:block; }
+  a.medallion{ text-decoration:none; transition:transform 0.18s ease, box-shadow 0.18s ease; }
+  a.medallion:hover, a.medallion:focus-visible{
+    transform:translateY(-3px);
+    box-shadow: inset 0 0 0 3px rgba(28,19,11,0.55), inset 0 0 0 4px rgba(232,199,102,0.35), 0 10px 20px rgba(0,0,0,0.45);
+  }
+
+  .coin{ position:relative; display:inline-block; }
+  .coin .flyout{
+    position:absolute; bottom:calc(100% + 10px); left:50%;
+    transform:translateX(-50%) translateY(6px);
+    width:168px;
+    background:var(--panel-2); border:1px solid var(--line);
+    z-index:6;
+    opacity:0; pointer-events:none;
+    transition:opacity 0.18s ease, transform 0.18s ease;
+  }
+  .coin .flyout::after{
+    content:""; position:absolute; top:100%; left:50%; transform:translateX(-50%);
+    border:6px solid transparent; border-top-color:var(--panel-2);
+  }
+  .coin .flyout-label{
+    padding:10px 14px 6px; font-size:0.72rem; color:var(--slate);
+    font-family:"Fraunces", serif; font-style:italic;
+  }
+  .coin .flyout button{
+    display:block; width:100%; text-align:left;
+    background:none; border:none; border-top:1px solid var(--line);
+    color:var(--ivory); font-family:"IBM Plex Sans", sans-serif;
+    font-size:0.85rem; padding:10px 14px; cursor:pointer;
+    transition:background 0.15s ease, color 0.15s ease;
+  }
+  .coin .flyout button:hover, .coin .flyout button:focus-visible{
+    background:var(--panel); color:var(--gold-bright);
+  }
+  .coin:hover .flyout, .coin:focus-within .flyout{
+    opacity:1; transform:translateX(-50%) translateY(0); pointer-events:auto;
+  }
+  .currency .coin{ display:block; }
+  button.medallion{ font:inherit; cursor:pointer; }
+
+  /* ---------- coin detail panel ---------- */
+  .coin-backdrop{
+    position:fixed; inset:0; background:rgba(15,10,5,0.72);
+    display:flex; align-items:center; justify-content:center;
+    padding:24px; z-index:100;
+    opacity:0; pointer-events:none; transition:opacity 0.2s ease;
+  }
+  .coin-backdrop.open{ opacity:1; pointer-events:auto; }
+  .coin-panel{
+    width:100%; max-width:480px; max-height:86vh; overflow-y:auto;
+    background:var(--panel-2); border:1px solid var(--gold); 
+    padding:32px 32px 28px;
+    transform:translateY(12px); transition:transform 0.2s ease;
+  }
+  .coin-backdrop.open .coin-panel{ transform:translateY(0); }
+  .coin-panel-head{ display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
+  .coin-panel-title{ display:flex; align-items:center; gap:14px; }
+  .coin-panel-title .medallion{ width:52px; height:52px; font-size:0.68rem; margin-left:0; }
+  .coin-panel-title h3{ font-size:1.4rem; }
+  .coin-panel-title span{ display:block; color:var(--slate); font-size:0.82rem; margin-top:2px; }
+  .coin-close{
+    background:none; border:1px solid var(--line); color:var(--slate);
+    width:32px; height:32px; border-radius:50%; cursor:pointer; font-size:1rem; line-height:1;
+    transition:color 0.2s ease, border-color 0.2s ease;
+  }
+  .coin-close:hover, .coin-close:focus-visible{ color:var(--ivory); border-color:var(--gold); }
+
+  .coin-tabs{ display:flex; gap:2px; margin-top:24px; border-bottom:1px solid var(--line); }
+  .coin-tab{
+    background:none; border:none; cursor:pointer;
+    padding:10px 4px; margin-right:22px;
+    font-family:"IBM Plex Sans", sans-serif; font-size:0.88rem; color:var(--slate);
+    border-bottom:2px solid transparent;
+    transition:color 0.18s ease, border-color 0.18s ease;
+  }
+  .coin-tab:hover, .coin-tab:focus-visible{ color:var(--ivory); }
+  .coin-tab.active{ color:var(--gold-bright); border-color:var(--gold); }
+
+  .coin-price{ margin-top:22px; }
+  .coin-price .amount{ font-family:"IBM Plex Mono", monospace; font-size:2.1rem; color:var(--ivory); }
+  .coin-price .change{ font-family:"IBM Plex Mono", monospace; font-size:0.95rem; margin-left:10px; }
+  .coin-price .change.up{ color:#8FBF8A; }
+  .coin-price .change.down{ color:#D08A7A; }
+
+  .coin-stats{ margin-top:22px; border-top:1px solid var(--line); }
+  .coin-stat-row{
+    display:flex; justify-content:space-between; padding:12px 0;
+    border-bottom:1px solid var(--line); font-size:0.9rem;
+  }
+  .coin-stat-row span:last-child{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); }
+
+  .coin-status{ margin-top:22px; color:var(--slate); font-size:0.9rem; }
+  .coin-meta{ margin-top:18px; font-size:0.76rem; color:var(--slate); display:flex; justify-content:space-between; flex-wrap:wrap; gap:8px; }
+  .coin-meta a{ color:var(--gold-bright); text-decoration:none; }
+  .coin-meta a:hover{ text-decoration:underline; }
+
+  .coin-about{ margin-top:22px; color:var(--ivory); font-size:0.94rem; line-height:1.65; }
+  .coin-about h4{
+    margin:20px 0 8px; font-family:"Fraunces", serif; font-weight:500;
+    color:var(--gold-bright); font-size:0.95rem;
+  }
+  .coin-about ul{ margin:0; padding-left:20px; }
+  .coin-about li{ margin-bottom:9px; }
+  .coin-about p{ margin:0 0 4px; }
+
+  .coin-news-list{ margin-top:22px; display:flex; flex-direction:column; gap:16px; }
+  .coin-news-item{ padding-bottom:16px; border-bottom:1px solid var(--line); }
+  .coin-news-item:last-child{ border-bottom:none; padding-bottom:0; }
+  .coin-news-item a{
+    color:var(--ivory); text-decoration:none; font-size:0.95rem; line-height:1.4;
+    display:block;
+  }
+  .coin-news-item a:hover{ color:var(--gold-bright); }
+  .coin-news-brief{ margin-top:6px; font-size:0.85rem; color:var(--ivory); opacity:0.85; line-height:1.5; }
+  .coin-news-meta{ margin-top:6px; font-size:0.76rem; color:var(--slate); }
+  .coin-news-external{ margin-top:22px; display:flex; gap:12px; flex-wrap:wrap; }
+  .coin-news-external .btn{ padding:10px 16px; font-size:0.85rem; }
+
+  .ledger{ border:1px solid var(--line); background:var(--panel); }
+  .ledger-head{ padding:14px 20px; font-size:0.8rem; color:var(--slate); border-bottom:1px solid var(--line); }
+  .ledger-row{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:16px 20px; border-bottom:1px solid var(--line); font-size:0.92rem;
+  }
+  .ledger-row:last-child{ border-bottom:none; }
+  .ledger-row .pct{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); }
+
+  /* ---------- section shell ---------- */
+  section{ padding:80px 0; border-bottom:1px solid var(--line); }
+  .section-head{ max-width:60ch; margin-bottom:44px; }
+  .section-head h2{ font-size:clamp(1.6rem, 3vw, 2.2rem); }
+  .section-head p{ color:var(--slate); margin-top:14px; }
+
+  /* ---------- currency strip ---------- */
+  .currency-strip{
+    display:flex; gap:0; flex-wrap:wrap; justify-content:space-between;
+    border:1px solid var(--line); background:var(--panel);
+  }
+  .currency{
+    flex:1 1 150px; padding:26px 20px; text-align:center;
+    border-right:1px solid var(--line);
+  }
+  .currency:last-child{ border-right:none; }
+  .currency .medallion{ margin:0 auto 14px; }
+  .currency h3{ font-size:1rem; }
+  .currency p{ margin:4px 0 0; color:var(--slate); font-size:0.82rem; }
+  @media (max-width:760px){
+    .currency{ flex:1 1 45%; border-right:none; border-bottom:1px solid var(--line); }
+  }
+
+  /* ---------- top 100 grid ---------- */
+  .coin-search{
+    width:100%; margin-bottom:20px; padding:13px 16px;
+    background:var(--panel); border:1px solid var(--line); color:var(--ivory);
+    font-family:"IBM Plex Sans", sans-serif; font-size:0.95rem;
+  }
+  .coin-search::placeholder{ color:var(--slate); }
+  .coin-search:focus-visible{ outline:2px solid var(--gold-bright); outline-offset:-2px; }
+
+  .coin-grid{
+    display:grid; grid-template-columns:repeat(auto-fill, minmax(108px, 1fr));
+    gap:24px 16px;
+    max-height:700px; overflow-y:auto;
+    border:1px solid var(--line); background:var(--panel);
+    padding:24px;
+  }
+  .coin-grid-item{ text-align:center; }
+  .coin-grid-item .coin{ display:block; }
+  .coin-grid-item .medallion{ width:60px; height:60px; font-size:0.62rem; margin:0 auto; }
+  .coin-grid-item .grid-name{
+    margin-top:10px; color:var(--ivory); font-size:0.82rem;
+    overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+  }
+  .coin-grid-item .grid-rank{
+    margin-top:2px; color:var(--slate); font-size:0.72rem;
+    font-family:"IBM Plex Mono", monospace;
+  }
+  .coin-grid-item .grid-price{
+    margin-top:2px; font-size:0.76rem; font-family:"IBM Plex Mono", monospace; color:var(--gold-bright);
+  }
+  .change-col.down{ color:#D08A7A; }
+
+  /* ---------- exchange comparison ---------- */
+  .exchange-compare{ margin-bottom:56px; }
+  .exchange-compare > p{ color:var(--slate); max-width:78ch; margin-bottom:32px; }
+  .compare-grid{
+    display:grid; grid-template-columns:1fr 1fr; gap:1px;
+    background:var(--line); border:1px solid var(--line);
+  }
+  @media (max-width:760px){ .compare-grid{ grid-template-columns:1fr; } }
+  .compare-col{ background:var(--panel); padding:28px; }
+  .compare-col h3{ font-size:1.15rem; }
+  .compare-col h4{
+    margin:20px 0 10px; font-family:"Fraunces", serif; font-weight:500;
+    color:var(--gold-bright); font-size:0.92rem;
+  }
+  .compare-col h4:first-of-type{ margin-top:18px; }
+  .compare-col ul{ margin:0; padding-left:20px; color:var(--slate); font-size:0.88rem; }
+  .compare-col li{ margin-bottom:9px; line-height:1.5; }
+
+  .subsection-title{
+    font-size:1.3rem; margin:0 0 24px; padding-top:8px;
+  }
+
+  /* ---------- exchange cards ---------- */
+  .exchanges{ display:grid; grid-template-columns:repeat(2, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); margin-bottom:48px; }
+  @media (max-width:720px){ .exchanges{ grid-template-columns:1fr; } }
+  .exchange{ background:var(--panel); padding:28px; display:flex; flex-direction:column; gap:14px; }
+  .exchange-top{ display:flex; justify-content:space-between; align-items:baseline; gap:12px; }
+  .exchange h3{ font-size:1.25rem; }
+  .exchange .discount{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); font-size:0.95rem; white-space:nowrap; }
+  .exchange p{ color:var(--slate); font-size:0.94rem; margin:0; flex-grow:1; }
+  .exchange .btn{ align-self:flex-start; margin-top:4px; }
+
+  .exchange-maintenance h3{ color:var(--slate); }
+  .exchange-maintenance .discount{ color:var(--slate); opacity:0.7; }
+  .exchange-maintenance p{ color:var(--slate); opacity:0.6; }
+  .exchange-maintenance .btn{
+    color:var(--rust); border-color:rgba(193,83,61,0.4);
+    background:transparent; cursor:default; pointer-events:none;
+  }
+
+  .fine{ margin-top:24px; font-size:0.82rem; color:var(--slate); max-width:70ch; }
+
+  /* ---------- exchange checklist ---------- */
+  .checklist-grid{
+    display:grid; grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+    gap:34px 28px;
+  }
+  .checklist-item .num{ color:var(--gold); font-size:0.95rem; }
+  .checklist-item h3{ font-size:1.05rem; margin-top:8px; }
+  .checklist-item p{ color:var(--slate); font-size:0.88rem; margin-top:8px; line-height:1.6; }
+
+  /* ---------- narratives ---------- */
+  .narratives{ display:grid; grid-template-columns:repeat(3, 1fr); gap:1px; background:var(--line); border:1px solid var(--line); }
+  @media (max-width:760px){ .narratives{ grid-template-columns:1fr; } }
+  .etf-note{
+    margin-top:28px; color:var(--slate); font-size:0.92rem; line-height:1.6;
+    max-width:74ch;
+  }
+  .etf-note .tag{ margin-left:4px; vertical-align:baseline; }
+  .narrative{ background:var(--panel); padding:28px; display:flex; flex-direction:column; gap:14px; }
+  .narrative .icon{
+    width:38px; height:38px; color:var(--gold-bright);
+  }
+  .narrative h3{ font-size:1.1rem; }
+  .narrative p{ color:var(--slate); font-size:0.9rem; margin:0; }
+  .tag{
+    display:inline-block; margin-top:2px; padding:4px 10px;
+    background:var(--bottle); color:var(--bottle-text);
+    font-size:0.75rem; border-radius:2px; align-self:flex-start;
+    border:none; cursor:pointer; font-family:"IBM Plex Sans", sans-serif;
+    transition:background 0.18s ease, color 0.18s ease;
+  }
+  .tag:hover, .tag:focus-visible{ background:#31462F; color:var(--ivory); }
+
+  .narrative-token-list{ margin-top:22px; display:flex; flex-direction:column; gap:2px; }
+  .narrative-token{
+    display:flex; align-items:center; gap:14px; padding:12px 4px;
+    border-bottom:1px solid var(--line); cursor:pointer; background:none; border-left:none; border-right:none; border-top:none;
+    width:100%; text-align:left; font-family:"IBM Plex Sans", sans-serif;
+    transition:background 0.15s ease;
+  }
+  .narrative-token:last-child{ border-bottom:none; }
+  .narrative-token:hover, .narrative-token:focus-visible{ background:var(--panel); }
+  .narrative-token .medallion{ width:36px; height:36px; font-size:0.55rem; margin-left:0; flex-shrink:0; }
+  .narrative-token .nt-name{ color:var(--ivory); font-size:0.92rem; flex-grow:1; }
+  .narrative-token .nt-sym{ color:var(--slate); font-size:0.78rem; margin-left:6px; }
+  .narrative-token .nt-price{ font-family:"IBM Plex Mono", monospace; color:var(--gold-bright); font-size:0.88rem; }
+
+  /* ---------- steps ---------- */
+  .steps{ display:grid; grid-template-columns:repeat(3, 1fr); gap:32px; }
+  @media (max-width:760px){ .steps{ grid-template-columns:1fr; } }
+  .step .num{ color:var(--gold); font-size:0.95rem; }
+  .step h3{ font-size:1.15rem; margin-top:10px; }
+  .step p{ color:var(--slate); margin-top:8px; font-size:0.94rem; }
+
+  /* ---------- youtube ---------- */
+  .yt-grid{ display:grid; grid-template-columns:repeat(3, 1fr); gap:20px; }
+  @media (max-width:760px){ .yt-grid{ grid-template-columns:1fr; } }
+  .yt-slot{
+    aspect-ratio:16/9; border:1px dashed var(--line); background:var(--panel);
+    display:flex; align-items:center; justify-content:center; position:relative;
+  }
+  .yt-slot .play{
+    width:46px; height:46px; border-radius:50%; border:1px solid var(--slate);
+    display:flex; align-items:center; justify-content:center; color:var(--slate);
+  }
+  .yt-slot .label{ position:absolute; bottom:12px; left:14px; font-size:0.78rem; color:var(--slate); }
+  .yt-cta{ margin-top:32px; display:flex; align-items:center; gap:20px; flex-wrap:wrap; }
+  .yt-cta p{ color:var(--slate); font-size:0.92rem; margin:0; max-width:44ch; }
+
+  /* ---------- disclaimer / footer ---------- */
+  footer{ padding:52px 0 64px; }
+  .disclaimer{
+    border-left:2px solid var(--gold);
+    padding:16px 20px; background:var(--panel); color:var(--slate);
+    font-size:0.86rem; max-width:72ch;
+  }
+  .disclaimer strong{ color:var(--ivory); }
+  .footer-row{
+    margin-top:36px; display:flex; justify-content:space-between; align-items:center;
+    flex-wrap:wrap; gap:12px; font-size:0.85rem; color:var(--slate);
+  }
+
+  :focus-visible{ outline:2px solid var(--gold-bright); outline-offset:2px; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <div class="brand">Ledger<span>&</span>Lens</div>
+    <div class="navlinks">
+      <a href="#exchanges">Exchanges</a>
+      <a href="#checklist">Checklist</a>
+      <a href="#narratives">Narratives</a>
+      <a href="#videos">Videos</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>Portfolio decisions, made with the fees and the fundamentals in view.</h1>
+    <div class="coin-cluster hero-inline" id="heroCluster">
+      <div class="coin-status" style="margin:0;">Loading…</div>
+    </div>
+    <div class="hero-caption">Live top 3 by market cap</div>
+    <p class="lede">Whether you're weighing Bitcoin's staying power against faster-moving names like Ethereum, or wondering whether a stablecoin even belongs in a long-term portfolio, the exchange you trade through matters just as much as the coin you pick. Below: the full top 100 by market cap, eighteen centralized exchanges and six DeFi platforms side by side, and a plain checklist for telling a trustworthy exchange from a risky one.</p>
+    <div class="ctas">
+      <a class="btn btn-primary" href="#exchanges">Compare exchanges</a>
+      <a class="btn btn-ghost" href="#narratives">See the narratives</a>
+    </div>
+  </div>
+</header>
+
+<section id="currencies">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">the full board</span>
+      <h2 style="margin-top:10px;">Top 100 coins by market cap</h2>
+      <p>Ranked automatically every 10 minutes. Browse by icon and name, hover for quick options, or click through for live price data, background, and news — all without leaving the page.</p>
+    </div>
+    <input type="text" class="coin-search" id="coinSearch" placeholder="Search by name or ticker…" aria-label="Search coins">
+    <div class="coin-grid" id="top100Grid">
+      <div class="coin-status">Loading the top 100…</div>
+    </div>
+    <p class="fine">Background write-ups only exist for a handful of well-established coins — the rest will show live price and news where available, with a plain note where background detail isn't available yet.</p>
+  </div>
+</section>
+
+<section id="exchanges">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">where the account actually opens</span>
+      <h2 style="margin-top:10px;">Exchanges worth a look</h2>
+      <p>These are placeholders — swap in the exchanges and referral links you actually want to promote. Each card holds a name, a reason, the perk, and a link.</p>
+    </div>
+
+    <div class="exchange-compare">
+      <p>Every platform below falls into one of two fundamentally different categories. Centralized exchanges are companies — Binance, Coinbase, and similar — that hold your funds in their own accounts on your behalf, the way a bank holds a deposit. DeFi exchanges are software: a set of smart contracts that let you trade directly from your own wallet, with no company ever taking custody of anything. That one difference — who's actually holding the asset while you trade — is where most of the practical trade-offs below come from.</p>
+      <div class="compare-grid">
+        <div class="compare-col">
+          <h3>Centralized exchanges</h3>
+          <h4>Advantages</h4>
+          <ul>
+            <li>Familiar account-based experience, with support to contact if something goes wrong</li>
+            <li>Built-in bank transfer and card on-ramps for converting real-world currency</li>
+            <li>Typically faster execution and deeper liquidity on major pairs</li>
+            <li>Regulatory oversight in reputable jurisdictions adds a layer of accountability</li>
+          </ul>
+          <h4>Disadvantages</h4>
+          <ul>
+            <li>You don't hold the underlying keys — if the exchange is hacked, freezes withdrawals, or becomes insolvent, your funds are at risk</li>
+            <li>Identity verification trades away a degree of privacy</li>
+            <li>Access can be restricted or frozen based on geography or regulation</li>
+            <li>Coin selection and features are limited to whatever the company chooses to support</li>
+          </ul>
+        </div>
+        <div class="compare-col">
+          <h3>DeFi exchanges</h3>
+          <h4>Advantages</h4>
+          <ul>
+            <li>Non-custodial — trades settle directly from a wallet you control</li>
+            <li>Permissionless: generally no sign-up, KYC, or geographic gatekeeping</li>
+            <li>Fully on-chain and auditable — trading and liquidity data is publicly verifiable</li>
+            <li>New or smaller tokens are often available here long before any centralized exchange lists them</li>
+          </ul>
+          <h4>Disadvantages</h4>
+          <ul>
+            <li>No support line — a wrong address or an approved malicious contract can mean an irreversible loss</li>
+            <li>Smart contract risk: even audited protocols have been exploited before</li>
+            <li>No built-in fiat on-ramp — you generally need crypto already, often bought via a centralized exchange first</li>
+            <li>Network ("gas") fees are unpredictable and can spike during congestion</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="subsection-title">Centralized exchanges</h3>
+    <div class="exchanges">
+      <div class="exchange">
+        <div class="exchange-top"><h3>Coinbase</h3><span class="discount">beginner friendly</span></div>
+        <p>One of the most heavily regulated exchanges globally, with a simple app that's often the easiest on-ramp from a bank account.</p>
+        <a class="btn btn-ghost" href="https://coinbase.com/join/J6GUSVL?src=android-link" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Bitbase</h3><span class="discount">welcome bonus</span></div>
+        <p>Founded in 2023 and based in Panama, Bitbase focuses on deterministic execution and deep liquidity for spot and derivatives trading, including high-leverage perpetual futures for more experienced traders.</p>
+        <a class="btn btn-ghost" href="https://www.bitbase.com/en/accounts/invite/ERH2QN" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Crypto.com</h3><span class="discount">card rewards</span></div>
+        <p>Wide coin range paired with a well-known card and app ecosystem, popular for combining spending and holding in one place.</p>
+        <a class="btn btn-ghost" href="https://crypto.com/app/kjjwbu5sd7" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Bybit</h3><span class="discount">welcome bonus</span></div>
+        <p>Clean mobile app and a lighter verification process, popular with people who want to start small and learn as they go.</p>
+        <a class="btn btn-ghost" href="https://www.bybit.com/invite?ref=MXZ20R&amp;medium=referral&amp;utm_campaign=evergreen" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Kraken</h3><span class="discount">fee discount</span></div>
+        <p>One of the longest-running exchanges still operating, known for a strong security track record and solid fiat support.</p>
+        <a class="btn btn-ghost" href="https://invite.kraken.com/JDNW/1q27ocay" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Blofin</h3><span class="discount">trading bonus</span></div>
+        <p>A derivatives-focused exchange built around perpetual futures, with copy-trading tools for following other traders' positions.</p>
+        <a class="btn btn-ghost" href="https://blofin.com/register?referral_code=wRet9S" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Swyftx</h3><span class="discount">local deposits</span></div>
+        <p>An Australian exchange with fast local-currency deposits and a simple interface, popular with first-time local buyers.</p>
+        <a class="btn btn-ghost" href="https://trade.swyftx.com/register/?promoRef=rf_EErKxepNW6Cmqsmw1xXpTe" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Independent Reserve</h3><span class="discount">fee discount</span></div>
+        <p>One of the longest-running exchanges in Australia, with a reputation for reliability among local retail and institutional users alike.</p>
+        <a class="btn btn-ghost" href="https://portal.independentreserve.com/invite/ZCDBGQ" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>Binance</h3><span class="discount">fee rebate</span></div>
+        <p>The largest exchange by volume, with the deepest liquidity for most major pairs — a reasonable first stop for beginners.</p>
+        <a class="btn btn-ghost" href="https://www.binance.com/activity/referral-entry/CPA?ref=CPA_0083L90H2H" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange">
+        <div class="exchange-top"><h3>KuCoin</h3><span class="discount">reduced fees</span></div>
+        <p>A wide selection of smaller-cap coins, for people who've moved past the basics and want more choice.</p>
+        <a class="btn btn-ghost" href="https://www.kucoin.com/r/rf/CXEECVV9" target="_blank" rel="noopener">Open an account</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>OKX</h3><span class="discount">fee discount</span></div>
+        <p>Strong for anyone who wants more advanced order types later, without outgrowing the platform.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-okx-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Bitstamp</h3><span class="discount">fee discount</span></div>
+        <p>Among the oldest regulated exchanges in the industry, favoured by people who value a long operating history over flashy features.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-bitstamp-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Gemini</h3><span class="discount">referral bonus</span></div>
+        <p>US-regulated exchange with an emphasis on compliance and security audits, aimed at a more risk-conscious user.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-gemini-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Bitfinex</h3><span class="discount">fee discount</span></div>
+        <p>A longstanding exchange geared toward more experienced traders, with deep liquidity on major pairs.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-bitfinex-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Gate.io</h3><span class="discount">trading bonus</span></div>
+        <p>One of the widest coin selections of any major exchange, popular with people hunting smaller, newer listings early.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-gateio-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>MEXC</h3><span class="discount">zero fee pairs</span></div>
+        <p>Known for listing new tokens faster than most competitors, with zero-fee spot trading on selected pairs.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-mexc-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Bitget</h3><span class="discount">welcome bonus</span></div>
+        <p>Built a name around copy trading, letting newer users mirror the trades of more experienced ones.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-bitget-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Bitpanda</h3><span class="discount">fee discount</span></div>
+        <p>A European-focused exchange with a straightforward interface and support for fractional stocks alongside crypto.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-bitpanda-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>HTX</h3><span class="discount">fee rebate</span></div>
+        <p>Formerly Huobi, one of the older exchanges with a large existing user base across Asia.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-htx-link">Currently under maintenance</a>
+      </div>
+    </div>
+
+    <h3 class="subsection-title">DeFi exchanges</h3>
+    <div class="exchanges">
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Uniswap</h3><span class="discount">non-custodial</span></div>
+        <p>The largest decentralized exchange by volume, running on Ethereum and several other networks, with no sign-up beyond connecting a wallet.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-uniswap-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>PancakeSwap</h3><span class="discount">low gas fees</span></div>
+        <p>The dominant DEX on BNB Chain, popular for lower network fees compared with Ethereum-based alternatives.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-pancakeswap-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>Curve Finance</h3><span class="discount">stablecoin liquidity</span></div>
+        <p>Purpose-built for swapping stablecoins and similarly priced assets with minimal slippage — less useful for volatile pairs.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-curve-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>dYdX</h3><span class="discount">on-chain derivatives</span></div>
+        <p>A decentralized platform for leveraged and perpetual futures trading, for anyone who wants derivatives without a centralized counterparty.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-dydx-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>GMX</h3><span class="discount">on-chain derivatives</span></div>
+        <p>Decentralized perpetuals trading built around a shared liquidity pool that traders effectively trade against.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-gmx-link">Currently under maintenance</a>
+      </div>
+      <div class="exchange exchange-maintenance">
+        <div class="exchange-top"><h3>1inch</h3><span class="discount">best price routing</span></div>
+        <p>A DEX aggregator that searches many decentralized exchanges at once to find the best available price, rather than being a single trading venue itself.</p>
+        <a class="btn btn-maintenance" href="#" data-referral="replace-with-your-1inch-link">Currently under maintenance</a>
+      </div>
+    </div>
+
+    <p class="fine">Editing note: each button above has a placeholder <span class="num">href="#"</span> and a <span class="num">data-referral</span> attribute showing which link to swap in. Replace the href with your real referral URL — the styling won't need to change. Worth knowing: most DeFi protocols don't run traditional referral-commission programs the way centralized exchanges do, so those buttons more realistically link straight to the app rather than a paid referral.</p>
+  </div>
+</section>
+
+<section id="checklist">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">before you commit to one</span>
+      <h2 style="margin-top:10px;">What actually separates a good exchange from a risky one</h2>
+      <p>The same eight questions apply no matter which platform you're weighing up — the ones above or anywhere else. None of this is a ranking of the exchanges on this page; it's the checklist worth running through yourself before you open an account anywhere.</p>
+    </div>
+    <div class="checklist-grid">
+      <div class="checklist-item">
+        <div class="num">01</div>
+        <h3>Ease of use</h3>
+        <p>A clean, simple buy-and-sell flow matters more than advanced trading tools for most people starting out. Look for a free built-in wallet, clear beginner guides, and features like recurring buys rather than a screen full of options you don't need yet.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">02</div>
+        <h3>Security</h3>
+        <p>Two-factor authentication on withdrawals, most customer funds held offline in cold storage, a proper HTTPS connection, and identity verification are the baseline. For any serious holding, moving funds to your own hardware wallet is worth the extra step.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">03</div>
+        <h3>Company transparency</h3>
+        <p>A trustworthy exchange is upfront about who runs it, where it's based, and how to reach a real person when something goes wrong. Responsive support is easy to overlook until the moment you actually need it.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">04</div>
+        <h3>Fees, including hidden ones</h3>
+        <p>Advertised trading fees don't always tell the whole story — some platforms make up the difference through wider spreads or less favourable conversion rates. It's worth comparing a couple of platforms side by side rather than trusting one "low fees" claim.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">05</div>
+        <h3>Range of coins</h3>
+        <p>Every exchange lists Bitcoin and Ethereum. What varies is access to everything past the top few names — worth checking if you expect to want smaller-cap coins later, even if you're only buying majors today.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">06</div>
+        <h3>Where it operates</h3>
+        <p>An exchange licensed or based in your own country generally means smoother tax reporting, more relevant support, and clearer recourse if something goes wrong. International exchanges aren't off-limits, just worth using with that trade-off in mind.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">07</div>
+        <h3>Spreads & liquidity</h3>
+        <p>The spread — the gap between the buy and sell price — is a real cost that's easy to miss because it isn't itemized like a fee. Higher trading volume generally means tighter spreads and smoother execution, which matters more as trade size grows.</p>
+      </div>
+      <div class="checklist-item">
+        <div class="num">08</div>
+        <h3>Verification & payment methods</h3>
+        <p>Faster identity verification gets you trading sooner, and the deposit options on offer — bank transfer, card, other cryptocurrencies — affect both convenience and whether a hidden currency-conversion fee shows up along the way.</p>
+      </div>
+    </div>
+    <p class="fine">This list draws on the kind of checklist consumer finance sites publish for comparing exchanges — <a href="https://www.canstar.com.au/investor-hub/choosing-cryptocurrency-exchange/" target="_blank" rel="noopener">Canstar's guide</a> is a solid one to read in full alongside this.</p>
+  </div>
+</section>
+
+<section id="narratives">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">what capital is chasing right now</span>
+      <h2 style="margin-top:10px;">Narratives worth watching</h2>
+      <p>The themes that tend to come up in every market cycle, framed as background context — not signals to trade on.</p>
+    </div>
+    <div class="narratives">
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="7" width="18" height="12" rx="1"/><path d="M3 11h18"/><circle cx="12" cy="15" r="1.6"/></svg>
+        <h3>Real-world assets</h3>
+        <p>Bonds, property, and credit issued as on-chain tokens — a bridge between traditional finance and crypto rails.</p>
+        <button type="button" class="tag" data-narrative="tokenization">Tokenization</button>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="6" cy="6" r="2.2"/><circle cx="18" cy="6" r="2.2"/><circle cx="12" cy="18" r="2.2"/><path d="M7.7 7.4 10.5 16M16.3 7.4 13.5 16M8.2 6h7.6"/></svg>
+        <h3>AI &amp; crypto</h3>
+        <p>Networks paying for compute, data, and agents in on-chain tokens rather than traditional invoicing.</p>
+        <button type="button" class="tag" data-narrative="infrastructure">Infrastructure</button>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="4" width="16" height="4.5" rx="0.6"/><rect x="4" y="10.2" width="16" height="4.5" rx="0.6"/><rect x="4" y="16.4" width="16" height="4.5" rx="0.6"/></svg>
+        <h3>Layer 2 scaling</h3>
+        <p>Faster, cheaper networks built on top of established chains, aimed at everyday transaction volume.</p>
+        <button type="button" class="tag" data-narrative="scaling">Scaling</button>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="9" cy="12" r="5.2"/><circle cx="15" cy="12" r="5.2"/></svg>
+        <h3>Restaking</h3>
+        <p>Putting already-staked assets to work securing additional networks, for an added layer of yield.</p>
+        <button type="button" class="tag" data-narrative="yield">Yield</button>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M4 16c1.5-6 4-9 8-9s6.5 3 8 9"/><circle cx="9" cy="12.5" r="0.9" fill="currentColor" stroke="none"/><circle cx="15" cy="12.5" r="0.9" fill="currentColor" stroke="none"/><path d="M9.5 16c1 1 4 1 5 0"/></svg>
+        <h3>Community &amp; meme tokens</h3>
+        <p>Attention-driven assets with little fundamental backing — high volatility either direction, worth naming plainly.</p>
+        <button type="button" class="tag" data-narrative="high-risk">High risk</button>
+      </div>
+      <div class="narrative">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="3" width="16" height="18" rx="1"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>
+        <h3>Regulation</h3>
+        <p>Clearer rules on custody, disclosure, and market structure that shape which coins and platforms institutions are willing to touch.</p>
+        <button type="button" class="tag" data-narrative="policy">Policy</button>
+      </div>
+    </div>
+
+    <p class="etf-note">Spot ETFs sit outside the list above on purpose — they're regulated funds that track a coin's price without holding the coin itself, which makes them a different kind of asset from the tokens shown here rather than another narrative within crypto. <button type="button" class="tag" data-narrative="etfs">See how it compares</button></p>
+  </div>
+</section>
+
+<section id="start">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Getting started takes three steps</h2>
+      <p>The same path applies no matter which exchange someone picks from the list above.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="num">01</div><h3>Pick an exchange</h3><p>Match it to what matters most — lowest fees, simplest app, or the widest coin selection.</p></div>
+      <div class="step"><div class="num">02</div><h3>Sign up through the link</h3><p>Using the referral link above unlocks the listed perk and costs nothing extra to use.</p></div>
+      <div class="step"><div class="num">03</div><h3>Verify and fund the account</h3><p>Standard ID check, then a small first deposit to get comfortable with the platform.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="videos">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="label">in production</span>
+      <h2 style="margin-top:10px;">Short videos, coming soon</h2>
+      <p>This is where the YouTube channel will live once the first videos are up — quick, plain-English explainers on the basics of crypto and trading.</p>
+    </div>
+    <div class="yt-grid">
+      <div class="yt-slot"><div class="play">&#9658;</div><div class="label">Video slot 01</div></div>
+      <div class="yt-slot"><div class="play">&#9658;</div><div class="label">Video slot 02</div></div>
+      <div class="yt-slot"><div class="play">&#9658;</div><div class="label">Video slot 03</div></div>
+    </div>
+    <div class="yt-cta">
+      <a class="btn btn-primary" href="#" data-referral="replace-with-your-youtube-channel-url">Visit the channel</a>
+      <p>Editing note: once videos are live, swap each slot for a real YouTube embed (<span class="num">&lt;iframe&gt;</span>) or thumbnail + link, and point the button above at your channel URL.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="disclaimer">
+      <strong>Before you sign up:</strong> cryptocurrency is highly volatile and carries real risk of loss — nothing on this page is financial advice, just a starting point for your own research. Some links on this page are referral links, meaning I may earn a commission if you sign up through them, at no extra cost to you.
+    </div>
+    <div class="footer-row">
+      <span>Ledger &amp; Lens</span>
+      <span>Built for future updates — add your links, then your videos.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="coin-backdrop" id="coinBackdrop">
+  <div class="coin-panel" role="dialog" aria-modal="true" aria-labelledby="coinPanelName">
+    <div class="coin-panel-head">
+      <div class="coin-panel-title">
+        <div class="medallion" id="coinPanelMedallion"></div>
+        <div>
+          <h3 id="coinPanelName">—</h3>
+          <span id="coinPanelSymbol">—</span>
+        </div>
+      </div>
+      <button type="button" class="coin-close" id="coinClose" aria-label="Close">&#10005;</button>
+    </div>
+
+    <div class="coin-tabs">
+      <button type="button" class="coin-tab" data-tab="price">Live price data</button>
+      <button type="button" class="coin-tab" data-tab="about">About</button>
+      <button type="button" class="coin-tab" data-tab="news">News</button>
+    </div>
+
+    <div id="coinPanelBody">
+      <div class="coin-status">Fetching data…</div>
+    </div>
+  </div>
+</div>
+
+<div class="coin-backdrop" id="narrativeBackdrop">
+  <div class="coin-panel" role="dialog" aria-modal="true" aria-labelledby="narrativePanelTitle">
+    <div class="coin-panel-head">
+      <h3 id="narrativePanelTitle" style="font-size:1.4rem;">—</h3>
+      <button type="button" class="coin-close" id="narrativeClose" aria-label="Close">&#10005;</button>
+    </div>
+    <div id="narrativePanelBody">
+      <div class="coin-status">Loading…</div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var backdrop = document.getElementById('coinBackdrop');
+  var panelMedallion = document.getElementById('coinPanelMedallion');
+  var panelName = document.getElementById('coinPanelName');
+  var panelSymbol = document.getElementById('coinPanelSymbol');
+  var panelBody = document.getElementById('coinPanelBody');
+  var closeBtn = document.getElementById('coinClose');
+  var tabButtons = document.querySelectorAll('.coin-tab');
+  var lastFocused = null;
+  var current = { id: null, symbol: null, name: null, tab: 'price' };
+
+  function fmtUsd(n){
+    if (n === null || n === undefined) return '—';
+    if (n >= 1) return '$' + n.toLocaleString(undefined, {maximumFractionDigits:2});
+    return '$' + n.toPrecision(4);
+  }
+  function fmtBig(n){
+    if (n === null || n === undefined) return '—';
+    if (n >= 1e12) return '$' + (n/1e12).toFixed(2) + 'T';
+    if (n >= 1e9) return '$' + (n/1e9).toFixed(2) + 'B';
+    if (n >= 1e6) return '$' + (n/1e6).toFixed(2) + 'M';
+    return '$' + n.toLocaleString();
+  }
+  function fmtDate(unixSeconds){
+    var d = new Date(unixSeconds * 1000);
+    return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric' });
+  }
+
+  // ---------- About: short, original background text per coin ----------
+  var ABOUT = {
+    bitcoin: "Bitcoin was introduced in 2009 by the pseudonymous Satoshi Nakamoto as the first decentralized digital currency, secured by a public blockchain and proof-of-work mining. Its supply is capped at 21 million coins, which is central to its reputation as a long-term store of value. It remains the largest cryptocurrency by market capitalization and is widely treated as a benchmark for the broader market.",
+    ethereum: "Ethereum launched in 2015 and introduced smart contracts — self-executing code running on its blockchain — enabling decentralized applications, tokens, and financial protocols to be built on top of it. It moved from proof-of-work to proof-of-stake in 2022. Beyond acting as a currency, ETH pays for computation across the network, making it foundational infrastructure for much of the wider crypto ecosystem.",
+    solana: "Solana launched in 2020, built around high transaction throughput and low fees using proof-of-stake alongside a timestamping method called proof-of-history. It's often positioned as a faster alternative to Ethereum for applications needing cheap, quick transactions, and has become a hub for decentralized exchanges, NFTs, and consumer crypto apps. That speed comes with a smaller, more concentrated validator set than some competitors.",
+    ripple: "XRP is the native token of the XRP Ledger, a blockchain created in 2012 aimed primarily at fast, low-cost cross-border payments and currency exchange. Its consensus mechanism differs from Bitcoin and Ethereum, relying on a network of trusted validators rather than mining or staking. Ripple Labs, closely associated with the token, spent several years in litigation with the US SEC over whether XRP qualifies as a security.",
+    binancecoin: "BNB is the native token of the BNB Chain ecosystem, originally launched by the Binance exchange in 2017. It's used to pay reduced trading fees on Binance, as gas for transactions on BNB Chain, and across decentralized apps built on that chain. Its value and adoption are closely tied to the scale and health of the Binance exchange and its surrounding ecosystem.",
+    tether: "Tether (USDT) is a stablecoin designed to hold a 1:1 peg with the US dollar, backed by a reserve of cash and cash-equivalent assets managed by Tether Limited. It's one of the most widely used assets in crypto trading, often used to move value between exchanges or hold value without converting back to traditional currency. Its reserve composition and audits have drawn ongoing scrutiny from regulators and researchers.",
+    dogecoin: "Dogecoin started in 2013 as a joke based on the 'Doge' internet meme, forked from Litecoin's codebase. It has an uncapped supply with a fixed annual issuance, deliberately different from Bitcoin's scarcity model. Despite its origins, it has built a loyal community and is used for small tips and payments, helped by high-profile public attention over the years.",
+    cardano: "Cardano launched in 2017, built by a team including Ethereum co-founder Charles Hoskinson, with an emphasis on peer-reviewed academic research before shipping features. It uses a proof-of-stake consensus mechanism called Ouroboros and splits transaction settlement from smart contract logic into separate layers. Development has generally moved more deliberately than competitors, which supporters see as rigor and critics see as slow.",
+    "avalanche-2": "Avalanche launched in 2020, built around a consensus mechanism aiming for fast finality and high throughput while remaining energy efficient. Its architecture supports custom, purpose-built blockchains ('subnets') that can set their own rules while still connecting back to the main network. It's positioned as a platform for both DeFi and enterprise blockchain deployments.",
+    polkadot: "Polkadot launched in 2020, designed by Ethereum co-founder Gavin Wood around multiple specialized blockchains ('parachains') connecting to and sharing security with a central relay chain. The goal is interoperability — letting chains built for different purposes communicate rather than operating in isolation. Parachain slots were historically auctioned off to projects wanting to connect to the network.",
+    chainlink: "Chainlink is a decentralized oracle network — its core job is feeding real-world data, like prices or event outcomes, onto blockchains that otherwise can't access information outside their own network. It's become foundational infrastructure for DeFi, since lending and derivatives protocols rely on accurate external price feeds to function safely. LINK, the native token, pays node operators providing that data.",
+    litecoin: "Litecoin launched in 2011 as one of the earliest Bitcoin forks, created by former Google engineer Charlie Lee with faster block times and a different mining algorithm intended to keep mining more accessible. It's often described as digital silver to Bitcoin's digital gold — a similar but lower-priority store of value with a much longer track record than most alternatives.",
+    "shiba-inu": "Shiba Inu launched in 2020 as a meme token explicitly inspired by Dogecoin, built on Ethereum rather than its own blockchain. Its ecosystem has since expanded to include a decentralized exchange and its own Layer 2 network. Like other meme-driven tokens, its value has historically been driven far more by community attention and speculation than by underlying utility.",
+    "the-open-network": "Toncoin runs on The Open Network, a blockchain originally designed by Telegram before development was handed to an independent open-source community. Its closest integration is with the Telegram messaging app, which has hundreds of millions of users, giving it a distribution channel most other blockchains don't have. It's built for high transaction throughput and low fees.",
+    stellar: "Stellar launched in 2014, created by Jed McCaleb (a co-founder of Ripple) with a focus on fast, low-cost cross-border payments and connecting different currencies and payment networks. It uses its own consensus protocol rather than mining or traditional staking, and has leaned into partnerships with financial institutions aiming to move money across borders more cheaply than traditional rails.",
+    sui: "Sui launched in 2023, built by former Meta employees who previously worked on that company's abandoned Diem blockchain project. It uses an object-based data model rather than the account-based model most blockchains use, which its designers argue allows faster parallel transaction processing. It's positioned as infrastructure for gaming and consumer applications needing high throughput.",
+    "hedera-hashgraph": "Hedera uses a technology called hashgraph rather than a traditional blockchain, which its creators argue offers faster consensus and higher throughput. It's governed by a council of large, mostly corporate members rather than a fully open validator set — a notably different governance model from most major networks.",
+    "bitcoin-cash": "Bitcoin Cash split off from Bitcoin in 2017 in a contentious hard fork, driven by disagreement over how to scale the network. Its supporters wanted larger blocks to allow more transactions per block, prioritizing use as everyday electronic cash over Bitcoin's evolving focus on being a store of value first.",
+    uniswap: "UNI is the governance token of Uniswap, the decentralized exchange protocol also listed separately in the DeFi exchanges section of this site. Holding UNI gives a say in protocol governance — fee structures, treasury spending, upgrades — rather than functioning as a payment token or automatically granting a share of trading fees.",
+    monero: "Monero launched in 2014 with privacy as its central design goal, using cryptography to obscure sender, receiver, and transaction amount by default — unlike Bitcoin, where transaction details are fully public on-chain. That privacy focus has made it popular for people prioritizing financial confidentiality, and has also led to delistings from a number of major exchanges responding to regulatory pressure.",
+    near: "NEAR launched in 2020 with a sharding design intended to let the network scale by splitting transaction processing across multiple parallel chains rather than handling everything on one chain. It emphasizes developer accessibility with human-readable account names instead of long wallet addresses, and has increasingly positioned itself around AI-related infrastructure.",
+    aptos: "Aptos launched in 2022, also built by former Meta employees from the same abandoned Diem project as Sui, and shares some underlying technical DNA with it. It uses the Move programming language, originally designed for that Meta project, built with an emphasis on asset safety at the language level.",
+    "internet-computer": "Internet Computer, built by the Dfinity Foundation, aims to let entire applications and websites run directly on-chain rather than relying on traditional cloud servers for anything beyond the blockchain logic itself — a more ambitious scope than most blockchains, which typically handle a narrower set of financial or state-tracking functions.",
+    vechain: "VeChain focuses on supply chain tracking and verification, using blockchain records to help companies verify the authenticity and journey of physical products — food safety, luxury goods, and logistics have been common use cases. It uses a two-token model, separating the tradable token from the token used to pay for network operations.",
+    filecoin: "Filecoin is built around decentralized data storage — instead of relying on centralized cloud providers, users pay FIL to rent unused storage space from participants across the network, who are paid for reliably storing and retrieving that data. It's one of the more established projects specifically focused on storage rather than computation or payments.",
+    cosmos: "Cosmos is built around many independent, purpose-built blockchains ('zones') connecting through a shared communication protocol rather than everything running on one shared chain. Its philosophy is often summarized as 'the internet of blockchains' — interoperability between independent chains rather than a single dominant network.",
+    algorand: "Algorand launched in 2019, created by MIT professor and Turing Award winner Silvio Micali, using a proof-of-stake method designed to avoid the network splits ('forks') that can occur on other blockchains. It has focused partly on institutional use cases, including partnerships around tokenized assets and payment systems in some countries.",
+    "the-graph": "The Graph indexes blockchain data so applications can query it efficiently, similar in spirit to how a search engine indexes the web rather than requiring each request to scan everything from scratch. It's infrastructure many DeFi apps rely on indirectly, since app interfaces often query data through it behind the scenes.",
+    aave: "Aave is a decentralized lending protocol where users can supply crypto to earn interest or borrow against deposited collateral, all managed through smart contracts rather than a company approving loans. It was one of the earliest and remains one of the largest lending platforms in DeFi, with its native token used for governance and as a backstop in the protocol's insurance mechanism.",
+    arbitrum: "Arbitrum is a Layer 2 network built on Ethereum using optimistic rollup technology — batching transactions together off the main chain and settling back to Ethereum periodically, lowering fees while inheriting Ethereum's underlying security. It's one of the largest Ethereum L2s by activity and total value locked.",
+    optimism: "Optimism is another major Ethereum Layer 2 network built on optimistic rollup technology, similar in approach to Arbitrum but with its own separate ecosystem. It has positioned itself around a shared technical standard other networks can adopt to build their own compatible chains within a broader multi-chain vision.",
+    cronos: "Cronos is the blockchain associated with the Crypto.com exchange, also listed in the centralized exchanges section of this site, built to be compatible with Ethereum's tooling so developers can deploy familiar smart contracts on it. Its adoption has generally tracked closely with Crypto.com's own ecosystem and products."
+  };
+
+  function renderAbout(name, id){
+    var curated = ABOUT[id];
+    if (curated){
+      panelBody.innerHTML =
+        '<div class="coin-about">' + curated + '</div>' +
+        '<div class="coin-meta"><span>General background, not financial advice</span><span></span></div>';
+      return;
+    }
+    panelBody.innerHTML =
+      '<div class="coin-about">A hand-written background for ' + name + " isn't ready yet — that's only in place for a set of well-established coins so far, to avoid guessing at details on less familiar projects.</div>" +
+      '<div class="coin-news-external">' +
+        '<a class="btn btn-ghost" href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">Read on CoinGecko ↗</a>' +
+        '<a class="btn btn-ghost" href="https://coinmarketcap.com/currencies/' + cmcSlug(name) + '/" target="_blank" rel="noopener">Read on CoinMarketCap ↗</a>' +
+      '</div>';
+  }
+
+  // ---------- Live price data ----------
+  function renderPrice(symbol, norm, sourceLabel){
+    var changeClass = norm.change24h >= 0 ? 'up' : 'down';
+    var changeSign = norm.change24h >= 0 ? '+' : '';
+
+    panelBody.innerHTML =
+      '<div class="coin-price">' +
+        '<span class="amount">' + fmtUsd(norm.price) + '</span>' +
+        '<span class="change ' + changeClass + '">' + changeSign + norm.change24h.toFixed(2) + '%</span>' +
+      '</div>' +
+      '<div class="coin-stats">' +
+        '<div class="coin-stat-row"><span>Market cap rank</span><span>#' + (norm.rank || '—') + '</span></div>' +
+        '<div class="coin-stat-row"><span>Market cap</span><span>' + fmtBig(norm.marketCap) + '</span></div>' +
+        '<div class="coin-stat-row"><span>24h high</span><span>' + fmtUsd(norm.high24h) + '</span></div>' +
+        '<div class="coin-stat-row"><span>24h low</span><span>' + fmtUsd(norm.low24h) + '</span></div>' +
+        '<div class="coin-stat-row"><span>Circulating supply</span><span>' + Math.round(norm.circulatingSupply).toLocaleString() + ' ' + symbol + '</span></div>' +
+        '<div class="coin-stat-row"><span>All-time high</span><span>' + fmtUsd(norm.ath) + '</span></div>' +
+      '</div>' +
+      '<div class="coin-meta"><span>' + sourceLabel + '</span><span>Not financial advice</span></div>';
+  }
+
+  function normalizeFromDetail(data){
+    var md = data.market_data;
+    return {
+      price: md.current_price.usd,
+      change24h: md.price_change_percentage_24h,
+      marketCap: md.market_cap.usd,
+      rank: md.market_cap_rank,
+      high24h: md.high_24h.usd,
+      low24h: md.low_24h.usd,
+      circulatingSupply: md.circulating_supply,
+      ath: md.ath.usd
+    };
+  }
+
+  function normalizeFromSnapshot(entry){
+    return {
+      price: entry.price,
+      change24h: entry.change_24h,
+      marketCap: entry.market_cap,
+      rank: entry.market_cap_rank,
+      high24h: entry.high_24h,
+      low24h: entry.low_24h,
+      circulatingSupply: entry.circulating_supply,
+      ath: entry.ath
+    };
+  }
+
+  function relativeTime(iso){
+    var diffMs = Date.now() - new Date(iso).getTime();
+    var diffH = Math.round(diffMs / 3600000);
+    if (diffH < 1) return 'less than an hour ago';
+    if (diffH === 1) return '1 hour ago';
+    return diffH + ' hours ago';
+  }
+
+  // The site's own scheduled snapshot, written by the GitHub Actions
+  // workflow to data/coins.json. Fetched once per page load and reused
+  // for every coin click so most visits never call CoinGecko directly.
+  var SNAPSHOT_MAX_AGE_MS = 13 * 60 * 60 * 1000; // a bit above the refresh interval, as a staleness buffer
+  var snapshotPromise = null;
+
+  function loadSnapshot(){
+    if (snapshotPromise) return snapshotPromise;
+    snapshotPromise = fetch('./data/coins.json', { cache: 'no-store' })
+      .then(function(res){ if (!res.ok) throw new Error('no snapshot'); return res.json(); })
+      .catch(function(){ return null; });
+    return snapshotPromise;
+  }
+
+  var liveCache = {}; // in-memory only, per page load — used if the snapshot file is missing or stale
+
+  function liveFetchPrice(id, symbol){
+    var cached = liveCache[id];
+    if (cached && (Date.now() - cached.time) < SNAPSHOT_MAX_AGE_MS){
+      renderPrice(symbol, normalizeFromDetail(cached.data), 'Data via CoinGecko, fetched just now');
+      return;
+    }
+    fetch('https://api.coingecko.com/api/v3/coins/' + id + '?localization=false&tickers=false&market_data=true&community_data=false&developer_data=false&sparkline=false')
+      .then(function(res){ if (!res.ok) throw new Error('bad response'); return res.json(); })
+      .then(function(data){
+        liveCache[id] = { time: Date.now(), data: data };
+        renderPrice(symbol, normalizeFromDetail(data), 'Data via CoinGecko, fetched just now');
+      })
+      .catch(function(){
+        panelBody.innerHTML = '<div class="coin-status">Live data isn\'t reachable right now — this usually clears up if you try again in a moment.</div>';
+      });
+  }
+
+  function loadPrice(id, symbol){
+    loadSnapshot().then(function(snapshot){
+      var entry = snapshot && snapshot.coins && snapshot.coins[id];
+      var isFresh = snapshot && snapshot.generated_at &&
+        (Date.now() - new Date(snapshot.generated_at).getTime()) < SNAPSHOT_MAX_AGE_MS;
+
+      if (entry && isFresh){
+        var label = 'Data via CoinGecko · updated ' + relativeTime(snapshot.generated_at);
+        renderPrice(symbol, normalizeFromSnapshot(entry), label);
+      } else {
+        liveFetchPrice(id, symbol);
+      }
+    });
+  }
+
+  // ---------- News ----------
+  // Fetched server-side by the hourly GitHub Actions job into data/news.json.
+  // CryptoCompare's API doesn't allow browser requests directly (no CORS
+  // support) and now requires a private key, so this has to be read from
+  // our own snapshot rather than called live from the page.
+  var newsSnapshotPromise = null;
+  var NEWS_MAX_AGE_MS = 2 * 60 * 60 * 1000; // a bit above the hourly refresh, as a staleness buffer
+
+  function loadNewsSnapshot(){
+    if (newsSnapshotPromise) return newsSnapshotPromise;
+    newsSnapshotPromise = fetch('./data/news.json', { cache: 'no-store' })
+      .then(function(res){ if (!res.ok) throw new Error('no snapshot'); return res.json(); })
+      .catch(function(){ return null; });
+    return newsSnapshotPromise;
+  }
+
+  function cmcSlug(name){
+    // Best-effort guess at CoinMarketCap's URL slug convention (lowercase,
+    // hyphenated name). Usually correct for well-known coins; if it's ever
+    // wrong for an edge case, CoinMarketCap's own search picks up the slack.
+    return name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  }
+
+  function externalNewsLinksHtml(id, name){
+    var cmc = cmcSlug(name);
+    return (
+      '<div class="coin-news-external">' +
+        '<a class="btn btn-ghost" href="https://www.coingecko.com/en/coins/' + id + '" target="_blank" rel="noopener">News at CoinGecko ↗</a>' +
+        '<a class="btn btn-ghost" href="https://coinmarketcap.com/currencies/' + cmc + '/" target="_blank" rel="noopener">News at CoinMarketCap ↗</a>' +
+      '</div>'
+    );
+  }
+
+  function renderNews(items, id, name){
+    var links = externalNewsLinksHtml(id, name);
+    if (!items || !items.length){
+      panelBody.innerHTML = links;
+      return;
+    }
+    var html = '<div class="coin-news-list">';
+    items.forEach(function(item){
+      html +=
+        '<div class="coin-news-item">' +
+          '<a href="' + item.url + '" target="_blank" rel="noopener">' + item.title + '</a>' +
+          (item.brief ? '<div class="coin-news-brief">' + item.brief + '</div>' : '') +
+          '<div class="coin-news-meta">' + item.source + ' · ' + fmtDate(item.published_on) + '</div>' +
+        '</div>';
+    });
+    html += '</div><div class="coin-meta"><span>Headlines via CryptoCompare & cryptocurrency.cv · updated every few hours</span><span>Opens in a new tab</span></div>' + links;
+    panelBody.innerHTML = html;
+  }
+
+  function loadNews(id, symbol, name){
+    loadNewsSnapshot().then(function(snapshot){
+      if (!snapshot){
+        panelBody.innerHTML = '<div class="coin-status">The news feed isn\'t available right now — please try again shortly.</div>' + externalNewsLinksHtml(id, name);
+        return;
+      }
+      var items = snapshot.coins && snapshot.coins[symbol];
+      renderNews(items, id, name);
+    });
+  }
+
+  // ---------- Panel open / tabs / close ----------
+  function setActiveTab(tab){
+    current.tab = tab;
+    tabButtons.forEach(function(btn){
+      btn.classList.toggle('active', btn.dataset.tab === tab);
+    });
+  }
+
+  function loadTab(tab){
+    panelBody.innerHTML = '<div class="coin-status">Fetching data…</div>';
+    if (tab === 'price') loadPrice(current.id, current.symbol);
+    else if (tab === 'about') renderAbout(current.name, current.id);
+    else if (tab === 'news') loadNews(current.id, current.symbol, current.name);
+  }
+
+  function openCoin(id, symbol, name, tab){
+    current.id = id; current.symbol = symbol; current.name = name;
+
+    var entry = allCoinsSorted.filter(function(c){ return c.id === id; })[0];
+    panelMedallion.innerHTML = entry ? medallionInnerHtml(entry) : symbol;
+    panelName.textContent = name;
+    panelSymbol.textContent = symbol;
+
+    setActiveTab(tab || 'price');
+    loadTab(current.tab);
+
+    backdrop.classList.add('open');
+    lastFocused = document.activeElement;
+    closeBtn.focus();
+    document.addEventListener('keydown', onKeydown);
+  }
+
+  function closeCoin(){
+    backdrop.classList.remove('open');
+    document.removeEventListener('keydown', onKeydown);
+    if (lastFocused) lastFocused.focus();
+  }
+
+  function onKeydown(e){
+    if (e.key === 'Escape') closeCoin();
+  }
+
+  tabButtons.forEach(function(btn){
+    btn.addEventListener('click', function(){
+      if (btn.dataset.tab === current.tab) return;
+      setActiveTab(btn.dataset.tab);
+      loadTab(current.tab);
+    });
+  });
+
+  // Delegated click handling — works for the hero cluster and grid items
+  // alike, even though both are rendered dynamically after the fact.
+  document.addEventListener('click', function(e){
+    var flyoutBtn = e.target.closest('.flyout-btn');
+    if (flyoutBtn){
+      e.stopPropagation();
+      openCoin(flyoutBtn.dataset.coinId, flyoutBtn.dataset.coinSymbol, flyoutBtn.dataset.coinName, flyoutBtn.dataset.tab);
+      return;
+    }
+    var medallionBtn = e.target.closest('.medallion[data-coin-id]');
+    if (medallionBtn){
+      openCoin(medallionBtn.dataset.coinId, medallionBtn.dataset.coinSymbol, medallionBtn.dataset.coinName, 'price');
+      return;
+    }
+  });
+
+  closeBtn.addEventListener('click', closeCoin);
+  backdrop.addEventListener('click', function(e){
+    if (e.target === backdrop) closeCoin();
+  });
+
+  // ---------- Narratives: expanded background + live token lists ----------
+  var NARRATIVE_INFO = {
+    tokenization: {
+      title: "Real-world assets",
+      body: "Tokenization means taking something that already exists off-chain — a bond, a slice of property, a portfolio of private credit — and issuing a blockchain-based token that represents ownership or exposure to it. The pitch is faster settlement, fractional ownership, and round-the-clock trading for assets that traditionally settle in days and trade only during market hours. The catch is that a token is only as trustworthy as the legal structure and issuer standing behind it — the blockchain doesn't verify that the underlying bond or property actually exists or is properly custodied."
+    },
+    infrastructure: {
+      title: "AI & crypto",
+      body: "This narrative covers networks where AI models, agents, or compute marketplaces pay and get paid in on-chain tokens instead of traditional invoicing — things like decentralized GPU rental, data marketplaces, or autonomous trading agents holding their own wallets. The appeal is permissionless, programmatic payment rails that don't need a bank account on either end. It's also one of the more speculative corners of the market: many of these tokens are priced on the promise of future AI integration rather than current usage."
+    },
+    scaling: {
+      title: "Layer 2 scaling",
+      body: "Layer 2 networks sit on top of an established blockchain (usually Ethereum) and batch transactions together before settling back to it, aiming for the security of the base chain with far lower fees and faster confirmation. Rollups are the dominant approach today. The sector has consolidated significantly — a handful of networks now handle the large majority of L2 activity, after a wave of newer chains launched mainly to capture short-term incentive programs saw usage fall off once those incentives ended."
+    },
+    yield: {
+      title: "Restaking",
+      body: "Restaking lets assets that are already staked to secure one network (like staked ETH) be reused to help secure additional networks or services at the same time, in exchange for extra yield on top of the base staking reward. It's an efficient use of idle security budget, but it also means the same collateral is now backing multiple obligations at once — if something goes wrong with one of the services being secured, it can affect the restaked asset too."
+    },
+    "high-risk": {
+      title: "Community & meme tokens",
+      body: "Meme tokens are built around cultural attention rather than a specific technical product — value comes largely from community size, social momentum, and speculation rather than cash flow, usage, or a roadmap. That makes them capable of extreme moves in either direction, often within hours. Some evolve into broader projects over time; most don't. This is the corner of the market where the case for caution is least about market structure and most about the token simply having little to fall back on if attention moves elsewhere."
+    },
+    policy: {
+      title: "Regulation",
+      body: "This theme isn't a single token category so much as a backdrop that affects all the others — clearer rules on custody, disclosure, and market structure shape which coins traditional institutions are willing to hold and which exchanges are willing to list. Regulatory news tends to move the broader market more than any individual project's own announcements, which is part of why it's worth tracking as its own narrative rather than folding into a specific coin."
+    },
+    etfs: {
+      title: "Spot ETFs",
+      body: "<p>A crypto ETF (exchange-traded fund) is a fund that trades on an ordinary stock exchange and is built to track the price of an underlying coin, most commonly Bitcoin or Ethereum. Buying a share buys exposure to that price movement — it does not hand you the coin itself. The fund's custodian holds the actual crypto (or, for a futures-based ETF, holds futures contracts instead), and your shares represent a claim on that fund rather than direct ownership of the asset.</p>" +
+        "<h4>Advantages over holding the coin directly</h4>" +
+        "<ul>" +
+          "<li>Bought and sold through an ordinary brokerage or retirement account — no exchange sign-up, wallet, or private key to manage.</li>" +
+          "<li>Removes the risk of losing access to your own coins through a lost key, a scam, or a personal wallet or exchange hack.</li>" +
+          "<li>Fits into standard portfolio tools, statements, and tax paperwork the same way a stock or index fund does.</li>" +
+          "<li>Backed by a regulated issuer and custodian, with disclosure requirements that unregulated venues don't always have.</li>" +
+        "</ul>" +
+        "<h4>Disadvantages compared with holding the coin directly</h4>" +
+        "<ul>" +
+          "<li>You don't actually own the underlying asset — no ability to spend it, move it on-chain, stake it, or use it in a wallet or app. It's a financial claim, not the coin.</li>" +
+          "<li>Ongoing management fees are charged for as long as the fund is held, unlike holding the coin yourself, which carries no recurring fee.</li>" +
+          "<li>Only trades during regular stock market hours, while the underlying crypto market trades continuously — price gaps can open up over a weekend or holiday that the ETF can't react to until markets reopen.</li>" +
+          "<li>Introduces a layer of counterparty and custodian trust: you're relying on the fund provider and its custodian rather than controlling the asset yourself.</li>" +
+          "<li>The share price can occasionally drift slightly above or below the fund's actual net asset value, particularly in stressed markets.</li>" +
+        "</ul>" +
+        "<p>Neither approach is inherently the better one — it depends on whether direct custody, on-chain use, and round-the-clock access matter to you, or whether the simplicity of a regulated brokerage product outweighs that. This is background information, not a recommendation.</p>"
+    }
+  };
+
+  var narrativeBackdrop = document.getElementById('narrativeBackdrop');
+  var narrativePanelTitle = document.getElementById('narrativePanelTitle');
+  var narrativePanelBody = document.getElementById('narrativePanelBody');
+  var narrativeClose = document.getElementById('narrativeClose');
+  var narrativeLastFocused = null;
+  var narrativesSnapshotPromise = null;
+
+  function loadNarrativesSnapshot(){
+    if (narrativesSnapshotPromise) return narrativesSnapshotPromise;
+    narrativesSnapshotPromise = fetch('./data/narratives.json', { cache: 'no-store' })
+      .then(function(res){ if (!res.ok) throw new Error('no snapshot'); return res.json(); })
+      .catch(function(){ return null; });
+    return narrativesSnapshotPromise;
+  }
+
+  function narrativeTokenHtml(entry){
+    return (
+      '<button type="button" class="narrative-token" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">' +
+        medallionInnerHtmlSafe(entry) +
+        '<span class="nt-name">' + entry.name + '<span class="nt-sym">' + entry.symbol + '</span></span>' +
+        '<span class="nt-price">' + fmtUsd(entry.price) + '</span>' +
+      '</button>'
+    );
+  }
+
+  // medallionHtml/medallionInnerHtml expect a plain button target; here we
+  // just need the inner image-or-text, wrapped in a tiny span for sizing.
+  function medallionInnerHtmlSafe(entry){
+    return '<span class="medallion">' + medallionInnerHtml(entry) + '</span>';
+  }
+
+  function openNarrative(slug){
+    var info = NARRATIVE_INFO[slug];
+    if (!info) return;
+
+    narrativePanelTitle.textContent = info.title;
+    narrativePanelBody.innerHTML = '<div class="coin-about">' + info.body + '</div><div class="coin-status" style="margin-top:22px;">Loading tokens in this space…</div>';
+
+    narrativeBackdrop.classList.add('open');
+    narrativeLastFocused = document.activeElement;
+    narrativeClose.focus();
+    document.addEventListener('keydown', onNarrativeKeydown);
+
+    if (slug === 'policy' || slug === 'etfs'){
+      // Neither maps to a CoinGecko token category — regulation is a
+      // backdrop, and spot ETFs are traditional securities, not coins.
+      var extra = narrativePanelBody.querySelector('.coin-status');
+      if (extra){
+        extra.textContent = slug === 'etfs'
+          ? "Spot ETFs are traditional securities, not on-chain tokens, so there's no token list here — the comparison above covers the actual trade-off."
+          : "This theme doesn't map to a specific token list — it's a backdrop that touches most coins rather than a category of its own.";
+      }
+      return;
+    }
+
+    loadNarrativesSnapshot().then(function(snapshot){
+      var tokens = snapshot && snapshot.categories && snapshot.categories[slug];
+      var statusEl = narrativePanelBody.querySelector('.coin-status');
+      if (!tokens || !tokens.length){
+        if (statusEl) statusEl.textContent = 'No token data available for this category right now.';
+        return;
+      }
+      var listHtml = '<div class="narrative-token-list">' + tokens.map(narrativeTokenHtml).join('') + '</div>' +
+        '<div class="coin-meta"><span>Top tokens via CoinGecko · updated hourly</span><span>Not financial advice</span></div>';
+      if (statusEl) statusEl.outerHTML = listHtml;
+    });
+  }
+
+  function closeNarrative(){
+    narrativeBackdrop.classList.remove('open');
+    document.removeEventListener('keydown', onNarrativeKeydown);
+    if (narrativeLastFocused) narrativeLastFocused.focus();
+  }
+
+  function onNarrativeKeydown(e){
+    if (e.key === 'Escape') closeNarrative();
+  }
+
+  document.addEventListener('click', function(e){
+    var tagBtn = e.target.closest('.tag[data-narrative]');
+    if (tagBtn){
+      openNarrative(tagBtn.dataset.narrative);
+      return;
+    }
+    var tokenBtn = e.target.closest('.narrative-token');
+    if (tokenBtn){
+      closeNarrative();
+      openCoin(tokenBtn.dataset.coinId, tokenBtn.dataset.coinSymbol, tokenBtn.dataset.coinName, 'price');
+      return;
+    }
+  });
+
+  narrativeClose.addEventListener('click', closeNarrative);
+  narrativeBackdrop.addEventListener('click', function(e){
+    if (e.target === narrativeBackdrop) closeNarrative();
+  });
+
+  // ---------- Hero cluster (top 3) and the full top-100 table ----------
+  function medallionInnerHtml(entry){
+    if (entry.image){
+      // Falls back to the plain ticker text if the logo ever fails to load
+      // (e.g. a broken URL or the image being removed at the source).
+      return '<img src="' + entry.image + '" alt="' + entry.symbol + '" loading="lazy" ' +
+        'onerror="this.replaceWith(document.createTextNode(this.alt))">';
+    }
+    return entry.symbol;
+  }
+
+  function medallionHtml(entry, extraClass){
+    var cls = extraClass ? 'medallion ' + extraClass : 'medallion';
+    return (
+      '<div class="coin">' +
+        '<button type="button" class="' + cls + '" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '" aria-label="' + entry.name + ' — view options">' + medallionInnerHtml(entry) + '</button>' +
+        '<div class="flyout">' +
+          '<div class="flyout-label">' + entry.name + '</div>' +
+          '<button type="button" class="flyout-btn" data-tab="price" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">Live price data</button>' +
+          '<button type="button" class="flyout-btn" data-tab="about" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">About</button>' +
+          '<button type="button" class="flyout-btn" data-tab="news" data-coin-id="' + entry.id + '" data-coin-symbol="' + entry.symbol + '" data-coin-name="' + entry.name + '">News</button>' +
+        '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderHeroCluster(sorted){
+    var heroEl = document.getElementById('heroCluster');
+    if (!heroEl) return;
+    var top3 = sorted.slice(0, 3);
+    if (!top3.length){
+      heroEl.innerHTML = '<div class="coin-status" style="margin:0;">No data yet</div>';
+      return;
+    }
+    heroEl.innerHTML =
+      medallionHtml(top3[0]) +
+      medallionHtml(top3[1], 'tall') +
+      medallionHtml(top3[2]);
+  }
+
+  var allCoinsSorted = [];
+
+  function gridItemHtml(entry){
+    return (
+      '<div class="coin-grid-item">' +
+        medallionHtml(entry) +
+        '<div class="grid-name">' + entry.name + '</div>' +
+        '<div class="grid-price">' + fmtUsd(entry.price) + '</div>' +
+        '<div class="grid-rank">#' + (entry.market_cap_rank || '—') + '</div>' +
+      '</div>'
+    );
+  }
+
+  function renderGrid(list){
+    var grid = document.getElementById('top100Grid');
+    if (!grid) return;
+    if (!list.length){
+      grid.innerHTML = '<div class="coin-status">No coins match that search.</div>';
+      return;
+    }
+    grid.innerHTML = list.map(gridItemHtml).join('');
+  }
+
+  function initTop100(){
+    loadSnapshot().then(function(snapshot){
+      var heroEl = document.getElementById('heroCluster');
+      var grid = document.getElementById('top100Grid');
+      if (!snapshot || !snapshot.coins){
+        if (heroEl) heroEl.innerHTML = '<div class="coin-status" style="margin:0;">Data isn\'t available right now.</div>';
+        if (grid) grid.innerHTML = '<div class="coin-status">Data isn\'t available right now — please try again shortly.</div>';
+        return;
+      }
+
+      allCoinsSorted = Object.keys(snapshot.coins).map(function(id){
+        var entry = snapshot.coins[id];
+        entry.id = id;
+        return entry;
+      }).sort(function(a, b){
+        return (a.market_cap_rank || 9999) - (b.market_cap_rank || 9999);
+      });
+
+      renderHeroCluster(allCoinsSorted);
+      renderGrid(allCoinsSorted);
+    });
+  }
+
+  var searchInput = document.getElementById('coinSearch');
+  if (searchInput){
+    searchInput.addEventListener('input', function(){
+      var q = searchInput.value.trim().toLowerCase();
+      if (!q){
+        renderGrid(allCoinsSorted);
+        return;
+      }
+      var filtered = allCoinsSorted.filter(function(entry){
+        return entry.name.toLowerCase().indexOf(q) !== -1 || entry.symbol.toLowerCase().indexOf(q) !== -1;
+      });
+      renderGrid(filtered);
+    });
+  }
+
+  initTop100();
+})();
+</script>
+
+</body>
+</html>
