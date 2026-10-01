@@ -1,291 +1,305 @@
 {
-  "generated_at": "2026-09-30T21:49:29.248Z",
+  "generated_at": "2026-10-01T03:50:07.176Z",
   "coins": {
     "BTC": [
       {
-        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 633,265 txs today",
-        "brief": "BTC price: $83,696.07",
-        "url": "https://www.blockchain.com/explorer/charts",
-        "source": "Blockchain.com",
-        "published_on": 1790804660
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
       },
       {
-        "title": "This is the final target for Bitcoin.",
-        "brief": "The ultimate target for Bitcoin on the 6-month timeframe is 1,600,000. Our setup is the \"MeasuredGap,\" which is one of Al Brooks's setups.",
-        "url": "https://www.tradingview.com/chart/BTCUSD/iuTiQFG9-This-is-the-final-target-for-Bitcoin/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1790803898
+        "title": "Grayscale's 10-Token Currencies Sector Puts XRP Near 6% of Bitcoin's Market Cap",
+        "brief": "Grayscale's September 29 report ranks XRP near 6% of Bitcoin's market cap, the highest among 10 tracked tokens, and uses it to gauge Zcash's…",
+        "url": "https://en.coinotag.com/grayscale-xrp-near-6-percent-bitcoin-market-cap",
+        "source": "CoinOtag",
+        "published_on": 1790822095
       },
       {
-        "title": "Standard Chartered says Ethena’s ENA could crush Bitcoin and Ethereum returns by 2028",
-        "brief": "Ethena highlighted Standard Chartered research as current USDe supply remains below the first milestone for revenue-funded token purchases.…",
-        "url": "https://cryptoslate.com/standard-chartered-says-ethenas-ena-could-crush-bitcoin-and-ethereum-returns-by-2028/",
-        "source": "CryptoSlate",
-        "published_on": 1790803801
+        "title": "Saylor Says Strategy, Strive Can Win Share of $318.5T With Bitcoin",
+        "brief": "Bitcoin finance is competing for allocations within global equity and debt markets totaling $318.5 trillion, according to Michael Saylor. He…",
+        "url": "https://news.bitcoin.com/crypto-news/saylor-says-strategy-strive-can-win-share-of-318-5t-with-bitcoin/",
+        "source": "Bitcoin.com",
+        "published_on": 1790821838
       },
       {
-        "title": "Bitcoin gains as rate hike expectations ease after soft PCE data",
-        "brief": "Bitcoin's sensitivity to macroeconomic data highlights its evolving role in financial markets, with institutional demand showing structural…",
-        "url": "https://cryptobriefing.com/bitcoin-gains-rate-hike-expectations-ease/",
-        "source": "Crypto Briefing",
-        "published_on": 1790802499
+        "title": "Kim Sang-hoon Moves to Delay Korea's 22% Bitcoin (BTC) Tax to 2029",
+        "brief": "Lawmaker Kim Sang-hoon proposes delaying Korea's 22% digital asset tax to 2029, citing unfinished preparation and 168.9 trillion won in outf…",
+        "url": "https://en.coinotag.com/kim-sang-hoon-bitcoin-tax-delay-2029",
+        "source": "CoinOtag",
+        "published_on": 1790821761
       },
       {
-        "title": "Bitcoin Price Holds $83K as Bitfinex Says Leverage Has Cleared",
-        "brief": "Bitcoin calls represent 60.88% of options open interest, while Deribit’s October max-pain level sits near $76,000, below bitcoin’s current $…",
-        "url": "https://news.bitcoin.com/market-updates/bitcoin-price-holds-83k-bitfinex-says-leverage-cleared/",
-        "source": "Bitcoin.com News",
-        "published_on": 1790800787
+        "title": "Robinhood to Expand Onshore Bitcoin (BTC) Perpetual Futures After 8-Contract US Launch",
+        "brief": "Robinhood's crypto chief says the firm will expand onshore Bitcoin (BTC) perpetual futures after launching eight US contracts with up to 10x…",
+        "url": "https://en.coinotag.com/robinhood-onshore-bitcoin-btc-perpetual-futures-expansion",
+        "source": "CoinOtag",
+        "published_on": 1790821222
       },
       {
-        "title": "Does America.gov Know Bitcoin Policy as Well as ChatGPT and Claude? We Asked",
-        "brief": "The newly launched U.S. government AI chatbot America.gov can also help bitcoin and crypto users with answers to their questions. However, t…",
-        "url": "https://news.bitcoin.com/regulation-and-legal/does-america-gov-know-bitcoin-policy-chatgpt-claude/",
-        "source": "Bitcoin.com News",
-        "published_on": 1790797538
+        "title": "Robinhood Unveils 10x Crypto Perps, Weekend Trading, AI Agents",
+        "brief": "BitcoinWorld Robinhood Unveils 10x Crypto Perps, Weekend Trading, AI Agents Robinhood used its Sept. 29 HOOD Summit to announce a slate of n…",
+        "url": "https://bitcoinworld.co.in/robinhood-perps-weekend-stocks-ai-agents/",
+        "source": "Bitcoin World",
+        "published_on": 1790820903
       }
     ],
     "ETH": [
       {
-        "title": "⛽ ETH Gas: 🐢 0.135362618 | 🚶 0.135462618 | 🚀 0.139774433 Gwei",
-        "brief": "Current Ethereum gas prices. Fast: 0.139774433 Gwei, Standard: 0.135462618 Gwei, Safe: 0.135362618 Gwei",
-        "url": "https://etherscan.io/gastracker",
-        "source": "Etherscan",
-        "published_on": 1790804861
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
       },
       {
-        "title": "Coinbase-Backed Base Gives Users More Control With Cobalt Upgrade",
-        "brief": "Base has launched Cobalt, its third major network upgrade, adding new transaction controls for traders and expanding tools for companies iss…",
-        "url": "https://news.bitcoin.com/technology/coinbase-backed-base-more-control-cobalt-upgrade/",
-        "source": "Bitcoin.com News",
-        "published_on": 1790804422
+        "title": "NEAR, HYPE, Ethereum and XRP target fresh highs as major turning points draw near",
+        "brief": "🚨 NEAR rallies over 100% since August, approaches key resistance near $5.50. 📉 HYPE falls nearly 12% from its peak, testing support after…",
+        "url": "https://en.coin-turk.com/near-hype-ethereum-and-xrp-target-fresh-highs-as-major-turning-points-draw-near/?utm_source=rss&utm_medium=rss&utm_campaign=near-hype-ethereum-and-xrp-target-fresh-highs-as-major-turning-points-draw-near",
+        "source": "CoinTurk News",
+        "published_on": 1790818582
       },
       {
-        "title": "Standard Chartered says Ethena’s ENA could crush Bitcoin and Ethereum returns by 2028",
-        "brief": "Ethena highlighted Standard Chartered research as current USDe supply remains below the first milestone for revenue-funded token purchases.…",
-        "url": "https://cryptoslate.com/standard-chartered-says-ethenas-ena-could-crush-bitcoin-and-ethereum-returns-by-2028/",
-        "source": "CryptoSlate",
-        "published_on": 1790803801
+        "title": "Ethereum ETFs Break 7-Day Inflow Streak While Spot Bitcoin Funds Retain Demand",
+        "brief": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Ethereum ETFs Break 7-Day Inflow Streak While Spot…",
+        "url": "https://bitcoinist.com/ethereum-etfs-break-7-day-inflow-streak-while-spot-bitcoin-funds-retai/",
+        "source": "Bitcoinist",
+        "published_on": 1790818200
       },
       {
-        "title": "Aerodrome and Velodrome merge into Aero, targeting a $63 billion TVL market",
-        "brief": "The merger could streamline liquidity across Ethereum-aligned chains, potentially enhancing efficiency and expanding market opportunities. T…",
-        "url": "https://cryptobriefing.com/aerodrome-velodrome-merge-into-aero/",
-        "source": "Crypto Briefing",
-        "published_on": 1790795995
+        "title": "MetaMask begins emergency exit from staking validators after infrastructure threat",
+        "brief": "🚨 MetaMask starts urgent exit from affected staking validators. 🛡️ No immediate threat identified in $ETH wallets, user funds remain safe.…",
+        "url": "https://en.coin-turk.com/metamask-begins-emergency-exit-from-staking-validators-after-infrastructure-threat/?utm_source=rss&utm_medium=rss&utm_campaign=metamask-begins-emergency-exit-from-staking-validators-after-infrastructure-threat",
+        "source": "CoinTurk News",
+        "published_on": 1790817802
       },
       {
-        "title": "ETHUSD | Buy Setup From Demand Zone Toward Overhead Resistance",
-        "brief": "Ethereum is currently retesting a well-defined demand zone around 2675-2680, an area that has repeatedly attracted buyers throughout the rec…",
-        "url": "https://www.tradingview.com/chart/ETHUSD/FcrKRJKK-ETHUSD-Buy-Setup-From-Demand-Zone-Toward-Overhead-Resistance/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1790790638
+        "title": "MetaMask exits Ethereum validators amid undisclosed security incident",
+        "brief": "MetaMask said it is investigating the threat internally and said it has found no immediate threat to its wallets.",
+        "url": "https://cointelegraph.com/news/metamask-exits-lido-validators-as-it-investigates-security-incident?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "Cointelegraph",
+        "published_on": 1790813755
       },
       {
-        "title": "Open USD Stablecoin Goes Live as Stripe, Visa and Mastercard Open It to Businesses",
-        "brief": "Open Standard's dollar stablecoin launched Wednesday on Ethereum, Solana, Base and Tempo, issued by Stripe's Bridge, with Coinbase access st…",
-        "url": "https://unchainedcrypto.com/open-usd-stablecoin-goes-live-as-stripe-visa-and-mastercard-open-it-to-businesses/",
-        "source": "Unchained Crypto",
-        "published_on": 1790786997
+        "title": "Near Protocol (NEAR), Hyperliquid (HYPE), Ethereum (ETH) and XRP Price Analysis for October 1: Unexpected Turnaround on Crypto Market",
+        "brief": "The crypto market remains broadly bullish, although momentum is becoming increasingly uneven as some assets consolidate or correct after Sep…",
+        "url": "https://u.today/price-analysis/near-protocol-near-hyperliquid-hype-ethereum-eth-and-xrp-price-analysis-for-october-1-unexpected",
+        "source": "U.Today",
+        "published_on": 1790812860
       }
     ],
     "USDT": [
       {
-        "title": "US Senator Blumenthal Calls Tether's USDT a 'Superhighway' for Iranian Sanctions Evasion",
-        "brief": "The Connecticut Senator's subcommittee released its report on Monday and referred the findings to Treasury and the Justice Department.",
-        "url": "https://decrypt.co/379624/us-senator-blumenthal-calls-tethers-usdt-a-superhighway-for-iranian-sanctions-evasion",
-        "source": "Decrypt",
-        "published_on": 1790764321
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
       },
       {
-        "title": "Tether And Shiga Build Self-Custodial USDT, Bitcoin And Gold Products For Africa",
-        "brief": "Tether and Shiga are launching self-custodial financial products across Africa and the Gulf Cooperation Council. The products will use Tethe…",
-        "url": "https://bitcoinist.com/tether-and-shiga-build-self-custodial-usdt-bitcoin-and-gold-products-for-africa/",
-        "source": "Bitcoinist",
-        "published_on": 1790746200
+        "title": "Bloomberg adds stablecoin dashboard to Terminal, covers 98% of market",
+        "brief": "🚨 Bloomberg now tracks 98% of the stablecoin market on its Terminal. 📊 New dashboard covers major metrics like supply, issuance, and trans…",
+        "url": "https://en.coin-turk.com/bloomberg-adds-stablecoin-dashboard-to-terminal-covers-98yuzde-of-market/?utm_source=rss&utm_medium=rss&utm_campaign=bloomberg-adds-stablecoin-dashboard-to-terminal-covers-98yuzde-of-market",
+        "source": "CoinTurk News",
+        "published_on": 1790796203
       },
       {
-        "title": "早报｜BlockTower 创始人 Ari Paul：Coinbase 曾掩盖超 10 亿美元黑客攻击；美民主党追查特朗普加密利益，延伸至 Binance 与 Tether",
-        "brief": "整理：ChainCatcher 过去 24 小时发生了哪些重要的事？ 美民主党追查特朗普加密利益，延伸至 Binance 与 Tether ChainCatcher 消息，美国参议院国土安全与政府事务委员会常设调查小组委员会民主党调查人员发布报告，指控 USDT 已成为伊朗影子银…",
-        "url": "https://www.chaincatcher.com/article/2293129",
-        "source": "Chain Catcher",
-        "published_on": 1790730323
+        "title": "Tether Just Minted Nearly Half a Billion in Gold",
+        "brief": "Major stablecoin issuer has minted around $495 million in tokens, but not USDT . On-chain analytics firm Arkham shows that this time, the co…",
+        "url": "https://zycrypto.com/tether-just-minted-nearly-half-a-billion-in-gold/",
+        "source": "ZyCrypto",
+        "published_on": 1790787631
       },
       {
-        "title": "Tether Says It Helped Freeze $550M in Iran-Linked USDT as Senate Scrutiny Intensifies",
-        "brief": "Tether says it froze nearly $550 million in Iran-linked USDT in 2026 as Democratic Senate staff examine stablecoin use and controls.",
-        "url": "https://cryptodaily.co.uk/2026/09/tether-550m-iran-linked-usdt-freezes-senate-scrutiny",
+        "title": "Open USD takes on Tether, Circle with a different stablecoin model that's 'building money'",
+        "brief": "The “overwhelming majority” of Open Standard’s equity will be distributed over time to partners based on how much they help grow the stablec…",
+        "url": "https://www.coindesk.com/business/2026/09/24/open-usd-takes-on-tether-circle-with-a-different-stablecoin-model-that-s-building-money",
+        "source": "CoinDesk",
+        "published_on": 1790782490
+      },
+      {
+        "title": "Binance Pay at Crypto Casinos: Funding Without a Deposit Address",
+        "brief": "The standard crypto deposit begins with a long address to copy and a network to pick. Each Binance Pay deposit removes both steps: you confi…",
+        "url": "https://cryptodaily.co.uk/2026/09/binance-pay-at-crypto-casinos-funding-without-a-deposit-address",
         "source": "Crypto Daily",
-        "published_on": 1790690468
+        "published_on": 1790779474
       },
       {
-        "title": "Tether’s USDT at center of Iran’s shadow banking network, new Senate Report says",
-        "brief": "Tether and its stablecoin have become central in \"Iran's shadow banking system,\" according to a new Senate investigation.",
-        "url": "https://www.theblock.co/news/regulation/2026-09-28-tethers-usdt-center-iran-shadow-banking-network-new-senate-report-says-417094",
-        "source": "The Block",
-        "published_on": 1790622642
-      },
-      {
-        "title": "Commerce Secretary Howard Lutnick’s old firm pumps $10 million into super PAC led by Tether executive",
-        "brief": "Cantor Fitzgerald, the Lutnick-tied financial services firm that owns a stake in and custodies reserves for the stablecoin issuer, is bankro…",
-        "url": "https://www.citationneeded.news/commerce-secretary-howard-lutnicks-old-firm-pumps-10-million-into-super-pac-led-by-tether-executive/",
-        "source": "Molly White Blog",
-        "published_on": 1776371492
+        "title": "MEXC Adds Another 1,000 BTC to Guardian Fund, Strengthening User Protection",
+        "brief": "BitcoinWorld MEXC Adds Another 1,000 BTC to Guardian Fund, Strengthening User Protection MUTSAMUDU, Comoros , Sept. 30, 2026 /PRNewswire/ —…",
+        "url": "https://bitcoinworld.co.in/mexc-adds-another-1000-btc-to-guardian-fund-strengthening-user-protection/",
+        "source": "Bitcoin World",
+        "published_on": 1790771734
       }
     ],
     "BNB": [
       {
-        "title": "DESU on MEXC: What Dexsport's Token Listing Means for Players",
-        "brief": "MEXC added Dexsport's DESU token in June 2026. What DESU is, what a centralised exchange adds, how to move it to Dexsport on BNB Chain and w…",
-        "url": "https://cryptodaily.co.uk/2026/09/desu-on-mexc-what-dexsports-token-listing-means-for-players",
-        "source": "Crypto Daily",
-        "published_on": 1790613813
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
       },
       {
-        "title": "NOWPayments Releases Cross-Chain Payout Data Revealing Key Performance Benchmarks Across TRON, BNB Chain, and Solana",
-        "brief": "NOWPayments Releases Cross-Chain Payout Data Revealing Key Performance Benchmarks Across TRON, BNB Chain, and Solana",
-        "url": "https://cryptodaily.co.uk/2026/09/nowpayments-releases-cross-chain-payout-data-revealing-key-performance-benchmarks-across-tron-bnb-chain-and-solana",
-        "source": "Crypto Daily",
-        "published_on": 1790005684
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
       },
       {
-        "title": "Spot Routing on Deribit: Access to Coinbase Exchange Liquidity",
-        "brief": "On 13 August 2026, Deribit began the phased rollout of selected spot pairs routing to Coinbase Exchange (CBE), starting with BNB-USDC. This…",
-        "url": "https://insights.deribit.com/exchange-updates/spot-routing-on-deribit-access-to-coinbase-exchange-liquidity/",
-        "source": "Deribit Insights",
-        "published_on": 1786925497
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
       },
       {
-        "title": "BNB Price Prediction As Binance Shifts SAFU To Bitcoin",
-        "brief": "The BNB token recorded $3.6 billion in trading volume, as the price fell back to trade within the falling wedge pattern, as the Binance exch…",
-        "url": "https://insidebitcoins.com/news/bnb-price-prediction-as-binance-shifts-safu-to-bitcoin",
-        "source": "InsideBitcoins",
-        "published_on": 1769770047
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
       },
       {
-        "title": "BNB Price Jumps 1.5% as Grayscale Files for Spot BNB ETF With Staking Feature",
-        "brief": "The BNB price has surged 1.5% in the last 24 hours to trade at $894 after Grayscale filed a registration statement with the U.S. Securities…",
-        "url": "https://insidebitcoins.com/news/bnb-price-jumps-1-5-as-grayscale-files-for-spot-bnb-etf-with-staking-feature",
-        "source": "InsideBitcoins",
-        "published_on": 1769225845
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
       }
     ],
     "XRP": [
       {
-        "title": "$XRP is sitting ~3% above a clean demand zone.",
-        "brief": "🚨 BINANCE:XRPUSDT is sitting ~3% above a clean demand zone. The question is who shows up to buy it. Chart: $1.4911, rejected from $1.5149,…",
-        "url": "https://www.tradingview.com/chart/XRPUSDT/KwWqhCBM-XRP-is-sitting-3-above-a-clean-demand-zone/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1790793820
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
       },
       {
-        "title": "Ripple Tokenizes Brazilian Investment Fund & Real Estate Records On XRP Ledger",
-        "brief": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Ripple Tokenizes Brazilian Investment Fund &amp; R…",
-        "url": "https://www.newsbtc.com/markets/ripple-tokenizes-brazilian-investment-fund-real-estate-records-on-xrp/",
-        "source": "NewsBTC",
-        "published_on": 1790791200
+        "title": "Grayscale's 10-Token Currencies Sector Puts XRP Near 6% of Bitcoin's Market Cap",
+        "brief": "Grayscale's September 29 report ranks XRP near 6% of Bitcoin's market cap, the highest among 10 tracked tokens, and uses it to gauge Zcash's…",
+        "url": "https://en.coinotag.com/grayscale-xrp-near-6-percent-bitcoin-market-cap",
+        "source": "CoinOtag",
+        "published_on": 1790822095
       },
       {
-        "title": "XRP/USDT long — Signal #069",
-        "brief": "Signal #069 LONG XRP/USDT Entry: 1.495 – 1.500 (limit order) SL: 1.350 TP: 1.575 / 1.650 / 1.750 / 1.875 / 2.000 / 2.150 TP1 hit → move SL t…",
-        "url": "https://www.tradingview.com/chart/XRPUSDT.P/Ws0Zo0M1-XRP-USDT-long-Signal-069/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1790784724
+        "title": "Uphold Adds XRP Inheritance for $19.99 a Month",
+        "brief": "Uphold launched Vault Inheritance for XRP, Bitcoin and HBAR at $19.99 a month, letting named beneficiaries claim crypto after the owner's de…",
+        "url": "https://en.coinotag.com/uphold-adds-xrp-vault-inheritance-19-99-month",
+        "source": "CoinOtag",
+        "published_on": 1790818728
       },
       {
-        "title": "Latest OKX Proof of Reserves Shows Exchange XRP Balance Up 33% YTD",
-        "brief": "The latest OKX Proof of Reserves (PoR) report shows the exchange currently holds about 244 million XRP in balance, up 33% year-to-date. As p…",
-        "url": "https://thecryptobasic.com/2026/09/30/latest-okx-proof-of-reserves-shows-exchange-xrp-balance-up-33-ytd/",
-        "source": "TheCryptoBasic",
-        "published_on": 1790784119
+        "title": "NEAR, HYPE, Ethereum and XRP target fresh highs as major turning points draw near",
+        "brief": "🚨 NEAR rallies over 100% since August, approaches key resistance near $5.50. 📉 HYPE falls nearly 12% from its peak, testing support after…",
+        "url": "https://en.coin-turk.com/near-hype-ethereum-and-xrp-target-fresh-highs-as-major-turning-points-draw-near/?utm_source=rss&utm_medium=rss&utm_campaign=near-hype-ethereum-and-xrp-target-fresh-highs-as-major-turning-points-draw-near",
+        "source": "CoinTurk News",
+        "published_on": 1790818582
       },
       {
-        "title": "Veteran Trader Says No Altseason Without XRP",
-        "brief": "Veteran trader Cryptollica believes altcoin season is now starting, and XRP will play a consequential role. In a post on X, Cryptollica said…",
-        "url": "https://thecryptobasic.com/2026/09/30/veteran-trader-says-no-altseason-without-xrp/",
-        "source": "TheCryptoBasic",
-        "published_on": 1790781021
+        "title": "Grayscale: XRP’s Near-6% Bitcoin Valuation Sets a Benchmark for Zcash",
+        "brief": "XRP is valued at nearly 6% of bitcoin’s market capitalization, a level Grayscale cites as context for how far rival digital currencies can g…",
+        "url": "https://news.bitcoin.com/market-updates/grayscale-xrps-near-6-bitcoin-valuation-sets-a-benchmark-for-zcash/",
+        "source": "Bitcoin.com",
+        "published_on": 1790818253
       },
       {
-        "title": "Ripple Stablecoin RLUSD Crosses $2.5B Amid $790M Deployment",
-        "brief": "RLUSD has now crossed the $2.5 billion valuation mark, as Ripple mints $790 million worth of the stablecoin in a month. While XRP and the br…",
-        "url": "https://thecryptobasic.com/2026/09/30/ripple-stablecoin-rlusd-crosses-2-5b-amid-790m-deployment/",
-        "source": "TheCryptoBasic",
-        "published_on": 1790780105
+        "title": "Uphold Adds XRP, Bitcoin Inheritance, Citing $331 Billion Stranded",
+        "brief": "Passing cryptocurrency to an heir requires both legal ownership and a way to authorize transactions. A new service addresses that gap as its…",
+        "url": "https://news.bitcoin.com/featured/uphold-adds-xrp-bitcoin-inheritance-citing-331-billion-stranded/",
+        "source": "Bitcoin.com",
+        "published_on": 1790814640
       }
     ],
     "USDC": [
       {
-        "title": "Circle’s Arc lets AI agents pay humans in USDC for 3D world scans",
-        "brief": "Circle's Arc could reshape gig economy dynamics, raising questions about labor rights, privacy, and dependency on centralized platforms. The…",
-        "url": "https://cryptobriefing.com/circle-arc-ai-agents-pay-humans-usdc-3d-scans/",
-        "source": "Crypto Briefing",
-        "published_on": 1790797437
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
       },
       {
-        "title": "Lloyds 与 Visa 完成 75 万美元 USDC 跨境结算试点",
-        "brief": "ChainCatcher 消息，据 The Defiant 报道，英国银行集团 Lloyds 与支付巨头 Visa 在一项跨境结算试点中完成了 75 万美元的 USDC 转账。该测试为期七天，资金从泽西岛汇往美国，全程耗时不到一小时，并且在周末期间同样可以完成。结算过程中，Llo…",
-        "url": "https://www.chaincatcher.com/article/2293329",
-        "source": "Chain Catcher",
-        "published_on": 1790791041
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
       },
       {
-        "title": "Franklin Templeton and Bybit Let Institutions Use Tokenized Fund Shares as Trading Collateral",
-        "brief": "Bybit and Franklin Templeton will let eligible institutions pledge Benji tokenized fund shares for USDT or USDC trading credit off-exchange.",
-        "url": "https://cryptodaily.co.uk/2026/09/bybit-franklin-templeton-tokenized-fund-collateral",
-        "source": "Crypto Daily",
-        "published_on": 1790676082
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
       },
       {
-        "title": "Coinbase Now Owns Every Layer of Its Derivatives Stack After CFTC Approval",
-        "brief": "Coinbase Clearing will take USDC as collateral and settle around the clock, though margined products stay with partners.",
-        "url": "https://decrypt.co/379516/coinbase-now-owns-every-layer-of-its-derivatives-stack-after-cftc-approval",
-        "source": "Decrypt",
-        "published_on": 1790674737
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
       },
       {
-        "title": "Coinbase Gets Its Own Clearinghouse as USDC Moves Deeper Into Derivatives",
-        "brief": "Coinbase wins CFTC approval for its USDC-native clearinghouse, bringing 24/7 settlement and direct clearing to eligible derivatives.",
-        "url": "https://www.crypto-news-flash.com/coinbase-gets-its-own-clearinghouse-as-usdc-moves-deeper-into-derivatives/",
-        "source": "Crypto-News Flash",
-        "published_on": 1790670619
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
       },
       {
-        "title": "Coinbase Wins CFTC Approval for USDC-Native Derivatives Clearinghouse",
-        "brief": "Coinbase Clearing received CFTC registration as a derivatives clearing organization, allowing it to clear fully collateralized futures, opti…",
-        "url": "https://cryptodaily.co.uk/2026/09/coinbase-cftc-usdc-native-derivatives-clearinghouse",
-        "source": "Crypto Daily",
-        "published_on": 1790668866
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
       }
     ],
     "SOL": [
       {
-        "title": "Anza’s SIMD-0675 would schedule Solana validators by geography",
-        "brief": "Geographic scheduling of Solana validators could enhance network efficiency, but may raise privacy concerns and impact validator participati…",
-        "url": "https://cryptobriefing.com/anza-simd-0675-solana-validator-scheduling/",
-        "source": "Crypto Briefing",
-        "published_on": 1790802507
+        "title": "Solana Validator Codebase Tag v2.1.0 Released On Testnet",
+        "brief": "In a major development confirmed on SEPTEMBER 30, 2026, Confirmed announcement/filing for Solana Validator Codebase Tag v2.1.0 Released On T…",
+        "url": "https://www.newsbtc.com/all/solana-validator-codebase-tag-v2-1-0-released-on-testnet/",
+        "source": "NewsBTC",
+        "published_on": 1790812800
       },
       {
-        "title": "Solana Foundation launches Solana Scholars program for PhD internships",
-        "brief": "The Solana Scholars program could enhance blockchain innovation and ecosystem security, potentially boosting Solana's long-term network valu…",
-        "url": "https://cryptobriefing.com/solana-foundation-launches-solana-scholars-phd/",
-        "source": "Crypto Briefing",
-        "published_on": 1790798967
+        "title": "Best 3 Altcoins in 2026: MemeToro, Solana and Near Price Predictions as Bitcoin Holds $83K",
+        "brief": "₿ Bitcoin is establishing a strong foundation for the altcoin market while holding above the $83,000 support level. 🚀 Solana has surged 68%…",
+        "url": "https://en.coin-turk.com/best-3-altcoins-in-2026-memetoro-solana-and-near-price-predictions-as-bitcoin-holds-83k/?utm_source=rss&utm_medium=rss&utm_campaign=best-3-altcoins-in-2026-memetoro-solana-and-near-price-predictions-as-bitcoin-holds-83k",
+        "source": "CoinTurk News",
+        "published_on": 1790797123
       },
       {
-        "title": "Open USD Is Live on Solana",
-        "brief": "Open USD is live on Solana, letting businesses mint and burn 1:1 for dollars at no cost, with over $1 billion committed to liquidity.",
-        "url": "https://solana.com/news/open-usd-is-live-on-solana",
-        "source": "Solana News",
-        "published_on": 1790795820
+        "title": "Drift's recovery update shows why Gracy Chen isn't optimistic about Bitget's $388M",
+        "brief": "Bitget CEO Gracy Chen has said she does not believe the $388 million stolen from her company will be recovered. Chen’s pessimism was reinfor…",
+        "url": "https://www.cryptopolitan.com/drifts-recovery-gracy-chen-doubt-bitget/",
+        "source": "Cryptopolitan",
+        "published_on": 1790795154
       },
       {
-        "title": "Open USD Stablecoin Goes Live as Stripe, Visa and Mastercard Open It to Businesses",
-        "brief": "Open Standard's dollar stablecoin launched Wednesday on Ethereum, Solana, Base and Tempo, issued by Stripe's Bridge, with Coinbase access st…",
-        "url": "https://unchainedcrypto.com/open-usd-stablecoin-goes-live-as-stripe-visa-and-mastercard-open-it-to-businesses/",
-        "source": "Unchained Crypto",
-        "published_on": 1790786997
+        "title": "USD.AI Takes USDai and sUSDai to Solana as Cross-Chain Volume Tops $2B",
+        "brief": "USD.AI has brought its USDai and sUSDai tokens to Solana through LayerZero, expanding access as their combined cross-chain transfer volume p…",
+        "url": "https://coinedition.com/crypto-live-news/usd-ai-takes-usdai-and-susdai-to-solana-as-cross-chain/",
+        "source": "Coin Edition",
+        "published_on": 1790791917
+      },
+      {
+        "title": "NewGenIvf Sold Entire XRP Holdings Before Year-End, SEC Filing Shows",
+        "brief": "The post NewGenIvf Sold Entire XRP Holdings Before Year-End, SEC Filing Shows appeared first on Coinpedia Fintech News Nasdaq-listed IVF com…",
+        "url": "https://coinpedia.org/crypto-live-news/newgenivf-sold-entire-xrp-holdings-before-year-end-sec-filing-shows/",
+        "source": "coinpedia",
+        "published_on": 1790790250
       },
       {
         "title": "Introducing The Information Exchange on Solana, Powered by Decrypt and MYR",
@@ -293,66 +307,87 @@
         "url": "https://decrypt.co/379655/introducing-the-information-exchange-powered-by-decrypt-and-myr",
         "source": "Decrypt",
         "published_on": 1790786170
-      },
-      {
-        "title": "Lion Group Sells Solana and Bitcoin as HYPE Treasury Narrows",
-        "brief": "Lion Group sells its remaining SOL and part of its Bitcoin to expand its HYPE treasury, deepening its shift toward Hyperliquid.",
-        "url": "https://www.crypto-news-flash.com/lion-group-sells-solana-and-bitcoin-as-hype-treasury-narrows/",
-        "source": "Crypto-News Flash",
-        "published_on": 1790783136
       }
     ],
     "TRX": [
       {
-        "title": "Micron beats on earnings and issues strong guidance as data center revenue jumps 11-fold",
-        "brief": "Micron is up over 500% in the past year as the company benefits from soaring AI demand.",
-        "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
-        "source": "CNBC Crypto",
-        "published_on": 1790801945
+        "title": "TRON DAO Celebrates Canary Staked TRX ETF (Ticker: TRXS) Debut With Cboe Closing Bell in Chicago",
+        "brief": "Geneva, Switzerland, September 29, 2026 — TRON DAO, the community-governed DAO dedicated to accelerating the decentralization of the interne…",
+        "url": "https://news.bitcoin.com/press-releases/tron-dao-celebrates-canary-staked-trx-etf-ticker-trxs-debut-with-cboe-closing-bell-in-chicago/",
+        "source": "Bitcoin.com",
+        "published_on": 1790709922
       },
       {
-        "title": "Micron Flat After Strong Revenue Guidance Offsets Slight Margin Miss",
-        "brief": "&lt;span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\"&gt;Micron Flat After Strong Revenue G…",
-        "url": "https://www.zerohedge.com/markets/micron-rises-after-strong-revenue-guidance-offsets-slight-margin-miss",
-        "source": "ZeroHedge",
-        "published_on": 1790800126
+        "title": "TRON DAO Celebrates Canary Staked TRX ETF (Ticker: TRXS) Debut With Cboe Closing Bell in Chicago",
+        "brief": "Geneva, Switzerland, September 29, 2026 — TRON DAO , the community-governed DAO dedicated to accelerating the decentralization of the intern…",
+        "url": "https://www.newsbtc.com/news/tron-dao-celebrates-canary-staked-trx-etf-ticker-trxs-debut-with-cboe-closing-bell-in-chicago/",
+        "source": "NewsBTC",
+        "published_on": 1790691529
       },
       {
-        "title": "AAVE/USDT – 4H Trend Continuation",
-        "brief": "AAVE remains in a bullish 4H structure after a strong impulsive move toward 183.5. Price has since pulled back and is now consolidating arou…",
-        "url": "https://www.tradingview.com/chart/AAVEUSDT/LwA96Hha-AAVE-USDT-4H-Trend-Continuation/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1790789761
+        "title": "USDT to Monero: which USDT network to send from",
+        "brief": "Swapping USDT to Monero starts with a question many people skip: which network is your USDT on? Tether issues USDT on several blockchains, a…",
+        "url": "https://invezz.com/news/2026/09/28/usdt-to-monero-which-usdt-network-to-send-from/",
+        "source": "Invezz",
+        "published_on": 1790585995
       },
       {
-        "title": "The Re-Rise of Quant: From Silent Utility to $300 Parabolic Surge",
-        "brief": "QNT surges 280% in a week as institutional catalysts, rising leverage and strong technical momentum propel Quant into crypto’s top 30.",
-        "url": "https://www.crypto-news-flash.com/the-re-rise-of-quant-from-silent-utility-to-300-parabolic-surge/",
-        "source": "Crypto-News Flash",
-        "published_on": 1790789404
+        "title": "Tron Price Prediction 2026–2032: Will Tron reach $1?",
+        "brief": "Key Takeaways: Our Tron price prediction anticipates a high of $0.603 by the end of 2026. In 2028, TRX will range between $0.827 and $0.949,…",
+        "url": "https://www.cryptopolitan.com/tron-price-prediction/",
+        "source": "Cryptopolitan",
+        "published_on": 1790532000
       },
       {
-        "title": "$LTC Pullback Will the Breakout Hold?",
-        "brief": "LTC has made a strong breakout from the long-term descending trendline and rallied from around $39 to $75, giving us a major shift in struct…",
-        "url": "https://www.tradingview.com/chart/LTCUSDT.P/CiYMku51-LTC-Pullback-Will-the-Breakout-Hold/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1790788243
+        "title": "Bitget Raises Hack Losses to $387.5M After New ZEC and TRX Findings",
+        "brief": "Bitget CEO Gracy Chen says the breach hit a backend system, not private keys, as losses were revised to $387.5M on new ZEC and TRX damage.",
+        "url": "https://en.coinotag.com/bitget-raises-hack-losses-387m-zec-trx",
+        "source": "CoinOtag",
+        "published_on": 1790388438
       },
       {
-        "title": "IF XLM BREAKS $0.25, ARE YOU HOLDING FOR $0.29 OR TAKING PROFITS",
-        "brief": "Hi, XLM has gained around 50% in just two weeks, with volume picking up strongly and momentum finally returning. After being one of the lagg…",
-        "url": "https://www.tradingview.com/chart/XLMUSDT/YO1PQOfK-IF-XLM-BREAKS-0-25-ARE-YOU-HOLDING-FOR-0-29-OR-TAKING-PROFITS/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1790785236
+        "title": "Tron Has Moved $30 Trillion but TRX Price Hasn’t Budged in a Year",
+        "brief": "Tron has now settled more than $30 trillion in lifetime transfers, yet TRX trades at $0.34, almost exactly the $0.3383 it fetched a year ago…",
+        "url": "https://news.bitcoin.com/defi/tron-30-trillion-transfer-volume-trx-price-flat/",
+        "source": "Bitcoin.com",
+        "published_on": 1790335820
       }
     ],
     "ZEC": [
       {
-        "title": "Bitget’s hackers turn to Zcash after $50 million laundering route gets blocked",
-        "brief": "Hackers behind Bitget’s $387.5 million breach are turning to Zcash's privacy features to hide the stolen funds as crypto firms increasingly…",
-        "url": "https://cryptoslate.com/bitgets-hackers-turn-to-zcash-after-50-million-laundering-route-gets-blocked/",
-        "source": "CryptoSlate",
-        "published_on": 1790799628
+        "title": "Grayscale's 10-Token Currencies Sector Puts XRP Near 6% of Bitcoin's Market Cap",
+        "brief": "Grayscale's September 29 report ranks XRP near 6% of Bitcoin's market cap, the highest among 10 tracked tokens, and uses it to gauge Zcash's…",
+        "url": "https://en.coinotag.com/grayscale-xrp-near-6-percent-bitcoin-market-cap",
+        "source": "CoinOtag",
+        "published_on": 1790822095
+      },
+      {
+        "title": "Alloc Init proposes shielded Bitcoin with zero-knowledge proofs, challenges Zcash",
+        "brief": "🛡️ Shielded Bitcoin could let users hide sender, receiver, and amount on the $BTC network. 🔍 Alloc Init's proposal relies on zero-knowledg…",
+        "url": "https://en.coin-turk.com/alloc-init-proposes-shielded-bitcoin-with-zero-knowledge-proofs-challenges-zcash/?utm_source=rss&utm_medium=rss&utm_campaign=alloc-init-proposes-shielded-bitcoin-with-zero-knowledge-proofs-challenges-zcash",
+        "source": "CoinTurk News",
+        "published_on": 1790819422
+      },
+      {
+        "title": "Bitget Hackers Shield 2,700 ZEC Worth $3.8M in Zcash's Ironwood Pool",
+        "brief": "Bitget attackers shielded about 2,700 ZEC, worth $3.8 million, into Zcash's Ironwood privacy pool, one in seven of the 18,900 ZEC stolen on…",
+        "url": "https://en.coinotag.com/bitget-hackers-shield-2700-zec-ironwood",
+        "source": "CoinOtag",
+        "published_on": 1790818372
+      },
+      {
+        "title": "Grayscale: XRP’s Near-6% Bitcoin Valuation Sets a Benchmark for Zcash",
+        "brief": "XRP is valued at nearly 6% of bitcoin’s market capitalization, a level Grayscale cites as context for how far rival digital currencies can g…",
+        "url": "https://news.bitcoin.com/market-updates/grayscale-xrps-near-6-bitcoin-valuation-sets-a-benchmark-for-zcash/",
+        "source": "Bitcoin.com",
+        "published_on": 1790818253
+      },
+      {
+        "title": "Can Midnight become bigger than Zcash? What the market is betting on",
+        "brief": "NIGHT surges 13%, to a three-month high of $0.033 amid renewed market attention.",
+        "url": "https://ambcrypto.com/can-midnight-become-bigger-than-zcash-what-the-market-is-betting-on/",
+        "source": "AMB Crypto",
+        "published_on": 1790805656
       },
       {
         "title": "Bitget Hacker Turns to Zcash Privacy Pool After Near Rejects $50M in Swaps",
@@ -360,280 +395,593 @@
         "url": "https://decrypt.co/379759/bitget-hacker-zcash-private-pool-near-thorchain",
         "source": "Decrypt",
         "published_on": 1790797564
-      },
-      {
-        "title": "Grayscale Splits ZCSH Just 36 Days After Its NYSE Debut",
-        "brief": "Grayscale completes a 3-for-1 ZCSH split just 36 days after its NYSE debut, resetting the share price after Zcash’s strong rally.",
-        "url": "https://www.crypto-news-flash.com/grayscale-splits-zcsh-just-36-days-after-its-nyse-debut/",
-        "source": "Crypto-News Flash",
-        "published_on": 1790774446
-      },
-      {
-        "title": "Valour Launches Zcash ETP as Privacy Activity Gains Momentum",
-        "brief": "Valour announced on September 29, 2026 the launch of the VALOUR ZCASH (ZEC) SEK ETP, giving investors access to Zcash through traditional br…",
-        "url": "https://usethebitcoin.com/news/valour-zcash-zec-etp-spot-exposure/",
-        "source": "UseTheBitcoin",
-        "published_on": 1790772236
-      },
-      {
-        "title": "ZachXBT：疑似朝鲜攻击者正将 Bitget 被盗资金转入 Zcash",
-        "brief": "ChainCatcher 消息，CoinBureau 援引链上调查人员 ZachXBT 的说法称，疑似朝鲜相关攻击者正通过 Zcash 对 Bitget 被盗资金进行屏蔽。约 2700 枚 ZEC、价值约 380 万美元的资金已开始转入 Zcash 的 Ironwood。 这些被…",
-        "url": "https://www.chaincatcher.com/article/2293250",
-        "source": "Chain Catcher",
-        "published_on": 1790765006
-      },
-      {
-        "title": "Bitcoin ETFs stretch $3.1B inflow streak as Ether funds turn red",
-        "brief": "Ether ETFs shed $3 million Tuesday after seven days of inflows, following an $8 million outflow from Zcash funds at the start of the week.",
-        "url": "https://cointelegraph.com/markets/bitcoin-etf-streak-9-day-ether-zcash-flip-red?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "published_on": 1790763148
       }
     ],
-    "FIGR_HELOC": [],
+    "FIGR_HELOC": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
     "HYPE": [
       {
-        "title": "Hyperliquid Will Unlock 3.7 Million Tokens Today. Will Price Suffer?",
-        "brief": "Hyperliquid Labs unstakes 3.75M HYPE worth $320M for its team, sold OTC to one institution. Here's what it means for price. The post Hyperli…",
-        "url": "https://beincrypto.com/hyperliquid-token-unlock-320-million-price-impact/",
-        "source": "BeInCrypto",
-        "published_on": 1790790180
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
       },
       {
-        "title": "House Oversight Chair Comer Probes Crypto.com, Hyperliquid & PredictIt Over Identity Checks",
-        "brief": "In a major development confirmed on SEPTEMBER 29, 2026, Confirmed announcement/filing for House Oversight Chair Comer Probes Crypto.com, Hyp…",
-        "url": "https://www.newsbtc.com/regulation/house-oversight-chair-comer-probes-crypto-com-hyperliquid-predictit-ov/",
-        "source": "NewsBTC",
-        "published_on": 1790787600
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
       },
       {
-        "title": "Lion Group Sells Solana and Bitcoin as HYPE Treasury Narrows",
-        "brief": "Lion Group sells its remaining SOL and part of its Bitcoin to expand its HYPE treasury, deepening its shift toward Hyperliquid.",
-        "url": "https://www.crypto-news-flash.com/lion-group-sells-solana-and-bitcoin-as-hype-treasury-narrows/",
-        "source": "Crypto-News Flash",
-        "published_on": 1790783136
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
       },
       {
-        "title": "Hyperliquid 联创：自托管与透明度才是链上金融真正优势",
-        "brief": "ChainCatcher 消息，据 The Block 报道，去中心化永续合约交易平台 Hyperliquid 联合创始人 Jeff Yan 在韩国区块链周 2026 的一场炉边对话中表示，全天候不间断交易并不是链上交易场所与传统交易所之间的本质区别。他指出，加密货币本来就无须遵…",
-        "url": "https://www.chaincatcher.com/article/2293294",
-        "source": "Chain Catcher",
-        "published_on": 1790775664
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
       },
       {
-        "title": "Hyperliquid Co-founder Jeff Yan says 24-hour clock is not onchain finance’s true differentiator",
-        "brief": "Hyperliquid (HYPE) Co-founder Jeff Yan said at Korea Blockchain Week that around-the-clock trading is not what sets onchain venues apart fro…",
-        "url": "https://www.theblock.co/news/defi/2026-09-30-hyperliquid-co-founder-jeff-yan-24-hour-clock-not-onchain-finances-true-differentiator-417286",
-        "source": "The Block",
-        "published_on": 1790775210
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
       },
       {
-        "title": "Comer presses Crypto.com, Hyperliquid and PredictIt on identity checks and suspicious trades",
-        "brief": "Comer’s expanded probe seeks records on government insiders, employee trades and suspicious activity referrals.",
-        "url": "https://www.theblock.co/news/regulation/2026-09-29-comer-presses-crypto-com-hyperliquid-predictit-identity-checks-suspicious-trades-417192",
-        "source": "The Block",
-        "published_on": 1790703637
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
       }
     ],
-    "DOGE": [
-      {
-        "title": "DogeOS 推出公共测试网，为 Dogecoin 引入 EVM 智能合约",
-        "brief": "ChainCatcher 消息，Dogecoin 应用层 DogeOS 于周三推出公共测试网，作为零知识 rollup 将 EVM 兼容智能合约引入 Dogecoin 网络，DOGE 作为交易手续费的原生代币。该项目旨在支持交易、借贷、稳定币、预测市场和游戏等应用，同时将状态结算…",
-        "url": "https://www.chaincatcher.com/article/2293336",
-        "source": "Chain Catcher",
-        "published_on": 1790792747
-      },
-      {
-        "title": "DogeOS launches testnet to bring EVM smart contracts to Dogecoin",
-        "brief": "DogeOS launched a public testnet for its zero-knowledge rollup bringing EVM smart contracts to Dogecoin, with DOGE used for gas fees.",
-        "url": "https://www.theblock.co/news/ecosystems/2026-09-30-dogeos-launches-public-testnet-dogecoin-zk-rollup-evm-417307",
-        "source": "The Block",
-        "published_on": 1790792637
-      },
-      {
-        "title": "Weekly Project Updates: Base App reverts to Coinbase Wallet, Bitwise liquidates Dogecoin ETF, Uniswap launches StablePair Hook, etc",
-        "brief": "1.",
-        "url": "https://wublock.substack.com/p/weekly-project-updates-base-app-reverts",
-        "source": "Wu Blockchain",
-        "published_on": 1789214312
-      },
-      {
-        "title": "Dogecoin Price Analysis: Is $DOGE’s $0.10 Level a Smart Entry or Market Trap?",
-        "brief": "Meme coins have always lived at the edge of speculation, and Dogecoin sits right at the center of that chaos. Every cycle, headlines rush to…",
-        "url": "https://insidebitcoins.com/news/dogecoin-price-analysis-is-doges-0-10-level-a-smart-entry-or-market-trap",
-        "source": "InsideBitcoins",
-        "published_on": 1769770210
-      },
-      {
-        "title": "Pudgy Penguins Price Prediction – Is PENGU the Next Dogecoin?",
-        "brief": "As 2026 unfolds, investors are once again turning their attention to meme coins in search of asymmetric upside. Rather than surveying an ent…",
-        "url": "https://insidebitcoins.com/news/pudgy-penguins-price-prediction-is-pengu-the-next-dogecoin",
-        "source": "InsideBitcoins",
-        "published_on": 1769596199
-      },
-      {
-        "title": "Dogecoin Price Prediction As BOJ Keeps Rates Unchanged",
-        "brief": "Dogecoin is on a weekly losing streak, down over 10% as it trades within a falling channel. The pattern signals a continued selling pressure…",
-        "url": "https://insidebitcoins.com/news/dogecoin-price-prediction-as-boj-keeps-rates-unchanged",
-        "source": "InsideBitcoins",
-        "published_on": 1769162944
-      }
-    ],
-    "LINK": [
-      {
-        "title": "Chainlink 推出 Fulcrum，支持跨链机构回购",
-        "brief": "ChainCatcher 消息，Chainlink 推出名为 Fulcrum 的跨链机构回购产品，用于支持机构回购市场的跨链融资。Chainlink 已在 Sibos 大会上与 DTCC 共同演示该融资工作流，展示 Fulcrum 在机构回购场景中的运行方式，其中 DTCC 为美…",
-        "url": "https://www.chaincatcher.com/article/2293338",
-        "source": "Chain Catcher",
-        "published_on": 1790793340
-      },
-      {
-        "title": "Chainlink Launches CCIP 2.0 With Custom Security Checks for Cross-Chain Assets",
-        "brief": "Chainlink launched CCIP 2.0 on September 28, adding issuer-configurable transfer checks, speed settings and compliance controls.",
-        "url": "https://cryptodaily.co.uk/2026/09/chainlink-ccip-2-custom-cross-chain-security",
-        "source": "Crypto Daily",
-        "published_on": 1790679669
-      },
-      {
-        "title": "Chainlink surges 6% after CCIP 2.0 launch, but $15 resistance tests LINK rally",
-        "brief": "Key takeaways LINK rose about 6% while much of the crypto market retreated, extending its reported 30-day gain to 30.3%. Chainlink’s CCIP 2.…",
-        "url": "https://coinjournal.net/news/chainlink-surges-6-after-ccip-2-0-launch-but-15-resistance-tests-link-rally/",
-        "source": "CoinJournal",
-        "published_on": 1790658243
-      },
-      {
-        "title": "Months After the $292M Kelp Hack, Chainlink Lets Institutions Add Their Own Bridge Checks",
-        "brief": "Chainlink's CCIP 2.0 lets banks run their own security checks on cross-chain transfers, five months after a rival's setup lost $292 million…",
-        "url": "https://decrypt.co/379463/chainlink-institutions-add-bridge-checks-kelp-hack",
-        "source": "Decrypt",
-        "published_on": 1790617874
-      },
-      {
-        "title": "Chainlink CCIP 2.0 Gives Institutions Their Own Cross-Chain Checkpoint",
-        "brief": "Chainlink launches CCIP 2.0 with custom verification, compliance controls and flexible finality for institutional assets across blockchains.",
-        "url": "https://www.crypto-news-flash.com/chainlink-ccip-2-0-gives-institutions-their-own-cross-chain-checkpoint/",
-        "source": "Crypto-News Flash",
-        "published_on": 1790604349
-      },
-      {
-        "title": "A US state just published its security criteria for cross-chain infrastructure, and LayerZero failed them",
-        "brief": "Wyoming's Stable Token Commission moved FRNT to Chainlink CCIP and published the security criteria it expects cross-chain providers to meet.…",
-        "url": "https://insidebitcoins.com/news/wyoming-frnt-layerzero-chainlink-ccip-security-criteria",
-        "source": "InsideBitcoins",
-        "published_on": 1789441214
-      }
-    ],
+    "DOGE": [],
+    "LINK": [],
     "XMR": [],
     "WBT": [],
-    "USDS": [
-      {
-        "title": "Sui Dollar (USDsui) Now Live on Sui, Bringing a Native Digital Dollar to Scalable Finance and Global Payments",
-        "brief": "Stripe-grade issuance meets a native Sui digital dollar designed to be GENIUS-compliant, ensuring compliance-ready rails for institutions an…",
-        "url": "https://www.sui.io/blog/sui-dollar-launch-bridge",
-        "source": "Sui Blog",
-        "published_on": 1772632791
-      },
-      {
-        "title": "Sui Unveils USDsui, a Native Stablecoin for the Sui Ecosystem, Issued by Bridge, a Stripe Company",
-        "brief": "USDsui, launching this year, brings a fully interoperable stablecoin designed to serve as a powerful, GENIUS-ready, multi-purpose digital do…",
-        "url": "https://www.sui.io/blog/sui-unveils-usdsui-native-stablecoin",
-        "source": "Sui Blog",
-        "published_on": 1762956005
-      }
-    ],
+    "USDS": [],
     "ADA": [],
-    "RAIN": [
-      {
-        "title": "Texas Bookkeeper Accused of Draining Over $1,200,000 From Elderly Couple in Bank Fraud Scheme",
-        "brief": "A Texas bookkeeper is accused of draining at least $1.2 million from an elderly couple’s finances through forged checks and unauthorized ban…",
-        "url": "https://dailyhodl.com/2026/09/30/texas-bookkeeper-accused-of-draining-over-1200000-from-elderly-couple-in-bank-fraud-scheme/",
-        "source": "The Daily Hodl",
-        "published_on": 1790801122
-      },
-      {
-        "title": "Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained",
-        "brief": "It is unclear how long the recovery can be sustained given that it relies on the U.S. military protecting tankers in the Persian Gulf.",
-        "url": "https://www.cnbc.com/2026/09/30/iran-war-strait-hormuz-gulf-oil-fuel.html",
-        "source": "CNBC Crypto",
-        "published_on": 1790799377
-      },
-      {
-        "title": "South Carolina Man Admits To Draining $1,600,000 From New York Medical Supplier",
-        "brief": "A South Carolina man has been sentenced to 30 months in prison after embezzling about $1.6 million from a New York medical supplier by disgu…",
-        "url": "https://dailyhodl.com/2026/09/30/south-carolina-man-admits-to-draining-1600000-from-new-york-medical-supplier/",
-        "source": "The Daily Hodl",
-        "published_on": 1790797566
-      },
-      {
-        "title": "Police \"Islamophobia\" Training Equates Farage's Words With Hate Crime",
-        "brief": "&lt;span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\"&gt;Police \"Islamophobia\" Training Equ…",
-        "url": "https://www.zerohedge.com/geopolitical/police-islamophobia-training-equates-farages-wrods-hate-crime",
-        "source": "ZeroHedge",
-        "published_on": 1790797238
-      },
-      {
-        "title": "Freedom is always hard-fought. In 1331, grinding your own grain was a privilege.",
-        "brief": "Comments",
-        "url": "https://stacker.news/items/1585362",
-        "source": "Stacker News",
-        "published_on": 1790797166
-      },
-      {
-        "title": "MI5 accuses Chinese academic institute of spying on UK AI research",
-        "brief": "The public accusation by MI5 could strain UK-China academic collaborations, prompting universities to reassess foreign research partnerships…",
-        "url": "https://cryptobriefing.com/mi5-accuses-chinese-institute-spying-uk-ai/",
-        "source": "Crypto Briefing",
-        "published_on": 1790796250
-      }
-    ],
+    "RAIN": [],
     "LEO": [],
     "XLM": [],
-    "NEAR": [
+    "NEAR": [],
+    "BCH": [],
+    "UNI": [],
+    "LTC": [],
+    "CC": [
       {
-        "title": "NEAR Protocol price prediction 2026-2032: Is NEAR a good investment?",
-        "brief": "Key takeaways: The rising bearish sentiment within NEAR Protocol’s community is bringing a cautious approach among traders. As NEAR continue…",
-        "url": "https://www.cryptopolitan.com/near-price-prediction/",
-        "source": "Cryptopolitan",
-        "published_on": 1790791519
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
       },
       {
-        "title": "Grayscale Files for Near Protocol ETF, Expanding Push Beyond Bitcoin and Ether",
-        "brief": "Grayscale Investments has officially submitted an S-1 registration statement to the US Securities and Exchange Commission (SEC) for a ground…",
-        "url": "https://insidebitcoins.com/news/grayscale-files-for-near-protocol-etf-expanding-push-beyond-bitcoin-and-ether",
-        "source": "InsideBitcoins",
-        "published_on": 1768982517
-      }
-    ],
-    "BCH": [
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
       {
-        "title": "CME Group Plans Bitcoin Cash and Uniswap Futures Launch for October 19",
-        "brief": "CME Group plans Bitcoin Cash and Uniswap futures for October 19, with standard and Micro contracts proposed pending regulatory review.",
-        "url": "https://cryptodaily.co.uk/2026/09/cme-bitcoin-cash-uniswap-futures-october-19",
-        "source": "Crypto Daily",
-        "published_on": 1790253065
-      }
-    ],
-    "UNI": [],
-    "LTC": [
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
       {
-        "title": "Litecoin Sportsbooks: Where LTC Clears Quickest at the Cashier",
-        "brief": "Litecoin deposits ride a chain producing a block every two and a half minutes, and people assume that settles how long a deposit takes. The…",
-        "url": "https://cryptodaily.co.uk/2026/09/litecoin-sportsbooks-where-ltc-clears-quickest-at-the-cashier",
-        "source": "Crypto Daily",
-        "published_on": 1789812509
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
       }
     ],
-    "CC": [],
-    "USDE": [],
-    "AVAX": [],
-    "SUI": [],
-    "HBAR": [],
-    "DAI": [],
-    "USD1": [],
-    "GRAM": [],
-    "QNT": [],
-    "BTW": [],
-    "TAO": [],
+    "USDE": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "AVAX": [
+      {
+        "title": "HYPE Tops Sunrise's Record-Breaking $977.6M Week, Outpacing Every Tokenized Stock",
+        "brief": "Sunrise, a platform built around trading tokenized stocks just posted its biggest week ever, and the top spot didn't go to a stock at all. I…",
+        "url": "https://nulltx.com/hype-tops-sunrises-record-breaking-9776m-week-outpacing-every-tokenized-stock",
+        "source": "NullTx",
+        "published_on": 1790770283
+      },
+      {
+        "title": "Goldman Sachs brings Treasury fund to Avalanche via Lynq, AVAX targets $12",
+        "brief": "🚨 Goldman Sachs moves its Treasury fund to Avalanche via Lynq. 💼 Institutions can now access real-world asset products directly on $AVAX i…",
+        "url": "https://en.coin-turk.com/goldman-sachs-brings-treasury-fund-to-avalanche-via-lynq-avax-targets-12/?utm_source=rss&utm_medium=rss&utm_campaign=goldman-sachs-brings-treasury-fund-to-avalanche-via-lynq-avax-targets-12",
+        "source": "CoinTurk News",
+        "published_on": 1790748690
+      },
+      {
+        "title": "Goldman Sachs Puts $100B Treasury Fund FTIXX on Avalanche (AVAX) via Lynq",
+        "brief": "Goldman Sachs opens its $100B FTIXX Treasury fund on Lynq, a permissioned Avalanche (AVAX) L1, as weekly tokenized equity inflows hit $131.2…",
+        "url": "https://en.coinotag.com/goldman-sachs-ftixx-100b-treasury-fund-avalanche-avax-lynq",
+        "source": "CoinOtag",
+        "published_on": 1790705658
+      },
+      {
+        "title": "Here’s what happened in crypto today",
+        "brief": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, We…",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "Cointelegraph",
+        "published_on": 1790687284
+      },
+      {
+        "title": "Altcoins To Buy Now: XRP Faces 20% Drop Risk As AVAX And NEAR Show Strength",
+        "brief": "The post Altcoins To Buy Now: XRP Faces 20% Drop Risk As AVAX And NEAR Show Strength appeared first on Coinpedia Fintech News Bitcoin may no…",
+        "url": "https://coinpedia.org/news/altcoins-to-buy-now-xrp-faces-20-drop-risk-as-avax-and-near-show-strength/",
+        "source": "coinpedia",
+        "published_on": 1790684313
+      },
+      {
+        "title": "REX, Osprey Set Oct. 23 Target for Staked SEI ETF as Filings Advance",
+        "brief": "REX Shares and Osprey Funds have set Oct. 23 as the target effective date for a proposed exchange-traded fund offering exposure to Sei’s SEI…",
+        "url": "https://coinedition.com/crypto-live-news/rex-osprey-set-oct-23-target-for-staked-sei-etf-as-filings/",
+        "source": "Coin Edition",
+        "published_on": 1790614081
+      }
+    ],
+    "SUI": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "DAI": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "HBAR": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "USD1": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "QNT": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "GRAM": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "BTW": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "TAO": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
     "SHIB": [],
     "XAUT": [],
     "CRO": [],
@@ -641,17 +989,17 @@
     "PYUSD": [],
     "PUMP": [],
     "ENA": [],
-    "RLUSD": [],
     "OKB": [],
     "AAVE": [],
-    "USYC": [],
     "ONDO": [],
+    "USYC": [],
+    "RLUSD": [],
     "M": [],
     "MNT": [],
     "USDY": [],
     "BUIDL": [],
-    "DOT": [],
     "WLD": [],
+    "DOT": [],
     "ASTER": [],
     "ICP": [],
     "SKY": [],
@@ -667,8 +1015,8 @@
     "BGB": [],
     "ARB": [],
     "USDF": [],
-    "VVV": [],
     "BFUSD": [],
+    "VVV": [],
     "KAS": [],
     "POL": [],
     "USDGO": [],
@@ -682,22 +1030,237 @@
     "BCAP": [],
     "LIT": [],
     "ATOM": [],
-    "CAKE": [],
     "FIL": [],
+    "CAKE": [],
     "NEXO": [],
     "AERO": [],
     "DASH": [],
-    "VET": [],
-    "ETHFI": [],
-    "USTB": [],
     "STABLE": [],
+    "VET": [],
+    "USTB": [],
+    "ETHFI": [],
     "INJ": [],
     "AKE": [],
-    "GHO": [],
-    "EUTBL": [],
-    "XDC": [],
-    "APT": [],
-    "STX": [],
-    "FLR": []
+    "GHO": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "STX": [
+      {
+        "title": "Arizona court vacates sentence over AI-generated victim video",
+        "brief": "An Arizona appeals court has vacated the 10.5-year sentence of Gabriel Horcasitas, who was convicted of manslaughter in a 2021 road-rage sho…",
+        "url": "https://www.cryptopolitan.com/arizona-court-rejects-ai-victim-video-fueling-demand-for-deepfake-detection/",
+        "source": "Cryptopolitan",
+        "published_on": 1790826295
+      },
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      }
+    ],
+    "XDC": [
+      {
+        "title": "Arizona court vacates sentence over AI-generated victim video",
+        "brief": "An Arizona appeals court has vacated the 10.5-year sentence of Gabriel Horcasitas, who was convicted of manslaughter in a 2021 road-rage sho…",
+        "url": "https://www.cryptopolitan.com/arizona-court-rejects-ai-victim-video-fueling-demand-for-deepfake-detection/",
+        "source": "Cryptopolitan",
+        "published_on": 1790826295
+      },
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      }
+    ],
+    "EUTBL": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "APT": [
+      {
+        "title": "How Strategy keeps STRC near $100 while MSTR stock swings",
+        "brief": "Strategy's $9.3B preferred stock is built for calm. The common stock is down 9%.",
+        "url": "https://ambcrypto.com/how-strategy-keeps-strc-near-100-while-mstr-stock-swings/",
+        "source": "AMB Crypto",
+        "published_on": 1790825432
+      },
+      {
+        "title": "10 Years After Sibos Shut Ripple out, Swell Draws 1,500 Finance Leaders",
+        "brief": "XRP ETFs, stablecoin issuance, and automated payments are among the financial questions on Swell’s expanded program. Ripple’s Sept. 29 annou…",
+        "url": "https://news.bitcoin.com/crypto-news/10-years-after-sibos-shut-ripple-out-swell-draws-1500-finance-leaders/",
+        "source": "Bitcoin.com",
+        "published_on": 1790825405
+      },
+      {
+        "title": "Hyperliquid (HYPE) Founder Jeff Yan Says 24/7 Trading Is No Moat, Points to $5.4T On-Chain Record",
+        "brief": "Hyperliquid (HYPE) co-founder Jeff Yan says self-custody and transparency, not 24/7 trading, will define DeFi as Robinhood, Nasdaq and NYSE…",
+        "url": "https://en.coinotag.com/hyperliquid-hype-jeff-yan-24-7-trading-no-moat-5-4t-record",
+        "source": "CoinOtag",
+        "published_on": 1790825272
+      },
+      {
+        "title": "Joseph Lubin-Linked Wallet Moves $356.2 Million in Ethereum (ETH) to New Address",
+        "brief": "A wallet linked to Ethereum co-founder Joseph Lubin moved 133,298 ETH worth $356.2 million to a fresh address, with the wallet’s owner still…",
+        "url": "https://en.coinotag.com/joseph-lubin-linked-wallet-moves-356m-ethereum-eth",
+        "source": "CoinOtag",
+        "published_on": 1790824560
+      },
+      {
+        "title": "Stablecoin card spending hits record $789M in September – Report",
+        "brief": "USDC is winning the stablecoin card war but USDT still rules overall.",
+        "url": "https://ambcrypto.com/stablecoin-card-spending-hits-record-789m-in-september-report/",
+        "source": "AMB Crypto",
+        "published_on": 1790823643
+      },
+      {
+        "title": "ESMA proposes regulating DeFi access points under MiCA",
+        "brief": "The European Union’s markets watchdog wants to regulate the gateways into decentralized finance rather than the code itself. In its MiCA rev…",
+        "url": "https://www.cryptopolitan.com/esma-proposes-licensing-the-gateways-into-defi-not-the-protocols-themselves/",
+        "source": "Cryptopolitan",
+        "published_on": 1790823447
+      }
+    ],
+    "NIGHT": []
   }
 }
