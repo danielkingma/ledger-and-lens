@@ -1,57 +1,71 @@
 {
-  "generated_at": "2026-10-03T11:01:34.413Z",
+  "generated_at": "2026-10-03T15:38:18.000Z",
   "coins": {
     "BTC": [
       {
-        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 634,131 txs today",
-        "brief": "BTC price: $84,571.39",
+        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 588,209 txs today",
+        "brief": "BTC price: $84,889.67",
         "url": "https://www.blockchain.com/explorer/charts",
         "source": "Blockchain.com",
-        "published_on": 1791025160
+        "published_on": 1791041540
       },
       {
-        "title": "How Come $40,000 Still Possible? Bitcoin Crash Scenario",
-        "brief": "Bitcoin hit a new high 21-September and has been trying within this new zone since. 12 days above resistance. Immediately this says, \"the gr…",
-        "url": "https://www.tradingview.com/chart/BTCUSDT/jqdfOqhq-How-Come-40-000-Still-Possible-Bitcoin-Crash-Scenario/",
+        "title": "Coinbase 首席商务官：正与六家全球系统重要性银行顾问合作，增加比特币敞口",
+        "brief": "ChainCatcher 消息，Bitcoin Magazine 报道，加密货币交易平台 Coinbase 首席商务官表示，公司正与六家全球系统重要性银行的顾问合作，以增加对比特币的敞口。Coinbase 首席商务官：公司将此事视为扩大市场，并为个人提供更多获取比特币的途径。全球…",
+        "url": "https://www.chaincatcher.com/article/2293948",
+        "source": "Chain Catcher",
+        "published_on": 1791039328
+      },
+      {
+        "title": "Bitcoin soon 12 k",
+        "brief": "Pls carefully Soon bitcoin crash 12k Liquid Big Not working trade ⚠️⚠️🚷⚠️🚷🚷🚷📵🚸⚠️⚠️⚠️⚠️",
+        "url": "https://www.tradingview.com/chart/BTCUSDT/VKnVrvqL-Bitcoin-soon-12-k/",
         "source": "TradingView Crypto Ideas",
-        "published_on": 1791025136
+        "published_on": 1791038901
       },
       {
-        "title": "BTC/USD 45M — Reaction From Support With Higher-Zone Potential",
-        "brief": "Bitcoin is currently trading around 84,573 on the 45-minute chart. The structure shows a clear reaction from the lower support area around 8…",
-        "url": "https://www.tradingview.com/chart/BTCUSD/hDNiAW25-BTC-USD-45M-Reaction-From-Support-With-Higher-Zone-Potential/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791022318
-      },
-      {
-        "title": "#BITCOIN CRITICAL SUPPORT WARNING – WATCH CLOSELY!",
-        "brief": "CRYPTOCAP:BTC (BTC/USD) is currently hovering at a crucial ascending trendline support on the 4-Hour chart near $84,590! Price action is sho…",
-        "url": "https://www.tradingview.com/chart/BTCUSD/LKGn3RUV-BITCOIN-CRITICAL-SUPPORT-WARNING-WATCH-CLOSELY/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791020495
-      },
-      {
-        "title": "Major Bull Cathie Wood Weighs In on Bitcoin and Gold – “Positive for BTC”",
-        "brief": "ARK Invest CEO Cathie Wood made noteworthy statements about Bitcoin on the latest “In The Know” program, where she discussed billionaire inv…",
-        "url": "https://www.bitget.com/news/detail/12560605908237",
+        "title": "Citi Turns More Bullish on Bitcoin and Strategy: Here Are the New Targets",
+        "brief": "Citi has had a change of heart in terms of price prediction for BTC and Strategy following the broader market’s recovery that began in mid-A…",
+        "url": "https://www.bitget.com/news/detail/12560605908390",
         "source": "Bitget Blog",
-        "published_on": 1791020362
+        "published_on": 1791037650
       },
       {
-        "title": "Bitcoin Price Breaks $86K as Weak Jobs Data Fuels Market Rally",
-        "brief": "Bitcoin climbed above $86,000 after breaking through heavy selling near $85,000. September payrolls rose just 29,000 as unemployment increas…",
-        "url": "https://www.bitget.com/news/detail/12560605908236",
-        "source": "Bitget Blog",
-        "published_on": 1791020205
+        "title": "BITCOIN - KEY SHORT-TERM SUPPORT AND LIQUIDITY",
+        "brief": "1. Bitcoin may be forming a reaccumulation range , with potential liquidity resting above the equal highs. 2. Key support: $80,000 3. Just b…",
+        "url": "https://www.tradingview.com/chart/BTCUSDT/kiPYKef0-BITCOIN-KEY-SHORT-TERM-SUPPORT-AND-LIQUIDITY/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791033402
+      },
+      {
+        "title": "ZOLAK bar opened a Vilnius accept only Bitcoin Lightning. No cards, no cash",
+        "brief": "Comments",
+        "url": "https://stacker.news/items/1587573",
+        "source": "Stacker News",
+        "published_on": 1791032613
       }
     ],
     "ETH": [
       {
-        "title": "⛽ ETH Gas: 🐢 0.068492309 | 🚶 0.068492318 | 🚀 0.06925706 Gwei",
-        "brief": "Current Ethereum gas prices. Fast: 0.06925706 Gwei, Standard: 0.068492318 Gwei, Safe: 0.068492309 Gwei",
+        "title": "⛽ ETH Gas: 🐢 0.085156412 | 🚶 0.085338786 | 🚀 0.135156412 Gwei",
+        "brief": "Current Ethereum gas prices. Fast: 0.135156412 Gwei, Standard: 0.085338786 Gwei, Safe: 0.085156412 Gwei",
         "url": "https://etherscan.io/gastracker",
         "source": "Etherscan",
-        "published_on": 1791025211
+        "published_on": 1791041594
+      },
+      {
+        "title": "Ethereum Bulls exhausted?",
+        "brief": "After sustained up-move form past 1 month, price is been consolidating in a sideways direction and despite multiple attempts of breakout, it…",
+        "url": "https://www.tradingview.com/chart/ETHUSD/NOcULcjd-Ethereum-Bulls-exhausted/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791034005
+      },
+      {
+        "title": "Weekly Project Updates: Ethereum Launches zkAPI, Base Rolls Out Cobalt Upgrade, Balancer and Blast to Shut Down, etc",
+        "brief": "1.",
+        "url": "https://wublock.substack.com/p/weekly-project-updates-ethereum-launches",
+        "source": "Wu Blockchain",
+        "published_on": 1791032277
       },
       {
         "title": "Arbitrum pauses new Stylus activations over AI-assisted attack risks",
@@ -68,25 +82,11 @@
         "published_on": 1791014497
       },
       {
-        "title": "Ethereum Is Worth $327B | Where’s the Revenue?",
-        "brief": "Crypto investors spend a lot of time talking about adoption, users, transaction volume and total value locked..But there is another question…",
-        "url": "https://www.tradingview.com/chart/ETHUSDT/zg753lED-Ethereum-Is-Worth-327B-Where-s-the-Revenue/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791012403
-      },
-      {
         "title": "SEC Approves 3x Bitcoin and Ether ETFs in Major Expansion of Crypto Market Access",
         "brief": "The U.S. Securities and Exchange Commission (SEC) has approved the first-ever 3x leveraged Bitcoin and Ethereum ETFs for listing and trading…",
         "url": "https://thenewscrypto.com/sec-approves-3x-bitcoin-and-ether-etfs-in-major-expansion-of-crypto-market-access/",
         "source": "TheNewsCrypto",
         "published_on": 1791010252
-      },
-      {
-        "title": "Massive Ethereum Awakening: Why 580M in Dormant ETH Just Moved Without Crashing Price",
-        "brief": "OG Ethereum investors woke up a few days ago by completing the biggest move of long-dormant coins since early June. However, the actual numb…",
-        "url": "https://www.bitget.com/news/detail/12560605908136",
-        "source": "Bitget Blog",
-        "published_on": 1791009942
       }
     ],
     "USDT": [
@@ -112,13 +112,6 @@
         "published_on": 1790951448
       },
       {
-        "title": "USDT Is Returning to Bitcoin After 10 Years. Should Users Care?",
-        "brief": "USDT is returning to Bitcoin with private payments. Here is what changes for users, and whether Tether can still freeze it. The post USDT Is…",
-        "url": "https://beincrypto.com/usdt-returning-bitcoin-rgb-utexo/",
-        "source": "BeInCrypto",
-        "published_on": 1790947559
-      },
-      {
         "title": "Bitcoin, ETF holders tether hope to Uptober 2026 to return into gains after 10/10 crash",
         "brief": "Bitcoin rallied toward the $87,000 level on Friday, October 2, 2026, riding a hot streak of inflows into US spot BTC ETFs. With US spot Bitc…",
         "url": "https://www.cryptopolitan.com/bitcoin-tests-uptober-after-10-10-crash/",
@@ -126,14 +119,28 @@
         "published_on": 1790943467
       },
       {
-        "title": "Tether 旗下 USDT 将于本月重返比特币网络",
-        "brief": "ChainCatcher 消息，据 CoinDesk 报道，Tether 的 USDT 将于本月重返比特币网络，通过 Tether 支持的基础设施项目 Utexo 发行。 USDT 市值近 1900 亿美元，是全球最大稳定币，2014 年最初在比特币 Omni 协议上诞生，此后以…",
-        "url": "https://www.chaincatcher.com/article/2293695",
-        "source": "Chain Catcher",
-        "published_on": 1790929874
+        "title": "Tether Says It Helped Freeze $550M in Iran-Linked USDT as Senate Scrutiny Intensifies",
+        "brief": "Tether says it froze nearly $550 million in Iran-linked USDT in 2026 as Democratic Senate staff examine stablecoin use and controls.",
+        "url": "https://cryptodaily.co.uk/2026/09/tether-550m-iran-linked-usdt-freezes-senate-scrutiny",
+        "source": "Crypto Daily",
+        "published_on": 1790690468
+      },
+      {
+        "title": "Tether Launches USAT Stablecoin Under U.S. GENIUS Act Framework",
+        "brief": "Tether has officially launched USAT, a new U.S. dollar–backed stablecoin designed to operate under the GENIUS Act, the federal stablecoin fr…",
+        "url": "https://insidebitcoins.com/news/tether-launches-usat-stablecoin-under-u-s-genius-act-framework",
+        "source": "InsideBitcoins",
+        "published_on": 1769569061
       }
     ],
     "BNB": [
+      {
+        "title": "BAS / USDT — Deep Fib Retrace Into a Decision Zone",
+        "brief": "BAS / USDT — Deep Fib Retrace Into a Decision Zone (Cautious Short Lean) Educational market analysis — not financial advice. Do your own res…",
+        "url": "https://www.tradingview.com/chart/BASUSDT.P/yrZd0Jpe-BAS-USDT-Deep-Fib-Retrace-Into-a-Decision-Zone/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791038066
+      },
       {
         "title": "Bitcoin holds near $84,000, Ethereum moves towards $2,700 as buyers remain active",
         "brief": "In the past 24 hours, Bitcoin and Ethereum were down 1.6% and 1.5% respectively. Among the major altcoins, BNB, Dogecoin, Solana, Hyperliqui…",
@@ -168,60 +175,60 @@
         "url": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum",
         "source": "Stripe Blog (Crypto)",
         "published_on": 1790553600
-      },
-      {
-        "title": "NOWPayments Releases Cross-Chain Payout Data Revealing Key Performance Benchmarks Across TRON, BNB Chain, and Solana",
-        "brief": "NOWPayments Releases Cross-Chain Payout Data Revealing Key Performance Benchmarks Across TRON, BNB Chain, and Solana",
-        "url": "https://cryptodaily.co.uk/2026/09/nowpayments-releases-cross-chain-payout-data-revealing-key-performance-benchmarks-across-tron-bnb-chain-and-solana",
-        "source": "Crypto Daily",
-        "published_on": 1790005684
       }
     ],
     "XRP": [
       {
-        "title": "Analyst Confirms XRP Breakout Path",
-        "brief": "XRP is approaching a decisive point on the four-hour chart as its price movement continues to tighten inside a narrowing triangle. Crypto an…",
-        "url": "https://www.bitget.com/news/detail/12560605908257",
+        "title": "Man Behind the XRP Lawsuit Could Get a White House AI Role Soon",
+        "brief": "President Trump is weighing Jay Clayton, the former SEC chairman who sued Ripple, for the role of White House AI czar. That possibility has…",
+        "url": "https://beincrypto.com/jay-clayton-ai-czar-ripple-lawsuit/",
+        "source": "BeInCrypto",
+        "published_on": 1791040827
+      },
+      {
+        "title": "Flare, Doppler Bringing Direct FXRP Vault Access to XRP Holders",
+        "brief": "Flare and Doppler are partnering on an integration to bring direct FXRP vault access to XRP holders through Doppler’s platform. The collabor…",
+        "url": "https://news.bitcoin.com/featured/flare-doppler-bringing-direct-fxrp-vault-access-to-xrp-holders/",
+        "source": "Bitcoin.com News",
+        "published_on": 1791040669
+      },
+      {
+        "title": "Stellar Unlocks New DeFi Milestone at Over $273 Million",
+        "brief": "Stellar TVL hits all-time high Stellar active addresses near 100,000 milestone As Stellar continues to prove itself as a fast-growing crypto…",
+        "url": "https://www.bitget.com/news/detail/12560605908369",
         "source": "Bitget Blog",
-        "published_on": 1791021981
+        "published_on": 1791035121
       },
       {
-        "title": "Four Korean Banks Join Ripple on the XRP Seoul Stage",
-        "brief": "Four South Korean lenders shared one panel with Ripple at XRP Seoul 2026 earlier today, in front of a crowd of more than 5,000 people. One P…",
-        "url": "https://news.bitcoin.com/crypto-news/xrp-seoul-korean-banks-ripple-panel/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791019847
+        "title": "Analyst Says This XRP Chart Caught My Eye. Here’s why",
+        "brief": "XRP could move toward $4 before potentially advancing toward $8 if the long-term Elliott Wave structure in Carolina’s latest chart develops…",
+        "url": "https://www.bitget.com/news/detail/12560605908343",
+        "source": "Bitget Blog",
+        "published_on": 1791032777
       },
       {
-        "title": "XRP ETF Investors Are Now $133M Under Water on Their Bets",
-        "brief": "Spot XRP exchange-traded funds (ETFs) logged a $3.28 million net outflow on Oct. 2, all from Bitwise, while their combined assets dropped ab…",
-        "url": "https://news.bitcoin.com/market-updates/xrp-etf-outflow-bitwise-3-28m-assets-drop-37m/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791014402
+        "title": "Bitget Hack Update: XRP, Bitcoin, and North Korean Link",
+        "brief": "Chainalysis has attributed the $387 million Bitget theft to North Korean hackers. The firm said the attack lifts the value of crypto stolen…",
+        "url": "https://beincrypto.com/bitget-hack-north-korea-xrp-bitcoin/",
+        "source": "BeInCrypto",
+        "published_on": 1791032400
       },
       {
-        "title": "XRP Asia launches to push XRP Ledger adoption across the region",
-        "brief": "XRP Asia's launch could accelerate institutional blockchain adoption in Asia, highlighting the region's growing influence in the crypto spac…",
-        "url": "https://cryptobriefing.com/xrp-asia-launches-xrp-ledger-adoption/",
-        "source": "Crypto Briefing",
-        "published_on": 1791001263
-      },
-      {
-        "title": "Evernorth’s Nasdaq XRP treasury is approved, but its real buying power isn’t the $300 million expected",
-        "brief": "Roughly $88.5 million in closing-linked gross sources remains conditional, with expenses and spending choices deciding additional XRP demand…",
-        "url": "https://cryptoslate.com/evernorths-nasdaq-xrp-treasury-is-approved-but-its-real-buying-power-isnt-the-300-million-expected/",
-        "source": "CryptoSlate",
-        "published_on": 1790963425
-      },
-      {
-        "title": "Doctor Profit Explains Why He Decided to Exit XRP",
-        "brief": "Elite trader Doctor Profit has explained why he sold XRP and other altcoins in his portfolio. He believes the market has become too risky be…",
-        "url": "https://thecryptobasic.com/2026/10/02/doctor-profit-explains-why-he-decided-to-exit-xrp/",
+        "title": "XRP Whales Buy 1.6B Tokens in 2 Weeks, as Their Total Balance Hits New Record",
+        "brief": "XRP whales have procured over 1.6 billion tokens over the past two weeks, as the market shows early signs of a recovery. After dropping to a…",
+        "url": "https://thecryptobasic.com/2026/10/03/xrp-whales-buy-1-6b-tokens-in-2-weeks-as-their-total-balance-hits-new-record/",
         "source": "TheCryptoBasic",
-        "published_on": 1790953382
+        "published_on": 1791032357
       }
     ],
     "USDC": [
+      {
+        "title": "ZECUSDC",
+        "brief": "After the lower line of the channel was breached, the currency began moving within another, smaller channel. (I do not promise to abide by t…",
+        "url": "https://www.tradingview.com/chart/ZECUSDC/bsjzrRpm-ZECUSDC/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791038543
+      },
       {
         "title": "Hyperliquid receives $15M USDC for HYPE token buybacks",
         "brief": "The financial backing for HYPE buybacks may boost investor confidence, potentially driving long-term value and market interest in the token.…",
@@ -256,16 +263,16 @@
         "url": "https://www.financemagnates.com/cryptocurrency/true-markets-launches-tokenized-equity-trading-starting-with-nvidia/",
         "source": "Finance Magnates Crypto",
         "published_on": 1790945244
-      },
-      {
-        "title": "USDCx on Aleo Goes Live on Ledger With Private Stablecoin Transactions",
-        "brief": "Aleo and Ledger announced on October 1, 2026 that USDCx on Aleo is now supported in the Ledger Wallet app, bringing a privacy-preserving sta…",
-        "url": "https://usethebitcoin.com/news/aleo-usdcx-ledger-private-stablecoin/",
-        "source": "UseTheBitcoin",
-        "published_on": 1790934534
       }
     ],
     "SOL": [
+      {
+        "title": "代币发行平台 Stonk 推出社区币，奖励 33% 分给社区持有者",
+        "brief": "ChainCatcher 消息，Solana 代币发行平台 Stonk 推出「社区币」。持有社区币现可从与之配对的新 Meme 中获得持有者奖励。在社区模式下推出的每个 Meme 将其持有者奖励的 33% 分享给符合条件的社区持有者，其余 67% 归该 Meme 自身持有者。首批…",
+        "url": "https://www.chaincatcher.com/article/2293921",
+        "source": "Chain Catcher",
+        "published_on": 1791029429
+      },
       {
         "title": "Bitcoin holds near $84,000, Ethereum moves towards $2,700 as buyers remain active",
         "brief": "In the past 24 hours, Bitcoin and Ethereum were down 1.6% and 1.5% respectively. Among the major altcoins, BNB, Dogecoin, Solana, Hyperliqui…",
@@ -281,6 +288,13 @@
         "published_on": 1791008105
       },
       {
+        "title": "Solana x AI: The Democratization Layer",
+        "brief": "Solana can give AI agents permissionless access to compute, training, identity, memory, and machine-native payments.",
+        "url": "https://solana.com/news/solana-ai-the-democratization-layer",
+        "source": "Solana News",
+        "published_on": 1790969400
+      },
+      {
         "title": "Solana's Record ETF Inflows Put $125 Back in Play as SOL Defends $118",
         "brief": "Solana ETFs drew a record $188 million in weekly inflows as SOL held near $120.29. Here are the $118 support and $125 breakout tests.",
         "url": "https://cryptodaily.co.uk/2026/10/solana-price-prediction-etf-inflows-sol-125",
@@ -293,68 +307,61 @@
         "url": "https://unchainedcrypto.com/solana-perps-exchange-drift-opens-recovery-token-claims-for-users-who-lost-over-290-million/",
         "source": "Unchained Crypto",
         "published_on": 1790934090
-      },
-      {
-        "title": "Fiserv Puts Solana Under A Live Bank Stablecoin As Roughrider Coin Goes Into Production",
-        "brief": "TL;DR Fiserv’s digital-asset platform is live, with Bank of North Dakota’s Roughrider Coin as its first production use case. Roughrider Coin…",
-        "url": "https://bitcoinist.com/fiserv-roughrider-coin-solana-bank-settlement/",
-        "source": "Bitcoinist",
-        "published_on": 1790930521
-      },
-      {
-        "title": "QNT Reaches Solana Liquidity Through Sunrise And Raydium",
-        "brief": "TL;DR Quant’s QNT token is now available on Solana through Sunrise infrastructure, with trading available through Raydium. The expansion giv…",
-        "url": "https://www.newsbtc.com/altcoins/qnt-solana-raydium-sunrise-listing/",
-        "source": "NewsBTC",
-        "published_on": 1790930489
       }
     ],
     "TRX": [
       {
-        "title": "#TRUTHUSDT",
-        "brief": "We can identify a strong, distinct yellow pattern, and a breakout from the top of such patterns usually yields lucrative results; therefore,…",
-        "url": "https://www.tradingview.com/chart/TRUTHUSDT/vsW3YEN5-TRUTHUSDT/",
+        "title": "KSM/USDT: Bullish Consolidation Breakout Above Local Resistance",
+        "brief": "KSM/USDT has broken out of a multi-day consolidation range on the 1-Hour chart following a strong series of Higher Highs (HH) and Higher Low…",
+        "url": "https://www.tradingview.com/chart/KSMUSDT/uaDelWd1-KSM-USDT-Bullish-Consolidation-Breakout-Above-Local-Resistance/",
         "source": "TradingView Crypto Ideas",
-        "published_on": 1791018614
+        "published_on": 1791036116
       },
       {
-        "title": "DRIFTUSDT — LONG setup | 1D",
-        "brief": "DRIFT has already made a very strong expansion, so buying after the move is not interesting to me. The area I’m waiting for is $0.01146–$0.0…",
-        "url": "https://www.tradingview.com/chart/DRIFTUSDT.P/JoXmKuRQ-DRIFTUSDT-LONG-setup-1D/",
+        "title": "BTCUSD: Strong Bearish Bias! Sell!",
+        "brief": "https://www.tradingview.com/x/hr6mJxbM/ Welcome to our daily BTCUSD prediction! We are currently looking at the chart of BTCUSD and analysin…",
+        "url": "https://www.tradingview.com/chart/BTCUSD/pgU2pehh-BTCUSD-Strong-Bearish-Bias-Sell/",
         "source": "TradingView Crypto Ideas",
-        "published_on": 1791015587
+        "published_on": 1791035938
       },
       {
-        "title": "Bitcoin holds near $84,000, Ethereum moves towards $2,700 as buyers remain active",
-        "brief": "In the past 24 hours, Bitcoin and Ethereum were down 1.6% and 1.5% respectively. Among the major altcoins, BNB, Dogecoin, Solana, Hyperliqui…",
-        "url": "https://economictimes.indiatimes.com/markets/cryptocurrency/bitcoin-holds-near-84000-ethereum-moves-towards-2700-as-buyers-remain-active/articleshow/134654918.cms",
-        "source": "Economic Times India Markets",
-        "published_on": 1791014497
+        "title": "PARTI/USDT — Potential Breakout Toward 0.0343–0.0374",
+        "brief": "PARTI/USDT is showing a strong recovery structure on the 1H timeframe, with price currently consolidating around 0.0280–0.0286. The key leve…",
+        "url": "https://www.tradingview.com/chart/PARTIUSDT/Wk0bYvd3-PARTI-USDT-Potential-Breakout-Toward-0-0343-0-0374/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791033977
       },
       {
-        "title": "IPO Calendar: Quiet week ahead after Rs 39,000 crore September rush, but Street to see 29 listings",
-        "brief": "The momentum had picked up sharply from August, after a muted first four months of FY27, as stronger listing gains and steady liquidity pull…",
-        "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/ipo-calendar-quiet-week-ahead-after-rs-39000-crore-september-rush-but-street-to-see-29-listings/articleshow/134651498.cms",
-        "source": "Economic Times India Markets",
-        "published_on": 1791000667
+        "title": "BTCUSD — RESISTANCE REJECTION & DOWNSIDE TARGET",
+        "brief": "BTCUSD is currently trading near 84872 after a strong bullish move into the 84900–84930 resistance zone. Price is approaching the marked buy…",
+        "url": "https://www.tradingview.com/chart/BTCUSD/zxrrRMxS-BTCUSD-RESISTANCE-REJECTION-DOWNSIDE-TARGET/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791032703
       },
       {
-        "title": "MAI Capital Q3 2026 review flags AI spending slowdown as biggest risk to equities",
-        "brief": "MAI Capital flagged a sharp Q3 2026 bond selloff, with the 10-year Treasury yield rising to about 5.3% from 4.2%. It framed higher yields as…",
-        "url": "https://www.bitget.com/news/detail/12560605908066",
-        "source": "Bitget Blog",
-        "published_on": 1790997655
+        "title": "BTC in the upcoming week!",
+        "brief": "Price is been consolidating within a sideways direction from almost 10 trading session, 87385 is strong supply zone could face rejection aga…",
+        "url": "https://www.tradingview.com/chart/BTCUSDT.P/SmF8qGW8-BTC-in-the-upcoming-week/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791032493
       },
       {
-        "title": "AI earnings shield US stocks, but bond risks rise: Jefferies' Wood",
-        "brief": "US equities have largely remained strong, aided by robust earnings growth driven by the AI capital expenditure cycle. Rising bond yields and…",
-        "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/ai-earnings-shield-us-stocks-but-bond-risks-rise-jefferies-wood/articleshow/134650285.cms",
-        "source": "Economic Times India Markets",
-        "published_on": 1790994365
+        "title": "Mad Money Jim Cramer Has a Warning for Investors in October",
+        "brief": "Jim Cramer told investors to prepare for a potentially rougher third-quarter earnings season. The Mad Money host said companies may not deli…",
+        "url": "https://beincrypto.com/jim-cramer-warning-q3-earnings-season/",
+        "source": "BeInCrypto",
+        "published_on": 1791024537
       }
     ],
     "FIGR_HELOC": [],
     "ZEC": [
+      {
+        "title": "Zcash ETF Lost Over $93 Million This Week. Is the Rally Over for ZEC?",
+        "brief": "Zcash’s ETF has recorded its first week of net outflows since launching in August. Investors withdrew $93.6 million this week, as ZEC’s pric…",
+        "url": "https://beincrypto.com/zcash-etf-first-weekly-outflow/",
+        "source": "BeInCrypto",
+        "published_on": 1791030538
+      },
       {
         "title": "Grayscale Zcash spot ETF sees $93.56 million weekly redemption: honeymoon phase ends, once held nearly 3.5% of supply",
         "brief": "Author: Vivian Nguyen Translated by: TechFlow Editor's Note: The first US Zcash spot ETF, Grayscale ZCSH, saw a net outflow of 93.56 million…",
@@ -368,13 +375,6 @@
         "url": "https://www.bitget.com/news/detail/12560605908193",
         "source": "Bitget Blog",
         "published_on": 1791015681
-      },
-      {
-        "title": "Long position",
-        "brief": "Arthur Hayes has bought in; I believe the next move—following Zcash—will be the turn of this coin, SYN.",
-        "url": "https://www.tradingview.com/chart/SYNUSDT/Vl9V4sv8-Long-position/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791014173
       },
       {
         "title": "Grayscale’s Zcash ETF sheds $93.56 million in a single week",
@@ -412,8 +412,8 @@
     "NEAR": [],
     "UNI": [],
     "LTC": [],
-    "USDE": [],
     "AVAX": [],
+    "USDE": [],
     "SUI": [],
     "CC": [],
     "DAI": [],
@@ -433,25 +433,25 @@
     "OKB": [],
     "RLUSD": [],
     "USYC": [],
+    "ONDO": [],
     "M": [],
     "ENA": [],
-    "ONDO": [],
+    "WLD": [],
     "USDY": [],
     "BUIDL": [],
     "MNT": [],
-    "WLD": [],
     "SKY": [],
     "DOT": [],
     "ASTER": [],
     "ICP": [],
+    "MORPHO": [],
     "PAXG": [],
     "PEPE": [],
-    "MORPHO": [],
     "WLFI": [],
     "USDF": [],
     "U": [],
-    "EURSAFO": [],
     "HTX": [],
+    "EURSAFO": [],
     "USDD": [],
     "ETC": [],
     "BGB": [],
@@ -459,9 +459,9 @@
     "VVV": [],
     "BFUSD": [],
     "USDGO": [],
-    "GT": [],
     "KAS": [],
     "ALGO": [],
+    "GT": [],
     "POL": [],
     "JST": [],
     "JUP": [],
@@ -471,22 +471,22 @@
     "BCAP": [],
     "ATOM": [],
     "FIL": [],
-    "NIGHT": [],
     "LIT": [],
     "NEXO": [],
     "CAKE": [],
-    "AKE": [],
+    "NIGHT": [],
     "AERO": [],
     "INJ": [],
     "DASH": [],
     "USTB": [],
     "VET": [],
+    "AKE": [],
     "STABLE": [],
-    "GHO": [],
     "APT": [],
+    "ZRO": [],
+    "GHO": [],
     "STX": [],
-    "XDC": [],
     "ETHFI": [],
-    "OUSD": []
+    "XDC": []
   }
 }
