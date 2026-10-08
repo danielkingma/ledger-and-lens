@@ -1,92 +1,92 @@
 {
-  "generated_at": "2026-10-08T00:42:56.783Z",
+  "generated_at": "2026-10-08T09:53:24.507Z",
   "coins": {
     "BTC": [
       {
-        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 717,252 txs today",
-        "brief": "BTC price: $83,304.32",
+        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 708,453 txs today",
+        "brief": "BTC price: $83,106.16",
         "url": "https://www.blockchain.com/explorer/charts",
         "source": "Blockchain.com",
-        "published_on": 1791419540
+        "published_on": 1791452720
       },
       {
-        "title": "The value of the US government’s bitcoin holdings has dropped from $34.1 billion to $26.5 billion, and its holdings have decreased from 332,700 bitcoins to 319,100 bitcoins.",
-        "brief": "According to monitoring by the head of research at Galaxy, as of January 20, 2025, the US government held 332,699 Bitcoin, valued at $34.1 b…",
-        "url": "https://www.bitget.com/news/detail/12560605928880",
-        "source": "Bitget Blog",
-        "published_on": 1791418153
-      },
-      {
-        "title": "US government moves $470 million in seized crypto to Coinbase wallets, raising Bitcoin sale questions",
-        "brief": "The US government moved about $470 million in seized crypto to likely Coinbase Prime addresses, according to Arkham, reviving questions over…",
-        "url": "https://cryptoslate.com/us-government-moves-470-million-in-seized-crypto-to-coinbase-linked-wallets-reviving-bitcoin-sale-questions/",
-        "source": "CryptoSlate",
-        "published_on": 1791417612
-      },
-      {
-        "title": "Metaplanet Sold 10,000 Bitcoin, Then Bought 11,000 Back. Here’s Why",
-        "brief": "Metaplanet disclosed that it sold 10,000 BTC during the third quarter for roughly $790 million before buying 11,000 BTC for around $950 mill…",
-        "url": "https://www.newsbtc.com/news/bitcoin/metaplanet-sold-10-000-bitcoin-then-bought-11-000-back-here-s-why/",
-        "source": "NewsBTC",
-        "published_on": 1791417600
-      },
-      {
-        "title": "Engineer Who Sabotaged Employer for Bitcoin Ransom Gets Prison Time",
-        "brief": "A former infrastructure engineer at a New Jersey-based industrial company has been sentenced to 32 months in federal prison after admitting…",
-        "url": "https://news.bitcoin.com/regulation-and-legal/engineer-sabotaged-employer-bitcoin-ransom-prison-time/",
+        "title": "Hackers Attack Another Bitcoin Project as Ark’s Second Exploited",
+        "brief": "In another cyber attack against a Bitcoin project, Second, the developer of an implementation of the Ark Protocol, confirmed it lost 0.75 BT…",
+        "url": "https://news.bitcoin.com/security/hackers-attack-another-bitcoin-project-as-arks-second-exploited/",
         "source": "Bitcoin.com News",
-        "published_on": 1791414322
+        "published_on": 1791451827
       },
       {
-        "title": "OpenAI math breakthroughs raise ‘bunker mode’ alarm from Bitcoin researcher Justin Drake",
-        "brief": "OpenAI’s latest advances in mathematics have prompted a leading Ethereum researcher to warn that crypto’s core wallet security could face an…",
-        "url": "https://cryptoslate.com/openais-math-breakthrough-raises-fears-ai-could-break-bitcoin-and-ethereum-security-within-months/",
-        "source": "CryptoSlate",
-        "published_on": 1791411885
+        "title": "BTC Is Sitting On Support: Bounce Or Breakdown?",
+        "brief": "Bitcoin has reached a very important area on the 4H chart. Let's break down the key levels. 📍 What's Happening Now? BTC is trading around $…",
+        "url": "https://www.tradingview.com/chart/BTCUSDT.P/Osd2IJxZ-BTC-Is-Sitting-On-Support-Bounce-Or-Breakdown/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791451619
+      },
+      {
+        "title": "BTCUSD 3H: Resistance Rejects as Bears Eye Lower Supports",
+        "brief": "BTCUSD 3H: Resistance Rejects as Bears Eye Lower Supports Bitcoin is facing rejection from the 85,000–87,000 resistance area after failing t…",
+        "url": "https://www.tradingview.com/chart/BTCUSD/Sz0nsQIR-BTCUSD-3H-Resistance-Rejects-as-Bears-Eye-Lower-Supports/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791450925
+      },
+      {
+        "title": "BTC: Liquidity Sweep Before the Breakdown?",
+        "brief": "The highs were taken. The structure changed. Now the real setup begins. This chart presents a 4H Bitcoin market-structure study built around…",
+        "url": "https://www.tradingview.com/chart/BTCUSD/dI8nCq7b-BTC-Liquidity-Sweep-Before-the-Breakdown/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791449884
+      },
+      {
+        "title": "BITCOIN The Growth Model that maps the new Bull Cycle.",
+        "brief": "Last time we looked into the Rainbow version of the Logarithmic Growth Curve (LGC) of Bitcoin (BTCUSD), was on July 18 2025 (see chart below…",
+        "url": "https://www.tradingview.com/chart/BTCUSD/4goBNuvj-BITCOIN-The-Growth-Model-that-maps-the-new-Bull-Cycle/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791449457
       }
     ],
     "ETH": [
       {
-        "title": "⛽ ETH Gas: 🐢 0.149053798 | 🚶 0.152404686 | 🚀 0.199053799 Gwei",
-        "brief": "Current Ethereum gas prices. Fast: 0.199053799 Gwei, Standard: 0.152404686 Gwei, Safe: 0.149053798 Gwei",
+        "title": "⛽ ETH Gas: 🐢 0.143774357 | 🚶 0.144774357 | 🚀 0.146545592 Gwei",
+        "brief": "Current Ethereum gas prices. Fast: 0.146545592 Gwei, Standard: 0.144774357 Gwei, Safe: 0.143774357 Gwei",
         "url": "https://etherscan.io/gastracker",
         "source": "Etherscan",
-        "published_on": 1791419813
+        "published_on": 1791453108
       },
       {
-        "title": "Justin Drake urges crypto ‘bunker mode,’ as AI could break wallet security within months",
-        "brief": "The Ethereum researcher said crypto users should consider moving funds to fresh addresses, warning AI could threaten private-key security be…",
-        "url": "https://cointelegraph.com/news/justin-drake-urges-crypto-bunker-mode-as-ai-could-break-wallet-security-within-months?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "published_on": 1791417872
-      },
-      {
-        "title": "Justin Drake urges crypto to plan for 'bunker mode' as AI math threatens ECDSA",
-        "brief": "Justin Drake, a researcher at the Ethereum Foundation, has advised those in the crypto space to start thinking of quietly relocating their f…",
-        "url": "https://www.cryptopolitan.com/justin-drake-ai-could-break-crypto-signature/",
+        "title": "dYdX price prediction 2026- 2032: Will dYdX recover its ATH soon?",
+        "brief": "Key Takeaways: The dYdX exchange captured significant attention last year. The platform aimed to migrate its existing dYdX tokens from Ether…",
+        "url": "https://www.cryptopolitan.com/dydx-price-prediction/",
         "source": "Cryptopolitan",
-        "published_on": 1791412345
+        "published_on": 1791446393
       },
       {
-        "title": "OpenAI math breakthroughs raise ‘bunker mode’ alarm from Bitcoin researcher Justin Drake",
-        "brief": "OpenAI’s latest advances in mathematics have prompted a leading Ethereum researcher to warn that crypto’s core wallet security could face an…",
-        "url": "https://cryptoslate.com/openais-math-breakthrough-raises-fears-ai-could-break-bitcoin-and-ethereum-security-within-months/",
-        "source": "CryptoSlate",
-        "published_on": 1791411885
+        "title": "Ethereum Price Cracks as 3 Prediction Markets Make Their Calls",
+        "brief": "Ethereum’s latest selloff has prediction markets pulling in three different directions. Ether fell through $2,600 on Wednesday as U.S. spot…",
+        "url": "https://news.bitcoin.com/price-predictions/ethereum-price-cracks-as-3-prediction-markets-make-their-calls/",
+        "source": "Bitcoin.com News",
+        "published_on": 1791441050
       },
       {
-        "title": "Coinbase Pro returns with enhanced features, expands market options",
-        "brief": "Coinbase Pro's relaunch could boost market activity and influence Ethereum's price dynamics, reflecting strategic ecosystem expansion. The p…",
-        "url": "https://cryptobriefing.com/coinbase-pro-returns-with-enhanced-features-expands-market-options/",
+        "title": "Ethereum Price Analysis October 8, 2026: ETH Falls Below $2,600 as ETF Outflows and BitMine Buying Concerns Grow",
+        "brief": "Key Takeaways Ethereum fell below $2,600 on October 7, extending its recent decline as selling pressure spread across the crypto market. The…",
+        "url": "https://usethebitcoin.com/eth/ethereum-price-october-8-2026/",
+        "source": "UseTheBitcoin",
+        "published_on": 1791437162
+      },
+      {
+        "title": "BlackRock ETF clients pull $116.05 million from Ethereum fund",
+        "brief": "Investor reallocation from Ethereum to Bitcoin ETFs suggests shifting confidence and potential volatility amid changing macroeconomic condit…",
+        "url": "https://cryptobriefing.com/blackrock-etha-ethereum-etf-outflows/",
         "source": "Crypto Briefing",
-        "published_on": 1791408963
+        "published_on": 1791436628
       },
       {
-        "title": "Ethereum Researcher Says AI May Break Encryption Before Quantum Does",
-        "brief": "Ethereum Foundation researcher Justin Drake urged holders to calmly move funds to unused addresses, warning that AI-driven math could break…",
-        "url": "https://decrypt.co/380363/ethereum-researcher-ai-break-encryption-before-quantum",
-        "source": "Decrypt",
-        "published_on": 1791407763
+        "title": "Solana stablecoin holders top 14 million, setting a new record",
+        "brief": "Solana's record stablecoin holders could boost SOL demand, enhance retail and institutional adoption, and intensify competition with Ethereu…",
+        "url": "https://cryptobriefing.com/solana-stablecoin-holders-top-14-million/",
+        "source": "Crypto Briefing",
+        "published_on": 1791435853
       }
     ],
     "USDT": [
@@ -103,13 +103,6 @@
         "url": "https://protos.com/inside-eqibanks-84m-seizure/",
         "source": "Protos",
         "published_on": 1791397643
-      },
-      {
-        "title": "Kazakhstan Taps Tether to Explore a New Tenge Stablecoin Model",
-        "brief": "Kazakhstan already has a tenge stablecoin in a central-bank sandbox. Now it has brought Tether into the room to study another one. Tether, t…",
-        "url": "https://news.bitcoin.com/crypto-news/kazakhstan-taps-tether-explore-tenge-stablecoin-model/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791392131
       },
       {
         "title": "Tether, Kazakhstan cenbank mull tenge stablecoin and asset tokenization",
@@ -131,9 +124,30 @@
         "url": "https://dailyhodl.com/2026/10/07/tether-is-facing-lawsuit-over-alleged-2760000-usdt-freeze-without-justification/",
         "source": "The Daily Hodl",
         "published_on": 1791373548
+      },
+      {
+        "title": "Conduit Sues Tether Over Alleged $2.76M USDT Freeze",
+        "brief": "Conduit Technology sued four Tether entities in New York over a $2.76 million USDT freeze it says has lasted more than a year.",
+        "url": "https://cryptodaily.co.uk/2026/10/conduit-sues-tether-2-76m-usdt-freeze",
+        "source": "Crypto Daily",
+        "published_on": 1791363678
       }
     ],
     "BNB": [
+      {
+        "title": "BNB 鏈上 79thVault 疑遭私鑰盜用，損失約 1250 萬鎂",
+        "brief": "BNB Chain 上的 79thVault 專案 10 月 7 日損失約 1,250 萬美元。團隊營運熱錢包 […] 〈BNB 鏈上 79thVault 疑遭私鑰盜用，損失約 1250 萬鎂〉這篇文章最早發佈於動區BlockTempo《動區動趨-最具影響力的區塊鏈新聞媒體》。",
+        "url": "https://www.blocktempo.com/79thvault-operator-private-key-compromise-bnb-chain-79au-pancakeswap-drained/",
+        "source": "BlockTempo",
+        "published_on": 1791449684
+      },
+      {
+        "title": "Crypto must cement adoption to withstand US policy shifts: Canton CEO",
+        "brief": "Canton CEO Yuval Rooz compared blockchain adoption to Uber and Airbnb, arguing that widespread adoption could help insulate it from potentia…",
+        "url": "https://cointelegraph.com/news/canton-ceo-crypto-adoption-us-policy-reversals?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "published_on": 1791433707
+      },
       {
         "title": "US Government Moves $103 Million in Seized Bitcoin and BNB, But Hasn't Said Why",
         "brief": "Government-labeled wallets sent 833.6 BTC to Coinbase Prime deposit addresses and shuffled 40,285 BNB. No sale is confirmed, but the stash b…",
@@ -149,218 +163,204 @@
         "published_on": 1791367487
       },
       {
-        "title": "数据：@frogmanhaha 钱包疑似被盗，价值 400 万美元资产分散转移至 ETH、BNB 及 SOL",
-        "brief": "ChainCatcher 消息，据链上分析师余烬监测，交易员 @frogmanhaha 钱包 (0x14...5794、9wMS...ov8z) 疑似在约 5 小时前遭盗，价值约 400 万美元的 9 种资产被转移、卖出并兑换为 ETH、BNB 及 SOL，随后通过 Privac…",
-        "url": "https://www.chaincatcher.com/article/2294538",
-        "source": "Chain Catcher",
-        "published_on": 1791338448
-      },
-      {
-        "title": "数据：美国政府地址转出 833.6 枚 BTC 及 4.03 万枚 BNB，持有价值 280 亿美元资产",
-        "brief": "ChainCatcher 消息，据链上分析师余烬监测，6 小时前，美国政府地址转出 833.6 枚 BTC 和 4.03 万枚 BNB，价值 1.03 亿美元。其中，833.6 枚 BTC 已进入 Coinbase Prime；4.03 万枚 BNB 经多次转移后目前位于 0xB…",
-        "url": "https://www.chaincatcher.com/article/2294518",
-        "source": "Chain Catcher",
-        "published_on": 1791332927
-      },
-      {
-        "title": "Reconfigure BSC governance forwarding after Wormhole auto delivery shutdown",
-        "brief": "Removal of the Wormhole adapter from a.DI governance forwarding to BNB Chain and threshold change from 3/4 to 2/3 Summary This proposal sugg…",
-        "url": "https://research.lido.fi/t/reconfigure-bsc-governance-forwarding-after-wormhole-auto-delivery-shutdown/11980",
-        "source": "Lido DAO Governance",
-        "published_on": 1791210287
-      },
-      {
         "title": "DESU on MEXC: What Dexsport's Token Listing Means for Players",
         "brief": "MEXC added Dexsport's DESU token in June 2026. What DESU is, what a centralised exchange adds, how to move it to Dexsport on BNB Chain and w…",
         "url": "https://cryptodaily.co.uk/2026/09/desu-on-mexc-what-dexsports-token-listing-means-for-players",
         "source": "Crypto Daily",
         "published_on": 1790613813
+      },
+      {
+        "title": "Travel’s AI dilemma at Skift Global Forum",
+        "brief": "At the “great recalibration”-themed travel conference, Airbnb CEO Brian Chesky called AI “an existential risk” to his company and “literally…",
+        "url": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum",
+        "source": "Stripe Blog (Crypto)",
+        "published_on": 1790553600
       }
     ],
     "XRP": [
       {
-        "title": "Grayscale XRP ETF Adds In-Kind Transactions and New Custodian",
-        "brief": "Grayscale’s XRP exchange-traded fund (ETF) has expanded how institutions exchange tokens for shares while adding another provider to safegua…",
-        "url": "https://news.bitcoin.com/featured/grayscale-xrp-etf-adds-in-kind-transactions-and-new-custodian/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791416701
-      },
-      {
-        "title": "XRP ETFs now hold $1.7 billion but took in just $4M last week",
-        "brief": "Franklin and Canary saw outflows on Oct. 6 even as the five tracked funds gained net inflows, while wallet migrations complicate the supply…",
-        "url": "https://cryptoslate.com/xrp-etfs-now-hold-1-7-billion-but-took-in-just-4m-last-week/",
-        "source": "CryptoSlate",
-        "published_on": 1791402035
-      },
-      {
-        "title": "XRP update: Bearish or sideways?",
-        "brief": "Notice the magenta space on top of the grey space. Grey is the extreme opportunity buy-zone. Magenta, goes for bullish, sideways, consolidat…",
-        "url": "https://www.tradingview.com/chart/XRPUSDT/0vnjKxGc-XRP-update-Bearish-or-sideways/",
+        "title": "XRP: Long-Term Downtrend Finally Breaking?",
+        "brief": "BINANCE:XRPUSDT Daily Time-Frame XRP is showing signs of a potential trend reversal after breaking above its long-term descending trendline.…",
+        "url": "https://www.tradingview.com/chart/XRPUSDT.P/IFKtEvnV-XRP-Long-Term-Downtrend-Finally-Breaking/",
         "source": "TradingView Crypto Ideas",
-        "published_on": 1791396682
+        "published_on": 1791450547
       },
       {
-        "title": "XRP Bears Eye $1.20 as Ichimoku Cloud Reveals the Levels Bulls Must Defend",
-        "brief": "The current XRP downtrend targets a retest of the $1.20 level, but the weekly Ichimoku Cloud shows strong support above this area. XRP bears…",
-        "url": "https://thecryptobasic.com/2026/10/07/xrp-bears-eye-1-20-as-ichimoku-cloud-reveals-the-levels-bulls-must-defend/",
-        "source": "TheCryptoBasic",
-        "published_on": 1791387097
+        "title": "XRP extends losses as negative funding and rising yields weigh on sentiment",
+        "brief": "Key takeaways XRP extended its corrections Thursday after three consecutive days of losses. CoinGlass showed negative funding rates for XRP,…",
+        "url": "https://coinjournal.net/news/xrp-extends-losses-as-negative-funding-and-rising-yields-weigh-on-sentiment/",
+        "source": "CoinJournal",
+        "published_on": 1791450523
       },
       {
-        "title": "XRP treasury SPAC drops 50% in a day ahead of Evernorth’s Nasdaq debut",
-        "brief": "Evernorth delayed its Nasdaq debut after shares of the SPAC taking the XRP treasury company public lost half their value. Armada Acquisition…",
-        "url": "https://cryptoslate.com/xrp-treasury-spac-drops-50-in-a-day-ahead-of-evernorths-nasdaq-debut/",
-        "source": "CryptoSlate",
-        "published_on": 1791387044
+        "title": "XRP Price Analysis October 8, 2026: XRP Nears $1.40 as Evernorth Delays Nasdaq Debut",
+        "brief": "Key Takeaways XRP continued to decline on October 8, trading above the $1.40 level as selling pressure pushed the cryptocurrency closer to t…",
+        "url": "https://usethebitcoin.com/xrp/xrp-price-october-8-2026/",
+        "source": "UseTheBitcoin",
+        "published_on": 1791439992
       },
       {
-        "title": "XRP Handles 8M+ x402 Payments in 30 Days as AI Agent Activity Accelerates",
-        "brief": "XRP Ledger processed more than 8 million x402 payments in 30 days as AI-agent activity expands across XRP, RLUSD, and a growing merchant net…",
-        "url": "https://thecryptobasic.com/2026/10/07/xrp-handles-8m-x402-payments-in-30-days-as-ai-agent-activity-accelerates/",
-        "source": "TheCryptoBasic",
-        "published_on": 1791384240
+        "title": "XRP Expands DeFi Role as Firelight Activates Vault Protection",
+        "brief": "XRP is backing protection for decentralized finance vaults as Firelight activates coverage on Flare. The deployment embeds risk management i…",
+        "url": "https://news.bitcoin.com/featured/xrp-expands-defi-role-as-firelight-activates-vault-protection/",
+        "source": "Bitcoin.com News",
+        "published_on": 1791437434
+      },
+      {
+        "title": "XRP Lands on Paxos, the Crypto Engine Behind PayPal, Venmo, and Schwab",
+        "brief": "XRP has gained another route into financial platforms after Paxos added the token to its crypto brokerage service. The regulated back end se…",
+        "url": "https://news.bitcoin.com/featured/xrp-lands-on-paxos-the-crypto-engine-behind-paypal-venmo-and-schwab/",
+        "source": "Bitcoin.com News",
+        "published_on": 1791430236
+      },
+      {
+        "title": "Peter Brandt Favors Monero Over XRP Despite Bullish Price Targets",
+        "brief": "Veteran trader Peter Brandt identifies a potential XRP move to $2.16 but warns that overhead selling pressure could obstruct its advance. He…",
+        "url": "https://news.bitcoin.com/market-updates/peter-brandt-favors-monero-over-xrp-despite-bullish-price-targets/",
+        "source": "Bitcoin.com News",
+        "published_on": 1791426643
       }
     ],
     "USDC": [
       {
-        "title": "Samsung Wallet brings USDC to 82 million Galaxy devices with Sui",
-        "brief": "Samsung's integration of USDC into its Wallet could accelerate mainstream adoption of stablecoins, contingent on regulatory approvals. The p…",
-        "url": "https://cryptobriefing.com/samsung-wallet-usdc-sui-galaxy-devices/",
-        "source": "Crypto Briefing",
-        "published_on": 1791419127
-      },
-      {
-        "title": "Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices",
-        "brief": "Beginning the last week of October 2026, Samsung Wallet will support USDC cross-border transfers on Solana across 82 million U.S. Galaxy dev…",
-        "url": "https://solana.com/news/samsung-wallet",
-        "source": "Solana News",
-        "published_on": 1791415800
-      },
-      {
-        "title": "Circle 携手 SAP 支持的 Tereina，将 USDC 与 EURC 引入企业支付",
-        "brief": "ChainCatcher 消息，Circle 宣布与 SAP 支持的金融服务公司 Tereina 达成合作，将旗下 USDC 和 EURC 稳定币引入企业支付流程。使用 SAP 财务软件的企业，可在其日常用于管理支付的应用程序内直接收发 USDC 与 EURC。其中 USDC 将…",
-        "url": "https://www.chaincatcher.com/article/2294758",
-        "source": "Chain Catcher",
-        "published_on": 1791406531
-      },
-      {
-        "title": "Circle brings USDC, EURC payments to SAP customers through Tereina",
-        "brief": "The partnership with SAP-backed Tereina will let businesses send and receive Circle’s stablecoins from within the financial software they al…",
-        "url": "https://cointelegraph.com/news/circle-usdc-eurc-payments-sap-enterprise-ecosystem?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "published_on": 1791406114
-      },
-      {
-        "title": "Ledger 推出比特币借贷功能，用户可抵押 BTC 借入稳定币",
-        "brief": "ChainCatcher 消息，Ledger 在 TOKEN2049 新加坡大会上推出自托管借贷功能 Crypto Loan，允许符合条件的用户在 Ledger Wallet 中抵押封装比特币 cbBTC 或 wBTC，借入稳定币 USDC 或 USDT，无需将资金转入中心化借贷…",
-        "url": "https://www.chaincatcher.com/article/2294635",
-        "source": "Chain Catcher",
-        "published_on": 1791363991
-      },
-      {
-        "title": "Circle Welcomes DJ Khaled to 'Team USDC' and Crypto Twitter Is Furious",
-        "brief": "Nothing in Circle's posts announces a sponsorship, but replies dug up Khaled's 2018 SEC settlement over a crypto fraud he promoted. The inte…",
-        "url": "https://decrypt.co/380240/circle-dj-khaled-team-usdc-crypto-twitter-furious",
+        "title": "Samsung Wallet Taps Solana for USDC Transfers on 82M US Galaxy Devices",
+        "brief": "Users can send USDC across borders from late October, three months after Samsung teased stablecoin support without naming a blockchain.",
+        "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
         "source": "Decrypt",
-        "published_on": 1791324963
+        "published_on": 1791450350
+      },
+      {
+        "title": "Samsung Wallet to add USDC transfers for US Galaxy users in October",
+        "brief": "Eligible US Galaxy will be able to send USDC to crypto wallets and transfer funds to bank accounts in more than 60 countries.",
+        "url": "https://cointelegraph.com/news/samsung-wallet-usdc-transfers-us-galaxy-users-october?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "published_on": 1791447864
+      },
+      {
+        "title": "Samsung Wallet Brings USDC to 82 Million US Phones, No Crypto App Needed",
+        "brief": "Samsung Wallet adds USDC transfers for US Galaxy users in late October. Here is who runs the service, what it costs, and who can use it. The…",
+        "url": "https://beincrypto.com/samsung-wallet-usdc-stablecoin-transfers/",
+        "source": "BeInCrypto",
+        "published_on": 1791444243
+      },
+      {
+        "title": "Samsung 把 USDC 塞進 Galaxy！8200 萬支手機月底用 Solana 轉帳",
+        "brief": "Samsung 宣布 10 月底在美版 Galaxy 手機內建 USDC 跨境轉帳，基於 Solana 與 S […] 〈Samsung 把 USDC 塞進 Galaxy！8200 萬支手機月底用 Solana 轉帳〉這篇文章最早發佈於動區BlockTempo《動區動趨-最具影響…",
+        "url": "https://www.blocktempo.com/samsung-usdc-solana-samsung-wallet-cross-border-remittance/",
+        "source": "BlockTempo",
+        "published_on": 1791441214
+      },
+      {
+        "title": "Samsung to Roll Out USDC transfers on Solana Across 82 Million US Galaxy Devices",
+        "brief": "Samsung is partnering with Solana to enable cross border USDC transfers through their samsung wallet for users in the US. The announcement d…",
+        "url": "https://www.cryptopolitan.com/samsung-wallet-usdc-solana-transfers/",
+        "source": "Cryptopolitan",
+        "published_on": 1791440093
+      },
+      {
+        "title": "Samsung Wallet Brings USDC Into the Smartphone Payment Stack",
+        "brief": "Samsung Wallet is adding USDC transfers through Coinbase and Bastion, with Solana and Sui supporting international payments.",
+        "url": "https://www.crypto-news-flash.com/samsung-wallet-brings-usdc-into-the-smartphone-payment-stack/",
+        "source": "Crypto-News Flash",
+        "published_on": 1791439201
       }
     ],
     "SOL": [
       {
-        "title": "Samsung Partners with Solana to Natively Deliver Stablecoins in Samsung Wallet to 82 Million U.S. Galaxy Devices",
-        "brief": "Beginning the last week of October 2026, Samsung Wallet will support USDC cross-border transfers on Solana across 82 million U.S. Galaxy dev…",
-        "url": "https://solana.com/news/samsung-wallet",
-        "source": "Solana News",
-        "published_on": 1791415800
+        "title": "Samsung Wallet Taps Solana for USDC Transfers on 82M US Galaxy Devices",
+        "brief": "Users can send USDC across borders from late October, three months after Samsung teased stablecoin support without naming a blockchain.",
+        "url": "https://decrypt.co/380377/samsung-wallet-taps-solana-for-usdc-transfers-on-82m-us-galaxy-devices",
+        "source": "Decrypt",
+        "published_on": 1791450350
       },
       {
-        "title": "Solana 生态 Orca 与 Loopscale 合并，新实体 Formation",
-        "brief": "ChainCatcher 消息，基于 Solana 的去中心化交易所 Orca 与借贷平台 Loopscale 宣布合并，新实体命名为 Formation。合并后团队由 Loopscale 联合创始人 Luke Truitt 担任 CEO。Formation 计划将 Orca 的…",
-        "url": "https://www.chaincatcher.com/article/2294761",
-        "source": "Chain Catcher",
-        "published_on": 1791410739
+        "title": "Samsung 把 USDC 塞進 Galaxy！8200 萬支手機月底用 Solana 轉帳",
+        "brief": "Samsung 宣布 10 月底在美版 Galaxy 手機內建 USDC 跨境轉帳，基於 Solana 與 S […] 〈Samsung 把 USDC 塞進 Galaxy！8200 萬支手機月底用 Solana 轉帳〉這篇文章最早發佈於動區BlockTempo《動區動趨-最具影響…",
+        "url": "https://www.blocktempo.com/samsung-usdc-solana-samsung-wallet-cross-border-remittance/",
+        "source": "BlockTempo",
+        "published_on": 1791441214
       },
       {
-        "title": "Solana’s Orca merges with Loopscale in push to finance AI, robotics and defense",
-        "brief": "Orca and Loopscale unite as Formation, targeting financing for AI, energy, robotics and defense.",
-        "url": "https://www.theblock.co/news/defi/2026-10-07-solanas-orca-merges-with-loopscale-push-to-finance-ai-robotics-defense-417924",
-        "source": "The Block",
-        "published_on": 1791410462
-      },
-      {
-        "title": "Crypto trader Frogman loses $4 million to a wallet drain on TOKEN2049's opening morning",
-        "brief": "Tokens drained from trader Frogman's Solana wallet were sold in four equal lots within nine minutes, and he says his phone and email show no…",
-        "url": "https://www.cryptopolitan.com/frogman-tokens-sold-nine-minutes-no-breach/",
+        "title": "Samsung to Roll Out USDC transfers on Solana Across 82 Million US Galaxy Devices",
+        "brief": "Samsung is partnering with Solana to enable cross border USDC transfers through their samsung wallet for users in the US. The announcement d…",
+        "url": "https://www.cryptopolitan.com/samsung-wallet-usdc-solana-transfers/",
         "source": "Cryptopolitan",
-        "published_on": 1791408421
+        "published_on": 1791440093
       },
       {
-        "title": "Solana Holds Above the 0.618 — Can Bulls Push Towards $130?",
-        "brief": "SOL Reclaims the 0.618 Fib Solana’s recovery from the summer lows has continued, with price now trading above the important 0.618 Fib at $11…",
-        "url": "https://www.tradingview.com/chart/SOLUSDT/Jcj5wdvN-Solana-Holds-Above-the-0-618-Can-Bulls-Push-Towards-130/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791405711
+        "title": "Samsung Wallet Brings USDC Into the Smartphone Payment Stack",
+        "brief": "Samsung Wallet is adding USDC transfers through Coinbase and Bastion, with Solana and Sui supporting international payments.",
+        "url": "https://www.crypto-news-flash.com/samsung-wallet-brings-usdc-into-the-smartphone-payment-stack/",
+        "source": "Crypto-News Flash",
+        "published_on": 1791439201
       },
       {
-        "title": "Solana (SOL): Structural Pullback and Market Context Analysis",
-        "brief": "The crypto market has expanded significantly, leaving us at a crucial crossroads: either this is a healthy correction paving the way for fur…",
-        "url": "https://www.tradingview.com/chart/SOLUSDT/nnxqrQVt-Solana-SOL-Structural-Pullback-and-Market-Context-Analysis/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791399904
+        "title": "Solana stablecoin holders top 14 million, setting a new record",
+        "brief": "Solana's record stablecoin holders could boost SOL demand, enhance retail and institutional adoption, and intensify competition with Ethereu…",
+        "url": "https://cryptobriefing.com/solana-stablecoin-holders-top-14-million/",
+        "source": "Crypto Briefing",
+        "published_on": 1791435853
+      },
+      {
+        "title": "Samsung to launch USDC transfers on Solana for US Galaxy users",
+        "brief": "The South Korean tech giant said the feature is built into Samsung Wallet, with fiat on- and off-ramps, rather than a separate crypto app.",
+        "url": "https://www.theblock.co/news/business/2026-10-07-samsung-to-launch-usdc-transfers-on-solana-for-us-galaxy-users-418004",
+        "source": "The Block",
+        "published_on": 1791427801
       }
     ],
     "TRX": [
       {
-        "title": "Samsung Electronics Q3 Profit Hits Another Record but Falls Slightly Short of Expectations; AI Memory Boom Drives Growth, Yet High Stock Prices and Cyclical Concerns Persist",
-        "brief": "According to Jinse Finance, Samsung Electronics announced preliminary data on Thursday showing its operating profit for the third quarter en…",
-        "url": "https://www.bitget.com/news/detail/12560605928851",
-        "source": "Bitget Blog",
-        "published_on": 1791417512
+        "title": "BOE’s Pill stresses need for strong focus on inflation control",
+        "brief": "A strong focus on inflation control by the BOE may signal a shift towards tighter monetary policy, impacting economic growth and market dyna…",
+        "url": "https://cryptobriefing.com/boes-pill-stresses-need-for-strong-focus-on-inflation-control/",
+        "source": "Crypto Briefing",
+        "published_on": 1791452620
       },
       {
-        "title": "Samsung releases preliminary results: Q3 operating profit breaks 100 trillion won for the first time, soaring nearly ninefold year-on-year",
-        "brief": "Samsung Electronics' third quarter operating profit reached a historic high, as the AI infrastructure investment boom fueled a sustained sur…",
-        "url": "https://www.bitget.com/news/detail/12560605928823",
-        "source": "Bitget Blog",
-        "published_on": 1791416464
-      },
-      {
-        "title": "Samsung Electronics to hold conference call on Q3 2026 results",
-        "brief": "Samsung Electronics will hold a conference call on Oct. 29, 2026 at 10:00 a.m. to report Q3 2026 results. The event will include a Q&amp;A s…",
-        "url": "https://www.bitget.com/news/detail/12560605928791",
-        "source": "Bitget Blog",
-        "published_on": 1791414679
-      },
-      {
-        "title": "Samsung Electronics’ Q3 operating profit reached 107.40 trillion won, up 782.5% year-on-year",
-        "brief": "Samsung Electronics' sales revenue for the third quarter was 195.00 trillion KRW, a year-on-year increase of 126.59%; operating profit was 1…",
-        "url": "https://www.bitget.com/news/detail/12560605928775",
-        "source": "Bitget Blog",
-        "published_on": 1791414659
-      },
-      {
-        "title": "Bullish continuation on-NEAR Protocol means BTC hit $100K",
-        "brief": "This is it, ladies and gentlemen... This is truly the one that I wanted to show you. NEAR Protocol has been rising since February 2026; a ve…",
-        "url": "https://www.tradingview.com/chart/NEARUSDT/uZUOh6cH-Bullish-continuation-on-NEAR-Protocol-means-BTC-hit-100K/",
+        "title": "Pendle Flips Resistance into Support: Weekly Reversal Setup",
+        "brief": "BINANCE:PENDLEUSDT Weekly Time-Frame PENDLE (1W) bottomed near the 1.00 zone in early 2026 and has since rallied strongly. Price has broken…",
+        "url": "https://www.tradingview.com/chart/PENDLEUSDT.P/rBXGc39K-Pendle-Flips-Resistance-into-Support-Weekly-Reversal-Setup/",
         "source": "TradingView Crypto Ideas",
-        "published_on": 1791408427
+        "published_on": 1791451973
       },
       {
-        "title": "BTCUSD — Market Structure, Liquidity & Order Block Analysis",
-        "brief": "This analysis focuses on the current price structure of BTCUSD using market structure, liquidity, order blocks, BOS/CHoCH, and key support/r…",
-        "url": "https://www.tradingview.com/chart/BTCUSD/X0mqPkHQ-BTCUSD-Market-Structure-Liquidity-Order-Block-Analysis/",
+        "title": "Strong support at 80K; buying interest is ready.",
+        "brief": "BTC is currently undergoing a short-term correction after failing to break the $86.5K–$87K resistance area. • Major liquidity / support zone…",
+        "url": "https://www.tradingview.com/chart/BTCUSD/cfqwTlod-Strong-support-at-80K-buying-interest-is-ready/",
         "source": "TradingView Crypto Ideas",
-        "published_on": 1791406169
+        "published_on": 1791451918
+      },
+      {
+        "title": "Polygon Open Money Stack Expands to TRON, Extending Network Access to Regulated U.S. Payment Rails",
+        "brief": "Dubai, UAE – October 8, 2026 – Polygon Labs today announced that Polygon Open Money Stack now supports the TRON network, giving fintechs, re…",
+        "url": "https://www.newsbtc.com/news/polygon-open-money-stack-expands-to-tron-extending-network-access-to-regulated-u-s-payment-rails/",
+        "source": "NewsBTC",
+        "published_on": 1791450994
+      },
+      {
+        "title": "SuperUSDT - Bullish Alligator setup",
+        "brief": "SUPER is maintaining a strong bullish structure after an extended upside move, and the current pullback is showing signs of another potentia…",
+        "url": "https://www.tradingview.com/chart/SUPERUSDT/EtQMMKpx-SuperUSDT-Bullish-Alligator-setup/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791450623
+      },
+      {
+        "title": "Dow Jones Top Company Headlines at 5 AM ET: Uniqlo Owner Posts Record Annual Profit, Expects Further Growth | Porsche ...",
+        "brief": "Uniqlo Owner Posts Record Annual Profit, Expects Further Growth Fast Retailing reported record annual net profit, driven by strong earnings…",
+        "url": "https://www.bitget.com/news/detail/12560605930346",
+        "source": "Bitget Blog",
+        "published_on": 1791450000
       }
     ],
     "FIGR_HELOC": [],
     "ZEC": [
       {
-        "title": "Elliot Wave Theory for Zcash - 1 Month Outlook",
-        "brief": "I think Zcash completes a corrective wave before really taking off. It perhaps makes an attempt to reclaim $1400, before completing the corr…",
-        "url": "https://www.tradingview.com/chart/ZECUSD/xaZQzFMS-Elliot-Wave-Theory-for-Zcash-1-Month-Outlook/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791418194
+        "title": "Winklevoss twins pitch a low-fee spot Zcash ETF at Token2049",
+        "brief": "The Winklevoss twins' low-fee Zcash ETF proposal could intensify competition, potentially driving down costs in the cryptocurrency ETF marke…",
+        "url": "https://cryptobriefing.com/winklevoss-zcash-etf-token2049/",
+        "source": "Crypto Briefing",
+        "published_on": 1791432853
       },
       {
         "title": "Winklevoss Zcash ETF Filing Brings Privacy Coin Exposure To Nasdaq",
@@ -384,47 +384,177 @@
         "published_on": 1791367274
       },
       {
-        "title": "Winklevoss 兄弟：Zcash 是\"加密版比特币\"，已提交现货 Zcash ETF 申请",
-        "brief": "ChainCatcher 现场报道，在新加坡 Token2049 大会上，Gemini 联合创始人 Tyler 与 Cameron Winklevoss 表示，Zcash 是加密版的比特币，就像早期互联网是 HTTP、Zcash 是 HTTPS。此外他们宣布，已向 SEC 提交现…",
-        "url": "https://www.chaincatcher.com/article/2294644",
-        "source": "Chain Catcher",
-        "published_on": 1791366906
-      },
-      {
         "title": "Winklevoss Asset Services Files for Spot Zcash ETF With Proposed WINK Ticker",
         "brief": "Winklevoss Asset Services filed a preliminary S-1 for a spot Zcash ETF that would hold ZEC directly and seek a Nasdaq listing under WINK.",
         "url": "https://cryptodaily.co.uk/2026/10/winklevoss-spot-zcash-etf-wink-ticker",
         "source": "Crypto Daily",
         "published_on": 1791360068
+      },
+      {
+        "title": "Another Zcash ETF Is Coming: Winklevoss Twins File for 'WINK'",
+        "brief": "The proposed fund would hold ZEC directly, trade on Nasdaq under \"WINK\" with Gemini as custodian, and add the Winklevoss twins to a wave of…",
+        "url": "https://decrypt.co/380210/another-zcash-etf-coming-winklevoss-twins-wink",
+        "source": "Decrypt",
+        "published_on": 1791312154
       }
     ],
-    "HYPE": [],
-    "DOGE": [],
+    "HYPE": [
+      {
+        "title": "Hyperliquid Labs begins $330M HYPE OTC distribution, transfers half to five buyers",
+        "brief": "The large OTC distribution mitigates market volatility, but undisclosed buyer terms may create uncertainty for HYPE token holders. The post…",
+        "url": "https://cryptobriefing.com/hyperliquid-labs-hype-otc-distribution/",
+        "source": "Crypto Briefing",
+        "published_on": 1791430480
+      },
+      {
+        "title": "Grayscale Adds BitGo To Hyperliquid Staking ETF Custody Setup",
+        "brief": "Grayscale has added BitGo Bank &amp; Trust as an additional custodian for a portion of the HYPE held by its Hyperliquid Staking ETF. The SEC…",
+        "url": "https://www.newsbtc.com/business/grayscale-adds-bitgo-to-hyperliquid-staking-etf-custody-setup/",
+        "source": "NewsBTC",
+        "published_on": 1791424800
+      },
+      {
+        "title": "Wall Street wealth creation model is unsustainable for most participants: Hyperliquid CEO",
+        "brief": "Early Wall Street wealth-creation opportunities remain inaccessible to retail participants, but Hyperliquid’s perpetual contracts aim to dem…",
+        "url": "https://cointelegraph.com/news/wall-street-wealth-creation-unsustainable-hyperliquid-ceo?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "published_on": 1791368367
+      },
+      {
+        "title": "Crypto liquidations hit $550M as Bitcoin price dips below $84K",
+        "brief": "Bitcoin fell 2.3% in two hours amid suspicion over the appearance of leveraged BTC short positions on Hyperliquid.",
+        "url": "https://cointelegraph.com/markets/crypto-liquidations-hit-550m-as-bitcoin-price-dips-below-84k?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "published_on": 1791366335
+      },
+      {
+        "title": "Hyperliquid Confirms Singapore Registration as MAS Says Exchange Falls Outside Its Jurisdiction",
+        "brief": "The regulator, which put Hyperliquid on its investor alert list in June, says the platform's decentralised design means it does not regard i…",
+        "url": "https://www.blockhead.co/2026/10/07/hyperliquid-confirms-singapore-registration-as-mas-says-exchange-falls-outside-its-jurisdiction/",
+        "source": "Blockhead News",
+        "published_on": 1791365404
+      },
+      {
+        "title": "Inside ShieldTX: The Architecture Enabling Shielded Trading Onchain",
+        "brief": "Explore the architecture behind ShieldTX: how Nightshade uses private notes, zero-knowledge proofs and solver-funded accounts to separate de…",
+        "url": "https://blog.availproject.org/inside-shieldtx-the-architecture-enabling-shielded-trading-onchain/",
+        "source": "Avail Blog",
+        "published_on": 1791364687
+      }
+    ],
+    "DOGE": [
+      {
+        "title": "New Generation of Crypto Miners Released by ASICID",
+        "brief": "ASICID Inc. has released its IDMINER Series, a new lineup of cryptocurrency mining systems designed for Bitcoin, Litecoin, and Dogecoin mini…",
+        "url": "https://beincrypto.com/new-generation-crypto-miners-asicid/",
+        "source": "BeInCrypto",
+        "published_on": 1791446192
+      },
+      {
+        "title": "Dogecoin dips 5% this week as bearish positioning puts $0.088 support in focus",
+        "brief": "Key takeaways CoinGlass’ long-to-short ratio fell to 0.68, its lowest reading in more than a month. CryptoQuant data flagged overheated spot…",
+        "url": "https://coinjournal.net/news/dogecoin-dips-5-this-week-as-bearish-positioning-puts-0-088-support-in-focus/",
+        "source": "CoinJournal",
+        "published_on": 1791359331
+      },
+      {
+        "title": "Dogecoin tops $0.096 as ETF inflows and derivatives signal improving sentiment",
+        "brief": "Key takeaways Spot DOGE ETFs attracted $327,360, extending their inflow streak to three weeks. CoinGlass’ long-to-short ratio reached 1.01,…",
+        "url": "https://coinjournal.net/news/dogecoin-tops-0-096-as-etf-inflows-and-derivatives-signal-improving-sentiment/",
+        "source": "CoinJournal",
+        "published_on": 1791185763
+      },
+      {
+        "title": "DOGE Below $0.10: DogeOS Launch Sets Up a Make-or-Break Week for Dogecoin",
+        "brief": "Dogecoin traded at $0.095973 as DogeOS opened its public testnet. DOGE now faces $0.10 resistance while key daily EMAs offer support.",
+        "url": "https://cryptodaily.co.uk/2026/10/doge-price-prediction-dogeos-launch-0-10",
+        "source": "Crypto Daily",
+        "published_on": 1790928068
+      },
+      {
+        "title": "Dogecoin Price Analysis: Is $DOGE’s $0.10 Level a Smart Entry or Market Trap?",
+        "brief": "Meme coins have always lived at the edge of speculation, and Dogecoin sits right at the center of that chaos. Every cycle, headlines rush to…",
+        "url": "https://insidebitcoins.com/news/dogecoin-price-analysis-is-doges-0-10-level-a-smart-entry-or-market-trap",
+        "source": "InsideBitcoins",
+        "published_on": 1769770210
+      },
+      {
+        "title": "Pudgy Penguins Price Prediction – Is PENGU the Next Dogecoin?",
+        "brief": "As 2026 unfolds, investors are once again turning their attention to meme coins in search of asymmetric upside. Rather than surveying an ent…",
+        "url": "https://insidebitcoins.com/news/pudgy-penguins-price-prediction-is-pengu-the-next-dogecoin",
+        "source": "InsideBitcoins",
+        "published_on": 1769596199
+      }
+    ],
     "XMR": [],
     "USDS": [],
     "LINK": [],
     "WBT": [],
     "ADA": [],
     "LEO": [],
-    "RAIN": [],
+    "RAIN": [
+      {
+        "title": "Russia's internet giant Yandex halts operations at major data center after drone attack",
+        "brief": "Russian internet giant Yandex paused operations inside one of its data centers after a drone attack as Ukraine continues to hit the country'…",
+        "url": "https://www.cnbc.com/2026/10/08/russia-yandex-ukraine-drone-strike-data-center.html",
+        "source": "CNBC Crypto",
+        "published_on": 1791452436
+      },
+      {
+        "title": "BITCOIN The Growth Model that maps the new Bull Cycle.",
+        "brief": "Last time we looked into the Rainbow version of the Logarithmic Growth Curve (LGC) of Bitcoin (BTCUSD), was on July 18 2025 (see chart below…",
+        "url": "https://www.tradingview.com/chart/BTCUSD/4goBNuvj-BITCOIN-The-Growth-Model-that-maps-the-new-Bull-Cycle/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791449457
+      },
+      {
+        "title": "Goldman Sachs’ new hires will manage AI agents from day one",
+        "brief": "Goldman's AI strategy may redefine banking roles, emphasizing tech skills over seniority, but raises concerns about training and oversight.…",
+        "url": "https://cryptobriefing.com/goldman-sachs-new-hires-manage-ai-agents/",
+        "source": "Crypto Briefing",
+        "published_on": 1791440729
+      },
+      {
+        "title": "South Korea pledges legal action over alleged fuel exports to Russia",
+        "brief": "Ukrainian reports of South Korean fuel exports to Russia come amid strained tensions between Seoul and Kyiv.",
+        "url": "https://www.aljazeera.com/news/2026/10/8/south-korea-pledges-legal-action-over-alleged-fuel-exports-to-russia?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_on": 1791432851
+      },
+      {
+        "title": "Fitch says power, not chips, will decide Taiwan’s AI data centre growth",
+        "brief": "Taiwan's AI data center expansion hinges on resolving energy constraints, highlighting the critical role of infrastructure in tech growth. T…",
+        "url": "https://cryptobriefing.com/fitch-taiwan-ai-data-centre-power/",
+        "source": "Crypto Briefing",
+        "published_on": 1791429771
+      },
+      {
+        "title": "More Ukrainian-Style One-Way Attack Drones Seized In Mexico",
+        "brief": "&lt;span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\"&gt;More Ukrainian-Style One-Way Attac…",
+        "url": "https://www.zerohedge.com/technology/more-ukrainian-style-one-way-attack-drones-seized-mexico",
+        "source": "ZeroHedge",
+        "published_on": 1791405600
+      }
+    ],
     "NEAR": [],
     "XLM": [],
-    "BCH": [],
+    "BCH": [
+      {
+        "title": "CME Group Plans Bitcoin Cash and Uniswap Futures Launch for October 19",
+        "brief": "CME Group plans Bitcoin Cash and Uniswap futures for October 19, with standard and Micro contracts proposed pending regulatory review.",
+        "url": "https://cryptodaily.co.uk/2026/09/cme-bitcoin-cash-uniswap-futures-october-19",
+        "source": "Crypto Daily",
+        "published_on": 1790253065
+      }
+    ],
     "LTC": [],
-    "AVAX": [],
-    "USDE": [],
     "UNI": [],
-    "CC": [],
+    "USDE": [],
+    "AVAX": [],
     "SUI": [],
+    "CC": [],
     "DAI": [],
     "USD1": [
-      {
-        "title": "川普家族加密項目 WLFI 要把 USD1 推到各大電商！Q4 上線，自己發幣離信託銀行牌照又近一步",
-        "brief": "川普家族支援的 WLFI 宣布與 Mesh 合作，將 USD1 穩定幣推向電商與線上商家，Q4 上線；同時 W […] 〈川普家族加密項目 WLFI 要把 USD1 推到各大電商！Q4 上線，自己發幣離信託銀行牌照又近一步〉這篇文章最早發佈於動區BlockTempo《動區動趨-最…",
-        "url": "https://www.blocktempo.com/wlfi-brings-usd1-payments-to-online-platforms-mesh-partnership-q4-2026/",
-        "source": "BlockTempo",
-        "published_on": 1791379709
-      },
       {
         "title": "特朗普家族支持的 WLFI 联手 Mesh，计划本季度落地 USD1 线上支付",
         "brief": "ChainCatcher 消息，特朗普家族支持的加密项目 World Liberty Financial（WLFI）高管在新加坡 Token2049 大会的稳定币主题圆桌论坛上披露，计划将 USD1 稳定币支付引入大型线上商户。WLFI 首席执行官 Zach Witkoff 与联…",
@@ -449,106 +579,31 @@
     ],
     "HBAR": [],
     "GRAM": [],
-    "QNT": [],
     "BTW": [],
+    "QNT": [],
     "XAUT": [],
-    "TAO": [
-      {
-        "title": "Why verification matters for decentralized AI training",
-        "brief": "Decentralized AI training needs more than efficiency. TEE verification proves every node trained correctly. How 0G and Bittensor approach tr…",
-        "url": "https://0g.ai/blog/why-verification-matters-decentralized-ai-training",
-        "source": "0G Labs Blog",
-        "published_on": 1774569600
-      },
-      {
-        "title": "Lightchain AI vs Bittensor vs Gensyn: which decentralized AI network fits your workload?",
-        "brief": "Introduction – Framing the Comparison When developers or teams look into decentralized AI networks, the question isn’t just “which project i…",
-        "url": "https://cryptoweekly.co/lightchain-vs-bittensor-vs-gensyn/",
-        "source": "Crypto Weekly",
-        "published_on": 1755751352
-      }
-    ],
+    "TAO": [],
     "USDG": [],
-    "SHIB": [
-      {
-        "title": "Shiba Inu Price Prediction: How High Can $SHIB Go In The Next Crypto Rally?",
-        "brief": "Shiba Inu is trading near historical lows, presenting one of the clearest opportunities for meme coin investors as the crypto market prepare…",
-        "url": "https://insidebitcoins.com/news/shiba-inu-price-prediction-how-high-can-shib-go-in-the-next-crypto-rally",
-        "source": "InsideBitcoins",
-        "published_on": 1769883725
-      },
-      {
-        "title": "Shiba Inu Sees Bullish Revival as Token Burn Rates Surge",
-        "brief": "Shiba Inu (SHIB) is showing renewed bullish momentum after a sharp rebound in on-chain activity and a major spike in token burn rates. Follo…",
-        "url": "https://insidebitcoins.com/news/shiba-inu-sees-bullish-revival-as-token-burn-rates-surge",
-        "source": "InsideBitcoins",
-        "published_on": 1769619811
-      },
-      {
-        "title": "Shiba Inu Eyes Potential Rebound as Ethereum Tokenization Expands",
-        "brief": "Shiba Inu is down over 60% this year, but market signals and Ethereum’s tokenization push suggest the meme coin could be setting up for a [.…",
-        "url": "https://insidebitcoins.com/news/shiba-inu-eyes-potential-rebound-as-ethereum-tokenization-expands",
-        "source": "InsideBitcoins",
-        "published_on": 1769452811
-      }
-    ],
-    "CRO": [
-      {
-        "title": "Cronos Price Prediction: Will CRO Hit $1 Before January Ends?",
-        "brief": "The Cronos (CRO) ecosystem has buzzed with activity this month, from massive whale accumulation spikes to Cronos Labs expanding its leadersh…",
-        "url": "https://insidebitcoins.com/news/cronos-price-prediction-will-cro-hit-1-before-january-ends",
-        "source": "InsideBitcoins",
-        "published_on": 1769277442
-      }
-    ],
-    "ENA": [
-      {
-        "title": "Ether.fi Launches Dollar Stablecoin, With Ethena Running the Reserves",
-        "brief": "Ether.fi USD lets the restaking protocol keep the yield on $300 million in stablecoin deposits and its card float, though neither company ha…",
-        "url": "https://www.blockhead.co/2026/10/07/ether-fi-launches-dollar-stablecoin-with-ethena-running-the-reserves/",
-        "source": "Blockhead",
-        "published_on": 1791359135
-      },
-      {
-        "title": "Ethena Extends USDe’s Basis Trade to Binance Tokenized Stocks and Equity Perpetuals",
-        "brief": "Ethena has selected Binance for USDe’s first tokenized-equity basis trades, pairing bStocks collateral with USDT-denominated equity perpetua…",
-        "url": "https://cryptodaily.co.uk/2026/09/ethena-usde-binance-bstocks-equity-perpetuals",
-        "source": "Crypto Daily",
-        "published_on": 1790506872
-      },
-      {
-        "title": "Weekly Project Updates: Magic Eden NFT Theft, Ethena Expands Basis Strategy to Stock Perpetuals, Polymarket Charged with Illegal Gambling, etc",
-        "brief": "1.",
-        "url": "https://wublock.substack.com/p/weekly-project-updates-magic-eden",
-        "source": "Wu Blockchain",
-        "published_on": 1790429329
-      }
-    ],
-    "PUMP": [
-      {
-        "title": "Pump.fun Price Prediction: Can $PUMP Hold Key Support and Push Higher?",
-        "brief": "Pump.fun is back on investors’ radar following a strong rally, raising the question: will the token climb to new records or face a sharp pul…",
-        "url": "https://insidebitcoins.com/news/pump-fun-price-prediction-can-pump-hold-key-support-and-push-higher",
-        "source": "InsideBitcoins",
-        "published_on": 1769690887
-      }
-    ],
+    "SHIB": [],
+    "CRO": [],
+    "ENA": [],
     "PYUSD": [],
+    "PUMP": [],
     "OKB": [],
     "AAVE": [
-      {
-        "title": "AAVE  BUY SETUP  Long from $172",
-        "brief": "AAVE PERPETUAL TRADE BUY SETUP Long from $172 Currently $172 Targeting $182 or Above (Trading plan IF AAVE go down to $162 will add more lon…",
-        "url": "https://www.tradingview.com/chart/AAVEUSD/lUHZteOU-AAVE-BUY-SETUP-Long-from-172/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791408879
-      },
       {
         "title": "GSR 投入 1 亿美元推出链上金库业务 Hare",
         "brief": "ChainCatcher 消息，加密交易与做市机构 GSR 宣布投入 1 亿美元，推出链上信贷业务 Hare，该业务与流动性分发平台 Turtle 共同搭建，负责创建和管理链上金库。GSR 的多年期承诺主要以信贷额度形式提供，其自有资金将作为锚定流动性先行进入 Hare 的产品，…",
         "url": "https://www.chaincatcher.com/article/2294683",
         "source": "Chain Catcher",
         "published_on": 1791376575
+      },
+      {
+        "title": "Aave V4 Lets Users Borrow USDC Against Coinbase Tokenized Tech Stocks on Base",
+        "brief": "Aave V4 on Base now accepts seven Coinbase tokenized tech stocks as collateral for USDC borrowing, with initial caps and jurisdiction limits…",
+        "url": "https://cryptodaily.co.uk/2026/09/aave-v4-coinbase-tokenized-tech-stocks-base-usdc",
+        "source": "Crypto Daily",
+        "published_on": 1790611268
       },
       {
         "title": "Why is Aave’s USDC Utilization Rate Spiking?",
@@ -569,179 +624,56 @@
     "USYC": [],
     "M": [],
     "USDY": [],
-    "ONDO": [
-      {
-        "title": "'Stop throwing shade' - the woman trying to stop firms leaving the UK",
-        "brief": "British people need more incentives to invest in big firms listed in the UK, Dame Julia Hoggett, boss of the London Stock Exchange, says.",
-        "url": "https://www.bbc.co.uk/news/articles/cmgqwydpd4xwo?at_medium=RSS&amp;at_campaign=rss",
-        "source": "BBC Business",
-        "published_on": 1791414055
-      },
-      {
-        "title": "Pro-Palestine university groups march in London on October 7 anniversary",
-        "brief": "Pro-Palestine students took to the streets of London on October 7, despite police calls to postpone the march.",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/pro-palestine-university-groups-march-in-london-on-october-7-anniversary?traffic_source=rss",
-        "source": "Al Jazeera",
-        "published_on": 1791408801
-      },
-      {
-        "title": "Moomoo Adds Crossover’s Crypto Execution Network for US Retail Traders",
-        "brief": "Crossover Markets has partnered with Moomoo to provide the investment platform with access to its CROSSx digital asset execution network for…",
-        "url": "https://www.financemagnates.com/cryptocurrency/moomoo-adds-crossovers-crypto-execution-network-for-us-retail-traders/",
-        "source": "Finance Magnates Crypto",
-        "published_on": 1791390000
-      },
-      {
-        "title": "Ondo Launches Tokenized Private-Company Exposure With 24/7 Secondary Trading",
-        "brief": "Ondo Private Markets has launched tokenized notes tied to private-company values, with planned 24/7 secondary trading for eligible non-U.S.…",
-        "url": "https://cryptodaily.co.uk/2026/10/ondo-tokenized-private-company-notes-secondary-trading",
-        "source": "Crypto Daily",
-        "published_on": 1791356477
-      },
-      {
-        "title": "Gold Is Moving Onchain, but London Still Holds the Keys",
-        "brief": "ICE's new London futures reveal why the physical bullion market still matters as gold ownership increasingly moves onchain.",
-        "url": "https://www.crypto-news-flash.com/gold-is-moving-onchain-but-london-still-holds-the-keys/",
-        "source": "Crypto-News Flash",
-        "published_on": 1791298845
-      },
-      {
-        "title": "Circle, Ripple and Standard Chartered Back OKX at Flat $25B Valuation",
-        "brief": "A London quantitative hedge fund joins the round too, seven months after the NYSE's owner bought in at exactly the same price.",
-        "url": "https://decrypt.co/380157/circle-ripple-and-standard-chartered-back-okx-at-flat-25b-valuation",
-        "source": "Decrypt",
-        "published_on": 1791291184
-      }
-    ],
+    "ONDO": [],
     "BUIDL": [],
     "WLD": [],
-    "ASTER": [
-      {
-        "title": "Trump doesn't think Russia plague incident is bioweapon, plans Putin call Wednesday",
-        "brief": "Nearly 200 people were placed under medical observation earlier this week in Russia's Irkutsk region in eastern Siberia over suspected expos…",
-        "url": "https://www.cnbc.com/2026/10/07/trump-russia-plague-bioweapon-putin.html",
-        "source": "CNBC Crypto",
-        "published_on": 1791408040
-      },
-      {
-        "title": "Open USD Hits $100 Million on Ethereum, but the Flows Tell More",
-        "brief": "Open USD (OUSD) has crossed $100 million on Ethereum, extending a rapid first week in which issuance has grown much faster than on-chain tra…",
-        "url": "https://www.crypto-news-flash.com/open-usd-hits-100-million-on-ethereum-but-the-flows-tell-more/",
-        "source": "Crypto-News Flash",
-        "published_on": 1791396003
-      },
-      {
-        "title": "Margin boost: Jefferies picks 3 bank stocks to gain the most from RBI rate hikes",
-        "brief": "Jefferies expects RBI’s 25-basis-point rate hike and calibrated tightening stance to support bank earnings, particularly ICICI Bank, SBI and…",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/margin-boost-jefferies-picks-3-bank-stocks-to-gain-the-most-from-rbi-rate-hikes/articleshow/134766677.cms",
-        "source": "Economic Times India Markets",
-        "published_on": 1791377441
-      },
-      {
-        "title": "Emerging economies are embracing solar power and skipping fossil fuels much faster than Europe or the US",
-        "brief": "Renewable electricity is cheaper than ever. While the West got rich on coal and oil, some of the world's poorest countries are banking on so…",
-        "url": "https://www.dw.com/en/emerging-economies-are-embracing-solar-power-and-skipping-fossil-fuels-much-faster-than-europe-or-the-us/a-79474847?maca=en-rss-en-all-1573-xml-mrss",
-        "source": "DW News",
-        "published_on": 1791359280
-      },
-      {
-        "title": "OKX NOW 大会成功落幕：Star 阐述 OKX 长期愿景，加密与传统金融机构论道下一代金融体系",
-        "brief": "10月6日，OKX NOW 全球产品与生态大会在新加坡落幕。活动现场，OKX 创始人 Star、以太坊联合创始人 Vitalik Buterin 先后发表开场演讲；OKX 交易、链上、AI、支付四条核心产品线的负责人亦悉数登台，纽约州前州长、OKX 董事会董事Governor A…",
-        "url": "https://www.chaincatcher.com/article/2294544",
-        "source": "Chain Catcher",
-        "published_on": 1791338900
-      },
-      {
-        "title": "Solana Unveils Powerful DvP Standard for Faster Settlement",
-        "brief": "Key Highlights: Solana Foundation announced Solana DvP, an open-source program for atomic delivery versus payment settlement on Solana. …",
-        "url": "https://www.cryptonewsz.com/solana-unveil-dvp-standard-faster-settlement/",
-        "source": "CryptoNewsZ",
-        "published_on": 1791276352
-      }
-    ],
+    "ASTER": [],
     "MNT": [],
     "DOT": [],
     "SKY": [],
     "USDF": [],
     "PAXG": [],
-    "ICP": [],
     "MORPHO": [],
+    "ICP": [],
     "WLFI": [],
     "PEPE": [],
-    "EURSAFO": [],
     "USDD": [],
+    "EURSAFO": [],
     "U": [],
     "HTX": [],
     "BGB": [],
     "ETC": [],
     "BFUSD": [],
     "USDGO": [],
+    "JUP": [],
     "ARB": [],
     "VVV": [],
     "JST": [],
     "GT": [],
-    "JUP": [],
+    "ALGO": [],
     "KAS": [],
     "POL": [],
-    "ALGO": [],
     "KCS": [],
     "RENDER": [],
     "BCAP": [],
-    "PI": [],
     "ATOM": [],
+    "PI": [],
+    "FIL": [],
     "LIT": [],
-    "ZRO": [
-      {
-        "title": "币安完成 Stargate Finance (STG) 代币合并至 LayerZero (ZRO)",
-        "brief": "ChainCatcher 消息，币安现已完成 Stargate Finance (STG) 代币合并至 LayerZero (ZRO)。代币已按照 1 个 STG = 0.08634 个 ZRO 的比例进行分发。将不再支持旧 STG 代币的充值、提现业务。",
-        "url": "https://www.chaincatcher.com/article/2294618",
-        "source": "Chain Catcher",
-        "published_on": 1791360179
-      },
-      {
-        "title": "A US state just published its security criteria for cross-chain infrastructure, and LayerZero failed them",
-        "brief": "Wyoming's Stable Token Commission moved FRNT to Chainlink CCIP and published the security criteria it expects cross-chain providers to meet.…",
-        "url": "https://insidebitcoins.com/news/wyoming-frnt-layerzero-chainlink-ccip-security-criteria",
-        "source": "InsideBitcoins",
-        "published_on": 1789441214
-      },
-      {
-        "title": "BitGo Brings WBTC Natively To Sui Through LayerZero",
-        "brief": "With BitGo’s WBTC now live on Sui, Bitcoin holders can move a unified cross-chain asset seamlessly across ecosystems. Learn how to migrate a…",
-        "url": "https://www.sui.io/blog/bitgo-native-wbtc-layerzero",
-        "source": "Sui Blog",
-        "published_on": 1764957555
-      },
-      {
-        "title": "0G Monthly Tech Update: November 2025",
-        "brief": "0G's November 2025 update covers TEE advances on Alibaba Cloud, compute provider upgrades, LayerZero bridging, and Chainlink CCIP token pool…",
-        "url": "https://0g.ai/blog/tech-update-nov-2025",
-        "source": "0G Labs Blog",
-        "published_on": 1764547200
-      }
-    ],
-    "FIL": [
-      {
-        "title": "Decentralized Storage for AI: How 0G Compares to Filecoin and Arweave",
-        "brief": "0G Storage, Filecoin, and Arweave each solve different problems. Compare throughput, cost, and AI workload support with verified data from e…",
-        "url": "https://0g.ai/blog/0g-storage-vs-filecoin-arweave",
-        "source": "0G Labs Blog",
-        "published_on": 1773964800
-      }
-    ],
+    "ZRO": [],
     "NEXO": [],
-    "AERO": [],
     "USTB": [],
+    "AERO": [],
     "NIGHT": [],
     "INJ": [],
     "OUSD": [],
-    "STABLE": [],
     "CAKE": [],
-    "GHO": [],
-    "VET": [],
-    "DASH": [],
-    "STX": [],
+    "STABLE": [],
     "ETHFI": [],
+    "STX": [],
+    "GHO": [],
+    "DASH": [],
+    "VET": [],
     "RAY": [],
     "APT": []
   }
