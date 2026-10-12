@@ -1,95 +1,109 @@
 {
-  "generated_at": "2026-10-12T14:17:11.210Z",
+  "generated_at": "2026-10-12T22:23:09.215Z",
   "coins": {
     "BTC": [
       {
-        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 815,247 txs today",
-        "brief": "BTC price: $82,609.03",
+        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 769,187 txs today",
+        "brief": "BTC price: $82,738.89",
         "url": "https://www.blockchain.com/explorer/charts",
         "source": "Blockchain.com",
-        "published_on": 1791814340
+        "published_on": 1791843320
       },
       {
-        "title": "Ledger implant tests Bitcoin ETFs as safer custodial solutions than hardware wallets",
-        "brief": "The discovery of an unauthorized Ledger hardware implant reignited debate on whether Bitcoin ETFs are safer than self-custodying Bitcoin via…",
-        "url": "https://cointelegraph.com/news/ledger-implant-bitcoin-etfs-hardware-wallets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
-        "source": "CoinTelegraph",
-        "published_on": 1791814020
-      },
-      {
-        "title": "How Much BTC Is Actually Working in the Economy?",
-        "brief": "Bitcoin’s supply is approaching its 21 million cap, but how much of it is actually circulating through the economy? Millions of BTC have rem…",
-        "url": "https://www.tradingview.com/chart/BTC/4Ojo94Eu-How-Much-BTC-Is-Actually-Working-in-the-Economy/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791813738
-      },
-      {
-        "title": "Bitcoin, Ether ETFs Lose $1.2 Billion as Institutional Demand Cracks",
-        "brief": "U.S. crypto ETF demand reversed sharply in the week through Oct. 9, with bitcoin and ether funds losing more than $1.2 billion combined. Sol…",
-        "url": "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
+        "title": "South Korea’s Bitcoin Lending Experiment Begins at Jeonbuk Bank",
+        "brief": "South Korea just cracked open the door to bitcoin-backed banking, according to local reports. Jeonbuk Bank has executed the country’s first…",
+        "url": "https://news.bitcoin.com/finance/south-koreas-bitcoin-lending-experiment-begins-at-jeonbuk-bank/",
         "source": "Bitcoin.com News",
-        "published_on": 1791813603
+        "published_on": 1791842749
       },
       {
-        "title": "Institutional Investors Pull Back from Bitcoin ETFs",
-        "brief": "Bitcoin ETFs have recently experienced significant outflows, contrasting with the inflows seen in Ethereum funds. This shift indicates a gro…",
-        "url": "https://www.tradingview.com/chart/BTCUSD/byrsz4IR-Institutional-Investors-Pull-Back-from-Bitcoin-ETFs/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791813172
+        "title": "MSTR stock tests $150 as Strategy adds 250 BTC and buys back $192M in STRC",
+        "brief": "Strategy bought another 250 Bitcoin for $21.5 million during October 5–11 , according to its latest update. It also spent $192.4 million rep…",
+        "url": "https://www.bitget.com/news/detail/12560605948428",
+        "source": "Bitget Blog",
+        "published_on": 1791840813
       },
       {
-        "title": "Would a Bitcoin Standard Slow Economic Growth? What Willy Woo Argues",
-        "brief": "An analyst says Bitcoin's fixed supply makes borrowing riskier and slows growth, answering a challenge from The Bitcoin Standard author. The…",
-        "url": "https://beincrypto.com/bitcoin-fixed-supply-debt-growth-bubbles/",
-        "source": "BeInCrypto",
-        "published_on": 1791812979
+        "title": "Bitcoin’s $84K-$85K wall: The largest distribution zone to watch",
+        "brief": "On Sunday, the 11th of October, Bitcoin [BTC] bounced 1.68% to reach a local high of $84,199. The $84.5k local resistance was not tested. Ac…",
+        "url": "https://www.bitget.com/news/detail/12560605948320",
+        "source": "Bitget Blog",
+        "published_on": 1791839018
+      },
+      {
+        "title": "SWI Turns FTX’s Former Bitcoin Mining Infrastructure Toward AI Boom",
+        "brief": "Genesis Digital Assets, once one of Sam Bankman-Fried’s largest crypto investments, is being repurposed for the artificial-intelligence boom…",
+        "url": "https://news.bitcoin.com/crypto-news/swi-turns-ftxs-former-bitcoin-mining-infrastructure-toward-ai-boom/",
+        "source": "Bitcoin.com News",
+        "published_on": 1791838644
+      },
+      {
+        "title": "FTX’s former Bitcoin mining bet gets new life as parent raises €800 million for AI",
+        "brief": "The new equity backs a wider AI platform while SWI pursues its existing plan to reposition Genesis Digital Assets' mining sites. The post FT…",
+        "url": "https://cryptoslate.com/ftxs-former-bitcoin-mining-bet-gets-new-life-as-parent-raises-e800-million-for-ai/",
+        "source": "CryptoSlate",
+        "published_on": 1791838219
       }
     ],
     "ETH": [
       {
-        "title": "Institutional Investors Pull Back from Bitcoin ETFs",
-        "brief": "Bitcoin ETFs have recently experienced significant outflows, contrasting with the inflows seen in Ethereum funds. This shift indicates a gro…",
-        "url": "https://www.tradingview.com/chart/BTCUSD/byrsz4IR-Institutional-Investors-Pull-Back-from-Bitcoin-ETFs/",
+        "title": "Aave price prediction 2026-2032: Is AAVE a good investment?",
+        "brief": "Key takeaways: Aave is a decentralized lending protocol on the Ethereum blockchain. It is known for its innovative financial solutions, such…",
+        "url": "https://www.cryptopolitan.com/aave-price-prediction/",
+        "source": "Cryptopolitan",
+        "published_on": 1791840640
+      },
+      {
+        "title": "Ethereum: Key Support Faces Its First Test",
+        "brief": "Weekly Bullish Structure Remains Intact Ethereum's recovery from the $1,505.68 low remains constructive following the bullish change of char…",
+        "url": "https://www.tradingview.com/chart/ETHUSDT/7iadpGIi-Ethereum-Key-Support-Faces-Its-First-Test/",
         "source": "TradingView Crypto Ideas",
-        "published_on": 1791813172
+        "published_on": 1791832732
       },
       {
-        "title": "Bitmine adds 12,532 ETH as Tom Lee flags potential ‘largest-ever’ crypto bull market",
-        "brief": "Bitmine (BMNR) added 12,532 ETH last week, lifting its Ethereum treasury to 6.03 million tokens, or 4.9% of supply, with 84% staked.",
-        "url": "https://www.theblock.co/news/business/2026-10-12-bitmine-eth-holdings-6-million-ether-treasury-418296",
-        "source": "The Block",
-        "published_on": 1791812612
+        "title": "BitMine’s Tom Lee Drops a Bull Market Bombshell",
+        "brief": "BitMine increased its Ethereum treasury to 6,028,946 ETH last week, lifting its stake to roughly $15.3 billion at current prices. Chairman T…",
+        "url": "https://beincrypto.com/bitmine-ethereum-treasury-tom-lee-bull-market/",
+        "source": "BeInCrypto",
+        "published_on": 1791824236
       },
       {
-        "title": "Bitmine Adds $32M in Ethereum as Tom Lee Says Firm Is Nearly 'Done Stacking'",
-        "brief": "The Ethereum treasury firm now holds 6.03 million ETH, 4.9% of supply, as Lee predicts the biggest crypto bull market yet.",
-        "url": "https://decrypt.co/380685/bitmine-adds-32m-in-ethereum-as-tom-lee-says-firm-is-nearly-done-stacking",
-        "source": "Decrypt",
-        "published_on": 1791812008
+        "title": "Tom Lee’s Bitmine Nears 5% of Ether Supply, Trims Weekly Buy to 12,532 ETH",
+        "brief": "The Ethereum treasury company's weekly purchase shrank for a third straight week, while a lower ether price pulled its total holdings down t…",
+        "url": "https://unchainedcrypto.com/tom-lees-bitmine-nears-5-of-ether-supply-trims-weekly-buy-to-12532-eth/",
+        "source": "Unchained Crypto",
+        "published_on": 1791821893
       },
       {
-        "title": "Polygon price prediction 2026-2032: Will POL recover its ATH soon?",
-        "brief": "Key Takeaways: Polygon, an Ethereum side chain and layer two scaling solution, has experienced substantial uptake by enterprises and industr…",
-        "url": "https://www.cryptopolitan.com/polygon-price-prediction/",
-        "source": "Cryptopolitan",
-        "published_on": 1791807846
+        "title": "Ethereum Name Service Team Asks DAO to Switch On ENSv2 and Freeze New .eth Sign-Ups on v1",
+        "brief": "Under the executable posted to the ENS forum, .eth sign-ups would pause for what Labs expects to be a few hours before reopening on ENSv2, a…",
+        "url": "https://unchainedcrypto.com/ethereum-name-service-team-asks-dao-to-switch-on-ensv2-and-freeze-new-eth-sign-ups-on-v1/",
+        "source": "Unchained Crypto",
+        "published_on": 1791821890
       },
       {
-        "title": "Thailand wants a piece of the $120 billion Bitcoin and Ethereum ETF market, but on its own terms",
-        "brief": "The SEC says the framework takes effect Oct. 16, with Bitcoin and Ethereum initially eligible and product-risk education required before tra…",
-        "url": "https://cryptoslate.com/thailand-wants-a-piece-of-the-120-billion-bitcoin-and-ethereum-etf-market-but-on-its-own-terms/",
+        "title": "Bitcoin’s rebound approaches the $85,000 zone where past buyers may sell",
+        "brief": "Bitcoin and Ethereum extended their weekend recovery, although on-chain indicators and derivatives positioning suggest the rebound faces sig…",
+        "url": "https://cryptoslate.com/bitcoin-approaches-an-85000-wall-as-ethereums-26-5-billion-derivatives-market-flashes-warning-signs/",
         "source": "CryptoSlate",
-        "published_on": 1791806446
-      },
-      {
-        "title": "LIVE: Crypto ETF investors withdraw $1.25 billion in a week, but XRP refuses to join the exodus",
-        "brief": "XRP ETFs bucked the selling trend, attracting $11.31 million in fresh investments last week. Bitcoin, Ethereum, and Solana ETFs lost $681.1…",
-        "url": "https://www.cryptopolitan.com/crypto-etf-investors-withdraw-1-25-billion/",
-        "source": "Cryptopolitan",
-        "published_on": 1791800437
+        "published_on": 1791814851
       }
     ],
     "USDT": [
+      {
+        "title": "Bitfinex Securities launches tokenized fund offerings using Tether’s Hadron",
+        "brief": "Bitfinex Securities' tokenized fund offerings could enhance digital asset market accessibility and diversification, impacting global investm…",
+        "url": "https://cryptobriefing.com/tokenized-fund-offerings-bitfinex/",
+        "source": "Crypto Briefing",
+        "published_on": 1791829774
+      },
+      {
+        "title": "Tether blocks $10M linked to CryptoBilis Ledger wallet theft",
+        "brief": "Tether has frozen $10 million of its USDT cryptocurrency after a theft drained up to $93 million in assets from Ledger hardware wallets sold…",
+        "url": "https://www.cryptopolitan.com/tether-blocks-10m-cryptobilis-ledger/",
+        "source": "Cryptopolitan",
+        "published_on": 1791818198
+      },
       {
         "title": "Tether Temporarily Froze $1.45M in USDT Across THORChain Vaults",
         "brief": "Tether blacklisted four THORChain TRON vaults holding about $1.45 million in USDT, halting trading before the addresses appeared unfrozen.",
@@ -112,25 +126,11 @@
         "published_on": 1791571563
       },
       {
-        "title": "Tether Unfreezes $1.45M in USDT After THORChain Disruption",
-        "brief": "Tether unfreezes $1.45M in USDT held by THORChain vaults after a three-hour disruption, raising questions about stablecoin settlement risks.",
-        "url": "https://www.crypto-news-flash.com/tether-unfreezes-1-45m-in-usdt-after-thorchain-disruption/",
-        "source": "Crypto-News Flash",
-        "published_on": 1791569728
-      },
-      {
         "title": "Juventus FC stock down 30% since Tether investment",
         "brief": "Tether invested in Juventus, Italy's most successful football club, in 2025, but since then, \"The Old Lady's\" stock is down over 30%. The po…",
         "url": "https://protos.com/juventus-fc-stock-is-down-30-since-tether-invested/",
         "source": "Protos",
         "published_on": 1791483677
-      },
-      {
-        "title": "Conduit Sues Tether Over Alleged $2.76M USDT Freeze",
-        "brief": "Conduit Technology sued four Tether entities in New York over a $2.76 million USDT freeze it says has lasted more than a year.",
-        "url": "https://cryptodaily.co.uk/2026/10/conduit-sues-tether-2-76m-usdt-freeze",
-        "source": "Crypto Daily",
-        "published_on": 1791363678
       }
     ],
     "BNB": [
@@ -179,49 +179,77 @@
     ],
     "XRP": [
       {
-        "title": "Bitcoin, Ether ETFs Lose $1.2 Billion as Institutional Demand Cracks",
-        "brief": "U.S. crypto ETF demand reversed sharply in the week through Oct. 9, with bitcoin and ether funds losing more than $1.2 billion combined. Sol…",
-        "url": "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791813603
+        "title": "Standard Chartered brings Ripple’s RLUSD into banking custody after $765 million quarterly surge",
+        "brief": "Eligible clients can custody XRPL-issued RLUSD through the DIFC branch; the planned LMAX collateral link remains conditional and undated. Th…",
+        "url": "https://cryptoslate.com/standard-chartered-brings-ripples-rlusd-into-banking-custody-after-765-million-quarterly-surge/",
+        "source": "CryptoSlate",
+        "published_on": 1791833419
       },
       {
-        "title": "XRP-Backed Evernorth Lists on Nasdaq Today Under XRPN With 47 M",
-        "brief": "Ripple-backed Evernorth is making its Nasdaq debut today under the ticker XRPN, bringing 473 million XRP into a publicly traded company. Bac…",
-        "url": "https://www.tradingview.com/chart/XRPUSD/KUYNd2bK-XRP-Backed-Evernorth-Lists-on-Nasdaq-Today-Under-XRPN-With-47-M/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791813318
+        "title": "Evernorth Holdings shares rise 5% in Nasdaq debut as XRP treasury firm goes public",
+        "brief": "Evernorth's Nasdaq debut highlights growing institutional interest in crypto, offering traditional investors a regulated entry into the XRP…",
+        "url": "https://cryptobriefing.com/evernorth-holdings-xrpn-nasdaq-debut/",
+        "source": "Crypto Briefing",
+        "published_on": 1791830253
       },
       {
-        "title": "Standard Chartered Launches RLUSD Custody With LMAX Collateral Plan",
-        "brief": "Key Takeaways Standard Chartered has launched institutional custody for Ripple’s RLUSD stablecoin on the XRP Ledger (XRPL) and is working wi…",
-        "url": "https://usethebitcoin.com/xrp/standard-chartered-rlusd-custody/",
-        "source": "UseTheBitcoin",
-        "published_on": 1791807438
+        "title": "Ripple-Backed Evernorth Hits Nasdaq Holding 473 Million XRP Worth Far Less Than It Paid",
+        "brief": "Evernorth's XRPN shares began trading Monday after its SPAC merger closed, but 80% of SPAC investors cashed out first and its XRP stash is w…",
+        "url": "https://decrypt.co/380728/ripple-backed-evernorth-hits-nasdaq-holding-473-million-xrp",
+        "source": "Decrypt",
+        "published_on": 1791828555
       },
       {
-        "title": "XRP Ledger Says 100B XRP Supply Remains Safe After Critical Bug Fix",
-        "brief": "Key Takeaways The XRP Ledger Foundation has reassured the community that XRP’s 100 billion token supply remains intact after developers fixe…",
-        "url": "https://usethebitcoin.com/xrp/xrp-ledger-critical-bug-fix/",
-        "source": "UseTheBitcoin",
-        "published_on": 1791807151
+        "title": "XRPL branded ‘cheap’ for paying infinite XRP exploiter just $250K",
+        "brief": "Crypto sleuth ZachXBT says XRPL 'cheaply' paid the whitehat hacker and is asking to lose $100M in future XRP exploits because of it. The pos…",
+        "url": "https://protos.com/xrpl-branded-cheap-for-paying-infinite-xrp-exploiter-just-250k/",
+        "source": "Protos",
+        "published_on": 1791825620
       },
       {
-        "title": "Evernorth names former Coinbase investment exec to steer 473 million XRP treasury ahead of Nasdaq debut",
-        "brief": "Evernorth plans to put its XRP holdings to work through lending, liquidity provision and yield strategies.",
-        "url": "https://www.theblock.co/news/business/2026-10-12-evernorth-former-coinbase-investment-chief-steer-473-million-xrp-treasury-nasdaq-debut-418225",
-        "source": "The Block",
-        "published_on": 1791806462
+        "title": "ZachXBT calls $250K XRP Ledger bug bounty too low for 18-trillion flaw",
+        "brief": "Blockchain investigator ZachXBT said on Monday that the $250,000 Ripple paid the security firm Veria Labs for finding a bug that could have…",
+        "url": "https://www.cryptopolitan.com/zachxbt-ripple-criticism-bounty-xrp-bug/",
+        "source": "Cryptopolitan",
+        "published_on": 1791822499
       },
       {
-        "title": "Shorting XRP, Bitcoin, Ether, SOL Has This NEAR Trader up $20 Million",
-        "brief": "A Hyperliquid trader who went long 5.76 million NEAR at $2.35 in September is now sitting on roughly $20.55 million in unrealized profit, an…",
-        "url": "https://news.bitcoin.com/crypto-news/near-trader-20-million-profit-hyperliquid-shorts-xrp-bitcoin/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791801057
+        "title": "XRP Ledger’s Payment Engine Had a Counterfeiting Bug Hiding Since 2015",
+        "brief": "An integer overflow in the payment engine, dormant since 2015, could have let an attacker mint spendable XRP beyond the token’s total supply…",
+        "url": "https://decrypt.co/380693/xrp-ledger-payment-engine-counterfeiting-bug-hiding",
+        "source": "Decrypt",
+        "published_on": 1791820595
       }
     ],
     "USDC": [
+      {
+        "title": "ATOM/USDC, Whale Footprints Above the 200 EMA",
+        "brief": "ATOM/USDC is setting up for a momentum breakout on Coinbase Advanced Spot, and the structure here is clean. Price has reclaimed the daily 20…",
+        "url": "https://www.tradingview.com/chart/ATOMUSDC/1ZT83qC4-ATOM-USDC-Whale-Footprints-Above-the-200-EMA/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791832654
+      },
+      {
+        "title": "USDC traded $40.2 billion on DEXs during Q3 weekends while banks were closed",
+        "brief": "USDC's weekend DEX trading highlights the growing shift towards decentralized finance, challenging traditional banking's operational limitat…",
+        "url": "https://cryptobriefing.com/usdc-40-billion-dex-weekend-volume-q3/",
+        "source": "Crypto Briefing",
+        "published_on": 1791830210
+      },
+      {
+        "title": "Ledger Says All Confirmed Cases Trace to Reseller CryptoBilis, Gives No Loss Total",
+        "brief": "Onchain trackers put the theft between $93.2 million and $103.4 million, and Bitquery says the thief moved USDC out of five wallets before a…",
+        "url": "https://unchainedcrypto.com/ledger-says-all-confirmed-cases-trace-to-reseller-cryptobilis-gives-no-loss-total/",
+        "source": "Unchained Crypto",
+        "published_on": 1791822183
+      },
+      {
+        "title": "France’s tax proposal would tax Bitcoin-to-USDC swaps before investors cash out",
+        "brief": "The committee-approved amendment would end deferral for swaps into MiCA e-money tokens and change the acquisition basis used to calculate ga…",
+        "url": "https://cryptoslate.com/frances-tax-proposal-would-make-bitcoin-to-usdc-swaps-taxable-before-cash-out/",
+        "source": "CryptoSlate",
+        "published_on": 1791818419
+      },
       {
         "title": "Bybit Kicks Off “Full Stocks Ahead” With a 150,000 USDC Prize Pool for Its New Stocks Trading Service",
         "brief": "Dubai, United Arab Emirates, 12th October 2026, Chainwire The post Bybit Kicks Off “Full Stocks Ahead” With a 150,000 USDC Prize Pool for It…",
@@ -235,64 +263,36 @@
         "url": "https://www.financemagnates.com/cryptocurrency/crypto-exchange-bybit-moves-from-stock-cfds-to-real-us-shares/",
         "source": "Finance Magnates Crypto",
         "published_on": 1791791986
-      },
-      {
-        "title": "Papertrade 上线首日被撸 128 万美元",
-        "brief": "撰文：小饼 Papertrade 上线八个小时，一个钱包就演示了如何用它赚钱。 一场教科书式的操作 先说 Papertrade 是什么：一个建在 Hyperliquid 上的永续合约平台，最大卖点是 1000 倍杠杆。10 月 10 日刚上线，没有订单簿，没有做市商，一个 USD…",
-        "url": "https://www.chaincatcher.com/article/2295594",
-        "source": "Chain Catcher",
-        "published_on": 1791779465
-      },
-      {
-        "title": "Ethena 累计协议费用达 10.61 亿美元",
-        "brief": "ChainCatcher 消息，据 MSB Intel 10 月 12 日报道，据 DefiLlama 统计，合成美元 USDe 发行方 Ethena 自 2023 年末上线以来，累计协议费用达 10.61 亿美元，统计跨度约 34 个月。 USDe 由抵押品与永续期货头寸支持，…",
-        "url": "https://www.chaincatcher.com/article/2295555",
-        "source": "Chain Catcher",
-        "published_on": 1791768819
-      },
-      {
-        "title": "Circle Brings USDC and EURC Into SAP Enterprise Payment Workflows",
-        "brief": "Circle and SAP-backed Tereina plan to put USDC and EURC payments into SAP Pay, starting with Cloud ERP and customer proof-of-value programs.",
-        "url": "https://cryptodaily.co.uk/2026/10/circle-tereina-usdc-eurc-sap-pay",
-        "source": "Crypto Daily",
-        "published_on": 1791546067
-      },
-      {
-        "title": "Samsung Wallet to Add USDC Transfers on Solana for 82 Million US Galaxy Devices",
-        "brief": "Samsung Wallet will add USDC transfers on Solana for eligible U.S. Galaxy users in late October, reaching 82 million devices, Solana said.",
-        "url": "https://cryptodaily.co.uk/2026/10/samsung-wallet-solana-usdc-transfers-us-galaxy-devices",
-        "source": "Crypto Daily",
-        "published_on": 1791534068
       }
     ],
     "SOL": [
       {
-        "title": "Bitcoin, Ether ETFs Lose $1.2 Billion as Institutional Demand Cracks",
-        "brief": "U.S. crypto ETF demand reversed sharply in the week through Oct. 9, with bitcoin and ether funds losing more than $1.2 billion combined. Sol…",
-        "url": "https://news.bitcoin.com/market-updates/bitcoin-ether-etfs-lose-1-2-billion-as-institutional-demand-cracks/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791813603
+        "title": "Solana Treasury Firm DeFi Development Keeps Buying SOL as CHAD Preferred Stock Hits Record",
+        "brief": "The Nasdaq-listed company now holds about 2.59 million SOL, but its weekly purchases keep shrinking.",
+        "url": "https://decrypt.co/380752/solana-treasury-firm-defi-development-keeps-buying-sol",
+        "source": "Decrypt",
+        "published_on": 1791832050
       },
       {
-        "title": "Pumpfun Claims #3 Spot in Revenue Across All Chains",
-        "brief": "Pumpfun has recently surpassed Hyperliquid to become the third-highest revenue-generating protocol across all chains in the past week. This…",
-        "url": "https://www.tradingview.com/chart/TOTAL2/tnqQIIOZ-Pumpfun-Claims-3-Spot-in-Revenue-Across-All-Chains/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791813416
+        "title": "Solana’s offline-signing proposal would keep approvals valid after failed transactions",
+        "brief": "Proposed signer programs would preserve offline approval while requiring affected operators to reassess account authorities, application acc…",
+        "url": "https://cryptoslate.com/solanas-cold-wallet-migration-plan-would-add-a-new-layer-between-keys-and-funds/",
+        "source": "CryptoSlate",
+        "published_on": 1791825624
       },
       {
-        "title": "DeFi Development Corp. adds 22,070 SOL to its growing Solana treasury",
-        "brief": "DeFi Development Corp.'s focus on Solana treasury highlights the growing trend of crypto integration in traditional investment vehicles. The…",
-        "url": "https://cryptobriefing.com/defi-development-corp-buys-22070-sol/",
-        "source": "Crypto Briefing",
-        "published_on": 1791810668
+        "title": "StoneX raises Securitize price target 50% as tokenized stock platform opens new revenue stream",
+        "brief": "StoneX lifts SECZ price target to $18 from $12, citing new revenue from the Securitize Stocks tokenized trading platform on Solana.",
+        "url": "https://www.theblock.co/news/markets/2026-10-12-stonex-raises-securitize-price-target-tokenized-stocks-418313",
+        "source": "The Block",
+        "published_on": 1791824785
       },
       {
-        "title": "1.14M Solana transferred between unknown wallets, worth $126M",
-        "brief": "This large Solana transfer may affect market sentiment and short-term price predictions, highlighting potential liquidity or manipulation co…",
-        "url": "https://cryptobriefing.com/114m-solana-transferred-between-unknown-wallets-worth-126m/",
-        "source": "Crypto Briefing",
-        "published_on": 1791810431
+        "title": "SkyAI sells half its SOL to fund $201M buyback and keep Forward out",
+        "brief": "SkyAI plans to spend roughly $201 million buying back up to 95% of its shares and warrants at $3.00 each. The company plans to sell half of…",
+        "url": "https://www.cryptopolitan.com/skyai-sell-sol-keep-forward-industries-out/",
+        "source": "Cryptopolitan",
+        "published_on": 1791817327
       },
       {
         "title": "Solana 财库公司 DFDV 上周增持约 2.2 万枚 SOL，总持仓超 258 万枚",
@@ -302,55 +302,55 @@
         "published_on": 1791807768
       },
       {
-        "title": "OSL tokenizes 2WA USDGO Plus SP fund on Solana, handling custody",
-        "brief": "Tokenizing traditional funds on blockchain could revolutionize finance by enhancing liquidity, transparency, and merging digital with tradit…",
-        "url": "https://cryptobriefing.com/2wa-tokenizes-usdgo-plus-sp-solana/",
-        "source": "Crypto Briefing",
-        "published_on": 1791806426
+        "title": "Pando Finance Adds Solana to Hong Kong’s Growing Spot Crypto ETF Market",
+        "brief": "Hong Kong’s spot Solana ETF market is about to get more competitive. Pando Finance is set to list its Pando Solana ETF, ticker 02831, on HKE…",
+        "url": "https://thenewscrypto.com/pando-finance-adds-solana-to-hong-kongs-growing-spot-crypto-etf-market/",
+        "source": "TheNewsCrypto",
+        "published_on": 1791804922
       }
     ],
     "TRX": [
       {
-        "title": "Arkham 曝光孫宇晨鏈上持幣規模達 22.5 億美元！僅次中本聰",
-        "brief": "區塊鏈數據分析平台 Arkham 於今（12）日發布最新追蹤報告，正式標記出波場（TRON）創辦人孫宇晨（Ju […] 〈Arkham 曝光孫宇晨鏈上持幣規模達 22.5 億美元！僅次中本聰〉這篇文章最早發佈於動區BlockTempo《動區動趨-最具影響力的區塊鏈新聞媒體》。",
-        "url": "https://www.blocktempo.com/arkham-reveals-justin-sun-2-billion-crypto-wallet-holdings/",
-        "source": "BlockTempo",
-        "published_on": 1791810519
+        "title": "DODO Finance, Go LONG! (PP: 660% - 925%)",
+        "brief": "8 months with a rising bottom, higher lows. 8 months ago the downtrend ended. DODOUSDT is producing bullish consolidation. This type of move…",
+        "url": "https://www.tradingview.com/chart/DODOUSDT/SpGXe23D-DODO-Finance-Go-LONG-PP-660-925/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791843317
       },
       {
-        "title": "Plenty is working against this market. Here's why I'm staying invested anyway",
-        "brief": "The fact is, I don't have a strong case for owning stocks at the moment.",
-        "url": "https://www.cnbc.com/investingclub/2026/10/11/plenty-is-working-against-this-market-why-im-staying-invested-anyway.html",
-        "source": "CNBC Crypto",
-        "published_on": 1791807490
+        "title": "CYBER/USDT: +280% Macro Expansion Setup",
+        "brief": "CyberConnect ( BBG:CYBER ) is displaying strong macro accumulation characteristics as price action consolidates inside a massive rounding ba…",
+        "url": "https://www.tradingview.com/chart/CYBERUSDT.P/63KlfpLv-CYBER-USDT-280-Macro-Expansion-Setup/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791835390
       },
       {
-        "title": "Melbourne man ‘strongly rejects’ links to flydubai attack suspect",
-        "brief": "Samir Mohtadi \"strongly rejects\" any attempt to associate him or Islamic centre in Melbourne with the alleged attacker.",
-        "url": "https://www.aljazeera.com/news/2026/10/12/melbourne-man-linked-to-flydubai-attack-suspect-rejects-false-accusations?traffic_source=rss",
-        "source": "Al Jazeera",
-        "published_on": 1791799519
+        "title": "UK: Iran 'highly likely' to be behind RAF Fairford incident",
+        "brief": "Prime Minister Andy Burnham told parliament there were \"strong indications\" of Iranian involvement. The government summoned Iran's ambassado…",
+        "url": "https://www.dw.com/en/uk-iran-highly-likely-to-be-behind-raf-fairford-incident/a-79645941?maca=en-rss-en-all-1573-xml-mrss",
+        "source": "DW News",
+        "published_on": 1791831720
       },
       {
-        "title": "Smallcaps have surged 2.3x since April 2023. Why Vikas Khemani still sees India’s next multibaggers here",
-        "brief": "Smallcaps have surged 2.3 times since April 2023, but Carnelian Capital founder Vikas Khemani believes the segment still offers India’s next…",
-        "url": "https://economictimes.indiatimes.com/markets/stocks/news/smallcaps-have-surged-2-3x-since-april-2023-why-vikas-khemani-still-sees-indias-next-multibaggers-here/articleshow/134889046.cms",
-        "source": "Economic Times India Markets",
-        "published_on": 1791798939
+        "title": "GRASS/USDT: +35% Reaccumulation Breakout Setup",
+        "brief": "Grass ($GRASS) is coiling inside a tight lower-timeframe bullish continuation structure following a strong demand retest in the **$0.700 – $…",
+        "url": "https://www.tradingview.com/chart/GRASSUSDT.P/K6O5gfHC-GRASS-USDT-35-Reaccumulation-Breakout-Setup/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791831670
       },
       {
-        "title": "The Enterprise Agent Maturity Gap: Adoption Is Surging, but the Deployments That Work Stay Bounded and Poorly Measured",
-        "brief": "KPMG says 62% of large US enterprises are building or deploying agents. A 150-deployment audit finds the strongest systems stay bounded, hum…",
-        "url": "https://forkast.news/the-enterprise-agent-maturity-gap-adoption-is-surging-but-the-deployments-that-work-stay-bounded-and-poorly-measured/",
-        "source": "Forkast News",
-        "published_on": 1791796955
+        "title": "Severe hair loss?",
+        "brief": "I anticipate a drop to $5 or $4; if this Fibonacci level fails to hold, the price could fall even lower. This analysis would be invalidated…",
+        "url": "https://www.tradingview.com/chart/UNIUSDT/jlJ0Unmk-Severe-hair-loss/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791831144
       },
       {
-        "title": "NEAR Price Prediction: 13% Rally and Token Supply Cut Proposal Put $6 in Focus",
-        "brief": "NEAR rose 12.6% to about $5.93 as an issuance-cut proposal and strong Intents activity support sentiment, while $6.14 remains pivotal resist…",
-        "url": "https://cryptodaily.co.uk/2026/10/near-price-prediction-6-rally-issuance-cut",
-        "source": "Crypto Daily",
-        "published_on": 1791795667
+        "title": "AAVE: Weekly Uptrend Faces Growing Pressure",
+        "brief": "Weekly Recovery Remains Constructive AAVE's medium-term weekly trend remains bullish following the strong recovery from the $57.83 low. The…",
+        "url": "https://www.tradingview.com/chart/AAVEUSDT/WZYki0Cr-AAVE-Weekly-Uptrend-Faces-Growing-Pressure/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1791826988
       }
     ],
     "FIGR_HELOC": [],
@@ -398,200 +398,55 @@
         "published_on": 1790357400
       }
     ],
-    "HYPE": [
-      {
-        "title": "Pumpfun Claims #3 Spot in Revenue Across All Chains",
-        "brief": "Pumpfun has recently surpassed Hyperliquid to become the third-highest revenue-generating protocol across all chains in the past week. This…",
-        "url": "https://www.tradingview.com/chart/TOTAL2/tnqQIIOZ-Pumpfun-Claims-3-Spot-in-Revenue-Across-All-Chains/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1791813416
-      },
-      {
-        "title": "被操纵、被撤资，Papertrade 的千倍杠杆实验开局不顺",
-        "brief": "作者：Zhou，ChainCatcher 10 月 10 日，基于 HyperEVM 的合成永续协议 Papertrade 正式上线，主打最高 1000 倍杠杆，用户亏损即可获得代币 PAPER，预存款阶段吸引了约 1.38 亿美元资金。 上线约 8 小时后，一个链上地址通过拉动…",
-        "url": "https://www.chaincatcher.com/article/2295671",
-        "source": "Chain Catcher",
-        "published_on": 1791804655
-      },
-      {
-        "title": "Shorting XRP, Bitcoin, Ether, SOL Has This NEAR Trader up $20 Million",
-        "brief": "A Hyperliquid trader who went long 5.76 million NEAR at $2.35 in September is now sitting on roughly $20.55 million in unrealized profit, an…",
-        "url": "https://news.bitcoin.com/crypto-news/near-trader-20-million-profit-hyperliquid-shorts-xrp-bitcoin/",
-        "source": "Bitcoin.com News",
-        "published_on": 1791801057
-      },
-      {
-        "title": "Papertrade 上线首日被撸 128 万美元",
-        "brief": "撰文：小饼 Papertrade 上线八个小时，一个钱包就演示了如何用它赚钱。 一场教科书式的操作 先说 Papertrade 是什么：一个建在 Hyperliquid 上的永续合约平台，最大卖点是 1000 倍杠杆。10 月 10 日刚上线，没有订单簿，没有做市商，一个 USD…",
-        "url": "https://www.chaincatcher.com/article/2295594",
-        "source": "Chain Catcher",
-        "published_on": 1791779465
-      },
-      {
-        "title": "Trader nets $1.28 million on new 1,000x exchange Papertrade by moving Hyperliquid’s ETH prices",
-        "brief": "The same wallet later lost $450,000 when 30 short positions were liquidated on Saturday night after staying open for more than three hours.",
-        "url": "https://www.theblock.co/news/defi/2026-10-11-trader-nets-1-28-million-on-new-1000x-exchange-papertrade-by-moving-hyperliquids-eth-prices-418239",
-        "source": "The Block",
-        "published_on": 1791757562
-      },
-      {
-        "title": "Hyperliquid Revenue Tops $1.4B as HYPE Momentum Weakens",
-        "brief": "Hyperliquid tops $1.4B in cumulative revenue and $1.26B in HYPE buybacks as derivatives positioning softens and OpenETF tests tokenized fund…",
-        "url": "https://www.crypto-news-flash.com/hyperliquid-revenue-tops-1-4b-as-hype-momentum-weakens/",
-        "source": "Crypto-News Flash",
-        "published_on": 1791620459
-      }
-    ],
-    "DOGE": [
-      {
-        "title": "Dogecoin dips by 11% this week as whale balances shrink",
-        "brief": "Key takeaways Dogecoin traded near $0.085 on Friday after losing more than 11% this week. Two large-wallet cohorts reduced their combined ho…",
-        "url": "https://coinjournal.net/news/dogecoin-dips-by-11-this-week-as-whale-balances-shrink/",
-        "source": "CoinJournal",
-        "published_on": 1791531489
-      },
-      {
-        "title": "Dogecoin Before October 14: $0.10 Resistance Meets the BWOW ETF Shutdown",
-        "brief": "Dogecoin trades near $0.0878 ahead of BWOW ETF’s final trading day on October 14, with $0.10 dependent on clearing layered resistance.",
-        "url": "https://cryptodaily.co.uk/2026/10/dogecoin-price-prediction-october-14-bwow-etf",
-        "source": "Crypto Daily",
-        "published_on": 1791454867
-      },
-      {
-        "title": "DOGE Below $0.10: DogeOS Launch Sets Up a Make-or-Break Week for Dogecoin",
-        "brief": "Dogecoin traded at $0.095973 as DogeOS opened its public testnet. DOGE now faces $0.10 resistance while key daily EMAs offer support.",
-        "url": "https://cryptodaily.co.uk/2026/10/doge-price-prediction-dogeos-launch-0-10",
-        "source": "Crypto Daily",
-        "published_on": 1790928068
-      },
-      {
-        "title": "Dogecoin Price Analysis: Is $DOGE’s $0.10 Level a Smart Entry or Market Trap?",
-        "brief": "Meme coins have always lived at the edge of speculation, and Dogecoin sits right at the center of that chaos. Every cycle, headlines rush to…",
-        "url": "https://insidebitcoins.com/news/dogecoin-price-analysis-is-doges-0-10-level-a-smart-entry-or-market-trap",
-        "source": "InsideBitcoins",
-        "published_on": 1769770210
-      },
-      {
-        "title": "Pudgy Penguins Price Prediction – Is PENGU the Next Dogecoin?",
-        "brief": "As 2026 unfolds, investors are once again turning their attention to meme coins in search of asymmetric upside. Rather than surveying an ent…",
-        "url": "https://insidebitcoins.com/news/pudgy-penguins-price-prediction-is-pengu-the-next-dogecoin",
-        "source": "InsideBitcoins",
-        "published_on": 1769596199
-      },
-      {
-        "title": "Dogecoin Price Prediction As BOJ Keeps Rates Unchanged",
-        "brief": "Dogecoin is on a weekly losing streak, down over 10% as it trades within a falling channel. The pattern signals a continued selling pressure…",
-        "url": "https://insidebitcoins.com/news/dogecoin-price-prediction-as-boj-keeps-rates-unchanged",
-        "source": "InsideBitcoins",
-        "published_on": 1769162944
-      }
-    ],
-    "USDS": [
-      {
-        "title": "Sui Dollar (USDsui) Now Live on Sui, Bringing a Native Digital Dollar to Scalable Finance and Global Payments",
-        "brief": "Stripe-grade issuance meets a native Sui digital dollar designed to be GENIUS-compliant, ensuring compliance-ready rails for institutions an…",
-        "url": "https://www.sui.io/blog/sui-dollar-launch-bridge",
-        "source": "Sui Blog",
-        "published_on": 1772632791
-      }
-    ],
-    "LINK": [
-      {
-        "title": "Chainlink eyes $13.50 breakout as ETF inflows hit yearly high",
-        "brief": "Key takeaways Chainlink traded near $13.50 on Monday, extending its recovery from Thursday’s $12.09 low. LINK-focused ETFs attracted $9.48 m…",
-        "url": "https://coinjournal.net/news/chainlink-eyes-13-50-breakout-as-etf-inflows-hit-yearly-high/",
-        "source": "CoinJournal",
-        "published_on": 1791790771
-      },
-      {
-        "title": "Chainlink Launches CCIP Vault Adapters for One-Click Deposits From 80-Plus Chains",
-        "brief": "Chainlink has launched CCIP Vault Adapters, allowing ERC-4626 vaults to accept one-click deposits from users across more than 80 blockchains…",
-        "url": "https://cryptodaily.co.uk/2026/10/chainlink-ccip-vault-adapters-80-chains",
-        "source": "Crypto Daily",
-        "published_on": 1791547267
-      },
-      {
-        "title": "Chainlink Connects Financial Institutions to Swift’s Blockchain Ledger for Tokenized Deposits",
-        "brief": "Chainlink has connected financial institutions to Swift’s blockchain ledger, enabling tokenized-deposit workflows while banks retain signing…",
-        "url": "https://cryptodaily.co.uk/2026/10/chainlink-swift-blockchain-ledger-tokenized-deposits",
-        "source": "Crypto Daily",
-        "published_on": 1790964066
-      },
-      {
-        "title": "Chainlink Launches CCIP 2.0 With Custom Security Checks for Cross-Chain Assets",
-        "brief": "Chainlink launched CCIP 2.0 on September 28, adding issuer-configurable transfer checks, speed settings and compliance controls.",
-        "url": "https://cryptodaily.co.uk/2026/09/chainlink-ccip-2-custom-cross-chain-security",
-        "source": "Crypto Daily",
-        "published_on": 1790679669
-      },
-      {
-        "title": "A US state just published its security criteria for cross-chain infrastructure, and LayerZero failed them",
-        "brief": "Wyoming's Stable Token Commission moved FRNT to Chainlink CCIP and published the security criteria it expects cross-chain providers to meet.…",
-        "url": "https://insidebitcoins.com/news/wyoming-frnt-layerzero-chainlink-ccip-security-criteria",
-        "source": "InsideBitcoins",
-        "published_on": 1789441214
-      },
-      {
-        "title": "0G Monthly Tech Update: November 2025",
-        "brief": "0G's November 2025 update covers TEE advances on Alibaba Cloud, compute provider upgrades, LayerZero bridging, and Chainlink CCIP token pool…",
-        "url": "https://0g.ai/blog/tech-update-nov-2025",
-        "source": "0G Labs Blog",
-        "published_on": 1764547200
-      }
-    ],
+    "HYPE": [],
+    "DOGE": [],
+    "USDS": [],
     "XMR": [],
+    "LINK": [],
     "WBT": [],
     "ADA": [],
     "LEO": [],
-    "NEAR": [],
     "RAIN": [],
+    "NEAR": [],
     "XLM": [],
     "BCH": [],
-    "LTC": [],
     "CC": [],
-    "AVAX": [],
-    "UNI": [],
+    "LTC": [],
     "USDE": [],
+    "UNI": [],
+    "AVAX": [],
+    "DAI": [],
     "BTW": [],
     "SUI": [],
-    "DAI": [],
     "USD1": [],
     "HBAR": [],
     "GRAM": [],
-    "QNT": [],
     "XAUT": [],
+    "QNT": [],
     "TAO": [],
     "SHIB": [],
-    "ENA": [],
     "USDG": [],
     "CRO": [],
     "PYUSD": [],
+    "ENA": [],
     "OKB": [],
-    "PUMP": [],
     "AAVE": [],
-    "ONDO": [],
     "RLUSD": [],
     "USYC": [],
+    "ONDO": [],
+    "PUMP": [],
     "USDY": [],
     "BUIDL": [],
-    "DOT": [],
     "M": [],
+    "DOT": [],
     "WLD": [],
-    "ICP": [],
     "ASTER": [],
-    "MNT": [
-      {
-        "title": "Lido Multichain: Network Support Changes (June 2026)",
-        "brief": "Following a Lido DAO Snapshot vote, the canonical status of wstETH bridge endpoints has been revoked on nine networks: zkSync Era, Mode, Scr…",
-        "url": "https://blog.lido.fi/lido-multichain-update-june-2026/",
-        "source": "Lido Blog",
-        "published_on": 1782211446
-      }
-    ],
-    "SKY": [],
     "PAXG": [],
+    "MNT": [],
     "USDF": [],
+    "SKY": [],
     "WLFI": [],
+    "ICP": [],
     "USDD": [],
     "PEPE": [],
     "MORPHO": [],
@@ -599,68 +454,39 @@
     "U": [],
     "HTX": [],
     "BGB": [],
-    "ETC": [],
-    "ARB": [
-      {
-        "title": "3 Token Unlocks to Watch in the Third Week of October 2026",
-        "brief": "The crypto market will welcome tokens worth $845.8 million in the third week of October 2026. Major projects, including Cronos (CRO), Arbitr…",
-        "url": "https://beincrypto.com/token-unlocks-third-week-of-october-2026/",
-        "source": "BeInCrypto",
-        "published_on": 1791793776
-      },
-      {
-        "title": "Join the UXmaxx Hackathon: $15.5K For Grabs, 100% Online!",
-        "brief": "Dear builders,Web3 has delivered the infra. Your job as a founder is now to make it invisible.That's why the 7702 Collective, led by Particl…",
-        "url": "https://blog.particle.network/join-the-uxmaxx-hackathon-15-5k-for-grabs-100-online/",
-        "source": "Particle Network Blog",
-        "published_on": 1780586142
-      },
-      {
-        "title": "AI Alignment Node License Migration",
-        "brief": "Alignment Node NFTs are migrating from Arbitrum to 0G Chain as iNFTs. Auto-migration is live, but re-delegation is required starting Dec 24,…",
-        "url": "https://0g.ai/blog/alignment-node-license-migration",
-        "source": "0G Labs Blog",
-        "published_on": 1765843200
-      },
-      {
-        "title": "Memecoins With Memes 😄",
-        "brief": "Weekly Roundup: Arbitrum Arcade, Blast mainnet, Lens opens, &amp; more!",
-        "url": "https://metaversal.banklesshq.com/p/memecoins-with-memes",
-        "source": "Metaversal",
-        "published_on": 1709324123
-      }
-    ],
     "BFUSD": [],
+    "ETC": [],
     "USDGO": [],
-    "VVV": [],
-    "ALGO": [],
-    "JUP": [],
-    "KAS": [],
-    "GT": [],
+    "ARB": [],
     "JST": [],
+    "GT": [],
+    "VVV": [],
+    "JUP": [],
+    "ALGO": [],
+    "KCS": [],
+    "KAS": [],
     "POL": [],
     "RENDER": [],
-    "KCS": [],
-    "FIL": [],
     "ATOM": [],
-    "ZRO": [],
     "BCAP": [],
+    "FIL": [],
     "LIT": [],
-    "AERO": [],
     "PI": [],
+    "AERO": [],
+    "ZRO": [],
     "NEXO": [],
+    "STX": [],
+    "USTB": [],
+    "OUSD": [],
     "NIGHT": [],
     "INJ": [],
-    "USTB": [],
-    "STRK": [],
-    "OUSD": [],
-    "APT": [],
-    "CAKE": [],
     "STABLE": [],
-    "STX": [],
-    "XDC": [],
-    "ETHFI": [],
+    "CAKE": [],
+    "APT": [],
+    "STRK": [],
     "GHO": [],
-    "VET": []
+    "BDX": [],
+    "XDC": [],
+    "ETHFI": []
   }
 }
