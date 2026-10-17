@@ -1,13 +1,34 @@
 {
-  "generated_at": "2026-10-17T17:44:40.350Z",
+  "generated_at": "2026-10-17T20:01:39.811Z",
   "coins": {
     "BTC": [
       {
-        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 737,957 txs today",
-        "brief": "BTC price: $81,385.18",
+        "title": "₿ Bitcoin Network: 0.0 EH/s hashrate, 695,784 txs today",
+        "brief": "BTC price: $81,530.33",
         "url": "https://www.blockchain.com/explorer/charts",
         "source": "Blockchain.com",
-        "published_on": 1792258700
+        "published_on": 1792266680
+      },
+      {
+        "title": "Bitcoin ETFs log $228M in weekly sales as monthly outflows near $618M",
+        "brief": "Institutional shifts in Bitcoin ETF flows highlight market volatility and strategic reallocations, impacting broader cryptocurrency investme…",
+        "url": "https://cryptobriefing.com/bitcoin-etfs-228m-sales-618m-outflows/",
+        "source": "Crypto Briefing",
+        "published_on": 1792265172
+      },
+      {
+        "title": "Charles Schwab Opens Bitcoin And Ethereum Transfers As Crypto Rollout Expands",
+        "brief": "TL;DR: Charles Schwab is expanding its direct Bitcoin and Ethereum services, including phased external wallet transfers. The move brings dig…",
+        "url": "https://www.newsbtc.com/crypto-news/charles-schwab-opens-bitcoin-and-ethereum-transfers-as-crypto-rollout/",
+        "source": "NewsBTC",
+        "published_on": 1792264380
+      },
+      {
+        "title": "Lopp’s Wrench Attack Map Hits 702 After AI-Assisted Search Work",
+        "brief": "Bitcoin security expert Jameson Lopp’s archive of physical attacks against cryptocurrency holders has more than doubled to over 700 document…",
+        "url": "https://news.bitcoin.com/security/lopps-wrench-attack-map-hits-702-after-ai-assisted-search-work/",
+        "source": "Bitcoin.com News",
+        "published_on": 1792261849
       },
       {
         "title": "BTCUSD 4HR ANALYSIS",
@@ -22,36 +43,22 @@
         "url": "https://www.tradingview.com/chart/BTCUSDT/IEF74HCe-TradeCityPro-Bitcoin-Daily-Analysis-381/",
         "source": "TradingView Crypto Ideas",
         "published_on": 1792257905
-      },
-      {
-        "title": "I don’t like it but BTC $78Kish",
-        "brief": "Just seems like a short term breakdown back to retest the previous months dow theory low. Prove me wrong Bitcoin!",
-        "url": "https://www.tradingview.com/chart/BTCUSD/JUqs14jh-I-don-t-like-it-but-BTC-78Kish/",
-        "source": "TradingView Crypto Ideas",
-        "published_on": 1792257720
-      },
-      {
-        "title": "CIA deputy director says Bitcoin is a tool for intelligence collection",
-        "brief": "Bitcoin's role in intelligence highlights privacy concerns, impacts illicit activity tracking, and influences global tech competition dynami…",
-        "url": "https://cryptobriefing.com/cia-deputy-director-bitcoin-intelligence-collection/",
-        "source": "Crypto Briefing",
-        "published_on": 1792257559
-      },
-      {
-        "title": "Vitalik Buterin Reveals Why AI Could Push Bitcoin Miners Out",
-        "brief": "Vitalik Buterin says Bitcoin mining cost splits 50/50 between hardware and power, while AI inference runs almost entirely on hardware. The p…",
-        "url": "https://beincrypto.com/bitcoin-mining-cost-vitalik-ai-inference/",
-        "source": "BeInCrypto",
-        "published_on": 1792256724
       }
     ],
     "ETH": [
       {
-        "title": "⛽ ETH Gas: 🐢 0.052807699 | 🚶 0.053807699 | 🚀 0.055641542 Gwei",
-        "brief": "Current Ethereum gas prices. Fast: 0.055641542 Gwei, Standard: 0.053807699 Gwei, Safe: 0.052807699 Gwei",
+        "title": "⛽ ETH Gas: 🐢 0.056952757 | 🚶 0.056958876 | 🚀 0.066952757 Gwei",
+        "brief": "Current Ethereum gas prices. Fast: 0.066952757 Gwei, Standard: 0.056958876 Gwei, Safe: 0.056952757 Gwei",
         "url": "https://etherscan.io/gastracker",
         "source": "Etherscan",
-        "published_on": 1792258802
+        "published_on": 1792266895
+      },
+      {
+        "title": "Charles Schwab Opens Bitcoin And Ethereum Transfers As Crypto Rollout Expands",
+        "brief": "TL;DR: Charles Schwab is expanding its direct Bitcoin and Ethereum services, including phased external wallet transfers. The move brings dig…",
+        "url": "https://www.newsbtc.com/crypto-news/charles-schwab-opens-bitcoin-and-ethereum-transfers-as-crypto-rollout/",
+        "source": "NewsBTC",
+        "published_on": 1792264380
       },
       {
         "title": "Ethereum sets October 26 for Hoodi’s 200 million gas test",
@@ -80,13 +87,6 @@
         "url": "https://www.cryptopolitan.com/uniswap-price-prediction/",
         "source": "Cryptopolitan",
         "published_on": 1792239540
-      },
-      {
-        "title": "Weekly Project Updates: ZKsync Rolls Out Ethereum ZK Prover, ENS DAO Submits ENSv2 Launch Proposal, Blur to Shut Down Frontend, etc",
-        "brief": "1.",
-        "url": "https://wublock.substack.com/p/weekly-project-updates-zksync-rolls",
-        "source": "Wu Blockchain",
-        "published_on": 1792231438
       }
     ],
     "USDT": [
@@ -179,6 +179,13 @@
     ],
     "XRP": [
       {
+        "title": "Expert Says People Will Be Sick Over XRP Supply. Here’s Why",
+        "brief": "Crypto pundit Digital Asset Investor (@digitalassetbuy) recently highlighted a clip from The Modern Investor (@ModernInvest) that raises a s…",
+        "url": "https://www.bitget.com/news/detail/12560605975690",
+        "source": "Bitget Blog",
+        "published_on": 1792260030
+      },
+      {
         "title": "XRP Ledger Nears Oct. 23 Upgrade as Lending Votes Fall Short",
         "brief": "The XRP Ledger is heading toward an Oct. 23 software upgrade that fixes a peculiar security flaw, one that could let certain authorized acco…",
         "url": "https://news.bitcoin.com/technology/xrp-ledger-nears-oct-23-upgrade-as-lending-votes-fall-short/",
@@ -212,13 +219,6 @@
         "url": "https://news.bitcoin.com/crypto-news/bitcoin-and-ether-etfs-lose-152m-as-blackrock-drives-friday-selloff/",
         "source": "Bitcoin.com News",
         "published_on": 1792245636
-      },
-      {
-        "title": "SWIFT, Ripple (XRP) & BNP Paribas: Connecting The Dots",
-        "brief": "In a video shared by SWIFT, a bank representative noted that the ledger would allow the institution to integrate “every single settlement ro…",
-        "url": "https://www.bitget.com/news/detail/12560605975607",
-        "source": "Bitget Blog",
-        "published_on": 1792244897
       }
     ],
     "USDC": [
@@ -251,18 +251,18 @@
         "published_on": 1792213224
       },
       {
+        "title": "ビザ、ステーブルコインUSDCの事前入金を商用化　国際送金で24時間利用可",
+        "brief": "ビザは15日、ビザ・ダイレクトで国際送金の資金をUSDCで事前入金できる機能の商用運用を始めた。従来の資金調達の時間枠に頼らず、インヨ・グローバル経由で24時間利用できる。",
+        "url": "https://coinpost.jp/?p=743447",
+        "source": "CoinPost (EN)",
+        "published_on": 1792212633
+      },
+      {
         "title": "Visa and Mastercard adopt USDC payouts across 200 countries",
         "brief": "Visa's Inyo rollout and Mastercard's BVNK platform give businesses stablecoin funding routes, subject to eligibility and rollout limits. Rea…",
         "url": "https://cryptoslate.com/visa-and-mastercard-adopt-usdc-payouts-across-200-countries/",
         "source": "CryptoSlate",
         "published_on": 1792202433
-      },
-      {
-        "title": "Circle Plans Push Into 40 Emerging Markets as Stablecoins Go Mainstream, CEO Says",
-        "brief": "Circle CEO Jeremy Allaire told Reuters the USDC issuer plans to enter about 40 emerging and developing markets, citing rising demand in Sout…",
-        "url": "https://decrypt.co/381178/circle-40-emerging-markets-stablecoins-go-mainstream",
-        "source": "Decrypt",
-        "published_on": 1792176937
       }
     ],
     "SOL": [
@@ -311,6 +311,13 @@
     ],
     "TRX": [
       {
+        "title": "DOGE/USDT BUY ORDER LIMIT",
+        "brief": "The chart reveals a major bullish market structure following a previous Market Structure Shift (MSS) and strong impulsive rallies from macro…",
+        "url": "https://www.tradingview.com/chart/DOGEUSDT/f0iVAuHp-DOGE-USDT-BUY-ORDER-LIMIT/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1792262781
+      },
+      {
         "title": "Turkey’s Justice Minister Confirms Richard Heart’s Istanbul Bust",
         "brief": "Turkish authorities detained HEX founder Richard Heart and four others in Istanbul, uncovering an extraordinary collection of cash, luxury g…",
         "url": "https://news.bitcoin.com/regulation-and-legal/turkeys-justice-minister-confirms-richard-hearts-istanbul-bust/",
@@ -344,13 +351,6 @@
         "url": "https://www.space.com/astronomy/stars/astronomers-discover-the-1st-ever-green-star-a-cosmic-zombie-just-in-time-for-halloween",
         "source": "Stacker News",
         "published_on": 1792238529
-      },
-      {
-        "title": "Germany news: Merz faces conservative youth wing in Bonn",
-        "brief": "Friedrich Merz, who has struggled for support within his party, on Saturday meets with the CDU/CSU's 90,000-strong Young Union. In Schleswig…",
-        "url": "https://www.dw.com/en/germany-news-merz-faces-conservative-youth-wing-in-bonn/live-79686913?maca=en-rss-en-all-1573-xml-mrss",
-        "source": "DW News",
-        "published_on": 1792233240
       }
     ],
     "FIGR_HELOC": [],
@@ -404,22 +404,65 @@
     "USDS": [],
     "WBT": [],
     "LINK": [],
-    "LEO": [],
     "ADA": [],
+    "LEO": [],
     "NEAR": [],
-    "RAIN": [],
     "XLM": [],
+    "RAIN": [],
     "BCH": [],
     "USDE": [],
     "LTC": [],
-    "DAI": [],
+    "DAI": [
+      {
+        "title": "TradeCityPro | Bitcoin Daily Analysis #381",
+        "brief": "👋 Welcome to TradeCityPro! Let’s take a look at Bitcoin. It’s the weekend, and the market is at a critical point. ⌛️ 4-Hour Timeframe Bitco…",
+        "url": "https://www.tradingview.com/chart/BTCUSDT/IEF74HCe-TradeCityPro-Bitcoin-Daily-Analysis-381/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1792257905
+      },
+      {
+        "title": "Jerusalem Daily: Israeli settlers attack farmers and journalists",
+        "brief": "After Israeli settlers beat and severely wounded Palestinian farmers, settler violence continues.",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/17/aje-onl-nf_yt-dnrbltn-261017-salehm-jerusalem_daily-171026?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_on": 1792257530
+      },
+      {
+        "title": "Here’s what happened in crypto today",
+        "brief": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, We…",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound",
+        "source": "CoinTelegraph",
+        "published_on": 1792243740
+      },
+      {
+        "title": "The US over-the-counter natural gas price drops below $3.4, down 2.5% daily.",
+        "brief": "The US over-the-counter natural gas price has fallen below $3.4, with a daily decline of 2.5%. As an important commodity, natural gas price…",
+        "url": "https://www.bitget.com/news/detail/12560605975571",
+        "source": "Bitget Blog",
+        "published_on": 1792241157
+      },
+      {
+        "title": "Daily Discussion Thread ~Music Saloon!",
+        "brief": "Comments",
+        "url": "https://stacker.news/items/1596930",
+        "source": "Stacker News",
+        "published_on": 1792231268
+      },
+      {
+        "title": "Crypto Price Analysis, ETH, XRP, HYPE, TIA and Lighter, October 17: Ethereum, XRP and Hyperliquid Remain Under Pressure",
+        "brief": "Ethereum, XRP, and Hyperliquid face resistance as Celestia rallies and Lighter rebounds. Daily charts identify support levels and breakout t…",
+        "url": "https://thecryptobasic.com/2026/10/17/crypto-price-analysis-eth-xrp-hype-tia-and-lighter-october-17-ethereum-xrp-and-hyperliquid-remain-under-pressure/",
+        "source": "TheCryptoBasic",
+        "published_on": 1792215276
+      }
+    ],
     "UNI": [],
     "AVAX": [],
     "CC": [],
-    "USD1": [],
     "SUI": [],
-    "GRAM": [],
+    "USD1": [],
     "BTW": [],
+    "GRAM": [],
     "HBAR": [],
     "XAUT": [],
     "USDG": [],
@@ -429,27 +472,101 @@
     "QNT": [],
     "PYUSD": [],
     "ENA": [],
-    "RLUSD": [],
     "OKB": [],
+    "RLUSD": [],
     "USYC": [],
     "USDY": [],
     "AAVE": [],
     "BUIDL": [],
     "ONDO": [],
     "PUMP": [],
-    "ASTER": [],
     "DOT": [],
-    "USDF": [],
     "WLD": [],
+    "ASTER": [],
+    "USDF": [],
     "PAXG": [],
     "WLFI": [],
     "USDD": [],
     "MNT": [],
     "M": [],
     "EURSAFO": [],
-    "MORPHO": [],
-    "SKY": [],
+    "MORPHO": [
+      {
+        "title": "Unveiling Lido Lend: Security-First Lending",
+        "brief": "Lido Lend: Security-First Lending Lido Lend Lido contributors are unveiling the development of ‘Lido Lend’, a new decentralized lending mark…",
+        "url": "https://research.lido.fi/t/unveiling-lido-lend-security-first-lending/11987",
+        "source": "Lido DAO Governance",
+        "published_on": 1791385337
+      },
+      {
+        "title": "Analyst Spotlight: Morpho Overview",
+        "brief": "Analyst overview of Morpho Vaults, curator allocation, and the MORPHO token",
+        "url": "https://coinmetrics.substack.com/p/analyst-spotlight-morpho-overview",
+        "source": "Coin Metrics",
+        "published_on": 1780403501
+      }
+    ],
+    "SKY": [
+      {
+        "title": "Trump waives broad new Russia sanctions, Zelenskyy condemns it as 'wrong'",
+        "brief": "Trump signed the Graham Bill, which targeted Russia over its invasion of Ukraine, into law in September.",
+        "url": "https://www.cnbc.com/2026/10/17/trump-waives-russia-related-sanctions-tariffs-before-they-take-effect-.html",
+        "source": "CNBC Crypto",
+        "published_on": 1792265718
+      },
+      {
+        "title": "Trump waives several Russia sanctions as row with Zelensky intensifies",
+        "brief": "The US president temporarily ends many restrictions on Moscow recently passed by Congress over \"national security\" concerns.",
+        "url": "https://www.bbc.co.uk/news/articles/cxr5yvzv7rp0o?at_medium=RSS&amp;at_campaign=rss",
+        "source": "BBC World",
+        "published_on": 1792264759
+      },
+      {
+        "title": "Will the EU come to Ukraine’s rescue in war against Russia?",
+        "brief": "US support at risk as Trump-Zelenskyy relations nosedive.",
+        "url": "https://www.aljazeera.com/video/inside-story/2026/10/17/will-the-eu-come-to-ukraines-rescue-in-war-against-russia?traffic_source=rss",
+        "source": "Al Jazeera",
+        "published_on": 1792263829
+      },
+      {
+        "title": "SpaceX satellite system not fully operational in Ukraine yet, Zelensky says",
+        "brief": "",
+        "url": "https://seekingalpha.com/news/4654041-spacex-satellite-system-not-fully-restored-ukraine?utm_source=feed_news_all&amp;utm_medium=referral&amp;feed_item_type=news",
+        "source": "Seeking Alpha",
+        "published_on": 1792252488
+      },
+      {
+        "title": "Zelensky Warns That 20 Million Ukrainians Would Pour Into EU If Russia Wins",
+        "brief": "&lt;span property=\"schema:name\" class=\"field field--name-title field--type-string field--label-hidden\"&gt;Zelensky Warns That 20 Million Ukr…",
+        "url": "https://www.zerohedge.com/geopolitical/zelensky-warns-20-million-ukrainians-would-pout-eu-if-russia-wins",
+        "source": "ZeroHedge",
+        "published_on": 1792236900
+      },
+      {
+        "title": "Russia wants blackout in Ukraine as winter comes — Zelenskyy",
+        "brief": "Ukrainian President Zelenskyy says Russia is trying to cut electricity and heating to civilians ahead of winter. He also called the US presi…",
+        "url": "https://www.dw.com/en/russia-wants-blackout-in-ukraine-as-winter-comes-zelenskyy/a-79686703?maca=en-rss-en-all-1573-xml-mrss",
+        "source": "DW News",
+        "published_on": 1792236840
+      }
+    ],
+    "ICP": [
+      {
+        "title": "Why Is Internet Computer Up Today? ICP Breakout Opens a Path Toward $3.90",
+        "brief": "Internet Computer traded near $3.45 after a 13% daily gain. ICP must clear resistance from $3.5638 to $3.8574 to put $3.90 in play.",
+        "url": "https://cryptodaily.co.uk/2026/10/internet-computer-icp-price-prediction-3-90",
+        "source": "Crypto Daily",
+        "published_on": 1791799266
+      }
+    ],
     "PEPE": [
+      {
+        "title": "PEPEUSDT BUY-LIMIT ORDER!",
+        "brief": "The chart displays a corrective pullback following a previous major break of structure (bos) and a descending trendline acting as BUY-SIDE L…",
+        "url": "https://www.tradingview.com/chart/PEPEUSDT/dbo2imyu-PEPEUSDT-BUY-LIMIT-ORDER/",
+        "source": "TradingView Crypto Ideas",
+        "published_on": 1792262063
+      },
       {
         "title": "DOGE, PEPE, BONK and More: 10 Meme Coins Accepted at the Casino Cashier",
         "brief": "Ten meme coins accepted at the casino cashier, from DOGE and SHIB to BONK, PEPE and PENGU, with the networks each one uses and three checks…",
@@ -479,14 +596,13 @@
         "published_on": 1769432802
       },
       {
-        "title": "Making AI Art With Zora 🎨",
-        "brief": "Weekly Roundup: The Art Blocks pause, huge Punk and BAYC sales, Opepen v2, &amp; more!",
-        "url": "https://metaversal.banklesshq.com/p/making-ai-art-zora",
-        "source": "Metaversal",
-        "published_on": 1709928589
+        "title": "Are we back? Crypto is Green! Solana Intern goes rogue! Pump up 13%! Monero hits another ATH!",
+        "brief": "BTC: 95k (+3%) | BTC.D: 59.2% (-0.1%). ETH: 3313 (+6%) | BNB: 936 (+3%) | SOL: 145 (+2%). Top Gainers: IP, ICP, PUMP, PEPE, ENA. BTC ETFs: +…",
+        "url": "https://decrypt.co/videos/interviews/Iv1NIhI4/are-we-back-crypto-is-green-solana-intern-goes-rogue-pump-up-13-monero-hits-another-ath",
+        "source": "Decrypt",
+        "published_on": 1768408712
       }
     ],
-    "ICP": [],
     "U": [],
     "HTX": [],
     "BGB": [],
@@ -494,51 +610,35 @@
     "USDGO": [],
     "ARB": [],
     "ETC": [],
-    "JST": [],
     "VVV": [],
+    "JST": [],
     "GT": [],
     "KCS": [],
     "ALGO": [],
     "POL": [],
     "KAS": [],
     "JUP": [],
-    "BCAP": [],
     "RENDER": [],
+    "BCAP": [],
     "ATOM": [],
     "FIL": [],
     "PI": [],
-    "AERO": [],
     "INJ": [],
+    "AERO": [],
     "OUSD": [],
     "USTB": [],
     "NEXO": [],
     "LIT": [],
     "ZRO": [],
+    "APT": [],
     "CAKE": [],
     "GHO": [],
     "STABLE": [],
-    "APT": [],
-    "STX": [
-      {
-        "title": "The Dual-Use Founder: Vets Now Building For America",
-        "brief": "In today’s world, the battlefield extends far beyond war zones—it’s embedded in our tech stacks, supply chains, and airspace security system…",
-        "url": "https://a16z.simplecast.com/episodes/the-dual-use-founder-vets-now-building-for-america-PFFgLQnn",
-        "source": "Unchained Podcast",
-        "published_on": 1744797600
-      }
-    ],
-    "NIGHT": [
-      {
-        "title": "Midnight Network: A Case Study in Using Data Availability for Peer-to-Peer Networking",
-        "brief": "This case study presents a novel use case of Data Availability (DA) and the team that is pioneering its first implementation: Midnight Netwo…",
-        "url": "https://blog.celestia.org/midnight-network-a-case-study-in-using-data-availability-for-peer-to-peer-networking/",
-        "source": "Celestia Blog",
-        "published_on": 1782213408
-      }
-    ],
+    "STX": [],
+    "NIGHT": [],
     "XDC": [],
-    "AKE": [],
     "TIA": [],
-    "EUTBL": []
+    "AKE": [],
+    "ETHFI": []
   }
 }
